@@ -12,6 +12,7 @@ class RDFConfig
             defs = REXML::Element.new('defs')
             style = REXML::Element.new('style')
             style.add_attribute('type', 'text/css')
+            # TC: add styles for PubChem entities
             style.add_text(<<~STYLE)
               .table-container {
                   fill: #fff;
@@ -71,7 +72,20 @@ class RDFConfig
                   font-size: #{FONT_SIZE}px;
                   font-family: Helvetica, Arial, sans-serif;
               }
+              
+              .stPubChem {fill:#02bfe7; }
+              .stAnatomy {fill:#c2b280; }
+              .stBioAssay {fill:#8c5ad9; }
+              .stCell {fill:#008080; }
+              .stCompound {fill:#02bfe7; }
+              .stDisease {fill:#a52a2a; }
+              .stGene {fill:#e31ca1; }
+              .stProtein {fill:#e35f1c; }
+              .stPathway {fill:#73e531; }
+              .stSubstance {fill:#f9c642; }
+              .stTaxonomy {fill:#00abba; }
             STYLE
+            # TCß
 
             defs.add_element(style)
 

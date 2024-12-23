@@ -26,7 +26,9 @@ class RDFConfig
 
             path.add_attribute_by_hash(
               d: rounded_corners_d_attrs.join(' '),
-              class: 'subject-container'
+              # TC: add class for PubChem entities
+              class: "subject-container stPubChem st#{name}"
+              # TC
             )
 
             path

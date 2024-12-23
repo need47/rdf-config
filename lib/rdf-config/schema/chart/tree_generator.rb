@@ -22,6 +22,11 @@ class RDFConfig
           @subjects = []
           @generated_subjects = []
           @element_pos = {}.compare_by_identity
+
+          # TC: display controls for title and prefix
+          @display_title = opts[:display_title]
+          @display_prefix = opts[:display_prefix]
+          # TC
         end
 
         def generate
@@ -29,16 +34,30 @@ class RDFConfig
           add_to_svg(style_element)
 
           # Display the title in the upper left
-          generate_title
+          # TC: display controls for title
+          if @display_title
+            generate_title
+          end
+          # TC
 
           # Display schema chart
           generate_schema
 
           # Display the prefixes at the bottom left
-          generate_prefixes
+          # TC: display controls for prefix
+          if @display_prefix
+            generate_prefixes
+          end
+          # TC
 
           width = max_xpos + 100
-          height = max_ypos + @prefix_generator.height + START_Y
+          # TC: consider when where is no prefix
+          if @prefix_generator.nil?
+            height = max_ypos + START_Y
+          else
+            height = max_ypos + @prefix_generator.height + START_Y
+          end
+          # TC
           output_svg(width, height)
         end
 
@@ -231,7 +250,13 @@ class RDFConfig
           elsif object.blank_node?
             generate_subject_graph(object.value)
           elsif predicate.rdf_type?
-            generator = ClassNodeGenerator.new(object, @current_pos)
+            # TC: use URI node generator so that we can dislay the object's name
+            if object.name.nil? || object.name.empty?
+              generator = ClassNodeGenerator.new(object, @current_pos)
+            else
+              generator = URINodeGenerator.new(object, @current_pos)
+            end
+            # TC
             add_to_svg(generator.generate)
           else
             case object
@@ -300,6 +325,7 @@ class RDFConfig
         def style_element
           style = REXML::Element.new('style')
           style.add_attribute('type', 'text/css')
+          # TC: add styles for PubChem entities
           style.add_text(<<-STYLE)
 	.st0 {fill:#FFCE9F;}
 	.st1 {fill:none;stroke:#000000;stroke-width:2;}
@@ -318,9 +344,21 @@ class RDFConfig
 	.st13 {enable-background:new;}
 	.st14 {fill:#F2F2E9;}
 	.st15 {fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:3.926,3.926;}
+  .stPubChem {fill:#02bfe7; }
+  .stAnatomy {fill:#c2b280; }
+  .stBioAssay {fill:#8c5ad9; }
+  .stCell {fill:#008080; }
+  .stCompound {fill:#02bfe7; }
+  .stDisease {fill:#a52a2a; }
+  .stGene {fill:#e31ca1; }
+  .stProtein {fill:#e35f1c; }
+  .stPathway {fill:#73e531; }
+  .stSubstance {fill:#f9c642; }
+  .stTaxonomy {fill:#00abba; }
           STYLE
 
           style
+          # TCß
         end
 
         def add_subject(subject)

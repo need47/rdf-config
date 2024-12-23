@@ -37,8 +37,9 @@ up: <http://purl.uniprot.org/core/>
 fabio: <http://purl.org/spar/fabio/>
 foaf: <http://xmlns.com/foaf/0.1/>
 skos: <http://www.w3.org/2004/02/skos/core#>
-chembl: <http://rdf.ebi.ac.uk/resource/chembl/molecule/>
+chembl_molecule: <http://rdf.ebi.ac.uk/resource/chembl/molecule/>
 ensembl: <http://rdf.ebi.ac.uk/resource/ensembl/>
+pdbo: <http://rdf.wwpdb.org/pdb/>
 # TODO: check these are used (delete if not)
 cooccurrence: <http://rdf.ncbi.nlm.nih.gov/pubchem/cooccurrence/>
 author: <http://rdf.ncbi.nlm.nih.gov/pubchem/author/>
@@ -52,3 +53,10 @@ edam: <http://edamontology.org/>
 vcard2006: <http://www.w3.org/2006/vcard/ns#>
 prism: <http://prismstandard.org/namespaces/basic/3.0/>
 frapo: <http://purl.org/cerif/frapo/>
+# TC: external dbs
+wikidata: <http://www.wikidata.org/entity/>
+ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT>
+ndfrt: <http://purl.bioontology.org/ontology/NDFRT>
+glytoucan: <http://rdf.glycoinfo.org/glycan/>
+idorg: <http://identifiers.org/>

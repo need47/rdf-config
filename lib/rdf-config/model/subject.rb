@@ -22,10 +22,13 @@ class RDFConfig
       def predicates(reject_rdf_type_variable: false)
         if reject_rdf_type_variable
           @predicates.reject do |predicate|
-            predicate.rdf_type? &&
-              predicate.objects
-                       .map(&:name).map(&:to_s).map(&:strip)
-                       .select { |object_name| object_name.length > 0 }.size > 0
+            # TC: when one object's name is not empty, the orginal code will reject the predicate
+            predicate.rdf_type? && predicate.objects.size == 0
+            # predicate.rdf_type? &&
+            #   predicate.objects
+            #            .map(&:name).map(&:to_s).map(&:strip)
+            #            .select { |object_name| object_name.length > 0 }.size > 0
+            # TC
           end
         else
           @predicates

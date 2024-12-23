@@ -1,0 +1,31 @@
+# schema:
+#   description: "The subdomains of PubChemRDF"
+#   variables: [ BioAssay, Compound, Descriptor, Grant, Organization ]
+
+schema_bioassay:
+  description: "The BioAssay subdomain of PubChemRDF"
+  variables: [ BioAssay ]  
+
+schema_compound:
+  description: "The Compound subdomain of PubChemRDF"
+  variables: [ Compound ]
+
+schema_descriptor:
+  description: "The Descriptor subdomain of PubChemRDF"
+  variables: [ Descriptor ]
+
+schema_gene:
+  description: "The Gene subdomain of PubChemRDF"
+  variables: [ Gene ]
+
+schema_reference:
+  description: "The Reference subdomain of PubChemRDF"
+  variables: [ Reference ]
+
+schema_substance:
+  description: "The Substance subdomain of PubChemRDF"
+  variables: [ Substance ]
+
+schema_taxonomy:
+  description: "The Taxonomy subdomain of PubChemRDF"
+  variables: [ Taxonomy ]

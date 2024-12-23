@@ -41,8 +41,10 @@ class RDFConfig
         @schema_name = nil
         @nest = false
         @display_type = :tree # :tree | :arc | :table
-        @display_title = true
-        @display_prefix = true
+        # TC: display controls for title and prefix
+        @display_title = opts.has_key?(:with_title) ? true : false
+        @display_prefix = opts.has_key?(:with_prefix) ? true : false
+        # TC
 
         interpret_opt(opts[:schema_opt].to_s) if opts.key?(:schema_opt)
       end
@@ -61,7 +63,11 @@ class RDFConfig
 
         opts = {
           schema_name: @schema_name,
-          variables: interpret_variables
+          variables: interpret_variables,
+          # TC: display controls for title and prefix
+          display_title: @display_title,
+          display_prefix: @display_prefix
+          # TC
         }
 
         case @display_type
@@ -112,8 +118,8 @@ class RDFConfig
           if valid_options.include?(name)
             @nest = true if name == 'nest'
             @display_type = name.to_sym if table_types.include?(name)
-            @display_title = false if name == 'no_title'
-            @display_prefix = false if name == 'no_prefix'
+            @display_title = true if name == 'with_title'
+            @display_prefix = true if name == 'with_prefix'
           else
             errors << "Invalid option '#{name}' is specified."
           end

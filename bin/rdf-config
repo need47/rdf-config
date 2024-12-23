@@ -38,7 +38,10 @@ args = GetoptLong.new(
   ['--shex',            GetoptLong::OPTIONAL_ARGUMENT],
   ['--convert',         GetoptLong::OPTIONAL_ARGUMENT],
   ['--format',          GetoptLong::OPTIONAL_ARGUMENT],
-  ['--debug',           GetoptLong::OPTIONAL_ARGUMENT]
+  ['--debug',           GetoptLong::OPTIONAL_ARGUMENT],
+  # TC: display control for title and prefix
+  ['--with-title',        GetoptLong::OPTIONAL_ARGUMENT],
+  ['--with-prefix',       GetoptLong::OPTIONAL_ARGUMENT]
 )
 args.ordering = GetoptLong::RETURN_IN_ORDER
 
@@ -114,6 +117,10 @@ opt_values.each do |opt_name, values|
     opts[:format] = value
   when /--debug/
     debug_mode = true
+  when /--with-prefix/
+    opts[:with_prefix] = true
+  when /--with-title/
+    opts[:with_title] = true
   end
 end
 

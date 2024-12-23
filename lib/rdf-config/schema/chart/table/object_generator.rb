@@ -38,7 +38,19 @@ class RDFConfig
               y: text_y_position(OBJECT_HEIGHT, FONT_SIZE),
               class: text_css_class
             )
-            text.add_text(element_text)
+
+            txt = element_text
+
+            # TC: allow to display concise predicate, e.g., _compound_preflabel -> preflabel
+            if !txt.nil? && !txt.empty?
+              tokens = header_text.split('_')
+              if tokens.size > 1 && Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
+                txt = tokens[1..-1].join('_')
+              end
+            end
+
+            text.add_text(txt)
+            # TC
 
             text
           end

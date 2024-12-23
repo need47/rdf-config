@@ -9,5 +9,6 @@ gem 'rdf'
 gem 'rdf-turtle'
 gem 'rdf-xsd'
 gem 'rexml'
+gem 'getoptlong'
 
 #gem 'rubocop'

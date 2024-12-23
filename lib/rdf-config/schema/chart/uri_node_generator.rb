@@ -111,8 +111,20 @@ class RDFConfig
             class: 'st5 st6 st7',
             'dominant-baseline' => 'middle'
           )
-          header.add_text(header_text)
 
+	        # TC: allow to display concise predicate, e.g., _compound_has_attribute -> has_attribute
+          txt = header_text         
+
+          if !txt.nil? && !txt.empty?
+            tokens = txt.split('_')
+            if tokens.size > 1 && Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
+              txt = tokens[1..-1].join('_')
+            end
+          end
+
+          header.add_text(txt)
+          # TC
+          
           wrapper = REXML::Element.new('g')
           wrapper.add_attribute_by_hash(transform: 'translate(-0.5 -0.5)')
           wrapper.add_element(header)
@@ -155,7 +167,7 @@ class RDFConfig
 
         def fill_class
           if @node.is_a?(Model::Subject)
-            'st0'
+            "st0 st#{@node.name}"
           else
             'st9uri'
           end

@@ -81,7 +81,19 @@ class RDFConfig
             class: 'st5 st6 st7',
             'dominant-baseline' => 'middle'
           )
-          name.add_text(@node.name.to_s)
+
+          # TC: allow to display concise predicate, e.g., _compound_preflabel -> preflabel
+          txt = @node.name.to_s
+
+          if !txt.nil? && !txt.empty?
+            tokens = txt.split('_')
+            if tokens.size > 1 && Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
+              txt = tokens[1..-1].join('_')
+            end
+          end
+
+          name.add_text(txt)
+          # TC
 
           wrapper = REXML::Element.new('g')
           wrapper.add_element(name)

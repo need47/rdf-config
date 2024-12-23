@@ -2,6 +2,40 @@ class RDFConfig
   class Schema
     class Chart
       module Constant
+        # TC: PubChemRDF subdomains
+        PUBCHEMRDF_SUBDOMAINS = %w(
+          anatomy
+          author
+          bioassay
+          book
+          cell
+          compound
+          concept
+          conserveddomain
+          cooccurrence
+          descriptor
+          disease
+          endpoint
+          gene
+          grant
+          inchikey
+          journal
+          measuregroup
+          neighbor
+          organization
+          patent
+          patentcpc
+          patentipc
+          pathway
+          protein
+          reference
+          source
+          substance
+          synonym
+          taxonomy
+        ).to_set.freeze
+        # TC
+        
         SUBJECT_NAME_FONT_FAMILY = 'Helvetica-bold'.freeze
         FONT_FAMILY = 'Helvetica'.freeze
         FONT_SIZE = '12px'.freeze
