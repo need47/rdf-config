@@ -327,37 +327,37 @@ class RDFConfig
           style.add_attribute('type', 'text/css')
           # TC: add styles for PubChem entities
           style.add_text(<<-STYLE)
-	.st0 {fill:#FFCE9F;}
-	.st1 {fill:none;stroke:#000000;stroke-width:2;}
-	.st2 {opacity:0.6;}
-	.st3 {font-family:'Helvetica';}
-	.st4 {font-size:11px;}
-	.st5 {fill:#FFFFFF;}
-	.st6 {font-family:'Helvetica-Bold';}
-	.st7 {font-size:12px;}
-	.st8 {opacity:0.7;fill:#FFFFFF;}
-	.st9 {fill:#F8CECC;stroke:#000000;stroke-width:2;}
-	.st9uri {fill:#CCF8F8;stroke:#000000;stroke-width:2;}
-	.st10 {fill:#FFF4C3;}
-	.st11 {fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:4,4;}
-	.st12 {fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st13 {enable-background:new;}
-	.st14 {fill:#F2F2E9;}
-	.st15 {fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:3.926,3.926;}
-  .stPubChem {fill:#02bfe7; }
-  .stAnatomy {fill:#c2b280; }
-  .stBioAssay {fill:#8c5ad9; }
-  .stCell {fill:#008080; }
-  .stCompound {fill:#02bfe7; }
-  .stConcept {fill:#02bfe7; }
-  .stDisease {fill:#a52a2a; }
-  .stGene {fill:#e31ca1; }
-  .stProtein {fill:#e35f1c; }
-  .stPatent {fill:#225e65; }
-  .stPathway {fill:#73e531; }
-  .stSource {fill:#4aa564; }
-  .stSubstance {fill:#f9c642; }
-  .stTaxonomy {fill:#00abba; }
+            .st0 { fill: #FFCE9F; }
+            .st1 { fill: none; stroke: #000000; stroke-width: 2; }
+            .st2 { opacity: 0.6; }
+            .st3 { font-family: Helvetica, Arial, sans-serif; }
+            .st4 { font-size: 11px; }
+            .st5 { fill: #FFFFFF; }
+            .st6 { font-weight: bold; font-family: Helvetica, Arial, sans-serif; }
+            .st7 { font-size: 12px; }
+            .st8 { opacity: 0.7; fill: #FFFFFF; }
+            .st9 { fill: #F8CECC; stroke: #000000; stroke-width: 2; }
+            .st9uri { fill: #CCF8F8; stroke: #000000; stroke-width: 2; }
+            .st10 { fill: #FFF4C3; }
+            .st11 { fill: none; stroke: #000000; stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 4, 4; }
+            .st12 { fill: none; stroke: #000000; stroke-width: 2; stroke-miterlimit: 10; }
+            .st13 { enable-background: new; }
+            .st14 { fill: #F2F2E9; }
+            .st15 { fill: none; stroke: #000000; stroke-width: 2; stroke-dasharray: 3.926, 3.926; }
+            .stPubChem { fill: #02bfe7; }
+            .stAnatomy { fill: #c2b280; }
+            .stBioAssay { fill: #8c5ad9; }
+            .stCell { fill: #008080; }
+            .stCompound { fill: #02bfe7; }
+            .stConcept { fill: #02bfe7; }
+            .stDisease { fill: #a52a2a; }
+            .stGene { fill: #e31ca1; }
+            .stProtein { fill: #e35f1c; }
+            .stPatent { fill: #225e65; }
+            .stPathway { fill: #73e531; }
+            .stSource { fill: #4aa564; }
+            .stSubstance { fill: #f9c642; }
+            .stTaxonomy { fill: #00abba; }
           STYLE
 
           style
