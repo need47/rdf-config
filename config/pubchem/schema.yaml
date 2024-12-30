@@ -1,31 +1,123 @@
-# schema:
-#   description: "The subdomains of PubChemRDF"
-#   variables: [ BioAssay, Compound, Descriptor, Grant, Organization ]
+pubchem:
+  description: "The subdomains of PubChemRDF"
+  variables: [ Anatomy, Author, BioAssay, Book, Cell, Compound, Concept, ConservedDomain, Cooccurrence, Descriptor, Disease, Endpoint, Gene, Grant, InChIKey, Journal, MeasureGroup, Organization, Patent, PatentAssignee, PatentInventor, PatentCPC, PatentIPC, Pathway, Protein, Reference, Source, Substance, Synonym, Taxonomy ]
 
-schema_bioassay:
+anatomy:
+  description: "The Anatomy subdomain of PubChemRDF"
+  variables: [ Anatomy ]
+
+author:
+  description: "The Author subdomain of PubChemRDF"
+  variables: [ Author ]
+
+bioassay:
   description: "The BioAssay subdomain of PubChemRDF"
-  variables: [ BioAssay ]  
+  variables: [ BioAssay ]
 
-schema_compound:
+book:
+  description: "The Book subdomain of PubChemRDF"
+  variables: [ Book ]
+
+cell:
+  description: "The Cell subdomain of PubChemRDF"
+  variables: [ Cell ]
+
+compound:
   description: "The Compound subdomain of PubChemRDF"
   variables: [ Compound ]
 
-schema_descriptor:
+concept:
+  description: "The Concept subdomain of PubChemRDF"
+  variables: [ Concept ]
+
+conserveddomain:
+  description: "The ConservedDomain subdomain of PubChemRDF"
+  variables: [ ConservedDomain ]
+
+cooccurrence:
+  description: "The Cooccurrence subdomain of PubChemRDF"
+  variables: [ Cooccurrence ]
+
+descriptor:
   description: "The Descriptor subdomain of PubChemRDF"
   variables: [ Descriptor ]
 
-schema_gene:
+disease:
+  description: "The Disease subdomain of PubChemRDF"
+  variables: [ Disease ]
+
+endpoint:
+  description: "The Endpoint subdomain of PubChemRDF"
+  variables: [ Endpoint ]
+
+gene:
   description: "The Gene subdomain of PubChemRDF"
   variables: [ Gene ]
 
-schema_reference:
+grant:
+  description: "The Grant subdomain of PubChemRDF"
+  variables: [ Grant ]
+
+inchikey:
+  description: "The InChIKey subdomain of PubChemRDF"
+  variables: [ InChIKey ]
+
+journal:
+  description: "The Journal subdomain of PubChemRDF"
+  variables: [ Journal ]
+
+measuregroup:
+  description: "The MeasureGroup subdomain of PubChemRDF"
+  variables: [ MeasureGroup ]
+
+organization:
+  description: "The Organization subdomain of PubChemRDF"
+  variables: [ Organization ]
+
+patent:
+  description: "The Patent subdomain of PubChemRDF"
+  variables: [ Patent, PatentAssignee, PatentInventor ]
+
+patentassignee:
+  description: "The PatentAssignee subdomain of PubChemRDF"
+  variables: [ PatentAssignee ]
+
+patentinventor:
+  description: "The PatentInventor subdomain of PubChemRDF"
+  variables: [ PatentInventor ]
+
+patentcpc:
+  description: "The PatentCPC subdomain of PubChemRDF"
+  variables: [ PatentCPC ]
+
+patentipc:
+  description: "The PatentIPC subdomain of PubChemRDF"
+  variables: [ PatentIPC ]
+
+pathway:
+  description: "The Pathway subdomain of PubChemRDF"
+  variables: [ Pathway ]
+
+protein:
+  description: "The Protein subdomain of PubChemRDF"
+  variables: [ Protein ]
+
+reference:
   description: "The Reference subdomain of PubChemRDF"
   variables: [ Reference ]
 
-schema_substance:
+source:
+  description: "The Source subdomain of PubChemRDF"
+  variables: [ Source ]
+
+substance:
   description: "The Substance subdomain of PubChemRDF"
   variables: [ Substance ]
 
-schema_taxonomy:
+synonym:
+  description: "The Synonym subdomain of PubChemRDF"
+  variables: [ Synonym ]
+
+taxonomy:
   description: "The Taxonomy subdomain of PubChemRDF"
   variables: [ Taxonomy ]

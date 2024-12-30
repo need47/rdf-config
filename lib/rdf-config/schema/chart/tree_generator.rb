@@ -349,10 +349,13 @@ class RDFConfig
   .stBioAssay {fill:#8c5ad9; }
   .stCell {fill:#008080; }
   .stCompound {fill:#02bfe7; }
+  .stConcept {fill:#02bfe7; }
   .stDisease {fill:#a52a2a; }
   .stGene {fill:#e31ca1; }
   .stProtein {fill:#e35f1c; }
+  .stPatent {fill:#225e65; }
   .stPathway {fill:#73e531; }
+  .stSource {fill:#4aa564; }
   .stSubstance {fill:#f9c642; }
   .stTaxonomy {fill:#00abba; }
           STYLE

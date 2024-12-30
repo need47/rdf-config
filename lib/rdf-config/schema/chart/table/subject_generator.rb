@@ -27,7 +27,7 @@ class RDFConfig
             path.add_attribute_by_hash(
               d: rounded_corners_d_attrs.join(' '),
               # TC: add class for PubChem entities
-              class: "subject-container stPubChem st#{name}"
+              class: RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(name.downcase) ? "subject-container stPubChem st#{name}" : "subject-container st#{name}"
               # TC
             )
 

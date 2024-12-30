@@ -87,7 +87,7 @@ class RDFConfig
 
           if !txt.nil? && !txt.empty?
             tokens = txt.split('_')
-            if tokens.size > 1 && Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
+            if tokens.size > 1 && RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
               txt = tokens[1..-1].join('_')
             end
           end

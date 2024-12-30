@@ -35,11 +35,14 @@ class RDFConfig
           taxonomy
         ).to_set.freeze
         # TC
-        
+
         SUBJECT_NAME_FONT_FAMILY = 'Helvetica-bold'.freeze
         FONT_FAMILY = 'Helvetica'.freeze
         FONT_SIZE = '12px'.freeze
-        RECT_WIDTH = 180
+        # TC: larger rect width
+        # RECT_WIDTH = 180
+        RECT_WIDTH = 300
+        # TC
         RECT_HEIGHT = 50
         MARGIN_RECT = 20
 

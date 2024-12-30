@@ -42,11 +42,15 @@ class RDFConfig
           end
 
           def subject_rdf_type_text(subject)
-            if subject.types.size > 1
-              "#{subject.types.first}, ..."
+            # TC: display only the first two types
+            if subject.types.size > 2
+              # "#{subject.types.first}, ..."
+              subject.types[0..1].join(', ') + ', ...'
             else
-              subject.types.first
+              # subject.types.first
+              subject.types.join(', ')
             end
+            # TC
           end
         end
       end

@@ -1,6 +1,7 @@
 require 'rdf-config/schema/chart/table/svg_generator'
 require 'rdf-config/schema/chart/table/element_generator'
 require 'rdf-config/schema/chart/table/constant'
+require 'rdf-config/schema/chart/constant'
 
 class RDFConfig
   class Schema
@@ -41,10 +42,10 @@ class RDFConfig
 
             txt = element_text
 
-            # TC: allow to display concise predicate, e.g., _compound_preflabel -> preflabel
+            # TC: allow to display concise predicate, e.g., compound_preflabel -> preflabel
             if !txt.nil? && !txt.empty?
-              tokens = header_text.split('_')
-              if tokens.size > 1 && Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
+              tokens = txt.split('_')
+              if tokens.size > 1 && RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
                 txt = tokens[1..-1].join('_')
               end
             end
@@ -63,6 +64,13 @@ class RDFConfig
               'text-anchor' => 'end',
               class: 'object-type'
             )
+
+            # # TC: add styles for PubChem entities
+            # if RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(type_text.downcase)
+            #   text.add_attribute_by_hash(class: "object-type .stPubChem .st#{type_text}")
+            # end
+            # # TC
+
             text.add_text(type_text)
 
             text
@@ -110,8 +118,10 @@ class RDFConfig
                 ''
               when 1
                 subjects.first.name
+              when 2, 3
+                subjects.map(&:name).join(', ')
               else
-                "#{subjects.first.name}, ..."
+                subjects[0..2].map(&:name).join(', ') + ', ...'
               end
             else
               first_value.instance_type.to_s
@@ -119,6 +129,12 @@ class RDFConfig
           end
 
           def area_css_class
+            # TC: add styles for PubChem entities
+            if RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(@object.name.downcase)
+              return "subject-object stPubChem st#{@object.name}" if subject?
+            end
+            # TC
+
             return 'subject-object' if subject?
 
             case @object

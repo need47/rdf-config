@@ -15,7 +15,10 @@ class RDFConfig
 
         HEADER_AREA_HEIGHT = 20
         HEADER_AREA_VLINE_HEIGHT = (HEADER_AREA_HEIGHT - BEZIER_AREA).freeze
-        VALUE_AREA_HEIGHT = (RECT_HEIGHT - HEADER_AREA_HEIGHT).freeze
+        # TC: value area height
+        # VALUE_AREA_HEIGHT = (RECT_HEIGHT - HEADER_AREA_HEIGHT).freeze
+        VALUE_AREA_HEIGHT = (RECT_HEIGHT - HEADER_AREA_HEIGHT - BEZIER_AREA).freeze
+        # TC
         MARGIN_LEFT = 8
         MARGIN_RIGHT = 8
 
@@ -38,7 +41,10 @@ class RDFConfig
           wrapper = REXML::Element.new('g')
           wrapper.add_element(rect_element)
           wrapper.add_element(header_rect_element)
-          wrapper.add_element(value_element)
+          # TC: multiple values (e.g., multiple subject examples)
+          value_elements.each { |e| wrapper.add_element(e) }
+          # wrapper.add_element(value_element)
+          # TC
           wrapper.add_element(header_element)
           wrapper.add_element(type_element)
 
@@ -87,6 +93,37 @@ class RDFConfig
           wrapper
         end
 
+        # TC: multiple values (e.g., multiple subject examples)
+        def value_elements
+          wrappers = []
+
+          if !@node.is_a?(Model::Subject)
+            wrappers << value_element
+
+            return wrappers
+          end
+
+          value_text.split(" ").each_with_index do |txt, idx|
+            value = REXML::Element.new('text')
+            value.add_attribute_by_hash(
+              x: @pos.x + MARGIN_LEFT,
+              y: @pos.y + VALUE_AREA_HEIGHT * idx + HEADER_AREA_HEIGHT + VALUE_MARGIN_TOP,
+              class: 'st3 st4'
+            )
+            value.add_text(txt)
+            # $stderr.puts "value_text: #{txt}"
+
+            wrapper = REXML::Element.new('g')
+            wrapper.add_attribute_by_hash(transform: 'translate(-0.5 -0.5)')
+            wrapper.add_element(value)
+
+            wrappers << wrapper
+          end
+
+          wrappers
+        end
+        # TC
+
         def value_element
           value = REXML::Element.new('text')
           value.add_attribute_by_hash(
@@ -112,19 +149,19 @@ class RDFConfig
             'dominant-baseline' => 'middle'
           )
 
-	        # TC: allow to display concise predicate, e.g., _compound_has_attribute -> has_attribute
-          txt = header_text         
+	        # TC: allow to display concise predicate, e.g., compound_has_attribute -> has_attribute
+          txt = header_text
 
           if !txt.nil? && !txt.empty?
             tokens = txt.split('_')
-            if tokens.size > 1 && Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
+            if tokens.size > 1 && RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(tokens[0])
               txt = tokens[1..-1].join('_')
             end
           end
 
           header.add_text(txt)
           # TC
-          
+
           wrapper = REXML::Element.new('g')
           wrapper.add_attribute_by_hash(transform: 'translate(-0.5 -0.5)')
           wrapper.add_element(header)
@@ -150,24 +187,51 @@ class RDFConfig
           wrapper
         end
 
+        # TC: multiple values (e.g., multiple subject examples)
         def rect_paths
-          paths = ["M#{@pos.x + RECT_WIDTH},#{@pos.y + RECT_HEIGHT - BEZIER_AREA}"]
+          multi = value_text.split().size
+          multi = 1 if multi == 0
+          delta = VALUE_AREA_HEIGHT * (multi - 1)
+
+          paths = ["M#{@pos.x + RECT_WIDTH},#{@pos.y + RECT_HEIGHT - BEZIER_AREA + delta}"]
           paths << "c0,#{BEZIER_CONTROL_DIST} -#{BEZIER_CONTROL},#{BEZIER_AREA} -#{BEZIER_AREA},#{BEZIER_AREA}"
           paths << "h-#{HLINE_WIDHT}"
           paths << "c-#{BEZIER_CONTROL_DIST},0 -#{BEZIER_AREA},-#{BEZIER_CONTROL} -#{BEZIER_AREA},-#{BEZIER_AREA}"
-          paths << "v-#{VLINE_HEIGHT}"
+          paths << "v-#{VLINE_HEIGHT + delta}"
           paths << "c0,-#{BEZIER_CONTROL_DIST} #{BEZIER_CONTROL},-#{BEZIER_AREA} #{BEZIER_AREA},-#{BEZIER_AREA}"
           paths << "h#{HLINE_WIDHT}"
           paths << "c#{BEZIER_CONTROL_DIST},0 #{BEZIER_AREA},#{BEZIER_CONTROL} #{BEZIER_AREA},#{BEZIER_AREA}"
-          paths << "v#{VLINE_HEIGHT}"
+          paths << "v#{VLINE_HEIGHT + delta}"
           paths << 'z'
 
           paths
         end
 
+        # def rect_paths
+        #   paths = ["M#{@pos.x + RECT_WIDTH},#{@pos.y + RECT_HEIGHT - BEZIER_AREA}"]
+        #   paths << "c0,#{BEZIER_CONTROL_DIST} -#{BEZIER_CONTROL},#{BEZIER_AREA} -#{BEZIER_AREA},#{BEZIER_AREA}"
+        #   paths << "h-#{HLINE_WIDHT}"
+        #   paths << "c-#{BEZIER_CONTROL_DIST},0 -#{BEZIER_AREA},-#{BEZIER_CONTROL} -#{BEZIER_AREA},-#{BEZIER_AREA}"
+        #   paths << "v-#{VLINE_HEIGHT}"
+        #   paths << "c0,-#{BEZIER_CONTROL_DIST} #{BEZIER_CONTROL},-#{BEZIER_AREA} #{BEZIER_AREA},-#{BEZIER_AREA}"
+        #   paths << "h#{HLINE_WIDHT}"
+        #   paths << "c#{BEZIER_CONTROL_DIST},0 #{BEZIER_AREA},#{BEZIER_CONTROL} #{BEZIER_AREA},#{BEZIER_AREA}"
+        #   paths << "v#{VLINE_HEIGHT}"
+        #   paths << 'z'
+
+        #   paths
+        # end
+        # TC
+
         def fill_class
           if @node.is_a?(Model::Subject)
-            "st0 st#{@node.name}"
+            # TC: allow to customize fill color
+            if RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(@node.name.downcase)
+              "st0 stPubChem st#{@node.name}"
+            else
+              "st0 st#{@node.name}"
+            end
+            # TC
           else
             'st9uri'
           end
