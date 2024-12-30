@@ -1,3 +1,5 @@
+require 'rdf-config/schema/chart/constant'
+
 class RDFConfig
   class Model
     class Subject
@@ -34,6 +36,33 @@ class RDFConfig
           @predicates
         end
       end
+
+      # TC: names of rdf types
+      def type_names
+        names = predicates(reject_rdf_type_variable: true).select(&:rdf_type?).map do |predicate|
+          case predicate.objects.first
+          when ValueList
+            predicate.objects.first.value.map(&:name)
+          else
+            predicate.objects.map(&:name)
+          end
+        end.flatten
+
+        # show concise name
+        names.map do |name|
+          if !name.nil? && RDFConfig::Schema::Chart::Constant::PUBCHEMRDF_SUBDOMAINS.include?(name.downcase)
+            tokens = name.split('_')
+            if tokens.size > 1
+              "#{tokens[1..-1].join('_')}"
+            else
+              name
+            end
+          else
+            name
+          end
+        end
+      end
+      # TC
 
       def types
         predicates(reject_rdf_type_variable: true).select(&:rdf_type?).map do |predicate|
