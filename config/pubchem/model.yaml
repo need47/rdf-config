@@ -390,7 +390,9 @@
     - endpoint_has_unit_micromolar: obo:UO_0000064  # micromolar
   ## pc_endpoint_outcome_*.ttl
   - vocab:AssayOutcome:
-    - endpoint_assay_outcome: [vocab:inactive, vocab:active, vocab:inconclusive, vocab:unspecified, vocab:probe]
+    # double quotes are required to get rid of the YAML parsing error:
+    # found unexpected ':' while scanning a plain scalar
+    - endpoint_assay_outcome: ["vocab:inactive", "vocab:active", "vocab:inconclusive", "vocab:unspecified", "vocab:probe"]
   ## pc_endpoint2substance_*.ttl
   - obo:IAO_0000136:  # is about
     - endpoint_is_about: Substance
