@@ -617,17 +617,17 @@
     - epo_cpc:MainGroup
     - epo_cpc:SubGroup
   - dcterms:modified:
-    - patent_cpc_modified_date: 2013-01-01-04:00
+    - patentcpc_modified_date: 2013-01-01-04:00
   - dcterms:title:
-    - patent_cpc_title: '"Match dispensers; Dispensers for matches arranged ..."'
+    - patentcpc_title: '"Match dispensers; Dispensers for matches arranged ..."'
   - epo_cpc:level:
-    - patent_cpc_level: 10
+    - patentcpc_level: 10
   - epo_cpc:symbol:
-    - patent_cpc_symbol: '"A24F27/26"'
+    - patentcpc_symbol: '"A24F27/26"'
   - skos:broader?:
-    - patent_cpc_broader: PatentCPC
+    - patentcpc_broader: PatentCPC
   - epo_cpc:concordantIPC?:
-    - patent_cpc_concordant_ipc: PatentIPC
+    - patentcpc_concordant_ipc: PatentIPC
 
 
 # subdomain patentipc
@@ -636,13 +636,13 @@
   ## pc_patentipc.ttl
   # - a: ## no class
   - owl:sameAs+:
-    - patent_ipc_same_as: <http://data.epo.org/linked-data/def/ipc/A24F27-26>
+    - patentipc_same_as: <http://data.epo.org/linked-data/def/ipc/A24F27-26>
   - dcterms:title:
-    - patent_ipc_title: '"with moving or vibrating grates"'
+    - patentipc_title: '"with moving or vibrating grates"'
   - rdfs:label:
-    - patent_ipc_label: '"A01D15/04"'
+    - patentipc_label: '"A01D15/04"'
   - skos:broader?:
-    - patent_ipc_broader: PatentIPC
+    - patentipc_broader: PatentIPC
 
 
 # subdomain pathway
@@ -793,7 +793,7 @@
   ## pc_reference_identifier*.ttl
   ### Can dcterms:identifer have a URI as an object?
   - dcterms:identifier:
-    - reference_identifier_pmc: <https://pubmed.ncbi.nlm.nih.gov/PMC1421661>
+    - reference_identifier_pmcid: <https://pubmed.ncbi.nlm.nih.gov/PMC1421661>
     - reference_identifier_pmid: <https://pubmed.ncbi.nlm.nih.gov/1493922>
   ## pc_reference_journal_book*.ttl
   - dcterms:isPartOf:
