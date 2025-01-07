@@ -93,15 +93,15 @@ class RDFConfig
           wrapper
         end
 
-        # TC: multiple values (e.g., multiple subject examples)
+        # TC: multiple values (e.g., multiple subject/object examples)
         def value_elements
           wrappers = []
 
-          if !@node.is_a?(Model::Subject)
-            wrappers << value_element
+          # if !@node.is_a?(Model::Subject)
+          #   wrappers << value_element
 
-            return wrappers
-          end
+          #   return wrappers
+          # end
 
           value_text.split(" ").each_with_index do |txt, idx|
             value = REXML::Element.new('text')
@@ -111,7 +111,6 @@ class RDFConfig
               class: 'st3 st4'
             )
             value.add_text(txt)
-            # $stderr.puts "value_text: #{txt}"
 
             wrapper = REXML::Element.new('g')
             wrapper.add_attribute_by_hash(transform: 'translate(-0.5 -0.5)')

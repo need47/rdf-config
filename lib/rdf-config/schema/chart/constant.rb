@@ -26,6 +26,8 @@ class RDFConfig
           patent
           patentcpc
           patentipc
+          patentassignee
+          patentinventor
           pathway
           protein
           reference
@@ -42,13 +44,15 @@ class RDFConfig
         # TC: larger rect width
         # RECT_WIDTH = 180
         RECT_WIDTH = 300
-        # TC
-        RECT_HEIGHT = 50
+        # RECT_HEIGHT = 50
+        RECT_HEIGHT = 44
         MARGIN_RECT = 20
 
-        VALUE_MARGIN_TOP = 18
+        # VALUE_MARGIN_TOP = 18
+        VALUE_MARGIN_TOP = 16
+        # TC
 
-        PREDICATE_AREA_WIDTH = 240
+        PREDICATE_AREA_WIDTH = 270
         PREDICATE_TRIANGLE_BASE_LEN = 10
         PREDICATE_TRIANGLE_HEIGHT = 13
 

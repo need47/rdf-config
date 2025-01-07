@@ -9,6 +9,14 @@ class RDFConfig
           when String
             if /\A<.+>\z/ =~ value
               :uri
+            # TC: special case like <http://purl.uniprot.org/uniprot/P00533> idorg:uniprot:P00533
+            elsif /\A<.*>\s+(.*?):.*\z/ =~ value
+              if prefix_hash.keys.include?($1)
+                :uri
+              else
+                :literal
+              end
+            # TC
             else
               prefix, local_part = value.split(':', 2)
               if prefix_hash.keys.include?(prefix)

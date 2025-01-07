@@ -2,7 +2,6 @@
 owl: <http://www.w3.org/2002/07/owl#>
 rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-dcterms: <http://purl.org/dc/terms/>
 # pubchem prefixes
 vocab: <http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#>
 anatomy: <http://rdf.ncbi.nlm.nih.gov/pubchem/anatomy/>
@@ -40,6 +39,7 @@ bao: <http://www.bioassayontology.org/bao#>
 bp3: <http://www.biopax.org/release/biopax-level3.owl#>
 cito: <http://purl.org/spar/cito/>
 col: <https://www.catalogueoflife.org/data/taxon/>
+dcterms: <http://purl.org/dc/terms/>
 edam: <http://edamontology.org/>
 efo: <http://www.ebi.ac.uk/efo/>
 ensembl: <http://rdf.ebi.ac.uk/resource/ensembl/>
@@ -50,7 +50,6 @@ fabio: <http://purl.org/spar/fabio/>
 foaf: <http://xmlns.com/foaf/0.1/>
 frapo: <http://purl.org/cerif/frapo/>
 idorg: <http://identifiers.org/>
-itis: <https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=>
 mesh: <http://id.nlm.nih.gov/mesh/>
 ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
 ndfrt: <http://purl.bioontology.org/ontology/NDFRT>
