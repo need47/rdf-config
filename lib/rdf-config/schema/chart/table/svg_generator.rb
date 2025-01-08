@@ -144,6 +144,9 @@ class RDFConfig
           def initialize(config, opts = {})
             @config = config
             @opts = opts
+            # TC: variables are used to generate the table
+            @variables = opts[:variables]
+            # TC
 
             @top_element = REXML::Element.new('g')
 
@@ -184,7 +187,11 @@ class RDFConfig
 
           def fetch_subjects
             model.subjects.each do |subject|
-              add_subject(subject)
+              # TC: select only the subjects that are in the variables
+              if @variables.nil? || @variables.include?(subject.name)
+                add_subject(subject)
+              end
+              # TC
             end
           end
 
