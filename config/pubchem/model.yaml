@@ -132,7 +132,7 @@
   ## general/pc_compound_type.ttl.gz
   # - a: vocab:Compound (no class, to be defined)
   - a:
-    - compound_type_chebi: obo:CHEBI_15365  # obo:CHEBI_45951 etc
+    - compound_type_chebi: obo:CHEBI_15365 obo:CHEBI_45951  # etc
   ## general/pc_compound_identifier.ttl.gz
   - dcterms:identifier:
     - compound_identifier: '"2244"'
