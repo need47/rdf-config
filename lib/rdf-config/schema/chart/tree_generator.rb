@@ -353,7 +353,7 @@ class RDFConfig
             .stDisease { fill: #a52a2a; }
             .stGene { fill: #e31ca1; }
             .stProtein { fill: #e35f1c; }
-            .stPatent, .stPatentAssignee, .stPatentInventor { fill: #225e65; }
+            .stPatent, .stPatentCPC, .stPatentIPC, .stPatentAssignee, .stPatentInventor { fill: #225e65; }
             .stPathway { fill: #73e531; }
             .stSource { fill: #4aa564; }
             .stSubstance { fill: #f9c642; }
