@@ -97,7 +97,14 @@ class RDFConfig
           g.add_attribute_by_hash(
             transform: "rotate(#{subject_rotate_deg(subject)},#{RADIUS},#{RADIUS})"
           )
-          g.add_element(subject_item_circle)
+          # TC: allow to customize fill color
+          # g.add_element(subject_item_circle)
+          circle = subject_item_circle
+          circle.add_attribute_by_hash(
+            class: "stPubChem st#{subject.name}"
+          )
+          g.add_element(circle)
+          # TC
           g.add_element(subject_text_element(subject))
 
           g
@@ -120,7 +127,9 @@ class RDFConfig
           text.add_attribute_by_hash(
             x: RADIUS * 2 + ITEM_CIRCLE_RADIUS * 2 + ITEM_CIRCLE_MARGIN,
             y: RADIUS + SUBJECT_FONT_SIZE / 2 - GLYPH_HEIGHT,
-            class: 'subject-name'
+            # TC: allow to customize fill color
+            class: "subject-name stPubChem st#{subject.name}"
+            # TC
           )
           text.add_text(subject.name)
 
@@ -183,17 +192,33 @@ class RDFConfig
           end
         end
 
+        # TC: allow to customize fill color, font-weight
         def style_element
           style = REXML::Element.new('style')
           style.add_attribute('type', 'text/css')
           style.add_text(<<~STYLE)
-            .subject-name { font-family:'#{SUBJECT_FONT_FAMILY}'; font-size:#{SUBJECT_FONT_SIZE}px; }
+            .subject-name { font-family:'#{SUBJECT_FONT_FAMILY}'; font-size:#{SUBJECT_FONT_SIZE}px; font-weight:bold; }
             .relation { fill:none; stroke:#000000; }
             .grid { stroke:#CCCCCC; stroke-width:1px;}
+            .stPubChem { fill: #02bfe7; }
+            .stAnatomy { fill: #c2b280; }
+            .stBioAssay { fill: #8c5ad9; }
+            .stCell { fill: #008080; }
+            .stCompound { fill: #02bfe7; }
+            .stConcept { fill: #02bfe7; }
+            .stDisease { fill: #a52a2a; }
+            .stGene { fill: #e31ca1; }
+            .stProtein { fill: #e35f1c; }
+            .stPatent, .stPatentAssignee, .stPatentInventor { fill: #225e65; }
+            .stPathway { fill: #73e531; }
+            .stSource { fill: #4aa564; }
+            .stSubstance { fill: #f9c642; }
+            .stTaxonomy { fill: #00abba; }
           STYLE
 
           style
         end
+        # TC
 
         def subject_rotate_deg(subject)
           360.0 / @num_subjects * subject_idx(subject)
