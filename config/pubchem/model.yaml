@@ -7,9 +7,9 @@
   - a:
     - anatomy_type_anatomy_entity: sio:SIO_001262  # anatomical entity
   - skos:prefLabel:
-    - anatomy_pref_label: '"brain"'
+    - anatomy_pref_label: "brain"
   - skos:altLabel*:
-    - anatomy_alt_label: '"encephalon"'
+    - anatomy_alt_label: "encephalon"
   - cito:isDiscussedBy*:
     - anatomy_is_discussed_by: Patent
   - rdfs:seeAlso*:
@@ -30,13 +30,13 @@
   ## pc_author_*.ttl.gz
   # - a: vocab:Author (no class, to be defined, prov:Person ?)
   - vcard2006:family-name?:
-    - author_family_name: '"Velders"'  # author:MD5_000000e289f00d5f606563188b0efc21 has no family name
+    - author_family_name: "Velders"  # author:MD5_000000e289f00d5f606563188b0efc21 has no family name
   - vcard2006:given-name*:
-    - author_given_name: '"Aldrik H"'  # author:ORCID_0000-0002-8689-1873 has no given name
+    - author_given_name: "Aldrik H"  # author:ORCID_0000-0002-8689-1873 has no given name
   - vcard2006:fn*:
-    - author_name: '"Aldrik H. Velders"'
+    - author_name: "Aldrik H. Velders"
   - vcard2006:organization-name*:  # author:MD5_8b1fbee829d0da8e2dbfabfad65d6338 has multiple organizations
-    - author_organization: '"NMR & MS Department, SupraMolecular Chemistry ..."'
+    - author_organization: "NMR & MS Department, SupraMolecular Chemistry ..."
   - vcard2006:hasUID?:
     - author_has_uid: <https://orcid.org/0000-0002-4232-9141>  # author:ORCID_0000-0002-4232-9141
   - dcterms:source?:
@@ -52,9 +52,9 @@
   - a:
     - bioassay_type_bioassay: bao:BAO_0000015  # bioassay
   - dcterms:identifier:
-    - bioassay_identifier: '"1633"'
+    - bioassay_identifier: "1633"
   - dcterms:title:
-    - bioassay_title: '"Cathepsin L probe dose-response testing"'
+    - bioassay_title: "Cathepsin L probe dose-response testing"
   - bao:BAO_0000210?:  # has assay stage
     - bioassay_has_assay_stage_confirmatory: bao:BAO_0000030  # bioassay:AID1633
     - bioassay_has_assay_stage_primary: bao:BAO_0000031  # bioassay:AID460
@@ -83,15 +83,15 @@
   ## pc_book_*.ttl.gz
   - a: fabio:Book
   - dcterms:title:
-    - book_title: '"Molecular Biology of the Cell"'
+    - book_title: "Molecular Biology of the Cell"
   - prism:isbn?:
-    - book_isbn: '"0-8153-1619-4"'  # book:NBK10135 has no isbn
+    - book_isbn: "0-8153-1619-4"  # book:NBK10135 has no isbn
   - prism:location:
-    - book_location: '"New York"'
+    - book_location: "New York"
   - dcterms:date?:
-    - book_date: '"1994"'  # book:NBK310330 has no date
+    - book_date: "1994"  # book:NBK310330 has no date
   - dcterms:publisher:
-    - book_publisher: '"Garland Science"'
+    - book_publisher: "Garland Science"
   - dcterms:creator*:
     - book_creator: Author  # book:NBK100492 has no creator
   - skos:exactMatch:
@@ -108,11 +108,11 @@
     - cell_type_cell_line: sio:SIO_010054  # cell line
     - cell_type_cell_line_clo: obo:CLO_0000031  # cell line
   - skos:prefLabel:
-    - cell_pref_label: '"MCF-7"'
+    - cell_pref_label: "MCF-7"
   - skos:altLabel*:
-    - cell_alt_label: '"MCF7"'
+    - cell_alt_label: "MCF7"
   - obo:BFO_0000050*:  # part of
-    - cell_part_of: '"skin"'
+    - cell_part_of: "skin"
   - up:organism?:
     - cell_organism: Taxonomy
   - obo:RO_0001000?:  # derived from
@@ -147,10 +147,10 @@
     - compound_type_chebi: obo:CHEBI_15365 ncit:C287  # and many other ChEBI ids
   ## general/pc_compound_identifier.ttl.gz
   - dcterms:identifier:
-    - compound_identifier: '"2244"'
+    - compound_identifier: "2244"
   ## general/pc_compound_label.ttl.gz
   - skos:prefLabel:
-    - compound_pref_label: '"Aspirin"'
+    - compound_pref_label: "Aspirin"
   ## general/pc_compound_role.ttl.gz
   - obo:RO_0000087?:
     - compound_has_role: vocab:FDAApprovedDrugs
@@ -232,9 +232,9 @@
   - a:
     - conserveddomain_type_polypeptide_domain: obo:SO_0000417  # polypeptide_domain
   - dcterms:title:
-    - conserveddomain_title: '"TM_ErbB1"'
+    - conserveddomain_title: "TM_ErbB1"
   - dcterms:abstract:
-    - conserveddomain_abstract: '"Transmembrane domain of Epidermal Growth Factor ..."'
+    - conserveddomain_abstract: "Transmembrane domain of Epidermal Growth Factor ..."
   - cito:isDiscussedBy*:
     - conserveddomain_is_discussed_by: Reference
   - rdfs:seeAlso:
@@ -377,7 +377,7 @@
   - sio:SIO_000300:
     - descriptor_has_value_int: 1  # descriptor:CID2244_Hydrogen_Bond_Donor_Count
     - descriptor_has_value_float: 180.16  # descriptor:CID2244_Molecular_Weight
-    - descriptor_has_value_string: '"C9H8O4"'  # descriptor:CID2244_Molecular_Formula
+    - descriptor_has_value_string: "C9H8O4"  # descriptor:CID2244_Molecular_Formula
   ## compound/pc_descr_ExactMass_unit_*.ttl.gz
   ## compound/pc_descr_MolecularWeight_unit_*.ttl.gz
   ## compound/pc_descr_MonoIsotopicWeight_unit_*.ttl.gz
@@ -397,9 +397,9 @@
     - disease_type_disease_do: obo:DOID_4  # Disease
     - disease_type_disease_or_disorder: obo:MONDO_0000001  # disease or disorder
   - skos:prefLabel:
-    - disease_pref_label: '"Parkinson Disease"'
+    - disease_pref_label: "Parkinson Disease"
   - skos:altLabel*:
-    - disease_alt_label: '"Parkinson Disease, Idiopathic"'
+    - disease_alt_label: "Parkinson Disease, Idiopathic"
   - skos:closeMatch*:
     - disease_close_match_do: obo:DOID_14330 idorg:DOID:14330
     - disease_close_match_gard: <https://rarediseases.info.nih.gov/diseases/6381/index>  # disease:DZID137
@@ -468,7 +468,7 @@
     - endpoint_type_tgi: bao:BAO_0000194  # TGI
   ## pc_endpoint_label.ttl.gz
   - rdfs:label?:
-    - endpoint_label: '"IC50"'
+    - endpoint_label: "IC50"
   ## pc_endpoint_value.ttl.gz
   - sio:SIO_000300?:
     - endpoint_has_value: 0.162
@@ -500,13 +500,13 @@
     - gene_type_gene: sio:SIO_010035  # gene
     - gene_type_gene_symbol: sio:SIO_001383  # gene symbol
   - dcterms:identifier?:
-    - gene_identifier: '"1956"'  # gene symbol has no identifier
+    - gene_identifier: "1956"  # gene symbol has no identifier
   - skos:prefLabel?:
-    - gene_pref_label: '"epidermal growth factor receptor"'  # gene symbol has no preferred label
+    - gene_pref_label: "epidermal growth factor receptor"  # gene symbol has no preferred label
   - skos:altLabel*:
-    - gene_alternative_name: '"ERBB1"'
+    - gene_alternative_name: "ERBB1"
   - sio:SIO_000300*:  # has value
-    - gene_has_value_gene_symbol: '"egfr"'  # gene:MD5_fddb60309b0ee16f8cd57b4b90c99e89
+    - gene_has_value_gene_symbol: "egfr"  # gene:MD5_fddb60309b0ee16f8cd57b4b90c99e89
   - obo:RO_0000056*:  # participates in
     - gene_participates_in_biological_process: obo:GO_1905653  # biological process
   - obo:RO_0000085*:  # has function
@@ -558,7 +558,7 @@
   ## pc_grant_*.ttl.gz
   - a: frapo:Grant
   - frapo:hasGrantNumber:
-    - grant_grant_number: '"5MO1RR42"'
+    - grant_grant_number: "5MO1RR42"
   - frapo:hasFundingAgency:
     - grant_has_funding_agency: Organization
 
@@ -573,7 +573,7 @@
     - inchikey_type_inchikey: sio:CHEMINF_000399  # InChIKey generated by software version 1.0.4
   ## pc_inchikey_value_*.ttl.gz
   - sio:SIO_000300:
-    - inchikey_has_value: '"VYZAHLCBVHPDDF-UHFFFAOYSA-N"'
+    - inchikey_has_value: "VYZAHLCBVHPDDF-UHFFFAOYSA-N"
   ## pc_inchikey_topic.ttl.gz
   - dcterms:subject*:
     - inchikey_topic: mesh:M0006475
@@ -590,15 +590,15 @@
   ## pc_journal_*.ttl.gz
   - a: fabio:Journal
   - prism:eissn?:
-    - journal_eissn: '"1095-6808"'
+    - journal_eissn: "1095-6808"
   - prism:issn?:
-    - journal_issn: '"0001-0197"' # journal:50167
+    - journal_issn: "0001-0197" # journal:50167
   - dcterms:title:
-    - journal_title: '"AARN news letter"'
+    - journal_title: "AARN news letter"
   - fabio:hasNLMJournalTitleAbbreviation?:  # journal:22077 has no abbreviation
-    - journal_title_abbrev: '"AARN News Lett"'
+    - journal_title_abbrev: "AARN News Lett"
   - fabio:hasNationalLibraryOfMedicineJournalId:
-    - journal_nlm_id: '"1251052"'
+    - journal_nlm_id: "1251052"
   - skos:exactMatch*:
     - journal_exact_match: <https://www.ncbi.nlm.nih.gov/nlmcatalog/1251052>
 
@@ -613,7 +613,7 @@
     - measuregroup_type_measuregroup: bao:BAO_0000040 # measure group
   ## pc_measuregroup_title.ttl.gz
   - dcterms:title?:
-    - measure_group_title: '"The compound was tested for the in vitro inhibition of ..."'
+    - measure_group_title: "The compound was tested for the in vitro inhibition of ..."
   ## pc_measuregroup2endpoint_*.ttl.gz
   - obo:OBI_0000299*: # has specified output
     - measuregroup_has_specified_output: Endpoint # AID1646 has no tested substance
@@ -635,9 +635,9 @@
     - frapo:FundingAgency
     - vcard2006:Organization
   - vcard2006:country-name?:  # organization:MD5_46c051df09afcbda65f90eeb30a8839f has no country name
-    - organization_country: '"United States"'
+    - organization_country: "United States"
   - vcard2006:fn*:  # organization:MD5_2340525c3e1d9196d2defe0f467f71eb has no formatted name
-    - organization_name: '"National Institutes of Health"'  # organization:MD5_000daa37096461c75a874e06f561c4e2 has multiple names
+    - organization_name: "National Institutes of Health"  # organization:MD5_000daa37096461c75a874e06f561c4e2 has multiple names
   - skos:closeMatch*:  # organization:MD5_e84350a65e9a47198640404e26ee8ec4
     - organization_close_match: <https://data.crossref.org/fundingdata/funder/10.13039/100009670>
 
@@ -651,25 +651,25 @@
   - a: epo_patent:Publication
   ## pc_patent2abstract_*.ttl.gz
   - dcterms:abstract:
-    - patent_abstract: '"An intumescent nanostructured material for thermal ..."'
+    - patent_abstract: "An intumescent nanostructured material for thermal ..."
   ## pc_patent2filingdate_*.ttl.gz
   - epo_patent:filingDate:
     - patent_filing_date: 2017-01-09
   ## pc_patent2grantdate_*.ttl.gz
   - epo_patent:grantDate:
     - patent_grant_date: 2022-03-22
-  ## pc_patent2publicationnumber_*.ttl.gz
-  - epo_patent:publicationNumber:
-    - patent_publication_number: '"US-11279836-B2"'
   ## pc_patent2prioritydate_*.ttl.gz
   - vocab:priorityDate:
     - patent_priority_date: 2017-01-09
   ## pc_patent2publicationdate_*.ttl.gz
   - epo_patent:publicationDate:
     - patent_publication_date: 2022-03-22
+  ## pc_patent2publicationnumber_*.ttl.gz
+  - epo_patent:publicationNumber:
+    - patent_publication_number: "US-11279836-B2"
   ## pc_patent2title_*.ttl.gz
   - epo_patent:titleOfInvention:
-    - patent_title_of_invention: '"Intumescent nanostructured materials and methods of ..."'
+    - patent_title_of_invention: "Intumescent nanostructured materials and methods of ..."
   ## pc_patent2assigneevc_*.ttl.gz
   - epo_patent:applicantVC+:
     - patent_assignee: PatentAssignee  # patent:US-11279836-B2
@@ -701,7 +701,7 @@
   ## pc_patent2vc_fn_*.ttl.gz
   # - a: vocab:PatentAssignee (no class, to be defined)
   - vcard2006:fn:
-    - patentassignee_full_name: '"NANOCOMP TECHNOLOGIES INC"'
+    - patentassignee_full_name: "NANOCOMP TECHNOLOGIES INC"
 
 
 # patentinventor
@@ -710,7 +710,7 @@
   ## pc_patent2vc_fn_*.ttl.gz
   # - a: vocab:PatentInventor (no class, to be defined)
   - vcard2006:fn:
-    - patentinventor_full_name: '"WHITE BRIAN"'
+    - patentinventor_full_name: "WHITE BRIAN"
 
 
 # @subdomain: PatentCPC
@@ -728,13 +728,13 @@
     - epo_cpc:MainGroup
     - epo_cpc:SubGroup
   - dcterms:modified:
-    - patentcpc_modified_date: 2013-01-01-04:00
+    - patentcpc_modified_date: 2013-01-01
   - dcterms:title:
-    - patentcpc_title: '"Match dispensers; Dispensers for matches arranged ..."'
+    - patentcpc_title: "Match dispensers; Dispensers for matches arranged ..."
   - epo_cpc:level:
     - patentcpc_level: 10
   - epo_cpc:symbol:
-    - patentcpc_symbol: '"A24F27/26"'
+    - patentcpc_symbol: "A24F27/26"
   - skos:broader?:
     - patentcpc_broader: PatentCPC
   - epo_cpc:concordantIPC?:
@@ -750,11 +750,11 @@
   ## ipc/pc_patentipc.ttl.gz
   # - a: vocab:PatentIPC (no class, to be defined)
   - owl:sameAs+:
-    - patentipc_same_as: <http://data.epo.org/linked-data/def/ipc/A24F27-26>
+    - patentipc_same_as: epo_ipc:A24F27-26
   - dcterms:title:
-    - patentipc_title: '"with moving or vibrating grates"'
+    - patentipc_title: "with moving or vibrating grates"
   - rdfs:label:
-    - patentipc_label: '"A01D15/04"'
+    - patentipc_label: "A01D15/04"
   - skos:broader?:
     - patentipc_broader: PatentIPC
 
@@ -767,7 +767,7 @@
   ## pc_pathway.ttl.gz
   - a: bp3:Pathway
   - dcterms:title:
-    - pathway_title: '"Glycolysis"'
+    - pathway_title: "Glycolysis"
   - up:organism?:
     - pathway_organism: Taxonomy
   - dcterms:source:
@@ -806,13 +806,13 @@
     - protein_type_glycoprotein: obo:CHEBI_17089  # glycoprotein
     - protein_type_pro: obo:PR_000006933  ## and many other PR ids
   - dcterms:identifier?:
-    - protein_identifier: '"P00533"'  # enzyme has no identifier
+    - protein_identifier: "P00533"  # enzyme has no identifier
   - skos:prefLabel:
-    - protein_pref_label: '"Epidermal growth factor receptor"'
+    - protein_pref_label: "Epidermal growth factor receptor"
   - skos:altLabel*:
-    - protein_alt_label: '"Proto-oncogene c-ErbB-1"'
+    - protein_alt_label: "Proto-oncogene c-ErbB-1"
   - bao:BAO_0002817?:  # has sequence
-    - protein_has_sequence: '"MRPSGTAGAALLALLAALCPASRALEEKK..."'  # enzyme has no sequence
+    - protein_has_sequence: "MRPSGTAGAALLALLAALCPASRALEEKK..."  # enzyme has no sequence
   - rdfs:subClassOf?:
     - protein_sub_class_of: Protein  # for enzyme
   - vocab:hasSimilarProtein*:
@@ -863,38 +863,38 @@
   # - a: vocab:Reference (no class, to be defined)
   ## pc_reference_contenttype.ttl.gz
   - prism:contentType:
-    - reference_content_type: '"Journal Article|Research Support, U.S. Gov''t, P.H.S."'
+    - reference_content_type: "Journal Article|Research Support, U.S. Gov't, P.H.S."
   ## pc_reference_title_*.ttl.gz
   - dcterms:title:
-    - reference_title: '"Characterization of platelet-activating factor ..."'
+    - reference_title: "Characterization of platelet-activating factor ..."
   ## pc_reference_citation_*.ttl.gz
   - dcterms:bibliographicCitation:
-    - reference_bibliographic_citation: '"Triggiani M, Schleimer RP, Tomioka K, Hubbard WC, ..."'
+    - reference_bibliographic_citation: "Triggiani M, Schleimer RP, Tomioka K, Hubbard WC, ..."
   ## pc_reference_date.ttl.gz
   - dcterms:date:
     - reference_date: 2021-05-20  # reference:31833078
-    - reference_date_string: '"199212"'
+    - reference_date_string: "199212"
   ## pc_reference_startingpage_*.ttl.gz
   - prism:startingPage:
-    - reference_starting_page: '"500"'
+    - reference_starting_page: "500"
   ## pc_reference_endingpage_*.ttl.gz
   - prism:endingPage?:
-    - reference_ending_page: '"4"'  # reference:10567558 has no ending page
+    - reference_ending_page: "4"  # reference:10567558 has no ending page
   ## pc_reference_pagerange_*.ttl.gz
   - prism:pageRange:
-    - reference_page_range: '"500-4"'
+    - reference_page_range: "500-4"
   ## pc_reference_issn_*.ttl.gz
   - prism:issn*:
-    - reference_issn: '"0019-2805"' # reference:10567558 has multiple issn
+    - reference_issn: "0019-2805" # reference:10567558 has multiple issn
   ## pc_reference_issue_*.ttl.gz
   - prism:issueIdentifier?:
-    - reference_issue_identifier: '"4"'  ## reference:6773316 has no issue identifier
+    - reference_issue_identifier: "4"  ## reference:6773316 has no issue identifier
   ## pc_reference_lang_*.ttl.gz
   - dcterms:language:
-    - reference_language: '"English"'
+    - reference_language: "English"
   ## pc_reference_publication_*.ttl.gz
   - prism:publicationName:
-    - reference_publication: '"Immunology"'
+    - reference_publication: "Immunology"
   ## pc_reference_source_*.ttl.gz
   - dcterms:source*: # reference:31833078 has multiple sources
     - reference_source: <https://pubmed.ncbi.nlm.nih.gov/>
@@ -939,11 +939,11 @@
   ## pc_source.ttl.gz
   - a: dcterms:Dataset  # (from Glycosmos folks) there should be a better class..
   - dcterms:title:
-    - source_title: '"IUPHAR-DB"'
+    - source_title: "IUPHAR-DB"
   - dcterms:alternative?:
-    - source_display_name: '"IUPHAR/BPS Guide to PHARMACOLOGY"'
+    - source_display_name: "IUPHAR/BPS Guide to PHARMACOLOGY"
   - dcterms:rights?:
-    - source_license: '"The Guide to PHARMACOLOGY database is licensed ..."'
+    - source_license: "The Guide to PHARMACOLOGY database is licensed ..."
   - dcterms:license?:
     - source_license_url: <https://www.guidetopharmacology.org/about.jsp#license>
   - foaf:homepage?:
@@ -962,7 +962,7 @@
   - a?: obo:CHEBI_39548  # and many other ChEBI ids
   ## pc_substance_identifier.ttl.gz
   - dcterms:identifier:
-    - substance_identifier: '"196106365"'
+    - substance_identifier: "196106365"
   ## pc_substance_available_*.ttl.gz
   - dcterms:available:
     - substance_available: 2014-08-05
@@ -1019,7 +1019,7 @@
     - synonym_type_validated_database_id: sio:CHEMINF_000467  # validated chemical database identifier
   ## pc_synonym_value_*.ttl.gz
   - sio:SIO_000300:  # has value
-    - synonym_has_value: '"aspirin [ban:jan]"'
+    - synonym_has_value: "aspirin [ban:jan]"
   ## pc_synonym_topic.ttl.gz
   - dcterms:subject*:
     - synonym_subject_mesh: mesh:M0001864  # synonym:MD5_4aa179283f871f4abe930c25833cea9b
@@ -1038,11 +1038,11 @@
   - a:
     - taxonomy_type_organism: sio:SIO_010000 # organism
   - dcterms:identifier:
-    - taxonomy_identifier: '"9606"'
+    - taxonomy_identifier: "9606"
   - skos:prefLabel:
-    - taxonomy_pref_label: '"Homo sapiens (human)"'
+    - taxonomy_pref_label: "Homo sapiens (human)"
   - skos:altLabel*:
-    - taxonomy_alt_label: '"Homo sapiens Linnaeus, 1758"'
+    - taxonomy_alt_label: "Homo sapiens Linnaeus, 1758"
   - cito:isDiscussedBy*:
     - taxonomy_is_discussed_by: [Patent, Reference]
   - rdfs:seeAlso*:
