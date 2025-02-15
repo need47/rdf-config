@@ -68,7 +68,10 @@ class RDFConfig
         predicates(reject_rdf_type_variable: true).select(&:rdf_type?).map do |predicate|
           case predicate.objects.first
           when ValueList
-            predicate.objects.first.value.map(&:value)
+            # TC: use all values
+            # predicate.objects.first.value.map(&:value)
+            predicate.objects.map(&:values)
+            # TC
           else
             predicate.objects.map(&:value)
           end

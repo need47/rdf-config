@@ -207,8 +207,8 @@ class RDFConfig
             .stCompound { fill: #02bfe7; }
             .stConcept { fill: #02bfe7; }
             .stDisease { fill: #a52a2a; }
-            .stGene { fill: #e31ca1; }
-            .stProtein { fill: #e35f1c; }
+            .stGene, .stGeneSymbol { fill: #e31ca1; }
+            .stProtein, .stEnzyme { fill: #e35f1c; }
             .stPatent, .stPatentCPC, .stPatentIPC, .stPatentAssignee, .stPatentInventor { fill: #225e65; }
             .stPathway { fill: #73e531; }
             .stSource { fill: #4aa564; }

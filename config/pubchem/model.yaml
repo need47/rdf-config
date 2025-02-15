@@ -1,11 +1,6 @@
-# @subdomain: Anatomy
-# @description: "The anatomy subset contains RDF triples for anatomy data in PubChem."
-# @subject: <http://dbpedia.org/page/Anatomy>
-# validation: passed
 - Anatomy anatomy:ANATOMYID955:
-  ## pc_anatomy.ttl.gz
   - a:
-    - anatomy_type_anatomy_entity: sio:SIO_001262  # anatomical entity
+    - anatomy_type_anatomy_entity: sio:SIO_001262
   - skos:prefLabel:
     - anatomy_pref_label: "brain"
   - skos:altLabel*:
@@ -22,104 +17,83 @@
     - anatomy_see_also_uberon: obo:UBERON_0000955 idorg:UBERON:0000955
 
 
-# @subdomain: Author
-# @description: "The author subset contains RDF triples for the basic metadata of authors of a given literature in PubChem."
-# @subject: <http://dbpedia.org/page/Author>
-# validation: not done
-- Author author:ORCID_0000-0002-4232-9141 author:MD5_8b1fbee829d0da8e2dbfabfad65d6338:
-  ## pc_author_*.ttl.gz
-  # - a: vocab:Author (no class, to be defined, prov:Person ?)
+- Author author:MD5_8b1fbee829d0da8e2dbfabfad65d6338 author:ORCID_0000-0002-4232-9141:
   - vcard2006:family-name?:
-    - author_family_name: "Velders"  # author:MD5_000000e289f00d5f606563188b0efc21 has no family name
+    - author_family_name: "Velders"
   - vcard2006:given-name*:
-    - author_given_name: "Aldrik H"  # author:ORCID_0000-0002-8689-1873 has no given name
+    - author_given_name: "Aldrik H"
   - vcard2006:fn*:
-    - author_name: "Aldrik H. Velders"
-  - vcard2006:organization-name*:  # author:MD5_8b1fbee829d0da8e2dbfabfad65d6338 has multiple organizations
-    - author_organization: "NMR & MS Department, SupraMolecular Chemistry ..."
+    - author_formatted_name: "Aldrik H. Velders"
+  - vcard2006:organization-name*:
+    - author_organization: "McMaster University, Hamilton, ON, CA"
   - vcard2006:hasUID?:
-    - author_has_uid: <https://orcid.org/0000-0002-4232-9141>  # author:ORCID_0000-0002-4232-9141
+    - author_has_uid: <https://orcid.org/0000-0002-4232-9141>
   - dcterms:source?:
-    - author_source: <https://orcid.org>  # author:ORCID_0000-0002-4232-9141
+    - author_source: <https://orcid.org>
 
 
-# @subdomain: BioAssay
-# @description: "The bioassay subset contains RDF triples for general information like title and source, as well as measure group of a given AID."
-# @subject: <http://dbpedia.org/page/Bioassay>
-# validation: passed
-- BioAssay bioassay:AID1633:
-  ## pc_bioassay.ttl.gz
+- BioAssay bioassay:AID1341165 bioassay:AID1633 bioassay:AID1671 bioassay:AID2900 bioassay:AID460:
   - a:
-    - bioassay_type_bioassay: bao:BAO_0000015  # bioassay
+    - bioassay_type_bioassay: bao:BAO_0000015
   - dcterms:identifier:
     - bioassay_identifier: "1633"
   - dcterms:title:
     - bioassay_title: "Cathepsin L probe dose-response testing"
-  - bao:BAO_0000210?:  # has assay stage
-    - bioassay_has_assay_stage_confirmatory: bao:BAO_0000030  # bioassay:AID1633
-    - bioassay_has_assay_stage_primary: bao:BAO_0000031  # bioassay:AID460
-    - bioassay_has_assay_stage_summary: bao:BAO_0000517  # bioassay:AID1671
+  - bao:BAO_0000210?:
+    - bioassay_has_assay_stage_confirmatory: bao:BAO_0000030
+    - bioassay_has_assay_stage_primary: bao:BAO_0000031
+    - bioassay_has_assay_stage_summary: bao:BAO_0000517
   - dcterms:source:
     - bioassay_source: Source
-  - bao:BAO_0000209?:  # has measure group
+  - bao:BAO_0000209?:
     - bioassay_has_measure_group: MeasureGroup
-  - bao:BAO_0000540*:  # is confirmatory assay of
-    - bioassay_is_confirmatory_assay_of: BioAssay  # bioassay:AID1633
-  - bao:BAO_0001067*:  # is primary assay of
-    - bioassay_is_primary_assay_of: BioAssay  # bioassay:AID460
-  - bao:BAO_0001094*:  # is summary assay of
-    - bioassay_is_summary_assay_of: BioAssay  # bioassay:AID1671
+  - bao:BAO_0000540*:
+    - bioassay_is_confirmatory_assay_of: BioAssay
+  - bao:BAO_0001067*:
+    - bioassay_is_primary_assay_of: BioAssay
+  - bao:BAO_0001094*:
+    - bioassay_is_summary_assay_of: BioAssay
   - cito:isDiscussedBy*:
     - bioassay_is_discussed_by: Patent
   - rdfs:seeAlso*:
-    - bioassay_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/assay/CHEMBL615117>  # bioassay:AID2900
+    - bioassay_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/assay/CHEMBL615117>
 
 
-# @subdomain: Book
-# @description: "The book subset contains RDF triples for the basic metadata of books in NCBI Bookshelf."
-# @subject: <http://dbpedia.org/page/Book>
-# validation: passed
 - Book book:NBK20684:
-  ## pc_book_*.ttl.gz
-  - a: fabio:Book
+  - a:
+    - book_type_book: fabio:Book
   - dcterms:title:
     - book_title: "Molecular Biology of the Cell"
   - prism:isbn?:
-    - book_isbn: "0-8153-1619-4"  # book:NBK10135 has no isbn
+    - book_isbn: "0-8153-1619-4"
   - prism:location:
     - book_location: "New York"
   - dcterms:date?:
-    - book_date: "1994"  # book:NBK310330 has no date
+    - book_date: "1994"
   - dcterms:publisher:
     - book_publisher: "Garland Science"
   - dcterms:creator*:
-    - book_creator: Author  # book:NBK100492 has no creator
+    - book_creator: Author
   - skos:exactMatch:
     - book_exact_match_ncbi: <https://www.ncbi.nlm.nih.gov/books/NBK20684>
 
 
-# @subdomain: Cell
-# @description: "The cell subset contains RDF triples for cell line data in PubChem."
-# @subject: <http://dbpedia.org/page/Cell_Line>
-# validation: failed
-- Cell cell:CELLID31:
-  ## pc_cell.ttl.gz
-  - a+:
-    - cell_type_cell_line: sio:SIO_010054  # cell line
-    - cell_type_cell_line_clo: obo:CLO_0000031  # cell line
+- Cell cell:CELLID114 cell:CELLID31:
+  - a:
+    - cell_type_cell_line: sio:SIO_010054
   - skos:prefLabel:
     - cell_pref_label: "MCF-7"
   - skos:altLabel*:
     - cell_alt_label: "MCF7"
-  - obo:BFO_0000050*:  # part of
-    - cell_part_of: "skin"
+  - obo:BFO_0000050*:
+    - cell_part_of: "urinary bladder"
   - up:organism?:
     - cell_organism: Taxonomy
-  - obo:RO_0001000?:  # derived from
+  - obo:RO_0001000?:
     - cell_derived_from: Anatomy
   - cito:isDiscussedBy*:
     - cell_is_discussed_by: Reference
-  - skos:see_also*:
+  - rdfs:seeAlso*:
     - cell_see_also_bto: obo:BTO_0000093 idorg:BTO:0000093
     - cell_see_also_cmp_page: <https://cellmodelpassports.sanger.ac.uk/passports/SIDM00148>
     - cell_see_also_cellosaurus: idorg:cellosaurus:CVCL_0031
@@ -133,50 +107,32 @@
     - cell_see_also_lincs_ldp: idorg:lincs.cell:LCL-1460
     - cell_see_also_mesh: mesh:D061986 idorg:mesh:D061986
     - cell_see_also_ncit: ncit:C18096 idorg:ncit:C18096
-    - cell_see_also_wikidata: idorg:wikidata:Q1881253
+    - cell_see_also_wikidata: wd:Q1881253
 
 
-# @subdomain: Compound
-# @description: "The compound subset contains RDF triples for outgoing links of a given CID."
-# @subject: <http://dbpedia.org/page/Molecule>
-# validation: not done
-- Compound compound:CID2244:
-  ## general/pc_compound_type.ttl.gz
-  # - a: vocab:Compound (no class, to be defined)
+- Compound compound:CID146108 compound:CID2244 compound:CID350076 compound:CID350179 compound:CID350355:
   - a*:
-    - compound_type_chebi: obo:CHEBI_15365 ncit:C287  # and many other ChEBI ids
-  ## general/pc_compound_identifier.ttl.gz
+    - compound_type_chebi: obo:CHEBI_15365 ncit:C287
   - dcterms:identifier:
     - compound_identifier: "2244"
-  ## general/pc_compound_label.ttl.gz
   - skos:prefLabel:
     - compound_pref_label: "Aspirin"
-  ## general/pc_compound_role.ttl.gz
   - obo:RO_0000087?:
     - compound_has_role: vocab:FDAApprovedDrugs
-  ## general/pc_compound2drugproduct.ttl.gz
   - vocab:is_active_ingredient_of*:
     - compound_is_active_ingredient_of_snomedct: snomedct:387458008
     - compound_is_active_ingredient_of_ndfrt: ndfrt:N0000145918
-  ## general/pc_compound2isotopologue.ttl.gz
-  - sio:CHEMINF_000455*:  # is_isotopologue_of
+  - cheminf:CHEMINF_000455*:
     - compound_is_isotopologue_of: Compound
-  ## general/pc_compound2stereoisomer_*.ttl.gz
-  - sio:CHEMINF_000461*:  # is_stereoisomer_of
+  - cheminf:CHEMINF_000461*:
     - compound_is_stereoisomer_of: Compound
-  ## general/pc_compound2component.ttl.gz
-  - sio:CHEMINF_000478*:  # has component
-    - compound_has_component: Compound
-  - sio:CHEMINF_000480*:  # has component with uncharged counterpart
+  - cheminf:CHEMINF_000480*:
     - compound_has_component_with_uncharged_counterpart: Compound
-  ## general/pc_compound2sameconnectivity.ttl.gz
-  - sio:CHEMINF_000462*:  # has_same_connectivity_as
+  - cheminf:CHEMINF_000462*:
     - compound_has_same_connectivity_as: Compound
-  ## general/pc_compound2parent.ttl.gz
   - vocab:has_parent*:
     - compound_has_parent: Compound
-  ## general/pc_compound2descriptor_*.ttl.gz
-  - sio:SIO_000008*:  # has attribute
+  - sio:SIO_000008*:
     - compound_has_attribute_canonical_smiles: Descriptor
     - compound_has_attribute_compound_identifier: Descriptor
     - compound_has_attribute_covalent_unit_count: Descriptor
@@ -191,8 +147,8 @@
     - compound_has_attribute_molecular_formula: Descriptor
     - compound_has_attribute_molecular_weight: Descriptor
     - compound_has_attribute_mono_isotopic_weight: Descriptor
+    - compound_has_attribute_iupac_name: Descriptor
     - compound_has_attribute_non_hydrogen_atom_count: Descriptor
-    - compound_has_attribute_preferred_iupac_name: Descriptor
     - compound_has_attribute_rotatable_bond_count: Descriptor
     - compound_has_attribute_structure_complexity: Descriptor
     - compound_has_attribute_total_formal_charge: Descriptor
@@ -200,21 +156,17 @@
     - compound_has_attribute_undefined_atom_stereo_count: Descriptor
     - compound_has_attribute_undefined_bond_stereo_count: Descriptor
     - compound_has_attribute_xlogp3: Descriptor
-  ## general/pc_compound_seealso_*.ttl.gz
   - rdfs:seeAlso*:
     - compound_see_also_ncit: ncit:C287 idorg:ncit:C287
-    - compound_see_also_wikidata: idorg:wikidata:Q18216
+    - compound_see_also_wikidata: wd:Q18216
 
 
-# @subdomain: Concept
-# @description: "The concept subset contains RDF triples for the type and basic metadata of a given biomedical concept."
-# @subject: <http://dbpedia.org/page/Concept>
-# validation: passed
-- Concept concept:ATC_L01XE:
-  ## pc_concept.ttl.gz
-  - a?: skos:Concept skos:ConceptScheme # concept:Legacy_Depositors has no outgoing links
-  - skos:prefLabel*:
-    - concept_pref_label: '"protein kinase inhibitors"@en'  # @en to be removed
+- Concept concept:ATC concept:ATC_L01XE:
+  - a:
+    - concept_type_concept: skos:Concept
+    - concept_type_concept_in_scheme: skos:ConceptScheme
+  - skos:prefLabel:
+    - concept_pref_label: "protein kinase inhibitors"
   - pav:importedFrom*:
     - concept_imported_from: Source
   - skos:broader*:
@@ -223,14 +175,9 @@
     - concept_in_scheme: Concept
 
 
-# @subdomain: ConservedDomain
-# @description: "The conserved domain subset contains RDF triples for the general information and the related proteins tested in measure groups of a given PSSMID."
-# @subject: <http://dbpedia.org/page/Protein_domain>
-# validation: failed conserveddomain:PSSMID100004
 - ConservedDomain conserveddomain:PSSMID213054:
-  ## pc_conserveddomain.ttl.gz
   - a:
-    - conserveddomain_type_polypeptide_domain: obo:SO_0000417  # polypeptide_domain
+    - conserveddomain_type_polypeptide_domain: obo:SO_0000417
   - dcterms:title:
     - conserveddomain_title: "TM_ErbB1"
   - dcterms:abstract:
@@ -241,174 +188,315 @@
     - conserveddomain_see_also_cdd_page: <https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=213054>
 
 
-# @subdomain: Cooccurrence
-# @description: "The cooccurrence subset contains RDF triples of the named entities that are occurring together in biomedical liteature."
-# @subject: <http://dbpedia.org/page/Co-occurrence>
-# validation: not done
-- Cooccurrence cooccurrence:CID3672_CID1983 cooccurrence:CID3672_DZID8756 cooccurrence:CID3672_MD5_25e7482d087cb6429609f07a507aa159 cooccurrence:MD5_25e7482d087cb6429609f07a507aa159_MD5_37f213562115253889cdfb9d2fc3388c cooccurrence:MD5_25e7482d087cb6429609f07a507aa159_CID5280360 cooccurrence:MD5_25e7482d087cb6429609f07a507aa159_DZID8173 cooccurrence:DZID8756_DZID11338 cooccurrence:DZID8756_CID64747 cooccurrence:DZID8756_MD5_4f3366af2ce1555e259faab86aad3bef:
+- CooccurrenceCompoundCompound cooccurrence:CID3672_CID1983:
   - a:
-    ## pc_cooccurrence_chemical_and_chemical_*.ttl.gz
-    # cooccurrence:CID3672_CID1983
-    - cooccurrence_type_chemical_chemical_association: sio:SIO_001435  # chemical-chemical association
-
-    ## pc_cooccurrence_chemical_and_disease_*.ttl.gz
-    # cooccurrence:CID3672_DZID8756
-    - cooccurrence_type_chemical_disease_association: sio:SIO_000993  # chemical-disease association
-
-    ## pc_cooccurrence_chemical_and_gene_*.ttl.gz
-    # cooccurrence:CID3672_MD5_25e7482d087cb6429609f07a507aa159
-    - cooccurrence_type_chemical_gene_association: sio:SIO_001257  # chemical-gene association
-
-    ## pc_cooccurrence_gene_and_gene_*.ttl.gz
-    # cooccurrence:MD5_25e7482d087cb6429609f07a507aa159_MD5_37f213562115253889cdfb9d2fc3388c
-    - cooccurrence_type_gene_gene_association: sio:SIO_001437  # gene-gene association
-
-    ## pc_cooccurrence_chemical_and_gene_*.ttl.gz
-    # cooccurrence:MD5_25e7482d087cb6429609f07a507aa159_CID5280360
-    - cooccurrence_type_gene_chemical_association: sio:SIO_001257  # gene-chemical association
-
-    ## pc_cooccurrence_gene_and_disease_*.ttl.gz
-    # cooccurrence:MD5_25e7482d087cb6429609f07a507aa159_DZID8173
-    - cooccurrence_type_gene_disease_association: sio:SIO_000983  # gene-disease association
-
-    ## pc_cooccurrence_disease_and_disease_*.ttl.gz
-    # cooccurrence:DZID8756_DZID11338
-    - cooccurrence_type_disease_disease_association: sio:SIO_001436  # disease-disease association
-
-    ## pc_cooccurrence_chemical_and_disease_*.ttl.gz
-    # cooccurrence:DZID8756_CID64747
-    - cooccurrence_type_disease_chemical_association: sio:SIO_000993  # disease-chemical association
-
-    ## pc_cooccurrence_gene_and_disease_*.ttl.gz
-    # cooccurrence:DZID8756_MD5_4f3366af2ce1555e259faab86aad3bef
-    - cooccurrence_type_disease_gene_association: sio:SIO_000983  # disease-gene association
-  - sio:SIO_000300: # has value
-    - cooccurrence_has_value: 16
-  - sio:SIO_001157: # is result of
-    - cooccurrence_is_result_of_text_mining: edam:operation_0306  # text mining
-  - rdf:subject:
-    - cooccurrence_subject: [Compound, Gene, Disease]
-  - rdf:object:
-    - cooccurrence_object: [Compound, Gene, Disease]
-
-
-# @subdomain: Descriptor
-# @description: "The descriptor subset contains RDF triples for the type, value and linkage of a given chemical descriptor."
-# @subject: <http://dbpedia.org/page/Molecular_descriptor>
-# validation: not done
-- Descriptor descriptor:CID2244_Canonical_SMILES descriptor:CID2244_Covalent_Unit_Count descriptor:CID2244_Defined_Atom_Stereo_Count descriptor:CID2244_Defined_Bond_Stereo_Count descriptor:CID2244_Exact_Mass descriptor:CID2244_Non-hydrogen_Atom_Count descriptor:CID2244_Hydrogen_Bond_Acceptor_Count descriptor:CID2244_Hydrogen_Bond_Donor_Count descriptor:CID2244_Isomeric_SMILES descriptor:CID2244_Isotope_Atom_Count descriptor:CID2244_IUPAC_InChI descriptor:CID2244_Molecular_Formula descriptor:CID2244_Molecular_Weight descriptor:CID2244_Mono_Isotopic_Weight descriptor:CID2244_Preferred_IUPAC_Name descriptor:CID2244_Rotatable_Bond_Count descriptor:CID2244_Structure_Complexity descriptor:CID2244_Total_Formal_Charge descriptor:CID2244_TPSA descriptor:CID2244_Undefined_Atom_Stereo_Count descriptor:CID2244_Undefined_Bond_Stereo_Count descriptor:CID2244_XLogP3 descriptor:SID8032774_Substance_Version:
-  ## pc_descr_*.ttl.gz
-  - a:
-    ## compound/pc_descr_Compound_Identifier_type_*.ttl.gz
-    - descriptor_type_cid: sio:CHEMINF_000140  # PubChem compound identifier (CID)
-    ## compound/pc_descr_canSMILES_type_*.ttl.gz
-    - descriptor_type_canonical_smiles: sio:CHEMINF_000376  # canonical smiles generated by OEChem
-    ## compound/pc_descr_CovalentUnitCount_type_*.ttl.gz
-    - descriptor_type_covalent_unit_count: sio:CHEMINF_000369  # covalent unit count generated by pubchem software library
-    ## compound/pc_descr_DefinedAtomStereoCount_type_*.ttl.gz
-    - descriptor_type_defined_atom_stereo_count: sio:CHEMINF_000370  # defined atom stereocenter count generated by the pubchem software library
-    ## compound/pc_descr_DefinedBondStereoCount_type_*.ttl.gz
-    - descriptor_type_defined_bond_stereo_count: sio:CHEMINF_000371  # defined bond stereocenter count generated by pubchem software library
-    ## compound/pc_descr_ExactMass_type_*.ttl.gz
-    - descriptor_type_exact_mass: sio:CHEMINF_000338  # exact mass calculated by pubchem software library
-    ## compound/pc_descr_HeavyAtomCount_type_*.ttl.gz
-    - descriptor_type_heavy_atom_count: sio:CHEMINF_000373  # heavy atom count generated by pubchem software library
-    ## compound/pc_descr_HBondAcceptor_type_*.ttl.gz
-    - descriptor_type_hydrogen_bond_acceptor_count: sio:CHEMINF_000388  # hydrogen bond acceptor count calculated by cactvs
-    ## compound/pc_descr_HBondDonor_type_*.ttl.gz
-    - descriptor_type_hydrogen_bond_donor_count: sio:CHEMINF_000387  # hydrogen bond donor count calculated by cactvs
-    ## compound/pc_descr_isoSMILES_type_*.ttl.gz
-    - descriptor_type_isomeric_smiles: sio:CHEMINF_000379  # isomeric SMILES generated by OEChem
-    ## compound/pc_descr_IsotopeAtomCount_type_*.ttl.gz
-    - descriptor_type_isotope_atom_count: sio:CHEMINF_000372  # isotope atom count generated by pubchem software library
-    ## compound/pc_descr_InChI_type_*.ttl.gz
-    - descriptor_type_inchi: sio:CHEMINF_000396  # InChI calculated by library version 1.0.4
-    ## compound/pc_descr_MolecularFormula_type_*.ttl.gz
-    - descriptor_type_molecular_formula: sio:CHEMINF_000335  # molecular formula calculated by the pubchem software library
-    ## compound/pc_descr_MolecularWeight_type_*.ttl.gz
-    - descriptor_type_molecular_weight: sio:CHEMINF_000334  # molecular weight calculated by the pubchem software library
-    ## compound/pc_descr_MonoIsotopicWeight_type_*.ttl.gz
-    - descriptor_type_mono_isotopic_weight: sio:CHEMINF_000337  # monoisotopic mass calculated by the pubchem software library
-    ## compound/pc_descr_IUPACName_type_*.ttl.gz
-    - descriptor_type_iupac_name: sio:CHEMINF_000382  # IUPAC Name generated by LexiChem
-    ## compound/pc_descr_RotatableBondCount_type_*.ttl.gz
-    - descriptor_type_rotatable_bond_count: sio:CHEMINF_000389  # rotatable bond count calculated by cactvs
-    ## compound/pc_descr_Complexity_type_*.ttl.gz
-    - descriptor_type_structure_complexity: sio:CHEMINF_000390  # structure complexity calculated by cactvs
-    # ## compound/pc_descr_TautomerCount_type_*.ttl.gz
-    # - descriptor_type_tautomer_count: sio:CHEMINF_000391  # tautomer count calculated by cactvs
-    ## compound/pc_descr_FormalCharge_type_*.ttl.gz
-    - descriptor_type_total_formal_charge: sio:CHEMINF_000336  # total formal charge calculated by the pubchem software library
-    ## compound/pc_descr_TPSA_type_*.ttl.gz
-    - descriptor_type_tpsa: sio:CHEMINF_000392  # TPSA calculated by cactvs
-    ## compound/pc_descr_UndefinedAtomStereoCount_type_*.ttl.gz
-    - descriptor_type_undefined_atom_stereo_count: sio:CHEMINF_000374  # undefined atom stereocenter count generated by the pubchem software library
-    ## compound/pc_descr_UndefinedBondStereoCount_type_*.ttl.gz
-    - descriptor_type_undefined_bond_stereo_count: sio:CHEMINF_000375  # undefined bond stereocenter count generated by the pubchem software library
-    ## compound/pc_descr_XLogP3_type_*.ttl.gz
-    - descriptor_type_xlogp3: sio:CHEMINF_000395  # xlogp3 or xlogp3_aa calculated by the xlogp3 software
-    ## substance/pc_descr_SubstanceVersion_type_*.ttl.gz
-    - descriptor_type_version: obo:IAO_0000129  # version number (used only for substances)
-  ## compound/pc_descr_Compound_Identifier_value_*.ttl.gz
-  ## compound/pc_descr_Complexity_value_*.ttl.gz
-  ## compound/pc_descr_CovalentUnitCount_value_*.ttl.gz
-  ## compound/pc_descr_DefinedAtomStereoCount_value_*.ttl.gz
-  ## compound/pc_descr_DefinedBondStereoCount_value_*.ttl.gz
-  ## compound/pc_descr_ExactMass_value_*.ttl.gz
-  ## compound/pc_descr_FormalCharge_value_*.ttl.gz
-  ## compound/pc_descr_HBondAcceptor_value_*.ttl.gz
-  ## compound/pc_descr_HBondDonor_value_*.ttl.gz
-  ## compound/pc_descr_HeavyAtomCount_value_*.ttl.gz
-  ## compound/pc_descr_IUPACName_value_*.ttl.gz
-  ## compound/pc_descr_InChI_value_*.ttl.gz
-  ## compound/pc_descr_IsotopeAtomCount_value_*.ttl.gz
-  ## compound/pc_descr_MolecularFormula_value_*.ttl.gz
-  ## compound/pc_descr_MolecularWeight_value_*.ttl.gz
-  ## compound/pc_descr_MonoIsotopicWeight_value_*.ttl.gz
-  ## compound/pc_descr_RotatableBondCount_value_*.ttl.gz
-  ## compound/pc_descr_TPSA_value_*.ttl.gz
-  ## compound/pc_descr_TautomerCount_value_*.ttl.gz
-  ## compound/pc_descr_UndefinedAtomStereoCount_value_*.ttl.gz
-  ## compound/pc_descr_UndefinedBondStereoCount_value_*.ttl.gz
-  ## compound/pc_descr_XLogP3_value_*.ttl.gz
-  ## compound/pc_descr_canSMILES_value_*.ttl.gz
-  ## compound/pc_descr_isoSMILES_value_*.ttl.gz
-  ## substance/pc_descr_SubstanceVersion_value_*.ttl.gz
+    - cooccurrencecompoundcompound_type_chemical_chemical_association: sio:SIO_001435
   - sio:SIO_000300:
-    - descriptor_has_value_int: 1  # descriptor:CID2244_Hydrogen_Bond_Donor_Count
-    - descriptor_has_value_float: 180.16  # descriptor:CID2244_Molecular_Weight
-    - descriptor_has_value_string: "C9H8O4"  # descriptor:CID2244_Molecular_Formula
-  ## compound/pc_descr_ExactMass_unit_*.ttl.gz
-  ## compound/pc_descr_MolecularWeight_unit_*.ttl.gz
-  ## compound/pc_descr_MonoIsotopicWeight_unit_*.ttl.gz
-  ## compound/pc_descr_TPSA_unit_*.ttl.gz
-  - sio:SIO_000221?:
-    - descriptor_has_unit_square_angstrom: obo:UO_0000324  # square angstrom
-    - descriptor_has_unit_molecular_mass_unit: obo:UO_0000055  # molecular mass unit
+    - cooccurrencecompoundcompound_has_value: 100435
+  - sio:SIO_001157:
+    - cooccurrencecompoundcompound_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencecompoundcompound_subject_compound: Compound
+  - rdf:object:
+    - cooccurrencecompoundcompound_object_compound: Compound
 
 
-# @subdomain: Disease
-# @description: "The disease subset contains RDF triples for disease data in PubChem."
-# @subject: <http://dbpedia.org/page/Disease>
-# validation: passed
-- Disease disease:DZID8805:
-  ## pc_disease.ttl.gz
-  - a+:
-    - disease_type_disease_do: obo:DOID_4  # Disease
-    - disease_type_disease_or_disorder: obo:MONDO_0000001  # disease or disorder
+- CooccurrenceCompoundDisease cooccurrence:CID3672_DZID8756:
+  - a:
+    - cooccurrencecompounddisease_type_chemical_disease_association: sio:SIO_000993
+  - sio:SIO_000300:
+    - cooccurrencecompounddisease_has_value: 61779
+  - sio:SIO_001157:
+    - cooccurrencecompounddisease_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencecompounddisease_subject_compound: Compound
+  - rdf:object:
+    - cooccurrencecompounddisease_object_disease: Disease
+
+
+- CooccurrenceCompoundGene cooccurrence:CID3672_ptgs2:
+  - a:
+    - cooccurrencecompoundgene_type_chemical_gene_association: sio:SIO_001257
+  - sio:SIO_000300:
+    - cooccurrencecompoundgene_has_value: 26328
+  - sio:SIO_001157:
+    - cooccurrencecompoundgene_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencecompoundgene_subject_compound: Compound
+  - rdf:object:
+    - cooccurrencecompoundgene_object_gene: GeneSymbol
+
+
+- CooccurrenceDiseaseDisease cooccurrence:DZID8756_DZID11338:
+  - a:
+    - cooccurrencediseasedisease_type_disease_disease_association: sio:SIO_001436
+  - sio:SIO_000300:
+    - cooccurrencediseasedisease_has_value: 1233427
+  - sio:SIO_001157:
+    - cooccurrencediseasedisease_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencediseasedisease_subject_disease: Disease
+  - rdf:object:
+    - cooccurrencediseasedisease_object_disease: Disease
+
+
+- CooccurrenceDiseaseCompound cooccurrence:DZID8756_CID64747:
+  - a:
+    - cooccurrencediseasecompound_type_disease_chemical_association: sio:SIO_000993
+  - sio:SIO_000300:
+    - cooccurrencediseasecompound_has_value: 1197413
+  - sio:SIO_001157:
+    - cooccurrencediseasecompound_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencediseasecompound_subject_disease: Disease
+  - rdf:object:
+    - cooccurrencediseasecompound_object_compound: Compound
+
+
+- CooccurrenceDiseaseGene cooccurrence:DZID8756_bcl2:
+  - a:
+    - cooccurrencediseasegene_type_disease_gene_association: sio:SIO_000983
+  - sio:SIO_000300:
+    - cooccurrencediseasegene_has_value: 7406
+  - sio:SIO_001157:
+    - cooccurrencediseasegene_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencediseasegene_subject_disease: Disease
+  - rdf:object:
+    - cooccurrencediseasegene_object_gene: GeneSymbol
+
+
+- CooccurrenceGeneGene cooccurrence:ptgs2_ptgs1:
+  - a:
+    - cooccurrencegenegene_type_gene_gene_association: sio:SIO_001437
+  - sio:SIO_000300:
+    - cooccurrencegenegene_has_value: 305887
+  - sio:SIO_001157:
+    - cooccurrencegenegene_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencegenegene_subject_gene: GeneSymbol
+  - rdf:object:
+    - cooccurrencegenegene_object_gene: GeneSymbol
+
+
+- CooccurrenceGeneCompound cooccurrence:ptgs2_CID5280360:
+  - a:
+    - cooccurrencegenecompound_type_gene_chemical_association: sio:SIO_001257
+  - sio:SIO_000300:
+    - cooccurrencegenecompound_has_value: 100435
+  - sio:SIO_001157:
+    - cooccurrencegenecompound_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencegenecompound_subject_gene: GeneSymbol
+  - rdf:object:
+    - cooccurrencegenecompound_object_compound: Compound
+
+
+- CooccurrenceGeneDisease cooccurrence:ptgs2_DZID8173:
+  - a:
+    - cooccurrencegenedisease_type_gene_disease_association: sio:SIO_000983
+  - sio:SIO_000300:
+    - cooccurrencegenedisease_has_value: 244058
+  - sio:SIO_001157:
+    - cooccurrencegenedisease_is_result_of_text_mining: edam:operation_0306
+  - rdf:subject:
+    - cooccurrencegenedisease_subject_gene: GeneSymbol
+  - rdf:object:
+    - cooccurrencegenedisease_object_disease: Disease
+
+
+- DescriptorCompoundIdentifier descriptor:CID2244_Compound_Identifier:
+  - a:
+    - descriptorcompoundidentifier_type_cid: cheminf:CHEMINF_000140
+  - sio:SIO_000300:
+    - descriptorcompoundidentifier_has_value: "2244"
+
+
+- DescriptorCanonicalSmiles descriptor:CID2244_Canonical_SMILES:
+  - a:
+    - descriptorcanonicalsmiles_type_canonical_smiles: cheminf:CHEMINF_000376
+  - sio:SIO_000300:
+    - descriptorcanonicalsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
+
+
+- DescriptorCovalentUnitCount descriptor:CID2244_Covalent_Unit_Count:
+  - a:
+    - descriptorcovalentunitcount_type_covalent_unit_count: cheminf:CHEMINF_000369
+  - sio:SIO_000300:
+    - descriptorcovalentunitcount_has_value: 1
+
+
+- DescriptorDefinedAtomStereoCount descriptor:CID2244_Defined_Atom_Stereo_Count:
+  - a:
+    - descriptordefinedatomstereocount_type_defined_atom_stereo_count: cheminf:CHEMINF_000370
+  - sio:SIO_000300*:
+    - descriptordefinedatomstereocount_has_value: 0
+
+
+- DescriptorDefinedBondStereoCount descriptor:CID2244_Defined_Bond_Stereo_Count:
+  - a:
+    - descriptordefinedbondstereocount_type_defined_bond_stereo_count: cheminf:CHEMINF_000371
+  - sio:SIO_000300*:
+    - descriptordefinedbondstereocount_has_value: 0
+
+
+- DescriptorExactMass descriptor:CID2244_Exact_Mass:
+  - a:
+    - descriptorexactmass_type_exact_mass: cheminf:CHEMINF_000338
+  - sio:SIO_000300*:
+    - descriptorexactmass_has_value: 180.04225873
+  - sio:SIO_000221*:
+    - descriptorexactmass_has_unit_molecular_mass_unit: obo:UO_0000055
+
+
+- DescriptorHeavyAtomCount descriptor:CID2244_Non-hydrogen_Atom_Count:
+  - a:
+    - descriptorheavyatomcount_type_heavy_atom_count: cheminf:CHEMINF_000373
+  - sio:SIO_000300*:
+    - descriptorheavyatomcount_has_value: 13
+
+
+- DescriptorHydrogenBondAcceptorCount descriptor:CID2244_Hydrogen_Bond_Acceptor_Count:
+  - a:
+    - descriptorhydrogenbondacceptorcount_type_hydrogen_bond_acceptor_count: cheminf:CHEMINF_000388
+  - sio:SIO_000300*:
+    - descriptorhydrogenbondacceptorcount_has_value: 4
+
+
+- DescriptorHydrogenBondDonorCount descriptor:CID2244_Hydrogen_Bond_Donor_Count:
+  - a:
+    - descriptorhydrogenbonddonorcount_type_hydrogen_bond_donor_count: cheminf:CHEMINF_000387
+  - sio:SIO_000300*:
+    - descriptorhydrogenbonddonorcount_has_value: 1
+
+
+- DescriptorIsomericSmiles descriptor:CID2244_Isomeric_SMILES:
+  - a:
+    - descriptorisomericsmiles_type_isomeric_smiles: cheminf:CHEMINF_000379
+  - sio:SIO_000300*:
+    - descriptorisomericsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
+
+
+- DescriptortIsotopeAtomCount descriptor:CID2244_Isotope_Atom_Count:
+  - a:
+    - descriptortisotopeatomcount_type_isotope_atom_count: cheminf:CHEMINF_000372
+  - sio:SIO_000300*:
+    - descriptortisotopeatomcount_has_value: 0
+
+
+- DescriptorInChI descriptor:CID2244_IUPAC_InChI:
+  - a:
+    - descriptorinchi_type_inchi: cheminf:CHEMINF_000396
+  - sio:SIO_000300*:
+    - descriptorinchi_has_value: "InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)"
+
+
+- DescriptorMolecularFormula descriptor:CID2244_Molecular_Formula:
+  - a:
+    - descriptormolecularformula_type_molecular_formula: cheminf:CHEMINF_000335
+  - sio:SIO_000300*:
+    - descriptormolecularformula_has_value: "C9H8O4"
+
+
+- DescriptorMolecularWeight descriptor:CID2244_Molecular_Weight:
+  - a:
+    - descriptormolecularweight_type_molecular_weight: cheminf:CHEMINF_000334
+  - sio:SIO_000300*:
+    - descriptormolecularweight_has_value: 180.16
+  - sio:SIO_000221*:
+    - descriptormolecularweight_has_unit_molecular_mass_unit: obo:UO_0000055
+
+
+- DescriptorMonoIsotopicWeight descriptor:CID2244_Mono_Isotopic_Weight:
+  - a:
+    - descriptormonoisotopicweight_type_mono_isotopic_weight: cheminf:CHEMINF_000337
+  - sio:SIO_000300*:
+    - descriptormonoisotopicweight_has_value: 180.04225873
+  - sio:SIO_000221*:
+    - descriptormonoisotopicweight_has_unit_molecular_mass_unit: obo:UO_0000055
+
+
+- DescriptorIUPACName descriptor:CID2244_Preferred_IUPAC_Name:
+  - a:
+    - descriptoriupacname_type_iupac_name: cheminf:CHEMINF_000382
+  - sio:SIO_000300*:
+    - descriptoriupacname_has_value: "2-acetyloxybenzoic acid"
+
+
+- DescriptorRotatableBondCount descriptor:CID2244_Rotatable_Bond_Count:
+  - a:
+    - descriptorrotatablebondcount_type_rotatable_bond_count: cheminf:CHEMINF_000389
+  - sio:SIO_000300*:
+    - descriptorrotatablebondcount_has_value: 3
+
+
+- DescriptorStructureComplexity descriptor:CID2244_Structure_Complexity:
+  - a:
+    - descriptorstructurecomplexity_type_structure_complexity: cheminf:CHEMINF_000390
+  - sio:SIO_000300*:
+    - descriptorstructurecomplexity_has_value: 212.0
+
+
+- DescriptorTotalFormalCharge descriptor:CID2244_Total_Formal_Charge:
+  - a:
+    - descriptortotalformalcharge_type_total_formal_charge: cheminf:CHEMINF_000336
+  - sio:SIO_000300*:
+    - descriptortotalformalcharge_has_value: 0
+
+
+- DescriptorTPSA descriptor:CID2244_TPSA:
+  - a:
+    - descriptortpsa_type_tpsa: cheminf:CHEMINF_000392
+  - sio:SIO_000300*:
+    - descriptortpsa_has_value: 63.6
+  - sio:SIO_000221*:
+    - descriptortpsa_has_unit_square_angstrom: obo:UO_0000324
+
+
+- DescriptorUndefinedAtomStereoCount descriptor:CID2244_Undefined_Atom_Stereo_Count:
+  - a:
+    - descriptorundefinedatomstereocount_type_undefined_atom_stereo_count: cheminf:CHEMINF_000374
+  - sio:SIO_000300*:
+    - descriptorundefinedatomstereocount_has_value: 0
+
+
+- DescriptorUndefinedBondStereoCount descriptor:CID2244_Undefined_Bond_Stereo_Count:
+  - a:
+    - descriptorundefinedbondstereocount_type_undefined_bond_stereo_count: cheminf:CHEMINF_000375
+  - sio:SIO_000300*:
+    - descriptorundefinedbondstereocount_has_value: 0
+
+
+- DescriptorXLOGP3 descriptor:CID2244_XLogP3:
+  - a:
+    - descriptorxlogp3_type_xlogp3: cheminf:CHEMINF_000395
+  - sio:SIO_000300*:
+    - descriptorxlogp3_has_value: 1.2
+
+
+- DescriptorSubstanceVersion descriptor:SID196106365_Substance_Version:
+  - a:
+    - descriptorsubstanceversion_type_substance_version: obo:IAO_0000129
+  - sio:SIO_000300*:
+    - descriptorsubstanceversion_has_value: 2
+
+
+- Disease disease:DZID104 disease:DZID1090 disease:DZID1324 disease:DZID133 disease:DZID255 disease:DZID279 disease:DZID579 disease:DZID77 disease:DZID863 disease:DZID8805:
+  - a:
+    - disease_type_disease: sio:SIO_010299
   - skos:prefLabel:
     - disease_pref_label: "Parkinson Disease"
   - skos:altLabel*:
     - disease_alt_label: "Parkinson Disease, Idiopathic"
   - skos:closeMatch*:
     - disease_close_match_do: obo:DOID_14330 idorg:DOID:14330
-    - disease_close_match_gard: <https://rarediseases.info.nih.gov/diseases/6381/index>  # disease:DZID137
+    - disease_close_match_gard: <https://rarediseases.info.nih.gov/diseases/6381/index>
     - disease_close_match_gtopdb_page: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=732>
-    - disease_close_match_hp: obo:HP_0100600 idorg:HP:0100600  # disease:DZID1324
+    - disease_close_match_hp: obo:HP_0100600 idorg:HP:0100600
     - disease_close_match_kegg: idorg:kegg.disease:H00057
     - disease_close_match_medgen: idorg:medgen:C0030567
     - disease_close_match_mesh: mesh:D010300 idorg:mesh:D010300
-    - disease_close_match_mim: idorg:mim:168600
+    - disease_close_match_mim: idorg:mim:106250
     - disease_close_match_mondo: obo:MONDO_0005180
     - disease_close_match_nando: idorg:nando:1200010
     - disease_close_match_ncit: ncit:C26845 idorg:ncit:C26845
@@ -416,186 +504,160 @@
     - disease_close_match_pharmgkb: idorg:pharmgkb.disease:PA445254
     - disease_close_match_umls: idorg:umls:C0030567
   - skos:relatedMatch*:
-    - disease_related_match_do: obo:DOID_0060157 idorg:DOID:0060157  # disease:DZID77
-    - disease_related_match_gard: <https://rarediseases.info.nih.gov/diseases/4536/index>  # disease:DZID77
-    - disease_related_match_gtopdb_page: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=1152>  # disease:DZID863
-    - disease_related_match_hp: obo:HP_0000473 idorg:HP:0000473  # disease:DZID279
-    - disease_related_match_kegg: idorg:kegg.disease:H02309  # disease:DZID133
-    - disease_related_match_medgen: idorg:medgen:C0086873  # disease:DZID77
-    - disease_related_match_mim: idorg:mim:102700  # disease:DZID133
-    - disease_related_match_mondo: obo:MONDO_0015261  # disease:DZID77
-    - disease_related_match_nando: idorg:nando:1200323  # disease:DZID133
-    - disease_related_match_ncit: ncit:C34675 idorg:ncit:C34675  # disease:DZID104
-    - disease_related_match_ordo: idorg:orphanet:85335  # disease:DZID579
-    - disease_related_match_pharmgkb: idorg:pharmgkb.disease:PA162372881  # disease:DZID255
-    - disease_related_match_umls: idorg:umls:C0086873  # disease:DZID77
+    - disease_related_match_do: obo:DOID_0060157 idorg:DOID:0060157
+    - disease_related_match_gard: <https://rarediseases.info.nih.gov/diseases/4536/index>
+    - disease_related_match_gtopdb_page: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=1152>
+    - disease_related_match_hp: obo:HP_0000473 idorg:HP:0000473
+    - disease_related_match_kegg: idorg:kegg.disease:H02309
+    - disease_related_match_medgen: idorg:medgen:C0086873
+    - disease_related_match_mim: idorg:mim:102700
+    - disease_related_match_mondo: obo:MONDO_0015261
+    - disease_related_match_nando: idorg:nando:1200323
+    - disease_related_match_ncit: ncit:C34675 idorg:ncit:C34675
+    - disease_related_match_ordo: idorg:orphanet:85335
+    - disease_related_match_pharmgkb: idorg:pharmgkb.disease:PA162372881
+    - disease_related_match_umls: idorg:umls:C0086873
 
 
-# @subdomain: Endpoint
-# @description: "The endpoint subset contains RDF triples for the related measure group and substance, as well as type, value, unit of a given endpoint."
-# @subject: <http://dbpedia.org/page/Biological_activity>
-# validation: not done
-- Endpoint endpoint:SID85248347_AID2244_VALUE1 endpoint:SID103164874_AID443491_PMID19880317_VALUE1:
-  ## pc_endpoint_type.ttl.gz
-  # - a: vocab:Endpoint (no class, to be defined)
+- Endpoint endpoint:SID103060860_AID651635_VALUE4221 endpoint:SID103074543_AID504413_VALUE9 endpoint:SID103163840_AID698889_PMID22734697_VALUE1 endpoint:SID103164083_AID5676_PMID7996545_VALUE1 endpoint:SID103164353_AID72467_PMID15027873_VALUE1 endpoint:SID103164874_AID443491_PMID19880317_VALUE1 endpoint:SID103176960_AID1256110_PMID26447940_VALUE2 endpoint:SID103194229_AID1163511_PMID25205194_VALUE2 endpoint:SID103220856_AID1425072_VALUE12 endpoint:SID103242185_AID38352_PMID1905760_VALUE8 endpoint:SID103252563_AID96291_PMID10821714_VALUE3 endpoint:SID103340281_AID66992_PMID9341916_VALUE1 endpoint:SID103534214_AID295498_PMID17398091_VALUE16 endpoint:SID103616296_AID380418_PMID16562832_VALUE3 endpoint:SID103700293_AID439729_PMID19526990_VALUE21 endpoint:SID103904168_AID493019_VALUE2 endpoint:SID144191081_AID977606_VALUE420 endpoint:SID14728807_AID1956_VALUE1038 endpoint:SID17432979_AID540271_VALUE661 endpoint:SID17510599_AID720570_VALUE558 endpoint:SID22415462_AID1305_VALUE79:
   - a?:
-    - endpoint_type_kd: bao:BAO_0000034  # Kd
-    - endpoint_type_ki: bao:BAO_0000192  # Ki
-    - endpoint_type_ic50: bao:BAO_0000190  # IC50
-    - endpoint_type_ec50: bao:BAO_0000188  # EC50
-    - endpoint_type_ac10_absolute: bao:BAO_0002878  # AC10 absolute
-    - endpoint_type_ac26_absolute: bao:BAO_0002879  # AC26 absolute
-    - endpoint_type_ac35_absolute: bao:BAO_0002880  # AC35 absolute
-    - endpoint_type_ac40_absolute: bao:BAO_0002881  # AC40 absolute
-    - endpoint_type_ac50: bao:BAO_0000186  # AC50
-    - endpoint_type_ac500_absolute: bao:BAO_0002882  # AC500 absolute
-    - endpoint_type_ac1000_absolute: bao:BAO_0002877  # AC1000 absolute
-    - endpoint_type_cc50: bao:BAO_0000187  # CC50
-    - endpoint_type_concentration_response_endpoint: bao:BAO_0002162  # concentration response endpoint
-    - endpoint_type_ec_5hr: bao:BAO_0002862  # EC 5 hour
-    - endpoint_type_ecmax: bao:BAO_0002883  # ECMax
-    - endpoint_type_ecmax_fold_increase: bao:BAO_0002886  # ECMax_fold increase
-    - endpoint_type_ecmax_percent_inhibition: bao:BAO_0002887  # ECMax_percent inhibition
-    - endpoint_type_ecmax_tm: bao:BAO_0002884  # ECMax_Tm
-    - endpoint_type_ed50: bao:BAO_0003036  # ED50
-    - endpoint_type_gi50: bao:BAO_0000189  # GI50
-    - endpoint_type_half_cell_viability: bao:BAO_0000349  # 50 percent cell viability
-    - endpoint_type_ic90: bao:BAO_0002144  # IC90
-    - endpoint_type_km: bao:BAO_0000477  # km
-    - endpoint_type_lc50: bao:BAO_0002145  # LC50
-    - endpoint_type_ld50: bao:BAO_0002117  # LD50
-    - endpoint_type_mic: bao:BAO_0002146  # MIC
-    - endpoint_type_tgi: bao:BAO_0000194  # TGI
-  ## pc_endpoint_label.ttl.gz
+    - endpoint_type_Kd: bao:BAO_0000034
+    - endpoint_type_Ki: bao:BAO_0000192
+    - endpoint_type_IC50: bao:BAO_0000190
+    - endpoint_type_EC50: bao:BAO_0000188
+    - endpoint_type_AC10_absolute: bao:BAO_0002878
+    - endpoint_type_AC26_absolute: bao:BAO_0002879
+    - endpoint_type_AC35_absolute: bao:BAO_0002880
+    - endpoint_type_AC40_absolute: bao:BAO_0002881
+    - endpoint_type_AC50: bao:BAO_0000186
+    - endpoint_type_AC500_absolute: bao:BAO_0002882
+    - endpoint_type_AC1000_absolute: bao:BAO_0002877
+    - endpoint_type_CC50: bao:BAO_0000187
+    - endpoint_type_concentration_response_endpoint: bao:BAO_0002162
+    - endpoint_type_EC_5_hour: bao:BAO_0002862
+    - endpoint_type_ECMax: bao:BAO_0002883
+    - endpoint_type_ECMax_fold_increase: bao:BAO_0002886
+    - endpoint_type_ECMax_percent_inhibition: bao:BAO_0002887
+    - endpoint_type_ECMax_Tm: bao:BAO_0002884
+    - endpoint_type_ED50: bao:BAO_0003036
+    - endpoint_type_GI50: bao:BAO_0000189
+    - endpoint_type_50_percent_cell_viability: bao:BAO_0000349
+    - endpoint_type_IC90: bao:BAO_0002144
+    - endpoint_type_Km: bao:BAO_0000477
+    - endpoint_type_LC50: bao:BAO_0002145
+    - endpoint_type_LD50: bao:BAO_0002117
+    - endpoint_type_MIC: bao:BAO_0002146
+    - endpoint_type_TGI: bao:BAO_0000194
   - rdfs:label?:
     - endpoint_label: "IC50"
-  ## pc_endpoint_value.ttl.gz
   - sio:SIO_000300?:
     - endpoint_has_value: 0.162
-  - vocab:hasQualifer?:
-    - endpoint_has_qualifier: "="  # <, <=, =, >=, >
-  ## pc_endpoint_unit.ttl.gz
+  - vocab:hasQualifier?:
+    - endpoint_has_qualifier: "="
   - sio:SIO_000221?:
-    - endpoint_has_unit_micromolar: obo:UO_0000064  # micromolar
-  ## pc_endpoint_outcome_*.ttl.gz
+    - endpoint_has_unit_micromolar: obo:UO_0000064
   - vocab:PubChemAssayOutcome:
-    # double quotes are required to get rid of the YAML parsing error:
-    # found unexpected ':' while scanning a plain scalar
-    - endpoint_pubchem_assay_outcome: ["vocab:inactive", "vocab:active", "vocab:inconclusive", "vocab:unspecified", "vocab:probe"]
-  ## pc_endpoint2substance_*.ttl.gz
-  - obo:IAO_0000136:  # is about
+    - endpoint_pubchem_assay_outcome:
+      - vocab:inactive
+      - vocab:active
+      - vocab:inconclusive
+      - vocab:unspecified
+      - vocab:probe
+  - obo:IAO_0000136:
     - endpoint_is_about: Substance
-  ## pc_endpoint2reference.ttl.gz
   - cito:citesAsDataSource?:
     - endpoint_cites_as_data_source: Reference
 
 
-# @subdomain: Gene
-# @description: "The gene subset contains RDF triples for the general information and the related proteins tested in measure groups of a given gene ID."
-# @subject: <http://dbpedia.org/page/Gene>
-# validation: failed gene:GID100000006
-- Gene gene:GID1956 gene:MD5_fddb60309b0ee16f8cd57b4b90c99e89:
-  ## pc_gene.ttl.gz
+- Gene gene:GID10178776 gene:GID11287 gene:GID171593 gene:GID1956 gene:GID24152 gene:GID2538726 gene:GID30037 gene:GID373548 gene:GID850295:
   - a:
-    - gene_type_gene: sio:SIO_010035  # gene
-    - gene_type_gene_symbol: sio:SIO_001383  # gene symbol
+    - gene_type_gene: sio:SIO_010035
   - dcterms:identifier?:
-    - gene_identifier: "1956"  # gene symbol has no identifier
+    - gene_identifier: "1956"
   - skos:prefLabel?:
-    - gene_pref_label: "epidermal growth factor receptor"  # gene symbol has no preferred label
+    - gene_pref_label: "epidermal growth factor receptor"
   - skos:altLabel*:
     - gene_alternative_name: "ERBB1"
-  - sio:SIO_000300*:  # has value
-    - gene_has_value_gene_symbol: "egfr"  # gene:MD5_fddb60309b0ee16f8cd57b4b90c99e89
-  - obo:RO_0000056*:  # participates in
-    - gene_participates_in_biological_process: obo:GO_1905653  # biological process
-  - obo:RO_0000085*:  # has function
-    - gene_has_function_molecular_function: obo:GO_0005524  # molecular function
-  - obo:RO_0001025*:  # located in
-    - gene_located_in_cellular_component: obo:GO_0016020  # cellular component
-  - sio:SIO_000558*:  # is orthologous to
+  - obo:RO_0000056*:
+    - gene_participates_in_biological_process: obo:GO_1905653
+  - obo:RO_0000085*:
+    - gene_has_function_molecular_function: obo:GO_0005524
+  - obo:RO_0001025*:
+    - gene_located_in_cellular_component: obo:GO_0016020
+  - sio:SIO_000558*:
     - gene_is_ortholog_to: Gene
-  - bao:BAO_0002870?:  # has gene symbol
-    - gene_has_gene_symbol: Gene  # gene:MD5_fddb60309b0ee16f8cd57b4b90c99e89
+  - bao:BAO_0002870?:
+    - gene_has_gene_symbol: GeneSymbol
   - up:organism?:
-    - gene_organism: Taxonomy  # gene symbol has no organism
+    - gene_organism: Taxonomy
   - cito:isDiscussedBy*:
-    - gene_is_discussed_by: [Patent, Reference]
+    - gene_is_discussed_by_patent: Patent
+    - gene_is_discussed_by_reference: Reference
   - rdfs:seeAlso*:
     - gene_see_also_agr_page: <https://www.alliancegenome.org/gene/HGNC:3236>
     - gene_see_also_bgee: idorg:bgee.gene:ENSG00000146648
     - gene_see_also_ctd: idorg:ctd.gene:1956
     - gene_see_also_ensembl: ensembl:ENSG00000001631 idorg:ensembl:ENSG00000001631
     - gene_see_also_enzyme: <http://purl.uniprot.org/enzyme/2.7.10.1>
-    - gene_see_also_flybase: idorg:fb:FBgn0261702  # gene:GID10178776
+    - gene_see_also_flybase: idorg:fb:FBgn0261702
     - gene_see_also_gencc_page: <https://search.thegencc.org/genes/HGNC:3236>
     - gene_see_also_ghr: <https://medlineplus.gov/genetics/gene/egfr>
     - gene_see_also_hgnc: idorg:hgnc:3236
     - gene_see_also_kegg: idorg:kegg.genes:hsa:1956
     - gene_see_also_mesh: mesh:D066246 idorg:mesh:D066246
-    - gene_see_also_mgi: idorg:MGI:87854  # gene:GID11287
+    - gene_see_also_mgi: idorg:MGI:87854
     - gene_see_also_mim: idorg:mim:131550
     - gene_see_also_ncbi: idorg:ncbigene:1956
-    - gene_see_also_ncit: ncit:C13668 idorg:ncit:C13668
+    - gene_see_also_ncit: ncit:C17757 idorg:ncit:C17757
     - gene_see_also_opentargets_page: <https://platform.opentargets.org/target/ENSG00000146648>
     - gene_see_also_pharmgkb: idorg:pharmgkb.gene:PA7360
     - gene_see_also_pharos_page: <https://pharos.nih.gov/targets/EGFR>
-    - gene_see_also_pombase: idorg:pombase:SPCC1795.11
-    - gene_see_also_rgd: idorg:rgd.gene:24152  # gene:GID2003
-    - gene_see_also_sgd: idorg:sgd:S000000580  # gene:GID850287
+    - gene_see_also_pombase: idorg:pombase:SPCC777.09c
+    - gene_see_also_rgd: idorg:rgd.gene:2003
+    - gene_see_also_sgd: idorg:sgd:S000000569
     - gene_see_also_veupathdb_page: <https://www.veupathdb.org/gene/HostDB:ENSG00000146648>
-    - gene_see_also_wikidata: idorg:wikidata:Q14865565
-    - gene_see_also_wormbase_page: <http://www.wormbase.org/db/gene/gene?name=WBGene00022277;class=Gene>  # gene:GID171590
-    - gene_see_also_xenbase: idorg:xenbase:XB-GENE-1010722  # gene:GID373547
-    - gene_see_also_zfin: idorg:zfin:ZDB-GENE-980526-166  # gene:GID493600
+    - gene_see_also_wikidata: wd:Q14865565
+    - gene_see_also_wormbase_page: <http://www.wormbase.org/db/gene/gene?name=WBGene00022279;class=Gene>
+    - gene_see_also_xenbase: idorg:xenbase:XB-GENE-865691
+    - gene_see_also_zfin: idorg:zfin:ZDB-GENE-980526-104
 
 
-# @subdomain: Grant
-# @description: "The grant subset contains RDF triples for the basic metadata of grant information from literature."
-# @subject: <http://dbpedia.org/page/Grant>
-# validation: passed
+- GeneSymbol gene:egfr:
+  - a:
+    - genesymbol_type_gene_symbol: sio:SIO_001383
+  - sio:SIO_000300:
+    - genesymbol_has_value_gene_symbol: "egfr"
+
+
 - Grant grant:MD5_20ac7448bc58fb27a4b7ee91ed141799:
-  ## pc_grant_*.ttl.gz
-  - a: frapo:Grant
+  - a:
+    - grant_type_grant: frapo:Grant
   - frapo:hasGrantNumber:
     - grant_grant_number: "5MO1RR42"
   - frapo:hasFundingAgency:
     - grant_has_funding_agency: Organization
 
 
-# @subdomain: InChIKey
-# @description: "The inchikey subset contains RDF triples for the type, value and linkage of a given inchikey."
-# @subject: <http://dbpedia.org/page/Identifier>
-# validation: not done
 - InChIKey inchikey:VYZAHLCBVHPDDF-UHFFFAOYSA-N:
-  ## pc_inchikey_type_*.ttl.gz
   - a:
-    - inchikey_type_inchikey: sio:CHEMINF_000399  # InChIKey generated by software version 1.0.4
-  ## pc_inchikey_value_*.ttl.gz
+    - inchikey_type_inchikey: cheminf:CHEMINF_000399
   - sio:SIO_000300:
     - inchikey_has_value: "VYZAHLCBVHPDDF-UHFFFAOYSA-N"
-  ## pc_inchikey_topic.ttl.gz
   - dcterms:subject*:
-    - inchikey_topic: mesh:M0006475
-  ## pc_inchikey2compound_*.ttl.gz
+    - inchikey_subject: mesh:M0006475
   - sio:SIO_000011:
     - inchikey_is_attribute_of: Compound
 
 
-# @subdomain: Journal
-# @description: "The journal subset contains RDF triples for the basic metadata of PubMed and NCBI molecular biology database journals."
-# @subject: <http://dbpedia.org/page/Journal>
-# validation: passed
-- Journal journal:3:
-  ## pc_journal_*.ttl.gz
+- Journal journal:3 journal:3328:
   - a: fabio:Journal
   - prism:eissn?:
-    - journal_eissn: "1095-6808"
+    - journal_eissn: "1470-8752"
   - prism:issn?:
-    - journal_issn: "0001-0197" # journal:50167
+    - journal_issn: "0001-0197"
   - dcterms:title:
     - journal_title: "AARN news letter"
-  - fabio:hasNLMJournalTitleAbbreviation?:  # journal:22077 has no abbreviation
+  - fabio:hasNLMJournalTitleAbbreviation?:
     - journal_title_abbrev: "AARN News Lett"
   - fabio:hasNationalLibraryOfMedicineJournalId:
     - journal_nlm_id: "1251052"
@@ -603,137 +665,88 @@
     - journal_exact_match: <https://www.ncbi.nlm.nih.gov/nlmcatalog/1251052>
 
 
-# @subdomain: MeasureGroup
-# @description: "The measure group subset contains RDF triples for related bioassay, substance, protein targets, endpoints of a given AID."
-# @subject: <http://dbpedia.org/page/Bioassay>
-# validation: not done
-- MeasureGroup measuregroup:AID803 measuregroup:AID2900_PMID2066989:
-  ## pc_measuregroup_type.ttl.gz
+- MeasureGroup measuregroup:AID1053208 measuregroup:AID11 measuregroup:AID111827_PMID6716406 measuregroup:AID2900_PMID2066989 measuregroup:AID803:
   - a:
-    - measuregroup_type_measuregroup: bao:BAO_0000040 # measure group
-  ## pc_measuregroup_title.ttl.gz
+    - measuregroup_type_measuregroup: bao:BAO_0000040
   - dcterms:title?:
-    - measure_group_title: "The compound was tested for the in vitro inhibition of ..."
-  ## pc_measuregroup2endpoint_*.ttl.gz
-  - obo:OBI_0000299*: # has specified output
-    - measuregroup_has_specified_output: Endpoint # AID1646 has no tested substance
-  ## pc_measuregroup2participant.ttl.gz
-  - obo:RO_0000057*: # has participant
-    - measuregroup_has_participant: [Protein, Gene, Cell, Taxonomy]
-  ## pc_measuregroup_source.ttl.gz
+    - measuregroup_title: "The compound was tested for ..."
+  - obo:OBI_0000299*:
+    - measuregroup_has_specified_output: Endpoint
+  - obo:RO_0000057*:
+    - measuregroup_has_participant_protein: Protein
+    - measuregroup_has_participant_gene: Gene
+    - measuregroup_has_participant_cell: Cell
+    - measuregroup_has_participant_taxonomy: Taxonomy
   - dcterms:source?:
     - measuregroup_source: Source
 
 
-# @subdomain: Organization
-# @description: "The organization subset contains RDF triples for the basic metadata of author affiliation information from literature."
-# @subject: <http://dbpedia.org/page/Organization>
-# validation: passed
 - Organization organization:MD5_02dbd117ccafdaa94809693a5d1d279d:
-  ## pc_organization_*.ttl.gz
-  - a+:
-    - frapo:FundingAgency
-    - vcard2006:Organization
-  - vcard2006:country-name?:  # organization:MD5_46c051df09afcbda65f90eeb30a8839f has no country name
+  - a{2}:
+    - organization_type_organization:
+      - frapo:FundingAgency
+      - vcard2006:Organization
+  - vcard2006:country-name?:
     - organization_country: "United States"
-  - vcard2006:fn*:  # organization:MD5_2340525c3e1d9196d2defe0f467f71eb has no formatted name
-    - organization_name: "National Institutes of Health"  # organization:MD5_000daa37096461c75a874e06f561c4e2 has multiple names
-  - skos:closeMatch*:  # organization:MD5_e84350a65e9a47198640404e26ee8ec4
-    - organization_close_match: <https://data.crossref.org/fundingdata/funder/10.13039/100009670>
+  - vcard2006:fn*:
+    - organization_formated_name: "National Institutes of Health"
+  - skos:closeMatch*:
+    - organization_close_match: <https://data.crossref.org/fundingdata/funder/10.13039/100000002>
 
 
-# @subdomain: Patent
-# @description: "The patent subset contains RDF triples for the type and basic metadata of a given patent."
-# @subject: <http://dbpedia.org/page/Patent>
-# validation: not done
-- Patent patent:US-11279836-B2:
-  ## pc_patent2type_*.ttl.gz
-  - a: epo_patent:Publication
-  ## pc_patent2abstract_*.ttl.gz
+- Patent patent:US-11279836-B2 patent:US-7326712-B2:
+  - a:
+    - patent_type_publication: epo_patent:Publication
   - dcterms:abstract:
     - patent_abstract: "An intumescent nanostructured material for thermal ..."
-  ## pc_patent2filingdate_*.ttl.gz
   - epo_patent:filingDate:
     - patent_filing_date: 2017-01-09
-  ## pc_patent2grantdate_*.ttl.gz
   - epo_patent:grantDate:
     - patent_grant_date: 2022-03-22
-  ## pc_patent2prioritydate_*.ttl.gz
   - vocab:priorityDate:
     - patent_priority_date: 2017-01-09
-  ## pc_patent2publicationdate_*.ttl.gz
   - epo_patent:publicationDate:
     - patent_publication_date: 2022-03-22
-  ## pc_patent2publicationnumber_*.ttl.gz
   - epo_patent:publicationNumber:
     - patent_publication_number: "US-11279836-B2"
-  ## pc_patent2title_*.ttl.gz
   - epo_patent:titleOfInvention:
     - patent_title_of_invention: "Intumescent nanostructured materials and methods of ..."
-  ## pc_patent2assigneevc_*.ttl.gz
   - epo_patent:applicantVC+:
-    - patent_assignee: PatentAssignee  # patent:US-11279836-B2
-  ## pc_patent2inventorvc_*.ttl.gz
+    - patent_assignee: PatentAssignee
   - epo_patent:inventorVC+:
     - patent_inventor: PatentInventor
-  ## pc_patent2ipc_inventive_*.ttl.gz
   - epo_patent:classificationIPCInventive+:
     - patent_classification_ipc_inventive: PatentIPC
-  ## pc_patent2cpc_inventive_*.ttl.gz
   - epo_patent:classificationCPCInventive+:
     - patent_classification_cpc_inventive: PatentCPC
-  ## pc_patent2cpc_additional_*.ttl.gz
   - epo_patent:classificationCPCAdditional*:
     - patent_classification_cpc_additional: PatentCPC
-  ## pc_patent2ipc_additional_*.ttl.gz
   - epo_patent:classificationIPCAdditional*:
     - patent_classification_ipc_additional: PatentIPC
-  ## pc_patent2iscitedby_*.ttl.gz
   - cito:isCitedBy*:
     - patent_is_cited_by: Patent
-  ## pc_patent2isdiscussedby_*.ttl.gz
-  # despite the file name, the subject is substance, compound, bioassay, gene, protein, taxonomy, anatomy
 
 
-# patentassignee
-#
 - PatentAssignee patentassignee:MD5_947dce131cf88f7e23f2a0f654642d8f:
-  ## pc_patent2vc_fn_*.ttl.gz
-  # - a: vocab:PatentAssignee (no class, to be defined)
   - vcard2006:fn:
-    - patentassignee_full_name: "NANOCOMP TECHNOLOGIES INC"
+    - patentassignee_formatted_name: "NANOCOMP TECHNOLOGIES INC"
 
 
-# patentinventor
-#
-- PatentInventor patentinventor:MD5_1b1b3d3bf5b8df2c668a2fca2467fba1:
-  ## pc_patent2vc_fn_*.ttl.gz
-  # - a: vocab:PatentInventor (no class, to be defined)
-  - vcard2006:fn:
-    - patentinventor_full_name: "WHITE BRIAN"
-
-
-# @subdomain: PatentCPC
-# @title: "PubChemRDF Cooperative Patent Classification (CPC)"
-# @description: "The patentcpc subset contains RDF triples for Cooperative Patent Classification (CPC)."
-# @subject: <http://dbpedia.org/page/Cooperative_Patent_Classification>
-#
-- PatentCPC patentcpc:A24F27-26:
-  ## cpc/pc_patentcpc.ttl.gz
+- PatentCPC patentcpc:A patentcpc:A01 patentcpc:A01B patentcpc:A01B77-00 patentcpc:A24F27-26 patentcpc:AGRICULTURE-subsection:
   - a:
-    - epo_cpc:Section
-    - epo_cpc:SubSection
-    - epo_cpc:Class
-    - epo_cpc:SubClass
-    - epo_cpc:MainGroup
-    - epo_cpc:SubGroup
+    - patentcpc_type_section: epo_cpc:Section
+    - patentcpc_type_subsection: epo_cpc:SubSection
+    - patentcpc_type_class: epo_cpc:Class
+    - patentcpc_type_subclass: epo_cpc:SubClass
+    - patentcpc_type_maingroup: epo_cpc:MainGroup
+    - patentcpc_type_subgroup: epo_cpc:SubGroup
   - dcterms:modified:
     - patentcpc_modified_date: 2013-01-01
   - dcterms:title:
     - patentcpc_title: "Match dispensers; Dispensers for matches arranged ..."
   - epo_cpc:level:
     - patentcpc_level: 10
-  - epo_cpc:symbol:
+  - epo_cpc:symbol?:
     - patentcpc_symbol: "A24F27/26"
   - skos:broader?:
     - patentcpc_broader: PatentCPC
@@ -741,31 +754,25 @@
     - patentcpc_concordant_ipc: PatentIPC
 
 
-# @subdomain: PatentIPC
-# @title: "PubChemRDF International Patent Classification (IPC)"
-# @description: "The patentipc subset contains RDF triples for International Patent Classification (IPC)."
-# @subject: <http://dbpedia.org/page/International_Patent_Classification>
-#
+- PatentInventor patentinventor:MD5_1b1b3d3bf5b8df2c668a2fca2467fba1:
+  - vcard2006:fn:
+    - patentinventor_formatted_name: "WHITE BRIAN"
+
+
 - PatentIPC patentipc:A24F27-26:
-  ## ipc/pc_patentipc.ttl.gz
-  # - a: vocab:PatentIPC (no class, to be defined)
   - owl:sameAs+:
     - patentipc_same_as: epo_ipc:A24F27-26
   - dcterms:title:
-    - patentipc_title: "with moving or vibrating grates"
+    - patentipc_title: "with means for igniting the match as it is dispensed ..."
   - rdfs:label:
-    - patentipc_label: "A01D15/04"
+    - patentipc_label: "A24F27/26"
   - skos:broader?:
     - patentipc_broader: PatentIPC
 
 
-# @subdomain: Pathway
-# @description: "The pathway subset contains RDF triples for the type, title, data source, organism, references, and participant (e.g. proteins, genes, and chemicals)."
-# @subject: <http://dbpedia.org/page/Pathway>
-#
-- Pathway pathway:PWID1:
-  ## pc_pathway.ttl.gz
-  - a: bp3:Pathway
+- Pathway pathway:PWID1 pathway:PWID1184398 pathway:PWID1184401 pathway:PWID12077 pathway:PWID1360674 pathway:PWID1360953 pathway:PWID1361849 pathway:PWID1363884 pathway:PWID3 pathway:PWID4 pathway:PWID40755 pathway:PWID40952:
+  - a:
+    - pathway_type_pathway: bp3:Pathway
   - dcterms:title:
     - pathway_title: "Glycolysis"
   - up:organism?:
@@ -779,53 +786,48 @@
   - skos:related*:
     - pathway_related_pathway: Pathway
   - obo:RO_0000057*:
-    - pathway_has_participant: [Compound, Protein, Gene]
+    - pathway_has_participant_compound: Compound
+    - pathway_has_participant_protein: Protein
+    - pathway_has_participant_gene: Gene
   - rdfs:seeAlso*:
-    - pathway_see_also_biocyc: idorg:biocyc:HUMANCYC:PWY-4983 # pathway:PWID3
-    - pathway_see_also_covid19_disease_map_page: <https://fairdomhub.org/models/699> # pathway:PWID1360674
-    - pathway_see_also_glycosmos_page: <https://glycosmos.org/pathways/show/R-HSA-5683371> # pathway:PWID12077
-    - pathway_see_also_lipidmaps_page: <https://www.lipidmaps.org/data/IntegratedPathwaysData/SetupIntegratedPathways.pl?imgsize=730&Mode=BMDMATPS11&DataType=SignalingPathways&PathwayName=Apoptosis> # pathway:PWID40952
-    - pathway_see_also_panther: idorg:panther.pathway:P04395 # pathway:PWID1361849
-    - pathway_see_also_pathbank_page: <https://pathbank.org/view/SMP0000055> # pathway:PWID1184398
-    - pathway_see_also_pharmgkb: idorg:pharmgkb.pathways:PA2023 # pathway:PWID1184401
-    - pathway_see_also_pid: idorg:pid.pathway:ATP%20biosynthetic%20process # pathway:PWID40755
-    - pathway_see_also_plantreactome_page: <https://plantreactome.gramene.org/content/detail/R-OSA-9828944> # pathway:PWID1363884
-    - pathway_see_also_reactome: idorg:reactome:R-HSA-70171 # pathway:PWID1
-    - pathway_see_also_wikipathways: idorg:wikipathways:WP534 # pathway:PWID4
+    - pathway_see_also_biocyc: idorg:biocyc:HUMANCYC:PWY-4983
+    - pathway_see_also_covid19_disease_map_page: <https://fairdomhub.org/models/699>
+    - pathway_see_also_glycosmos_page: <https://glycosmos.org/pathways/show/R-HSA-5683371>
+    - pathway_see_also_lipidmaps_page: <https://www.lipidmaps.org/data/IntegratedPathwaysData/SetupIntegratedPathways.pl?imgsize=730&Mode=BMDMATPS11&DataType=SignalingPathways&PathwayName=Apoptosis>
+    - pathway_see_also_panther: idorg:panther.pathway:P04395
+    - pathway_see_also_pathbank_page: <https://pathbank.org/view/SMP0000055>
+    - pathway_see_also_pharmgkb: idorg:pharmgkb.pathways:PA2023
+    - pathway_see_also_pid: idorg:pid.pathway:ATP%20biosynthetic%20process
+    - pathway_see_also_plantreactome_page: <https://plantreactome.gramene.org/content/detail/R-OSA-9828944>
+    - pathway_see_also_reactome: idorg:reactome:R-HSA-70171
+    - pathway_see_also_wikipathways: idorg:wikipathways:WP534
 
 
-# @subdomain: Protein
-# @description: "The protein subset contains RDF triples for the general information, related measure groups, and neighboring relations of a given ACC."
-# @subject: <http://dbpedia.org/page/Protein>
-# validation: failed max recursion depth reached
-- Protein protein:ACCP00533 protein:EC_2.7.10.1:
-  ## pc_protein.ttl.gz
+- Protein protein:ACCP00184 protein:ACCP00533 protein:ACCP53589 protein:ACCQ01279:
   - a+:
-    - protein_type_protein: sio:SIO_010043  # protein
-    - protein_type_enzyme: sio:SIO_010343  # enzyme
-    - protein_type_glycoprotein: obo:CHEBI_17089  # glycoprotein
-    - protein_type_pro: obo:PR_000006933  ## and many other PR ids
+    - protein_type_protein: sio:SIO_010043
+    - protein_type_glycoprotein: obo:CHEBI_17089
+    - protein_type_pro: obo:PR_000006933
   - dcterms:identifier?:
-    - protein_identifier: "P00533"  # enzyme has no identifier
+    - protein_identifier: "P00533"
   - skos:prefLabel:
     - protein_pref_label: "Epidermal growth factor receptor"
   - skos:altLabel*:
     - protein_alt_label: "Proto-oncogene c-ErbB-1"
-  - bao:BAO_0002817?:  # has sequence
-    - protein_has_sequence: "MRPSGTAGAALLALLAALCPASRALEEKK..."  # enzyme has no sequence
-  - rdfs:subClassOf?:
-    - protein_sub_class_of: Protein  # for enzyme
+  - bao:BAO_0002817?:
+    - protein_has_sequence: "MRPSGTAGAALLALLAALCPASRALEEKK..."
   - vocab:hasSimilarProtein*:
     - protein_has_similar_protein: Protein
-  - up:enzyme?:
-    - protein_enzyme: Protein
+  - up:enzyme*:
+    - protein_enzyme: Enzyme
   - up:encodedBy*:
-    - protein_encoded_by: Gene  # one protein can be encoded by multiple genes
+    - protein_encoded_by: Gene
   - up:organism?:
     - protein_organism: Taxonomy
   - cito:isDiscussedBy*:
-    - protein_is_discussed_by: [Patent, Reference]
-  - obo:RO_0002180*:  # has component
+    - protein_is_discussed_by_patent: Patent
+    - protein_is_discussed_by_reference: Reference
+  - obo:RO_0002180*:
     - protein_has_component_conserveddomain: ConservedDomain
     - protein_has_component_interpro: idorg:interpro:IPR008266
   - pdbo:link_to_pdb*:
@@ -836,7 +838,7 @@
     - protein_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/target/CHEMBL203> idorg:chembl.target:CHEMBL203
     - protein_see_also_drugbank_page: <https://www.drugbank.ca/bio_entities/BE0000767>
     - protein_see_also_ensembl: ensembl:ENSP00000275493
-    - protein_see_also_enzyme: <http://purl.uniprot.org/enzyme/2.7.10.1> # for enzyme
+    - protein_see_also_enzyme: <http://purl.uniprot.org/enzyme/2.7.10.1>
     - protein_see_also_glygen_page: <https://glygen.org/protein/P00533>
     - protein_see_also_glycosmos_page: <https://glycosmos.org/glycoproteins/P00533>
     - protein_see_also_gtopdb: idorg:iuphar.receptor:1797
@@ -851,93 +853,78 @@
     - protein_see_also_pro: obo:PR_P00533 idorg:PR:P00533
     - protein_see_also_refseq: idorg:refseq:NP_005219.2
     - protein_see_also_uniprot: <http://purl.uniprot.org/uniprot/P00533> idorg:uniprot:P00533
-    - protein_see_also_wikidata: idorg:wikidata:Q14865565
-    - protein_see_also_wormbase: <https://wormbase.org/db/seq/protein?name=CE48376;class=Protein> # protein:ACCA0A061ACU2
+    - protein_see_also_wikidata: wd:Q14865565
+    - protein_see_also_wormbase: <https://wormbase.org/db/seq/protein?name=CE04242;class=Protein>
 
 
-# @subdomain: Reference
-# @description: "The reference subset contains RDF triples for the type and basic metadata of a given literature in PubChem."
-# @subject: <http://dbpedia.org/page/Reference>
-# validation: not done
-- Reference reference:9581981:
-  # - a: vocab:Reference (no class, to be defined)
-  ## pc_reference_contenttype.ttl.gz
+- Enzyme protein:EC_2.7.10.1:
+  - a:
+    - enzyme_type_enzyme: sio:SIO_010343
+  - skos:prefLabel:
+    - enzyme_pref_label: "Receptor protein-tyrosine kinase"
+  - skos:altLabel*:
+    - enzyme_alt_label: "Receptor protein tyrosine kinase"
+  - rdfs:subClassOf?:
+    - enzyme_sub_class_of: Enzyme
+  - rdfs:seeAlso?:
+    - enzyme_see_also_uniprot: <http://purl.uniprot.org/enzyme/2.7.10.1>
+
+
+- Reference reference:201659509 reference:31833078 reference:9581981:
   - prism:contentType:
     - reference_content_type: "Journal Article|Research Support, U.S. Gov't, P.H.S."
-  ## pc_reference_title_*.ttl.gz
   - dcterms:title:
     - reference_title: "Characterization of platelet-activating factor ..."
-  ## pc_reference_citation_*.ttl.gz
   - dcterms:bibliographicCitation:
     - reference_bibliographic_citation: "Triggiani M, Schleimer RP, Tomioka K, Hubbard WC, ..."
-  ## pc_reference_date.ttl.gz
   - dcterms:date:
-    - reference_date: 2021-05-20  # reference:31833078
+    - reference_date: 2021-05-20
     - reference_date_string: "199212"
-  ## pc_reference_startingpage_*.ttl.gz
   - prism:startingPage:
     - reference_starting_page: "500"
-  ## pc_reference_endingpage_*.ttl.gz
   - prism:endingPage?:
-    - reference_ending_page: "4"  # reference:10567558 has no ending page
-  ## pc_reference_pagerange_*.ttl.gz
+    - reference_ending_page: "4"
   - prism:pageRange:
     - reference_page_range: "500-4"
-  ## pc_reference_issn_*.ttl.gz
+  - prism:isbn*:
+    - reference_isbn: "978-3-319-25557-6"
   - prism:issn*:
-    - reference_issn: "0019-2805" # reference:10567558 has multiple issn
-  ## pc_reference_issue_*.ttl.gz
+    - reference_issn: "0019-2805"
   - prism:issueIdentifier?:
-    - reference_issue_identifier: "4"  ## reference:6773316 has no issue identifier
-  ## pc_reference_lang_*.ttl.gz
+    - reference_issue_identifier: "4"
   - dcterms:language:
     - reference_language: "English"
-  ## pc_reference_publication_*.ttl.gz
   - prism:publicationName:
     - reference_publication: "Immunology"
-  ## pc_reference_source_*.ttl.gz
-  - dcterms:source*: # reference:31833078 has multiple sources
+  - dcterms:source*:
     - reference_source: <https://pubmed.ncbi.nlm.nih.gov/>
-  ## pc_reference2meshheading_*.ttl.gz
   - fabio:hasSubjectTerm*:
-    - reference_subject_term: <http://id.nlm.nih.gov/mesh/D006801>
-  ## pc_reference2meshheading_primary_*.ttl.gz
+    - reference_subject_term: mesh:D006801
   - fabio:hasPrimarySubjectTerm*:
-    - reference_primary_subject_term: <http://id.nlm.nih.gov/mesh/D006801>
-  ## pc_reference2chemical_disease*.ttl.gz
+    - reference_primary_subject_term: mesh:D016178Q000502
   - cito:discusses*:
-    - reference_discusses: <http://id.nlm.nih.gov/mesh/M0011758>
-  ## pc_reference_identifier_*.ttl.gz
-  # can dcterms:identifer have a URI as an object?
+    - reference_discusses: mesh:M0011758
   - dcterms:identifier*:
-    - reference_identifier_pmcid: <https://pubmed.ncbi.nlm.nih.gov/PMC1421661>
-    - reference_identifier_pmid: <https://pubmed.ncbi.nlm.nih.gov/1493922>
-  ## pc_reference_journal_book_*.ttl.gz
+    - reference_identifier_pmcid: "https://pubmed.ncbi.nlm.nih.gov/PMC1421661"
+    - reference_identifier_pmid: "https://pubmed.ncbi.nlm.nih.gov/1493922"
   - dcterms:isPartOf+:
     - reference_is_part_of_issn: <https://portal.issn.org/resource/ISSN/0019-2805>
     - reference_is_part_of_journal: Journal
     - reference_is_part_of_book: Book
-  ## pc_reference_author_*.ttl.gz
   - dcterms:creator+:
     - reference_creator: Author
-  ## pc_reference_fundingagency_*.ttl.gz
   - frapo:hasFundingAgency*:
     - reference_has_funding_agency: Organization
-  ## pc_reference_grant_*.ttl.gz
   - frapo:isSupportedBy*:
     - reference_is_supported_by: Grant
-  ## pc_reference_discusses_by_textming_*.ttl.gz
   - vocab:discussesAsDerivedByTextMining*:
-    - reference_disscusses_as_derived_by_text_mining: [Compound, Gene, Disease]
+    - reference_disscusses_as_derived_by_text_mining_protein: Compound
+    - reference_disscusses_as_derived_by_text_mining_gene: Gene
+    - reference_disscusses_as_derived_by_text_mining_disease: Disease
 
 
-# @subdomain: Source
-# @description: "The source subset contains RDF triples for the general information of a given depositor."
-# @subject: <http://dbpedia.org/page/The_Contributor>
-# validation: passed
-- Source source:IUPHAR_DB source:ID22070:
-  ## pc_source.ttl.gz
-  - a: dcterms:Dataset  # (from Glycosmos folks) there should be a better class..
+- Source source:ID22070 source:IUPHAR_DB:
+  - a: dcterms:Dataset
   - dcterms:title:
     - source_title: "IUPHAR-DB"
   - dcterms:alternative?:
@@ -952,91 +939,64 @@
     - source_subject: Concept
 
 
-# @subdomain: Substance
-# @description: "The substance subset contains RDF triples for outgoing links of a given SID."
-# @subject: <http://dbpedia.org/page/Chemical_substance>
-# validation: not done
-- Substance substance:SID196106365:
-  ## pc_substance_type.ttl.gz
-  # - a: vocab:Substance (no class, to be defined, sio:CHEMINF_000266 ?)
-  - a?: obo:CHEBI_39548  # and many other ChEBI ids
-  ## pc_substance_identifier.ttl.gz
+- Substance substance:SID10322049 substance:SID103263999 substance:SID129547292 substance:SID196106365 substance:SID252275793:
+  - a*:
+    - substance_type_chebi: obo:CHEBI_39548
   - dcterms:identifier:
     - substance_identifier: "196106365"
-  ## pc_substance_available_*.ttl.gz
   - dcterms:available:
     - substance_available: 2014-08-05
-  ## pc_substance_modified_*.ttl.gz
   - dcterms:modified:
     - substance_modified: 2016-07-05
-  ## pc_substance_source_*.ttl.gz
   - dcterms:source:
     - substance_source: Source
-  ## pc_substance2descriptor_*.ttl.gz
-  - sio:SIO_000008*:  # has attribute
-    - substance_has_attribute_synonym: Synonym  # synonym:MD5_66d24a6dc023afb058efbbb5fc5ed1bb
-    - substance_has_attribute_descriptor: Descriptor  # descriptor:SID196106365_Substance_Version
-  ## pc_substance2measuregroup_*.ttl.gz
-  - obo:RO_0000056*:  # participates in
+  - sio:SIO_000008*:
+    - substance_has_attribute_synonym: Synonym
+    - substance_has_attribute_descriptor: Descriptor
+  - obo:RO_0000056*:
     - substance_participates_in: MeasureGroup
-  ## pc_substance2compound_*.ttl.gz
-  - sio:CHEMINF_000477?:  # has PubChem normalized counterpart
+  - cheminf:CHEMINF_000477?:
     - substance_has_pubchem_normalized_counterpart: Compound
-  ## pc_substance2reference.ttl.gz
   - cito:isDiscussedBy*:
-    - substance_is_discussed_by: [Reference, Patent]
-  ## pc_substance2pdb.ttl.gz
+    - substance_is_discussed_by_patent: Patent
+    - substance_is_discussed_by_reference: Reference
   - pdbo:link_to_pdb*:
     - substance_link_to_pdb: <http://rdf.wwpdb.org/pdb/2MX6>
-  ## pc_substance_seealso_*.ttl.gz
   - rdfs:seeAlso*:
     - substance_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL308001> idorg:chembl.compound:CHEMBL308001
     - substance_see_also_glytoucan: <http://rdf.glycoinfo.org/glycan/G35898DT> idorg:glytoucan:G35898DT
 
 
-# @subdomain: Synonym
-# @description: "The synonym subset contains RDF triples for the type, value and linkage of a given synonym."
-# @subject: <http://dbpedia.org/page/Synonym>
-# validation: not done
-- Synonym synonym:MD5_8ab309455b7969e69fa0b7602239b203:
-  ## pc_synonym_type_*.ttl.gz
-  - a:
-    - synonym_type_cas_no: sio:CHEMINF_000446  # CAS registry number
-    - synonym_type_chembi_id: sio:CHEMINF_000407  # ChEBI identifier
-    - synonym_type_chembl_id: sio:CHEMINF_000412  # ChEMBL identifier
-    - synonym_type_depositor_supplied_name: sio:CHEMINF_000339  # pubchem depositor-supplied molecular entity name
-    - synonym_type_drug_trade_name: sio:CHEMINF_000561  # drug trade name
-    - synonym_type_drugbank_id: sio:CHEMINF_000406  # DrugBank identifier
-    - synonym_type_ec_no: sio:CHEMINF_000447  # European Community number
-    - synonym_type_inn: sio:CHEMINF_000562  # International Non-proprietary Name
-    - synonym_type_iupac_name: sio:CHEMINF_000382  # IUPAC Name generated by LexiChem
-    - synonym_type_kegg_id: sio:CHEMINF_000409  # KEGG identifier
-    - synonym_type_lipidmaps: sio:CHEMINF_000564  # LipidMaps identifier
-    - synonym_type_nsc: sio:CHEMINF_000565  # National Service Center number
-    - synonym_type_rtecs: sio:CHEMINF_000566  # RTECS identifier
-    - synonym_type_trivial_name: sio:CHEMINF_000109  # trivial name
-    - synonym_type_uii: sio:CHEMINF_000563  # Unique Ingredient Identifier
-    - synonym_type_validated_database_id: sio:CHEMINF_000467  # validated chemical database identifier
-  ## pc_synonym_value_*.ttl.gz
-  - sio:SIO_000300:  # has value
-    - synonym_has_value: "aspirin [ban:jan]"
-  ## pc_synonym_topic.ttl.gz
+- Synonym synonym:MD5_0000235e6bfa934c6182fbf40f071747 synonym:MD5_000272365f5e92d21081e8a4403b712c synonym:MD5_00048b0c69b97e6ba6e81668c0d95b88 synonym:MD5_0005639ad33bf7f927e632c29847b28a synonym:MD5_00360c1760f9a153e24bea7b698516cf synonym:MD5_003fdb1001358dcc64d1e25e24bea795 synonym:MD5_01ab0278c5fcc77a5bb905c789b37f20 synonym:MD5_02ebee683fb36446167606809e8ebed1 synonym:MD5_035ae92c47f0774b625c99d9a40b319d synonym:MD5_05d8051bae0f9d0d24d7e184785afbc0 synonym:MD5_0edb0d5a8d7232e10b4f2ba5434116a9 synonym:MD5_1375c60b0b432c8ccb1554c856c5eab6 synonym:MD5_1d202459af5a110a9422103af41569ad synonym:MD5_2e899413e5efff4e1e3166e273cff7b7 synonym:MD5_47a63fc97978537204b7a7371de13662 synonym:MD5_4aa179283f871f4abe930c25833cea9b synonym:MD5_66d24a6dc023afb058efbbb5fc5ed1bb:
+  - a+:
+    - synonym_type_cas_no: cheminf:CHEMINF_000446
+    - synonym_type_chebi_id: cheminf:CHEMINF_000407
+    - synonym_type_chembl_id: cheminf:CHEMINF_000412
+    - synonym_type_depositor_supplied_name: cheminf:CHEMINF_000339
+    - synonym_type_drug_trade_name: cheminf:CHEMINF_000561
+    - synonym_type_drugbank_id: cheminf:CHEMINF_000406
+    - synonym_type_ec_no: cheminf:CHEMINF_000447
+    - synonym_type_inn: cheminf:CHEMINF_000562
+    - synonym_type_iupac_name: cheminf:CHEMINF_000382
+    - synonym_type_kegg_id: cheminf:CHEMINF_000409
+    - synonym_type_lipidmaps: cheminf:CHEMINF_000564
+    - synonym_type_nsc: cheminf:CHEMINF_000565
+    - synonym_type_rtecs: cheminf:CHEMINF_000566
+    - synonym_type_trivial_name: cheminf:CHEMINF_000109
+    - synonym_type_uii: cheminf:CHEMINF_000563
+    - synonym_type_validated_database_id: cheminf:CHEMINF_000467
+  - sio:SIO_000300+:
+    - synonym_has_value: "benzoic acid, 2-(acetyloxy)-"
   - dcterms:subject*:
-    - synonym_subject_mesh: mesh:M0001864  # synonym:MD5_4aa179283f871f4abe930c25833cea9b
-    - synonym_subject_inn: Concept  # synonym:MD5_47a63fc97978537204b7a7371de13662
-  ## pc_synonym2compound_*.ttl.gz
-  - sio:SIO_000011+:  # is attribute of
+    - synonym_subject_mesh: mesh:M0001864
+    - synonym_subject_concept: Concept
+  - sio:SIO_000011?:
     - synonym_is_attribute_of: Compound
 
 
-# @subdomain: Taxonomy
-# @description: "The taxonomy subset contains RDF triples for the type, title, and cross links."
-# @subject: <http://dbpedia.org/page/Taxonomy>
-# validation: failed taxonomy:TAXID10
-- Taxonomy taxonomy:TAXID9606:
-  ## pc_taxonomy.ttl.gz
+- Taxonomy taxonomy:TAXID467174 taxonomy:TAXID9606:
   - a:
-    - taxonomy_type_organism: sio:SIO_010000 # organism
+    - taxonomy_type_organism: sio:SIO_010000
   - dcterms:identifier:
     - taxonomy_identifier: "9606"
   - skos:prefLabel:
@@ -1044,9 +1004,10 @@
   - skos:altLabel*:
     - taxonomy_alt_label: "Homo sapiens Linnaeus, 1758"
   - cito:isDiscussedBy*:
-    - taxonomy_is_discussed_by: [Patent, Reference]
+    - taxonomy_is_discussed_by_patent: Patent
+    - taxonomy_is_discussed_by_reference: Reference
   - rdfs:seeAlso*:
-    - taxonomy_see_also_col: idorg:6MB3T
+    - taxonomy_see_also_col: idorg:col:6MB3T
     - taxonomy_see_also_glycosmos: <http://rdf.glycoinfo.org/source/9606>
     - taxonomy_see_also_itis_page: <https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=180092>
     - taxonomy_see_also_mesh: mesh:D006801 idorg:mesh:D006801

@@ -71,6 +71,7 @@ class RDFConfig
     end
 
     def read_config(config_file_path)
+      $stderr.puts "Reading config file: #{config_file_path}" if @opts[:verbose]
       config = if Gem::Version.create(RUBY_VERSION) >= Gem::Version.create('3.1')
                  require 'date'
                  YAML.load_file(config_file_path, permitted_classes: [Date, Time, Symbol])
