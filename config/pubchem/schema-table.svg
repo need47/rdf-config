@@ -901,7 +901,7 @@
           Compound
         </text>
         <text x='1490' y='451' text-anchor='end' class='subject-type'>
-          obo:CHEBI_15365 ncit:C287
+          obo:CHEBI_15365, ncit:C287, ...
         </text>
       </g>
     </g>
@@ -1024,7 +1024,7 @@
       <g>
         <rect x='1028' y='1632' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='1038' y='1649' class='object-text'>
-          subject_compound
+          subject
         </text>
         <text x='1482' y='1649' text-anchor='end' class='object-type'>
           Compound
@@ -1033,7 +1033,7 @@
       <g>
         <rect x='1028' y='1662' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='1038' y='1679' class='object-text'>
-          object_compound
+          object
         </text>
         <text x='1482' y='1679' text-anchor='end' class='object-type'>
           Compound
@@ -1072,7 +1072,7 @@
       <g>
         <rect x='28' y='906' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='38' y='923' class='object-text'>
-          subject_compound
+          subject
         </text>
         <text x='482' y='923' text-anchor='end' class='object-type'>
           Compound
@@ -1081,7 +1081,7 @@
       <g>
         <rect x='28' y='936' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='38' y='953' class='object-text'>
-          object_disease
+          object
         </text>
         <text x='482' y='953' text-anchor='end' class='object-type'>
           Disease
@@ -1120,7 +1120,7 @@
       <g>
         <rect x='528' y='1176' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='538' y='1193' class='object-text'>
-          subject_compound
+          subject
         </text>
         <text x='982' y='1193' text-anchor='end' class='object-type'>
           Compound
@@ -1129,7 +1129,7 @@
       <g>
         <rect x='528' y='1206' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='538' y='1223' class='object-text'>
-          object_gene
+          object
         </text>
         <text x='982' y='1223' text-anchor='end' class='object-type'>
           GeneSymbol
@@ -1168,7 +1168,7 @@
       <g>
         <rect x='1028' y='1806' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='1038' y='1823' class='object-text'>
-          subject_disease
+          subject
         </text>
         <text x='1482' y='1823' text-anchor='end' class='object-type'>
           Disease
@@ -1177,7 +1177,7 @@
       <g>
         <rect x='1028' y='1836' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='1038' y='1853' class='object-text'>
-          object_disease
+          object
         </text>
         <text x='1482' y='1853' text-anchor='end' class='object-type'>
           Disease
@@ -1216,7 +1216,7 @@
       <g>
         <rect x='28' y='1080' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='38' y='1097' class='object-text'>
-          subject_disease
+          subject
         </text>
         <text x='482' y='1097' text-anchor='end' class='object-type'>
           Disease
@@ -1225,7 +1225,7 @@
       <g>
         <rect x='28' y='1110' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='38' y='1127' class='object-text'>
-          object_compound
+          object
         </text>
         <text x='482' y='1127' text-anchor='end' class='object-type'>
           Compound
@@ -1264,7 +1264,7 @@
       <g>
         <rect x='528' y='1350' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='538' y='1367' class='object-text'>
-          subject_disease
+          subject
         </text>
         <text x='982' y='1367' text-anchor='end' class='object-type'>
           Disease
@@ -1273,7 +1273,7 @@
       <g>
         <rect x='528' y='1380' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='538' y='1397' class='object-text'>
-          object_gene
+          object
         </text>
         <text x='982' y='1397' text-anchor='end' class='object-type'>
           GeneSymbol
@@ -1312,7 +1312,7 @@
       <g>
         <rect x='1028' y='1980' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='1038' y='1997' class='object-text'>
-          subject_gene
+          subject
         </text>
         <text x='1482' y='1997' text-anchor='end' class='object-type'>
           GeneSymbol
@@ -1321,7 +1321,7 @@
       <g>
         <rect x='1028' y='2010' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='1038' y='2027' class='object-text'>
-          object_gene
+          object
         </text>
         <text x='1482' y='2027' text-anchor='end' class='object-type'>
           GeneSymbol
@@ -1360,7 +1360,7 @@
       <g>
         <rect x='28' y='1254' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='38' y='1271' class='object-text'>
-          subject_gene
+          subject
         </text>
         <text x='482' y='1271' text-anchor='end' class='object-type'>
           GeneSymbol
@@ -1369,7 +1369,7 @@
       <g>
         <rect x='28' y='1284' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='38' y='1301' class='object-text'>
-          object_compound
+          object
         </text>
         <text x='482' y='1301' text-anchor='end' class='object-type'>
           Compound
@@ -1408,7 +1408,7 @@
       <g>
         <rect x='528' y='1524' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='538' y='1541' class='object-text'>
-          subject_gene
+          subject
         </text>
         <text x='982' y='1541' text-anchor='end' class='object-type'>
           GeneSymbol
@@ -1417,7 +1417,7 @@
       <g>
         <rect x='528' y='1554' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='538' y='1571' class='object-text'>
-          object_disease
+          object
         </text>
         <text x='982' y='1571' text-anchor='end' class='object-type'>
           Disease
@@ -2932,8 +2932,7 @@
           Organization
         </text>
         <text x='990' y='3661' text-anchor='end' class='subject-type'>
-          #&lt;RDFConfig::Model::URI:0x00007f1b150981e8&gt;,
-          #&lt;RDFConfig::Model::URI:0x00007f1b15098008&gt;
+          frapo:FundingAgency, vcard2006:Organization
         </text>
       </g>
     </g>
