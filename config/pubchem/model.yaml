@@ -112,7 +112,9 @@
 
 - Compound compound:CID146108 compound:CID2244 compound:CID350076 compound:CID350179 compound:CID350355:
   - a*:
-    - compound_type_chebi: obo:CHEBI_15365 ncit:C287
+    - compound_type_chebi: obo:CHEBI_15365
+    - compound_type_ncit: ncit:C287
+    - compound_type_snomedct: snomedct:387458008
   - dcterms:identifier:
     - compound_identifier: "2244"
   - skos:prefLabel:
@@ -196,9 +198,9 @@
   - sio:SIO_001157:
     - cooccurrencecompoundcompound_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencecompoundcompound_subject_compound: Compound
+    - cooccurrencecompoundcompound_subject: Compound
   - rdf:object:
-    - cooccurrencecompoundcompound_object_compound: Compound
+    - cooccurrencecompoundcompound_object: Compound
 
 
 - CooccurrenceCompoundDisease cooccurrence:CID3672_DZID8756:
@@ -209,9 +211,9 @@
   - sio:SIO_001157:
     - cooccurrencecompounddisease_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencecompounddisease_subject_compound: Compound
+    - cooccurrencecompounddisease_subject: Compound
   - rdf:object:
-    - cooccurrencecompounddisease_object_disease: Disease
+    - cooccurrencecompounddisease_object: Disease
 
 
 - CooccurrenceCompoundGene cooccurrence:CID3672_ptgs2:
@@ -222,9 +224,9 @@
   - sio:SIO_001157:
     - cooccurrencecompoundgene_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencecompoundgene_subject_compound: Compound
+    - cooccurrencecompoundgene_subject: Compound
   - rdf:object:
-    - cooccurrencecompoundgene_object_gene: GeneSymbol
+    - cooccurrencecompoundgene_object: GeneSymbol
 
 
 - CooccurrenceDiseaseDisease cooccurrence:DZID8756_DZID11338:
@@ -235,9 +237,9 @@
   - sio:SIO_001157:
     - cooccurrencediseasedisease_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencediseasedisease_subject_disease: Disease
+    - cooccurrencediseasedisease_subject: Disease
   - rdf:object:
-    - cooccurrencediseasedisease_object_disease: Disease
+    - cooccurrencediseasedisease_object: Disease
 
 
 - CooccurrenceDiseaseCompound cooccurrence:DZID8756_CID64747:
@@ -248,9 +250,9 @@
   - sio:SIO_001157:
     - cooccurrencediseasecompound_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencediseasecompound_subject_disease: Disease
+    - cooccurrencediseasecompound_subject: Disease
   - rdf:object:
-    - cooccurrencediseasecompound_object_compound: Compound
+    - cooccurrencediseasecompound_object: Compound
 
 
 - CooccurrenceDiseaseGene cooccurrence:DZID8756_bcl2:
@@ -261,9 +263,9 @@
   - sio:SIO_001157:
     - cooccurrencediseasegene_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencediseasegene_subject_disease: Disease
+    - cooccurrencediseasegene_subject: Disease
   - rdf:object:
-    - cooccurrencediseasegene_object_gene: GeneSymbol
+    - cooccurrencediseasegene_object: GeneSymbol
 
 
 - CooccurrenceGeneGene cooccurrence:ptgs2_ptgs1:
@@ -274,9 +276,9 @@
   - sio:SIO_001157:
     - cooccurrencegenegene_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencegenegene_subject_gene: GeneSymbol
+    - cooccurrencegenegene_subject: GeneSymbol
   - rdf:object:
-    - cooccurrencegenegene_object_gene: GeneSymbol
+    - cooccurrencegenegene_object: GeneSymbol
 
 
 - CooccurrenceGeneCompound cooccurrence:ptgs2_CID5280360:
@@ -287,9 +289,9 @@
   - sio:SIO_001157:
     - cooccurrencegenecompound_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencegenecompound_subject_gene: GeneSymbol
+    - cooccurrencegenecompound_subject: GeneSymbol
   - rdf:object:
-    - cooccurrencegenecompound_object_compound: Compound
+    - cooccurrencegenecompound_object: Compound
 
 
 - CooccurrenceGeneDisease cooccurrence:ptgs2_DZID8173:
@@ -300,9 +302,9 @@
   - sio:SIO_001157:
     - cooccurrencegenedisease_is_result_of_text_mining: edam:operation_0306
   - rdf:subject:
-    - cooccurrencegenedisease_subject_gene: GeneSymbol
+    - cooccurrencegenedisease_subject: GeneSymbol
   - rdf:object:
-    - cooccurrencegenedisease_object_disease: Disease
+    - cooccurrencegenedisease_object: Disease
 
 
 - DescriptorCompoundIdentifier descriptor:CID2244_Compound_Identifier:

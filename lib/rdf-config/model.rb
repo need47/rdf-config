@@ -239,8 +239,10 @@ class RDFConfig
     def print_warnings
       return if @warnings.empty?
 
-      warn ''
-      warn @warnings.map { |msg| "WARNING: #{msg}" }.join("\n")
+      # TC: turn off warnings
+      # warn ''
+      # warn @warnings.map { |msg| "WARNING: #{msg}" }.join("\n")
+      # TC
     end
 
     private

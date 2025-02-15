@@ -43,13 +43,28 @@ class RDFConfig
 
           def subject_rdf_type_text(subject)
             # TC: display only the first two types
-            if subject.types.size > 2
-              # "#{subject.types.first}, ..."
-              subject.types[0..1].join(', ') + ', ...'
-            else
-              # subject.types.first
-              subject.types.join(', ')
+            types = subject.types
+            texts = []
+
+            types.each_with_index do |type, idx|
+              if idx < 2
+                if type.is_a?(Model::URI) # e.g., Organization
+                  texts << type.value
+                else
+                  texts << type
+                end
+              else
+                texts << '...'
+                break
+              end
             end
+
+            texts.join(', ')
+
+            # RC: original code
+            # subject.types.first
+            # RC
+
             # TC
           end
         end
