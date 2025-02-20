@@ -1,3 +1,8 @@
+# PubChemRDF model in YAML
+# This schema follows the RDF-config specification (https://github.com/dbcls/rdf-config/blob/master/doc/spec.md).
+# The prefixes are available in the prefix.yaml file in the same directory.
+
+
 - Anatomy anatomy:ANATOMYID955:
   - a:
     - anatomy_type_anatomy_entity: sio:SIO_001262
@@ -396,90 +401,90 @@
 - DescriptorMolecularFormula descriptor:CID2244_Molecular_Formula:
   - a:
     - descriptormolecularformula_type_molecular_formula: cheminf:CHEMINF_000335
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptormolecularformula_has_value: "C9H8O4"
 
 
 - DescriptorMolecularWeight descriptor:CID2244_Molecular_Weight:
   - a:
     - descriptormolecularweight_type_molecular_weight: cheminf:CHEMINF_000334
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptormolecularweight_has_value: 180.16
-  - sio:SIO_000221*:
+  - sio:SIO_000221:
     - descriptormolecularweight_has_unit_molecular_mass_unit: obo:UO_0000055
 
 
 - DescriptorMonoIsotopicWeight descriptor:CID2244_Mono_Isotopic_Weight:
   - a:
     - descriptormonoisotopicweight_type_mono_isotopic_weight: cheminf:CHEMINF_000337
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptormonoisotopicweight_has_value: 180.04225873
-  - sio:SIO_000221*:
+  - sio:SIO_000221:
     - descriptormonoisotopicweight_has_unit_molecular_mass_unit: obo:UO_0000055
 
 
 - DescriptorIUPACName descriptor:CID2244_Preferred_IUPAC_Name:
   - a:
     - descriptoriupacname_type_iupac_name: cheminf:CHEMINF_000382
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptoriupacname_has_value: "2-acetyloxybenzoic acid"
 
 
 - DescriptorRotatableBondCount descriptor:CID2244_Rotatable_Bond_Count:
   - a:
     - descriptorrotatablebondcount_type_rotatable_bond_count: cheminf:CHEMINF_000389
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptorrotatablebondcount_has_value: 3
 
 
 - DescriptorStructureComplexity descriptor:CID2244_Structure_Complexity:
   - a:
     - descriptorstructurecomplexity_type_structure_complexity: cheminf:CHEMINF_000390
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptorstructurecomplexity_has_value: 212.0
 
 
 - DescriptorTotalFormalCharge descriptor:CID2244_Total_Formal_Charge:
   - a:
     - descriptortotalformalcharge_type_total_formal_charge: cheminf:CHEMINF_000336
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptortotalformalcharge_has_value: 0
 
 
 - DescriptorTPSA descriptor:CID2244_TPSA:
   - a:
     - descriptortpsa_type_tpsa: cheminf:CHEMINF_000392
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptortpsa_has_value: 63.6
-  - sio:SIO_000221*:
+  - sio:SIO_000221:
     - descriptortpsa_has_unit_square_angstrom: obo:UO_0000324
 
 
 - DescriptorUndefinedAtomStereoCount descriptor:CID2244_Undefined_Atom_Stereo_Count:
   - a:
     - descriptorundefinedatomstereocount_type_undefined_atom_stereo_count: cheminf:CHEMINF_000374
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptorundefinedatomstereocount_has_value: 0
 
 
 - DescriptorUndefinedBondStereoCount descriptor:CID2244_Undefined_Bond_Stereo_Count:
   - a:
     - descriptorundefinedbondstereocount_type_undefined_bond_stereo_count: cheminf:CHEMINF_000375
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptorundefinedbondstereocount_has_value: 0
 
 
 - DescriptorXLOGP3 descriptor:CID2244_XLogP3:
   - a:
     - descriptorxlogp3_type_xlogp3: cheminf:CHEMINF_000395
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptorxlogp3_has_value: 1.2
 
 
 - DescriptorSubstanceVersion descriptor:SID196106365_Substance_Version:
   - a:
     - descriptorsubstanceversion_type_version_number: obo:IAO_0000129
-  - sio:SIO_000300*:
+  - sio:SIO_000300:
     - descriptorsubstanceversion_has_value: 2
 
 

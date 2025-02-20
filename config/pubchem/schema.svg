@@ -5836,7 +5836,7 @@
   <polyline class='st12' points='395,11424 415,11424 415,11488 660,11488'/>
   <polygon points='655.3,11493.7 654.4,11492.7 659.4,11488.0 654.4,11483.3 655.3,11482.3 661.5,11488.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 11483)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='11466' width='345' height='44' class='st9'/>
@@ -5913,7 +5913,7 @@
   <polyline class='st12' points='395,11552 415,11552 415,11616 660,11616'/>
   <polygon points='655.3,11621.7 654.4,11620.7 659.4,11616.0 654.4,11611.3 655.3,11610.3 661.5,11616.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 11611)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='11594' width='345' height='44' class='st9'/>
@@ -5937,7 +5937,7 @@
   <polyline class='st12' points='395,11552 415,11552 415,11680 660,11680'/>
   <polygon points='655.3,11685.7 654.4,11684.7 659.4,11680.0 654.4,11675.3 655.3,11674.3 661.5,11680.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 11675)'>
-    sio:SIO_000221 *
+    sio:SIO_000221
   </text>
   <g>
     <g>
@@ -6019,7 +6019,7 @@
   <polyline class='st12' points='395,11744 415,11744 415,11808 660,11808'/>
   <polygon points='655.3,11813.7 654.4,11812.7 659.4,11808.0 654.4,11803.3 655.3,11802.3 661.5,11808.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 11803)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='11786' width='345' height='44' class='st9'/>
@@ -6043,7 +6043,7 @@
   <polyline class='st12' points='395,11744 415,11744 415,11872 660,11872'/>
   <polygon points='655.3,11877.7 654.4,11876.7 659.4,11872.0 654.4,11867.3 655.3,11866.3 661.5,11872.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 11867)'>
-    sio:SIO_000221 *
+    sio:SIO_000221
   </text>
   <g>
     <g>
@@ -6125,7 +6125,7 @@
   <polyline class='st12' points='395,11936 415,11936 415,12000 660,12000'/>
   <polygon points='655.3,12005.7 654.4,12004.7 659.4,12000.0 654.4,11995.3 655.3,11994.3 661.5,12000.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 11995)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='11978' width='345' height='44' class='st9'/>
@@ -6202,7 +6202,7 @@
   <polyline class='st12' points='395,12064 415,12064 415,12128 660,12128'/>
   <polygon points='655.3,12133.7 654.4,12132.7 659.4,12128.0 654.4,12123.3 655.3,12122.3 661.5,12128.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12123)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12106' width='345' height='44' class='st9'/>
@@ -6279,7 +6279,7 @@
   <polyline class='st12' points='395,12192 415,12192 415,12256 660,12256'/>
   <polygon points='655.3,12261.7 654.4,12260.7 659.4,12256.0 654.4,12251.3 655.3,12250.3 661.5,12256.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12251)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12234' width='345' height='44' class='st9'/>
@@ -6356,7 +6356,7 @@
   <polyline class='st12' points='395,12320 415,12320 415,12384 660,12384'/>
   <polygon points='655.3,12389.7 654.4,12388.7 659.4,12384.0 654.4,12379.3 655.3,12378.3 661.5,12384.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12379)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12362' width='345' height='44' class='st9'/>
@@ -6433,7 +6433,7 @@
   <polyline class='st12' points='395,12448 415,12448 415,12512 660,12512'/>
   <polygon points='655.3,12517.7 654.4,12516.7 659.4,12512.0 654.4,12507.3 655.3,12506.3 661.5,12512.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12507)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12490' width='345' height='44' class='st9'/>
@@ -6457,7 +6457,7 @@
   <polyline class='st12' points='395,12448 415,12448 415,12576 660,12576'/>
   <polygon points='655.3,12581.7 654.4,12580.7 659.4,12576.0 654.4,12571.3 655.3,12570.3 661.5,12576.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12571)'>
-    sio:SIO_000221 *
+    sio:SIO_000221
   </text>
   <g>
     <g>
@@ -6539,7 +6539,7 @@
   <polyline class='st12' points='395,12640 415,12640 415,12704 660,12704'/>
   <polygon points='655.3,12709.7 654.4,12708.7 659.4,12704.0 654.4,12699.3 655.3,12698.3 661.5,12704.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12699)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12682' width='345' height='44' class='st9'/>
@@ -6616,7 +6616,7 @@
   <polyline class='st12' points='395,12768 415,12768 415,12832 660,12832'/>
   <polygon points='655.3,12837.7 654.4,12836.7 659.4,12832.0 654.4,12827.3 655.3,12826.3 661.5,12832.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12827)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12810' width='345' height='44' class='st9'/>
@@ -6693,7 +6693,7 @@
   <polyline class='st12' points='395,12896 415,12896 415,12960 660,12960'/>
   <polygon points='655.3,12965.7 654.4,12964.7 659.4,12960.0 654.4,12955.3 655.3,12954.3 661.5,12960.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 12955)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='12938' width='345' height='44' class='st9'/>
@@ -6770,7 +6770,7 @@
   <polyline class='st12' points='395,13024 415,13024 415,13088 660,13088'/>
   <polygon points='655.3,13093.7 654.4,13092.7 659.4,13088.0 654.4,13083.3 655.3,13082.3 661.5,13088.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 13083)'>
-    sio:SIO_000300 *
+    sio:SIO_000300
   </text>
   <g>
     <rect x='665' y='13066' width='345' height='44' class='st9'/>
