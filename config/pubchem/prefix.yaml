@@ -3,7 +3,7 @@ rdf            : <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 rdfs           : <http://www.w3.org/2000/01/rdf-schema#>
 xsd            : <http://www.w3.org/2001/XMLSchema#>
 vocab          : <http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#>
-ruleset        : <http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/">
+ruleset        : <http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/>
 anatomy        : <http://rdf.ncbi.nlm.nih.gov/pubchem/anatomy/>
 author         : <http://rdf.ncbi.nlm.nih.gov/pubchem/author/>
 bioassay       : <http://rdf.ncbi.nlm.nih.gov/pubchem/bioassay/>
