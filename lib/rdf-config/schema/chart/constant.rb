@@ -77,7 +77,7 @@ class RDFConfig
         FONT_SIZE = '12px'.freeze
         # TC: larger rect width
         # RECT_WIDTH = 180
-        RECT_WIDTH = 330
+        RECT_WIDTH = 345
         # RECT_HEIGHT = 50
         RECT_HEIGHT = 44
         MARGIN_RECT = 20

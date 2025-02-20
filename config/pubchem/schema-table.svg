@@ -29,7 +29,7 @@
       <g>
         <rect x='28' y='54' width='464' height='26' class='literal-object'/>
         <text x='38' y='71' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='482' y='71' text-anchor='end' class='object-type'>
           String
@@ -38,7 +38,7 @@
       <g>
         <rect x='28' y='84' width='464' height='26' class='literal-object'/>
         <text x='38' y='101' class='object-text'>
-          alt_label
+          alternative_label
         </text>
         <text x='482' y='101' text-anchor='end' class='object-type'>
           String
@@ -65,7 +65,7 @@
       <g>
         <rect x='28' y='174' width='464' height='26' class='uri-object'/>
         <text x='38' y='191' class='object-text'>
-          see_also_caloha_page
+          see_also_caloha
         </text>
         <text x='482' y='191' text-anchor='end' class='object-type'>
           URI
@@ -74,7 +74,7 @@
       <g>
         <rect x='28' y='204' width='464' height='26' class='uri-object'/>
         <text x='38' y='221' class='object-text'>
-          see_also_chembl_page
+          see_also_chembl
         </text>
         <text x='482' y='221' text-anchor='end' class='object-type'>
           URI
@@ -158,7 +158,7 @@
       <g>
         <rect x='528' y='144' width='464' height='26' class='literal-object'/>
         <text x='538' y='161' class='object-text'>
-          organization
+          organization_name
         </text>
         <text x='982' y='161' text-anchor='end' class='object-type'>
           String
@@ -370,7 +370,7 @@
       <g>
         <rect x='28' y='588' width='464' height='26' class='uri-object'/>
         <text x='38' y='605' class='object-text'>
-          exact_match_ncbi
+          exact_match_ncbi_book
         </text>
         <text x='482' y='605' text-anchor='end' class='object-type'>
           URI
@@ -391,7 +391,7 @@
       <g>
         <rect x='528' y='288' width='464' height='26' class='literal-object'/>
         <text x='538' y='305' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='982' y='305' text-anchor='end' class='object-type'>
           String
@@ -400,7 +400,7 @@
       <g>
         <rect x='528' y='318' width='464' height='26' class='literal-object'/>
         <text x='538' y='335' class='object-text'>
-          alt_label
+          alternative_label
         </text>
         <text x='982' y='335' text-anchor='end' class='object-type'>
           String
@@ -454,7 +454,7 @@
       <g>
         <rect x='528' y='498' width='464' height='26' class='uri-object'/>
         <text x='538' y='515' class='object-text'>
-          see_also_cmp_page
+          see_also_cmp
         </text>
         <text x='982' y='515' text-anchor='end' class='object-type'>
           URI
@@ -490,7 +490,7 @@
       <g>
         <rect x='528' y='618' width='464' height='26' class='uri-object'/>
         <text x='538' y='635' class='object-text'>
-          see_also_cosmic_page
+          see_also_cosmic
         </text>
         <text x='982' y='635' text-anchor='end' class='object-type'>
           URI
@@ -499,7 +499,7 @@
       <g>
         <rect x='528' y='648' width='464' height='26' class='uri-object'/>
         <text x='538' y='665' class='object-text'>
-          see_also_depmap_page
+          see_also_depmap
         </text>
         <text x='982' y='665' text-anchor='end' class='object-type'>
           URI
@@ -517,7 +517,7 @@
       <g>
         <rect x='528' y='708' width='464' height='26' class='uri-object'/>
         <text x='538' y='725' class='object-text'>
-          see_also_gdsc_page
+          see_also_gdsc
         </text>
         <text x='982' y='725' text-anchor='end' class='object-type'>
           URI
@@ -526,7 +526,7 @@
       <g>
         <rect x='528' y='738' width='464' height='26' class='uri-object'/>
         <text x='538' y='755' class='object-text'>
-          see_also_lincs_hms_page
+          see_also_hms_lincs
         </text>
         <text x='982' y='755' text-anchor='end' class='object-type'>
           URI
@@ -535,7 +535,7 @@
       <g>
         <rect x='528' y='768' width='464' height='26' class='uri-object'/>
         <text x='538' y='785' class='object-text'>
-          see_also_lincs_ldp
+          see_also_lincs_data_portal
         </text>
         <text x='982' y='785' text-anchor='end' class='object-type'>
           URI
@@ -592,7 +592,7 @@
       <g>
         <rect x='1028' y='498' width='464' height='26' class='literal-object'/>
         <text x='1038' y='515' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='1482' y='515' text-anchor='end' class='object-type'>
           String
@@ -671,210 +671,210 @@
         </text>
       </g>
       <g>
-        <rect x='1028' y='768' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='768' width='464' height='26' class='subject-object stPubChem stDescriptorCanonicalSmiles'/>
         <text x='1038' y='785' class='object-text'>
-          has_attribute_canonical_smiles
+          has_attribute_descriptorcanonicalsmiles
         </text>
         <text x='1482' y='785' text-anchor='end' class='object-type'>
-          String
+          DescriptorCanonicalSmiles
         </text>
       </g>
       <g>
-        <rect x='1028' y='798' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='798' width='464' height='26' class='subject-object stPubChem stDescriptorCompoundIdentifier'/>
         <text x='1038' y='815' class='object-text'>
-          has_attribute_compound_identifier
+          has_attribute_descriptorcompoundidentifier
         </text>
         <text x='1482' y='815' text-anchor='end' class='object-type'>
-          String
+          DescriptorCompoundIdentifier
         </text>
       </g>
       <g>
-        <rect x='1028' y='828' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='828' width='464' height='26' class='subject-object stPubChem stDescriptorCovalentUnitCount'/>
         <text x='1038' y='845' class='object-text'>
-          has_attribute_covalent_unit_count
+          has_attribute_descriptorcovalentunitcount
         </text>
         <text x='1482' y='845' text-anchor='end' class='object-type'>
-          String
+          DescriptorCovalentUnitCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='858' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='858' width='464' height='26' class='subject-object stPubChem stDescriptorDefinedAtomStereoCount'/>
         <text x='1038' y='875' class='object-text'>
-          has_attribute_defined_atom_stereo_count
+          has_attribute_descriptordefinedatomstereocount
         </text>
         <text x='1482' y='875' text-anchor='end' class='object-type'>
-          String
+          DescriptorDefinedAtomStereoCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='888' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='888' width='464' height='26' class='subject-object stPubChem stDescriptorDefinedBondStereoCount'/>
         <text x='1038' y='905' class='object-text'>
-          has_attribute_defined_bond_stereo_count
+          has_attribute_descriptordefinedbondstereocount
         </text>
         <text x='1482' y='905' text-anchor='end' class='object-type'>
-          String
+          DescriptorDefinedBondStereoCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='918' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='918' width='464' height='26' class='subject-object stPubChem stDescriptorExactMass'/>
         <text x='1038' y='935' class='object-text'>
-          has_attribute_exact_mass
+          has_attribute_descriptorexactmass
         </text>
         <text x='1482' y='935' text-anchor='end' class='object-type'>
-          String
+          DescriptorExactMass
         </text>
       </g>
       <g>
-        <rect x='1028' y='948' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='948' width='464' height='26' class='subject-object stPubChem stDescriptorHydrogenBondAcceptorCount'/>
         <text x='1038' y='965' class='object-text'>
-          has_attribute_hydrogen_bond_acceptor_count
+          has_attribute_descriptorhydrogenbondacceptorcount
         </text>
         <text x='1482' y='965' text-anchor='end' class='object-type'>
-          String
+          DescriptorHydrogenBondAcceptorCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='978' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='978' width='464' height='26' class='subject-object stPubChem stDescriptorHydrogenBondDonorCount'/>
         <text x='1038' y='995' class='object-text'>
-          has_attribute_hydrogen_bond_donor_count
+          has_attribute_descriptorhydrogenbonddonorcount
         </text>
         <text x='1482' y='995' text-anchor='end' class='object-type'>
-          String
+          DescriptorHydrogenBondDonorCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='1008' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1008' width='464' height='26' class='subject-object stPubChem stDescriptorIsomericSmiles'/>
         <text x='1038' y='1025' class='object-text'>
-          has_attribute_isomeric_smiles
+          has_attribute_descriptorisomericsmiles
         </text>
         <text x='1482' y='1025' text-anchor='end' class='object-type'>
-          String
+          DescriptorIsomericSmiles
         </text>
       </g>
       <g>
-        <rect x='1028' y='1038' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1038' width='464' height='26' class='subject-object stPubChem stDescriptortIsotopeAtomCount'/>
         <text x='1038' y='1055' class='object-text'>
-          has_attribute_isotope_atom_count
+          has_attribute_descriptorisotopeatomcount
         </text>
         <text x='1482' y='1055' text-anchor='end' class='object-type'>
-          String
+          DescriptortIsotopeAtomCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='1068' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1068' width='464' height='26' class='subject-object stPubChem stDescriptorInChI'/>
         <text x='1038' y='1085' class='object-text'>
-          has_attribute_iupac_inchi
+          has_attribute_descriptorinchi
         </text>
         <text x='1482' y='1085' text-anchor='end' class='object-type'>
-          String
+          DescriptorInChI
         </text>
       </g>
       <g>
-        <rect x='1028' y='1098' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1098' width='464' height='26' class='subject-object stPubChem stDescriptorMolecularFormula'/>
         <text x='1038' y='1115' class='object-text'>
-          has_attribute_molecular_formula
+          has_attribute_descriptormolecularformula
         </text>
         <text x='1482' y='1115' text-anchor='end' class='object-type'>
-          String
+          DescriptorMolecularFormula
         </text>
       </g>
       <g>
-        <rect x='1028' y='1128' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1128' width='464' height='26' class='subject-object stPubChem stDescriptorMolecularWeight'/>
         <text x='1038' y='1145' class='object-text'>
-          has_attribute_molecular_weight
+          has_attribute_descriptormolecularweight
         </text>
         <text x='1482' y='1145' text-anchor='end' class='object-type'>
-          String
+          DescriptorMolecularWeight
         </text>
       </g>
       <g>
-        <rect x='1028' y='1158' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1158' width='464' height='26' class='subject-object stPubChem stDescriptorMonoIsotopicWeight'/>
         <text x='1038' y='1175' class='object-text'>
-          has_attribute_mono_isotopic_weight
+          has_attribute_descriptormonoisotopicweight
         </text>
         <text x='1482' y='1175' text-anchor='end' class='object-type'>
-          String
+          DescriptorMonoIsotopicWeight
         </text>
       </g>
       <g>
-        <rect x='1028' y='1188' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1188' width='464' height='26' class='subject-object stPubChem stDescriptorIUPACName'/>
         <text x='1038' y='1205' class='object-text'>
-          has_attribute_iupac_name
+          has_attribute_descriptoriupacname
         </text>
         <text x='1482' y='1205' text-anchor='end' class='object-type'>
-          String
+          DescriptorIUPACName
         </text>
       </g>
       <g>
-        <rect x='1028' y='1218' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1218' width='464' height='26' class='subject-object stPubChem stDescriptorHeavyAtomCount'/>
         <text x='1038' y='1235' class='object-text'>
-          has_attribute_non_hydrogen_atom_count
+          has_attribute_descriptorheavyatomcount
         </text>
         <text x='1482' y='1235' text-anchor='end' class='object-type'>
-          String
+          DescriptorHeavyAtomCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='1248' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1248' width='464' height='26' class='subject-object stPubChem stDescriptorRotatableBondCount'/>
         <text x='1038' y='1265' class='object-text'>
-          has_attribute_rotatable_bond_count
+          has_attribute_descriptorrotatablebondcount
         </text>
         <text x='1482' y='1265' text-anchor='end' class='object-type'>
-          String
+          DescriptorRotatableBondCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='1278' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1278' width='464' height='26' class='subject-object stPubChem stDescriptorStructureComplexity'/>
         <text x='1038' y='1295' class='object-text'>
-          has_attribute_structure_complexity
+          has_attribute_descriptorstructurecomplexity
         </text>
         <text x='1482' y='1295' text-anchor='end' class='object-type'>
-          String
+          DescriptorStructureComplexity
         </text>
       </g>
       <g>
-        <rect x='1028' y='1308' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1308' width='464' height='26' class='subject-object stPubChem stDescriptorTotalFormalCharge'/>
         <text x='1038' y='1325' class='object-text'>
-          has_attribute_total_formal_charge
+          has_attribute_descriptortotalformalcharge
         </text>
         <text x='1482' y='1325' text-anchor='end' class='object-type'>
-          String
+          DescriptorTotalFormalCharge
         </text>
       </g>
       <g>
-        <rect x='1028' y='1338' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1338' width='464' height='26' class='subject-object stPubChem stDescriptorTPSA'/>
         <text x='1038' y='1355' class='object-text'>
-          has_attribute_tpsa
+          has_attribute_descriptortpsa
         </text>
         <text x='1482' y='1355' text-anchor='end' class='object-type'>
-          String
+          DescriptorTPSA
         </text>
       </g>
       <g>
-        <rect x='1028' y='1368' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1368' width='464' height='26' class='subject-object stPubChem stDescriptorUndefinedAtomStereoCount'/>
         <text x='1038' y='1385' class='object-text'>
-          has_attribute_undefined_atom_stereo_count
+          has_attribute_descriptorundefinedatomstereocount
         </text>
         <text x='1482' y='1385' text-anchor='end' class='object-type'>
-          String
+          DescriptorUndefinedAtomStereoCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='1398' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1398' width='464' height='26' class='subject-object stPubChem stDescriptorUndefinedBondStereoCount'/>
         <text x='1038' y='1415' class='object-text'>
-          has_attribute_undefined_bond_stereo_count
+          has_attribute_descriptorundefinedbondstereocount
         </text>
         <text x='1482' y='1415' text-anchor='end' class='object-type'>
-          String
+          DescriptorUndefinedBondStereoCount
         </text>
       </g>
       <g>
-        <rect x='1028' y='1428' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='1428' width='464' height='26' class='subject-object stPubChem stDescriptorXLOGP3'/>
         <text x='1038' y='1445' class='object-text'>
-          has_attribute_xlogp3
+          has_attribute_descriptorxlogp3
         </text>
         <text x='1482' y='1445' text-anchor='end' class='object-type'>
-          String
+          DescriptorXLOGP3
         </text>
       </g>
       <g>
@@ -910,7 +910,7 @@
       <g>
         <rect x='28' y='672' width='464' height='26' class='literal-object'/>
         <text x='38' y='689' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='482' y='689' text-anchor='end' class='object-type'>
           String
@@ -985,7 +985,7 @@
       <g>
         <rect x='528' y='1032' width='464' height='26' class='uri-object'/>
         <text x='538' y='1049' class='object-text'>
-          see_also_cdd_page
+          see_also_ncbi_cdd
         </text>
         <text x='982' y='1049' text-anchor='end' class='object-type'>
           URI
@@ -1978,7 +1978,7 @@
       <g>
         <rect x='1028' y='2766' width='464' height='26' class='literal-object'/>
         <text x='1038' y='2783' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='1482' y='2783' text-anchor='end' class='object-type'>
           String
@@ -1987,7 +1987,7 @@
       <g>
         <rect x='1028' y='2796' width='464' height='26' class='literal-object'/>
         <text x='1038' y='2813' class='object-text'>
-          alt_label
+          alternative_label
         </text>
         <text x='1482' y='2813' text-anchor='end' class='object-type'>
           String
@@ -2014,7 +2014,7 @@
       <g>
         <rect x='1028' y='2886' width='464' height='26' class='uri-object'/>
         <text x='1038' y='2903' class='object-text'>
-          close_match_gtopdb_page
+          close_match_gtopdb
         </text>
         <text x='1482' y='2903' text-anchor='end' class='object-type'>
           URI
@@ -2023,7 +2023,7 @@
       <g>
         <rect x='1028' y='2916' width='464' height='26' class='uri-object'/>
         <text x='1038' y='2933' class='object-text'>
-          close_match_hp
+          close_match_hpo
         </text>
         <text x='1482' y='2933' text-anchor='end' class='object-type'>
           URI
@@ -2059,7 +2059,7 @@
       <g>
         <rect x='1028' y='3036' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3053' class='object-text'>
-          close_match_mim
+          close_match_mondo
         </text>
         <text x='1482' y='3053' text-anchor='end' class='object-type'>
           URI
@@ -2068,7 +2068,7 @@
       <g>
         <rect x='1028' y='3066' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3083' class='object-text'>
-          close_match_mondo
+          close_match_nando
         </text>
         <text x='1482' y='3083' text-anchor='end' class='object-type'>
           URI
@@ -2077,7 +2077,7 @@
       <g>
         <rect x='1028' y='3096' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3113' class='object-text'>
-          close_match_nando
+          close_match_ncit
         </text>
         <text x='1482' y='3113' text-anchor='end' class='object-type'>
           URI
@@ -2086,7 +2086,7 @@
       <g>
         <rect x='1028' y='3126' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3143' class='object-text'>
-          close_match_ncit
+          close_match_omim
         </text>
         <text x='1482' y='3143' text-anchor='end' class='object-type'>
           URI
@@ -2140,7 +2140,7 @@
       <g>
         <rect x='1028' y='3306' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3323' class='object-text'>
-          related_match_gtopdb_page
+          related_match_gtopdb
         </text>
         <text x='1482' y='3323' text-anchor='end' class='object-type'>
           URI
@@ -2149,7 +2149,7 @@
       <g>
         <rect x='1028' y='3336' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3353' class='object-text'>
-          related_match_hp
+          related_match_hpo
         </text>
         <text x='1482' y='3353' text-anchor='end' class='object-type'>
           URI
@@ -2176,7 +2176,7 @@
       <g>
         <rect x='1028' y='3426' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3443' class='object-text'>
-          related_match_mim
+          related_match_mondo
         </text>
         <text x='1482' y='3443' text-anchor='end' class='object-type'>
           URI
@@ -2185,7 +2185,7 @@
       <g>
         <rect x='1028' y='3456' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3473' class='object-text'>
-          related_match_mondo
+          related_match_nando
         </text>
         <text x='1482' y='3473' text-anchor='end' class='object-type'>
           URI
@@ -2194,7 +2194,7 @@
       <g>
         <rect x='1028' y='3486' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3503' class='object-text'>
-          related_match_nando
+          related_match_ncit
         </text>
         <text x='1482' y='3503' text-anchor='end' class='object-type'>
           URI
@@ -2203,7 +2203,7 @@
       <g>
         <rect x='1028' y='3516' width='464' height='26' class='uri-object'/>
         <text x='1038' y='3533' class='object-text'>
-          related_match_ncit
+          related_match_omim
         </text>
         <text x='1482' y='3533' text-anchor='end' class='object-type'>
           URI
@@ -2335,7 +2335,7 @@
       <g>
         <rect x='528' y='2400' width='464' height='26' class='literal-object'/>
         <text x='538' y='2417' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='982' y='2417' text-anchor='end' class='object-type'>
           String
@@ -2344,7 +2344,7 @@
       <g>
         <rect x='528' y='2430' width='464' height='26' class='literal-object'/>
         <text x='538' y='2447' class='object-text'>
-          alternative_name
+          alternative_label
         </text>
         <text x='982' y='2447' text-anchor='end' class='object-type'>
           String
@@ -2353,7 +2353,7 @@
       <g>
         <rect x='528' y='2460' width='464' height='26' class='uri-object'/>
         <text x='538' y='2477' class='object-text'>
-          participates_in_biological_process
+          participates_in
         </text>
         <text x='982' y='2477' text-anchor='end' class='object-type'>
           URI
@@ -2362,7 +2362,7 @@
       <g>
         <rect x='528' y='2490' width='464' height='26' class='uri-object'/>
         <text x='538' y='2507' class='object-text'>
-          has_function_molecular_function
+          has_function
         </text>
         <text x='982' y='2507' text-anchor='end' class='object-type'>
           URI
@@ -2371,7 +2371,7 @@
       <g>
         <rect x='528' y='2520' width='464' height='26' class='uri-object'/>
         <text x='538' y='2537' class='object-text'>
-          located_in_cellular_component
+          located_in
         </text>
         <text x='982' y='2537' text-anchor='end' class='object-type'>
           URI
@@ -2425,7 +2425,7 @@
       <g>
         <rect x='528' y='2700' width='464' height='26' class='uri-object'/>
         <text x='538' y='2717' class='object-text'>
-          see_also_agr_page
+          see_also_agr
         </text>
         <text x='982' y='2717' text-anchor='end' class='object-type'>
           URI
@@ -2479,7 +2479,7 @@
       <g>
         <rect x='528' y='2880' width='464' height='26' class='uri-object'/>
         <text x='538' y='2897' class='object-text'>
-          see_also_gencc_page
+          see_also_gencc
         </text>
         <text x='982' y='2897' text-anchor='end' class='object-type'>
           URI
@@ -2533,7 +2533,7 @@
       <g>
         <rect x='528' y='3060' width='464' height='26' class='uri-object'/>
         <text x='538' y='3077' class='object-text'>
-          see_also_mim
+          see_also_ncbi_gene
         </text>
         <text x='982' y='3077' text-anchor='end' class='object-type'>
           URI
@@ -2542,7 +2542,7 @@
       <g>
         <rect x='528' y='3090' width='464' height='26' class='uri-object'/>
         <text x='538' y='3107' class='object-text'>
-          see_also_ncbi
+          see_also_ncit
         </text>
         <text x='982' y='3107' text-anchor='end' class='object-type'>
           URI
@@ -2551,7 +2551,7 @@
       <g>
         <rect x='528' y='3120' width='464' height='26' class='uri-object'/>
         <text x='538' y='3137' class='object-text'>
-          see_also_ncit
+          see_also_omim
         </text>
         <text x='982' y='3137' text-anchor='end' class='object-type'>
           URI
@@ -2560,7 +2560,7 @@
       <g>
         <rect x='528' y='3150' width='464' height='26' class='uri-object'/>
         <text x='538' y='3167' class='object-text'>
-          see_also_opentargets_page
+          see_also_opentargets
         </text>
         <text x='982' y='3167' text-anchor='end' class='object-type'>
           URI
@@ -2578,7 +2578,7 @@
       <g>
         <rect x='528' y='3210' width='464' height='26' class='uri-object'/>
         <text x='538' y='3227' class='object-text'>
-          see_also_pharos_page
+          see_also_pharos
         </text>
         <text x='982' y='3227' text-anchor='end' class='object-type'>
           URI
@@ -2614,7 +2614,7 @@
       <g>
         <rect x='528' y='3330' width='464' height='26' class='uri-object'/>
         <text x='538' y='3347' class='object-text'>
-          see_also_veupathdb_page
+          see_also_veupathdb
         </text>
         <text x='982' y='3347' text-anchor='end' class='object-type'>
           URI
@@ -2632,7 +2632,7 @@
       <g>
         <rect x='528' y='3390' width='464' height='26' class='uri-object'/>
         <text x='538' y='3407' class='object-text'>
-          see_also_wormbase_page
+          see_also_wormbase
         </text>
         <text x='982' y='3407' text-anchor='end' class='object-type'>
           URI
@@ -2671,7 +2671,7 @@
       <g>
         <rect x='1028' y='3690' width='464' height='26' class='literal-object'/>
         <text x='1038' y='3707' class='object-text'>
-          has_value_gene_symbol
+          has_value
         </text>
         <text x='1482' y='3707' text-anchor='end' class='object-type'>
           String
@@ -2692,7 +2692,7 @@
       <g>
         <rect x='28' y='2364' width='464' height='26' class='literal-object'/>
         <text x='38' y='2381' class='object-text'>
-          grant_number
+          has_grant_number
         </text>
         <text x='482' y='2381' text-anchor='end' class='object-type'>
           String
@@ -2788,7 +2788,7 @@
       <g>
         <rect x='1028' y='3864' width='464' height='26' class='literal-object'/>
         <text x='1038' y='3881' class='object-text'>
-          title_abbrev
+          has_nlm_journal_title_abbreviation
         </text>
         <text x='1482' y='3881' text-anchor='end' class='object-type'>
           String
@@ -2797,7 +2797,7 @@
       <g>
         <rect x='1028' y='3894' width='464' height='26' class='literal-object'/>
         <text x='1038' y='3911' class='object-text'>
-          nlm_id
+          has_national_library_of_medicine_journal_id
         </text>
         <text x='1482' y='3911' text-anchor='end' class='object-type'>
           String
@@ -2902,7 +2902,7 @@
       <g>
         <rect x='528' y='3678' width='464' height='26' class='literal-object'/>
         <text x='538' y='3695' class='object-text'>
-          country
+          country_name
         </text>
         <text x='982' y='3695' text-anchor='end' class='object-type'>
           String
@@ -2911,7 +2911,7 @@
       <g>
         <rect x='528' y='3708' width='464' height='26' class='literal-object'/>
         <text x='538' y='3725' class='object-text'>
-          formated_name
+          formatted_name
         </text>
         <text x='982' y='3725' text-anchor='end' class='object-type'>
           String
@@ -2932,7 +2932,7 @@
           Organization
         </text>
         <text x='990' y='3661' text-anchor='end' class='subject-type'>
-          frapo:FundingAgency, vcard2006:Organization
+          vcard2006:Organization, frapo:FundingAgency
         </text>
       </g>
     </g>
@@ -3228,7 +3228,7 @@
       </g>
     </g>
     <g>
-      <path d='M 520,4048 V 4030 Q 520,4022 528,4022 H 992 Q 1000,4022 1000,4030 V 4652 Q 1000,4660 992,4660 H 528 Q 520,4660 520,4652 V 4048' class='table-container'/>
+      <path d='M 520,4048 V 4030 Q 520,4022 528,4022 H 992 Q 1000,4022 1000,4030 V 4682 Q 1000,4690 992,4690 H 528 Q 520,4690 520,4682 V 4048' class='table-container'/>
       <g>
         <rect x='528' y='4056' width='464' height='26' class='literal-object'/>
         <text x='538' y='4073' class='object-text'>
@@ -3322,7 +3322,7 @@
       <g>
         <rect x='528' y='4356' width='464' height='26' class='uri-object'/>
         <text x='538' y='4373' class='object-text'>
-          see_also_covid19_disease_map_page
+          see_also_covid_19_disease_map
         </text>
         <text x='982' y='4373' text-anchor='end' class='object-type'>
           URI
@@ -3331,7 +3331,7 @@
       <g>
         <rect x='528' y='4386' width='464' height='26' class='uri-object'/>
         <text x='538' y='4403' class='object-text'>
-          see_also_glycosmos_page
+          see_also_glycosmos
         </text>
         <text x='982' y='4403' text-anchor='end' class='object-type'>
           URI
@@ -3340,7 +3340,7 @@
       <g>
         <rect x='528' y='4416' width='464' height='26' class='uri-object'/>
         <text x='538' y='4433' class='object-text'>
-          see_also_lipidmaps_page
+          see_also_lipidmaps
         </text>
         <text x='982' y='4433' text-anchor='end' class='object-type'>
           URI
@@ -3358,7 +3358,7 @@
       <g>
         <rect x='528' y='4476' width='464' height='26' class='uri-object'/>
         <text x='538' y='4493' class='object-text'>
-          see_also_pathbank_page
+          see_also_pathbank
         </text>
         <text x='982' y='4493' text-anchor='end' class='object-type'>
           URI
@@ -3385,7 +3385,7 @@
       <g>
         <rect x='528' y='4566' width='464' height='26' class='uri-object'/>
         <text x='538' y='4583' class='object-text'>
-          see_also_plantreactome_page
+          see_also_plantcyc
         </text>
         <text x='982' y='4583' text-anchor='end' class='object-type'>
           URI
@@ -3394,7 +3394,7 @@
       <g>
         <rect x='528' y='4596' width='464' height='26' class='uri-object'/>
         <text x='538' y='4613' class='object-text'>
-          see_also_reactome
+          see_also_plant_reactome
         </text>
         <text x='982' y='4613' text-anchor='end' class='object-type'>
           URI
@@ -3403,9 +3403,18 @@
       <g>
         <rect x='528' y='4626' width='464' height='26' class='uri-object'/>
         <text x='538' y='4643' class='object-text'>
-          see_also_wikipathways
+          see_also_reactome
         </text>
         <text x='982' y='4643' text-anchor='end' class='object-type'>
+          URI
+        </text>
+      </g>
+      <g>
+        <rect x='528' y='4656' width='464' height='26' class='uri-object'/>
+        <text x='538' y='4673' class='object-text'>
+          see_also_wikipathways
+        </text>
+        <text x='982' y='4673' text-anchor='end' class='object-type'>
           URI
         </text>
       </g>
@@ -3433,7 +3442,7 @@
       <g>
         <rect x='1028' y='4596' width='464' height='26' class='literal-object'/>
         <text x='1038' y='4613' class='object-text'>
-          pref_label
+          preferred_label
         </text>
         <text x='1482' y='4613' text-anchor='end' class='object-type'>
           String
@@ -3442,7 +3451,7 @@
       <g>
         <rect x='1028' y='4626' width='464' height='26' class='literal-object'/>
         <text x='1038' y='4643' class='object-text'>
-          alt_label
+          alternative_label
         </text>
         <text x='1482' y='4643' text-anchor='end' class='object-type'>
           String
@@ -3514,7 +3523,7 @@
       <g>
         <rect x='1028' y='4866' width='464' height='26' class='subject-object stPubChem stConservedDomain'/>
         <text x='1038' y='4883' class='object-text'>
-          has_component_conserveddomain
+          has_component_ncbi_cdd
         </text>
         <text x='1482' y='4883' text-anchor='end' class='object-type'>
           ConservedDomain
@@ -3541,7 +3550,7 @@
       <g>
         <rect x='1028' y='4956' width='464' height='26' class='uri-object'/>
         <text x='1038' y='4973' class='object-text'>
-          see_also_alphafold_page
+          see_also_alphafold
         </text>
         <text x='1482' y='4973' text-anchor='end' class='object-type'>
           URI
@@ -3568,7 +3577,7 @@
       <g>
         <rect x='1028' y='5046' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5063' class='object-text'>
-          see_also_drugbank_page
+          see_also_drugbank
         </text>
         <text x='1482' y='5063' text-anchor='end' class='object-type'>
           URI
@@ -3595,7 +3604,7 @@
       <g>
         <rect x='1028' y='5136' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5153' class='object-text'>
-          see_also_glygen_page
+          see_also_glygen
         </text>
         <text x='1482' y='5153' text-anchor='end' class='object-type'>
           URI
@@ -3604,7 +3613,7 @@
       <g>
         <rect x='1028' y='5166' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5183' class='object-text'>
-          see_also_glycosmos_page
+          see_also_glycosmos
         </text>
         <text x='1482' y='5183' text-anchor='end' class='object-type'>
           URI
@@ -3622,7 +3631,7 @@
       <g>
         <rect x='1028' y='5226' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5243' class='object-text'>
-          see_also_hpa
+          see_also_human_protein_atlas
         </text>
         <text x='1482' y='5243' text-anchor='end' class='object-type'>
           URI
@@ -3631,7 +3640,7 @@
       <g>
         <rect x='1028' y='5256' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5273' class='object-text'>
-          see_also_intact_page
+          see_also_intact
         </text>
         <text x='1482' y='5273' text-anchor='end' class='object-type'>
           URI
@@ -3649,7 +3658,7 @@
       <g>
         <rect x='1028' y='5316' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5333' class='object-text'>
-          see_also_ncit
+          see_also_ncbi_protein
         </text>
         <text x='1482' y='5333' text-anchor='end' class='object-type'>
           URI
@@ -3658,7 +3667,7 @@
       <g>
         <rect x='1028' y='5346' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5363' class='object-text'>
-          see_also_ncbi
+          see_also_ncit
         </text>
         <text x='1482' y='5363' text-anchor='end' class='object-type'>
           URI
@@ -3667,7 +3676,7 @@
       <g>
         <rect x='1028' y='5376' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5393' class='object-text'>
-          see_also_nexprot
+          see_also_nextprot
         </text>
         <text x='1482' y='5393' text-anchor='end' class='object-type'>
           URI
@@ -3676,7 +3685,7 @@
       <g>
         <rect x='1028' y='5406' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5423' class='object-text'>
-          see_also_opentargets_page
+          see_also_opentargets
         </text>
         <text x='1482' y='5423' text-anchor='end' class='object-type'>
           URI
@@ -3685,7 +3694,7 @@
       <g>
         <rect x='1028' y='5436' width='464' height='26' class='uri-object'/>
         <text x='1038' y='5453' class='object-text'>
-          see_also_pharos_page
+          see_also_pharos
         </text>
         <text x='1482' y='5453' text-anchor='end' class='object-type'>
           URI
@@ -3859,7 +3868,7 @@
       <g>
         <rect x='28' y='3360' width='464' height='26' class='literal-object'/>
         <text x='38' y='3377' class='object-text'>
-          publication
+          publication_name
         </text>
         <text x='482' y='3377' text-anchor='end' class='object-type'>
           String
@@ -3877,7 +3886,7 @@
       <g>
         <rect x='28' y='3420' width='464' height='26' class='uri-object'/>
         <text x='38' y='3437' class='object-text'>
-          subject_term
+          has_subject_term
         </text>
         <text x='482' y='3437' text-anchor='end' class='object-type'>
           URI
@@ -3886,7 +3895,7 @@
       <g>
         <rect x='28' y='3450' width='464' height='26' class='uri-object'/>
         <text x='38' y='3467' class='object-text'>
-          primary_subject_term
+          has_primary_subject_term
         </text>
         <text x='482' y='3467' text-anchor='end' class='object-type'>
           URI
@@ -3976,25 +3985,25 @@
       <g>
         <rect x='28' y='3750' width='464' height='26' class='subject-object stPubChem stCompound'/>
         <text x='38' y='3767' class='object-text'>
-          disscusses_as_derived_by_text_mining_protein
+          discusses_as_derived_by_text_mining_compound
         </text>
         <text x='482' y='3767' text-anchor='end' class='object-type'>
           Compound
         </text>
       </g>
       <g>
-        <rect x='28' y='3780' width='464' height='26' class='subject-object stPubChem stGene'/>
+        <rect x='28' y='3780' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
         <text x='38' y='3797' class='object-text'>
-          disscusses_as_derived_by_text_mining_gene
+          discusses_as_derived_by_text_mining_genesymbol
         </text>
         <text x='482' y='3797' text-anchor='end' class='object-type'>
-          Gene
+          GeneSymbol
         </text>
       </g>
       <g>
         <rect x='28' y='3810' width='464' height='26' class='subject-object stPubChem stDisease'/>
         <text x='38' y='3827' class='object-text'>
-          disscusses_as_derived_by_text_mining_disease
+          discusses_as_derived_by_text_mining_disease
         </text>
         <text x='482' y='3827' text-anchor='end' class='object-type'>
           Disease
@@ -4010,20 +4019,11 @@
       </g>
     </g>
     <g>
-      <path d='M 520,4702 V 4684 Q 520,4676 528,4676 H 992 Q 1000,4676 1000,4684 V 4886 Q 1000,4894 992,4894 H 528 Q 520,4894 520,4886 V 4702' class='table-container'/>
-      <g>
-        <rect x='528' y='4710' width='464' height='26' class='literal-object'/>
-        <text x='538' y='4727' class='object-text'>
-          title
-        </text>
-        <text x='982' y='4727' text-anchor='end' class='object-type'>
-          String
-        </text>
-      </g>
+      <path d='M 520,4732 V 4714 Q 520,4706 528,4706 H 992 Q 1000,4706 1000,4714 V 4916 Q 1000,4924 992,4924 H 528 Q 520,4924 520,4916 V 4732' class='table-container'/>
       <g>
         <rect x='528' y='4740' width='464' height='26' class='literal-object'/>
         <text x='538' y='4757' class='object-text'>
-          display_name
+          title
         </text>
         <text x='982' y='4757' text-anchor='end' class='object-type'>
           String
@@ -4032,45 +4032,54 @@
       <g>
         <rect x='528' y='4770' width='464' height='26' class='literal-object'/>
         <text x='538' y='4787' class='object-text'>
-          license
+          alternative_name
         </text>
         <text x='982' y='4787' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='528' y='4800' width='464' height='26' class='uri-object'/>
+        <rect x='528' y='4800' width='464' height='26' class='literal-object'/>
         <text x='538' y='4817' class='object-text'>
-          license_url
+          license_note
         </text>
         <text x='982' y='4817' text-anchor='end' class='object-type'>
-          URI
+          String
         </text>
       </g>
       <g>
         <rect x='528' y='4830' width='464' height='26' class='uri-object'/>
         <text x='538' y='4847' class='object-text'>
-          homepage
+          license_url
         </text>
         <text x='982' y='4847' text-anchor='end' class='object-type'>
           URI
         </text>
       </g>
       <g>
-        <rect x='528' y='4860' width='464' height='26' class='subject-object stPubChem stConcept'/>
+        <rect x='528' y='4860' width='464' height='26' class='uri-object'/>
         <text x='538' y='4877' class='object-text'>
-          subject
+          homepage
         </text>
         <text x='982' y='4877' text-anchor='end' class='object-type'>
+          URI
+        </text>
+      </g>
+      <g>
+        <rect x='528' y='4890' width='464' height='26' class='subject-object stPubChem stConcept'/>
+        <text x='538' y='4907' class='object-text'>
+          subject
+        </text>
+        <text x='982' y='4907' text-anchor='end' class='object-type'>
           Concept
         </text>
       </g>
       <g>
-        <path d='M 520,4702 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stSource'/>
-        <text x='530' y='4693' class='subject-text'>
+        <path d='M 520,4732 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stSource'/>
+        <text x='530' y='4723' class='subject-text'>
           Source
         </text>
-        <text x='990' y='4693' text-anchor='end' class='subject-type'>
+        <text x='990' y='4723' text-anchor='end' class='subject-type'>
           dcterms:Dataset
         </text>
       </g>
@@ -4089,7 +4098,7 @@
       <g>
         <rect x='1028' y='5700' width='464' height='26' class='literal-object'/>
         <text x='1038' y='5717' class='object-text'>
-          available
+          available_date
         </text>
         <text x='1482' y='5717' text-anchor='end' class='object-type'>
           Date
@@ -4098,7 +4107,7 @@
       <g>
         <rect x='1028' y='5730' width='464' height='26' class='literal-object'/>
         <text x='1038' y='5747' class='object-text'>
-          modified
+          modified_date
         </text>
         <text x='1482' y='5747' text-anchor='end' class='object-type'>
           Date
@@ -4123,12 +4132,12 @@
         </text>
       </g>
       <g>
-        <rect x='1028' y='5820' width='464' height='26' class='literal-object'/>
+        <rect x='1028' y='5820' width='464' height='26' class='subject-object stPubChem stDescriptorSubstanceVersion'/>
         <text x='1038' y='5837' class='object-text'>
           has_attribute_descriptor
         </text>
         <text x='1482' y='5837' text-anchor='end' class='object-type'>
-          String
+          DescriptorSubstanceVersion
         </text>
       </g>
       <g>
@@ -4253,20 +4262,11 @@
       </g>
     </g>
     <g>
-      <path d='M 520,4936 V 4918 Q 520,4910 528,4910 H 992 Q 1000,4910 1000,4918 V 5300 Q 1000,5308 992,5308 H 528 Q 520,5308 520,5300 V 4936' class='table-container'/>
-      <g>
-        <rect x='528' y='4944' width='464' height='26' class='literal-object'/>
-        <text x='538' y='4961' class='object-text'>
-          identifier
-        </text>
-        <text x='982' y='4961' text-anchor='end' class='object-type'>
-          String
-        </text>
-      </g>
+      <path d='M 520,4966 V 4948 Q 520,4940 528,4940 H 992 Q 1000,4940 1000,4948 V 5330 Q 1000,5338 992,5338 H 528 Q 520,5338 520,5330 V 4966' class='table-container'/>
       <g>
         <rect x='528' y='4974' width='464' height='26' class='literal-object'/>
         <text x='538' y='4991' class='object-text'>
-          pref_label
+          identifier
         </text>
         <text x='982' y='4991' text-anchor='end' class='object-type'>
           String
@@ -4275,43 +4275,43 @@
       <g>
         <rect x='528' y='5004' width='464' height='26' class='literal-object'/>
         <text x='538' y='5021' class='object-text'>
-          alt_label
+          preferred_label
         </text>
         <text x='982' y='5021' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='528' y='5034' width='464' height='26' class='subject-object stPubChem stPatent'/>
+        <rect x='528' y='5034' width='464' height='26' class='literal-object'/>
         <text x='538' y='5051' class='object-text'>
-          is_discussed_by_patent
+          alternative_label
         </text>
         <text x='982' y='5051' text-anchor='end' class='object-type'>
+          String
+        </text>
+      </g>
+      <g>
+        <rect x='528' y='5064' width='464' height='26' class='subject-object stPubChem stPatent'/>
+        <text x='538' y='5081' class='object-text'>
+          is_discussed_by_patent
+        </text>
+        <text x='982' y='5081' text-anchor='end' class='object-type'>
           Patent
         </text>
       </g>
       <g>
-        <rect x='528' y='5064' width='464' height='26' class='subject-object stPubChem stReference'/>
-        <text x='538' y='5081' class='object-text'>
+        <rect x='528' y='5094' width='464' height='26' class='subject-object stPubChem stReference'/>
+        <text x='538' y='5111' class='object-text'>
           is_discussed_by_reference
         </text>
-        <text x='982' y='5081' text-anchor='end' class='object-type'>
-          Reference
-        </text>
-      </g>
-      <g>
-        <rect x='528' y='5094' width='464' height='26' class='uri-object'/>
-        <text x='538' y='5111' class='object-text'>
-          see_also_col
-        </text>
         <text x='982' y='5111' text-anchor='end' class='object-type'>
-          URI
+          Reference
         </text>
       </g>
       <g>
         <rect x='528' y='5124' width='464' height='26' class='uri-object'/>
         <text x='538' y='5141' class='object-text'>
-          see_also_glycosmos
+          see_also_col
         </text>
         <text x='982' y='5141' text-anchor='end' class='object-type'>
           URI
@@ -4320,7 +4320,7 @@
       <g>
         <rect x='528' y='5154' width='464' height='26' class='uri-object'/>
         <text x='538' y='5171' class='object-text'>
-          see_also_itis_page
+          see_also_glycosmos
         </text>
         <text x='982' y='5171' text-anchor='end' class='object-type'>
           URI
@@ -4329,7 +4329,7 @@
       <g>
         <rect x='528' y='5184' width='464' height='26' class='uri-object'/>
         <text x='538' y='5201' class='object-text'>
-          see_also_mesh
+          see_also_itis
         </text>
         <text x='982' y='5201' text-anchor='end' class='object-type'>
           URI
@@ -4338,7 +4338,7 @@
       <g>
         <rect x='528' y='5214' width='464' height='26' class='uri-object'/>
         <text x='538' y='5231' class='object-text'>
-          see_also_ncbi
+          see_also_mesh
         </text>
         <text x='982' y='5231' text-anchor='end' class='object-type'>
           URI
@@ -4347,7 +4347,7 @@
       <g>
         <rect x='528' y='5244' width='464' height='26' class='uri-object'/>
         <text x='538' y='5261' class='object-text'>
-          see_also_ncit
+          see_also_ncbi_taxonomy
         </text>
         <text x='982' y='5261' text-anchor='end' class='object-type'>
           URI
@@ -4356,18 +4356,27 @@
       <g>
         <rect x='528' y='5274' width='464' height='26' class='uri-object'/>
         <text x='538' y='5291' class='object-text'>
-          see_also_uniprot
+          see_also_ncit
         </text>
         <text x='982' y='5291' text-anchor='end' class='object-type'>
           URI
         </text>
       </g>
       <g>
-        <path d='M 520,4936 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stTaxonomy'/>
-        <text x='530' y='4927' class='subject-text'>
+        <rect x='528' y='5304' width='464' height='26' class='uri-object'/>
+        <text x='538' y='5321' class='object-text'>
+          see_also_uniprot
+        </text>
+        <text x='982' y='5321' text-anchor='end' class='object-type'>
+          URI
+        </text>
+      </g>
+      <g>
+        <path d='M 520,4966 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stTaxonomy'/>
+        <text x='530' y='4957' class='subject-text'>
           Taxonomy
         </text>
-        <text x='990' y='4927' text-anchor='end' class='subject-type'>
+        <text x='990' y='4957' text-anchor='end' class='subject-type'>
           sio:SIO_010000
         </text>
       </g>

@@ -2,15 +2,15 @@
   - a:
     - anatomy_type_anatomy_entity: sio:SIO_001262
   - skos:prefLabel:
-    - anatomy_pref_label: "brain"
+    - anatomy_preferred_label: "brain"
   - skos:altLabel*:
-    - anatomy_alt_label: "encephalon"
+    - anatomy_alternative_label: "encephalon"
   - cito:isDiscussedBy*:
     - anatomy_is_discussed_by: Patent
   - rdfs:seeAlso*:
     - anatomy_see_also_bto: obo:BTO_0000142 idorg:BTO:0000142
-    - anatomy_see_also_caloha_page: <https://www.nextprot.org/term/TS-0095>
-    - anatomy_see_also_chembl_page: <https://www.ebi.ac.uk/chembl/explore/tissue/CHEMBL3638188>
+    - anatomy_see_also_caloha: <https://www.nextprot.org/term/TS-0095>
+    - anatomy_see_also_chembl: <https://www.ebi.ac.uk/chembl/explore/tissue/CHEMBL3638188>
     - anatomy_see_also_efo: efo:EFO_0000302 idorg:efo:0000302
     - anatomy_see_also_mesh: mesh:D001921 idorg:mesh:D001921
     - anatomy_see_also_ncit: ncit:C12439 idorg:ncit:C12439
@@ -25,7 +25,7 @@
   - vcard2006:fn*:
     - author_formatted_name: "Aldrik H. Velders"
   - vcard2006:organization-name*:
-    - author_organization: "McMaster University, Hamilton, ON, CA"
+    - author_organization_name: "McMaster University, Hamilton, ON, CA"
   - vcard2006:hasUID?:
     - author_has_uid: <https://orcid.org/0000-0002-4232-9141>
   - dcterms:source?:
@@ -75,16 +75,16 @@
   - dcterms:creator*:
     - book_creator: Author
   - skos:exactMatch:
-    - book_exact_match_ncbi: <https://www.ncbi.nlm.nih.gov/books/NBK20684>
+    - book_exact_match_ncbi_book: <https://www.ncbi.nlm.nih.gov/books/NBK20684>
 
 
 - Cell cell:CELLID114 cell:CELLID31:
   - a:
     - cell_type_cell_line: sio:SIO_010054
   - skos:prefLabel:
-    - cell_pref_label: "MCF-7"
+    - cell_preferred_label: "MCF-7"
   - skos:altLabel*:
-    - cell_alt_label: "MCF7"
+    - cell_alternative_label: "MCF7"
   - obo:BFO_0000050*:
     - cell_part_of: "urinary bladder"
   - up:organism?:
@@ -95,16 +95,16 @@
     - cell_is_discussed_by: Reference
   - rdfs:seeAlso*:
     - cell_see_also_bto: obo:BTO_0000093 idorg:BTO:0000093
-    - cell_see_also_cmp_page: <https://cellmodelpassports.sanger.ac.uk/passports/SIDM00148>
+    - cell_see_also_cmp: <https://cellmodelpassports.sanger.ac.uk/passports/SIDM00148>
     - cell_see_also_cellosaurus: idorg:cellosaurus:CVCL_0031
     - cell_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/cell_line/CHEMBL3308403>
     - cell_see_also_clo: obo:CLO_0007601 idorg:CLO:0007601
-    - cell_see_also_cosmic_page: <https://cancer.sanger.ac.uk/cell_lines/sample/overview?id=905946>
-    - cell_see_also_depmap_page: <https://depmap.org/portal/cell_line/ACH-000019>
+    - cell_see_also_cosmic: <https://cancer.sanger.ac.uk/cell_lines/sample/overview?id=905946>
+    - cell_see_also_depmap: <https://depmap.org/portal/cell_line/ACH-000019>
     - cell_see_also_efo: efo:EFO_0001203 idorg:efo:EFO_0001203
-    - cell_see_also_gdsc_page: <https://www.cancerrxgene.org/translation/CellLine/905946>
-    - cell_see_also_lincs_hms_page: <https://lincs.hms.harvard.edu/db/cells/50029>
-    - cell_see_also_lincs_ldp: idorg:lincs.cell:LCL-1460
+    - cell_see_also_gdsc: <https://www.cancerrxgene.org/translation/CellLine/905946>
+    - cell_see_also_hms_lincs: <https://lincs.hms.harvard.edu/db/cells/50029>
+    - cell_see_also_lincs_data_portal: idorg:lincs.cell:LCL-1460
     - cell_see_also_mesh: mesh:D061986 idorg:mesh:D061986
     - cell_see_also_ncit: ncit:C18096 idorg:ncit:C18096
     - cell_see_also_wikidata: wd:Q1881253
@@ -118,7 +118,7 @@
   - dcterms:identifier:
     - compound_identifier: "2244"
   - skos:prefLabel:
-    - compound_pref_label: "Aspirin"
+    - compound_preferred_label: "Aspirin"
   - obo:RO_0000087?:
     - compound_has_role: vocab:FDAApprovedDrugs
   - vocab:is_active_ingredient_of*:
@@ -135,29 +135,29 @@
   - vocab:has_parent*:
     - compound_has_parent: Compound
   - sio:SIO_000008*:
-    - compound_has_attribute_canonical_smiles: Descriptor
-    - compound_has_attribute_compound_identifier: Descriptor
-    - compound_has_attribute_covalent_unit_count: Descriptor
-    - compound_has_attribute_defined_atom_stereo_count: Descriptor
-    - compound_has_attribute_defined_bond_stereo_count: Descriptor
-    - compound_has_attribute_exact_mass: Descriptor
-    - compound_has_attribute_hydrogen_bond_acceptor_count: Descriptor
-    - compound_has_attribute_hydrogen_bond_donor_count: Descriptor
-    - compound_has_attribute_isomeric_smiles: Descriptor
-    - compound_has_attribute_isotope_atom_count: Descriptor
-    - compound_has_attribute_iupac_inchi: Descriptor
-    - compound_has_attribute_molecular_formula: Descriptor
-    - compound_has_attribute_molecular_weight: Descriptor
-    - compound_has_attribute_mono_isotopic_weight: Descriptor
-    - compound_has_attribute_iupac_name: Descriptor
-    - compound_has_attribute_non_hydrogen_atom_count: Descriptor
-    - compound_has_attribute_rotatable_bond_count: Descriptor
-    - compound_has_attribute_structure_complexity: Descriptor
-    - compound_has_attribute_total_formal_charge: Descriptor
-    - compound_has_attribute_tpsa: Descriptor
-    - compound_has_attribute_undefined_atom_stereo_count: Descriptor
-    - compound_has_attribute_undefined_bond_stereo_count: Descriptor
-    - compound_has_attribute_xlogp3: Descriptor
+    - compound_has_attribute_descriptorcanonicalsmiles: DescriptorCanonicalSmiles
+    - compound_has_attribute_descriptorcompoundidentifier: DescriptorCompoundIdentifier
+    - compound_has_attribute_descriptorcovalentunitcount: DescriptorCovalentUnitCount
+    - compound_has_attribute_descriptordefinedatomstereocount: DescriptorDefinedAtomStereoCount
+    - compound_has_attribute_descriptordefinedbondstereocount: DescriptorDefinedBondStereoCount
+    - compound_has_attribute_descriptorexactmass: DescriptorExactMass
+    - compound_has_attribute_descriptorhydrogenbondacceptorcount: DescriptorHydrogenBondAcceptorCount
+    - compound_has_attribute_descriptorhydrogenbonddonorcount: DescriptorHydrogenBondDonorCount
+    - compound_has_attribute_descriptorisomericsmiles: DescriptorIsomericSmiles
+    - compound_has_attribute_descriptorisotopeatomcount: DescriptortIsotopeAtomCount
+    - compound_has_attribute_descriptorinchi: DescriptorInChI
+    - compound_has_attribute_descriptormolecularformula: DescriptorMolecularFormula
+    - compound_has_attribute_descriptormolecularweight: DescriptorMolecularWeight
+    - compound_has_attribute_descriptormonoisotopicweight: DescriptorMonoIsotopicWeight
+    - compound_has_attribute_descriptoriupacname: DescriptorIUPACName
+    - compound_has_attribute_descriptorheavyatomcount: DescriptorHeavyAtomCount
+    - compound_has_attribute_descriptorrotatablebondcount: DescriptorRotatableBondCount
+    - compound_has_attribute_descriptorstructurecomplexity: DescriptorStructureComplexity
+    - compound_has_attribute_descriptortotalformalcharge: DescriptorTotalFormalCharge
+    - compound_has_attribute_descriptortpsa: DescriptorTPSA
+    - compound_has_attribute_descriptorundefinedatomstereocount: DescriptorUndefinedAtomStereoCount
+    - compound_has_attribute_descriptorundefinedbondstereocount: DescriptorUndefinedBondStereoCount
+    - compound_has_attribute_descriptorxlogp3: DescriptorXLOGP3
   - rdfs:seeAlso*:
     - compound_see_also_ncit: ncit:C287 idorg:ncit:C287
     - compound_see_also_wikidata: wd:Q18216
@@ -166,9 +166,9 @@
 - Concept concept:ATC concept:ATC_L01XE:
   - a:
     - concept_type_concept: skos:Concept
-    - concept_type_concept_in_scheme: skos:ConceptScheme
+    - concept_type_conceptscheme: skos:ConceptScheme
   - skos:prefLabel:
-    - concept_pref_label: "protein kinase inhibitors"
+    - concept_preferred_label: "protein kinase inhibitors"
   - pav:importedFrom*:
     - concept_imported_from: Source
   - skos:broader*:
@@ -187,7 +187,7 @@
   - cito:isDiscussedBy*:
     - conserveddomain_is_discussed_by: Reference
   - rdfs:seeAlso:
-    - conserveddomain_see_also_cdd_page: <https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=213054>
+    - conserveddomain_see_also_ncbi_cdd: <https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=213054>
 
 
 - CooccurrenceCompoundCompound cooccurrence:CID3672_CID1983:
@@ -244,7 +244,7 @@
 
 - CooccurrenceDiseaseCompound cooccurrence:DZID8756_CID64747:
   - a:
-    - cooccurrencediseasecompound_type_disease_chemical_association: sio:SIO_000993
+    - cooccurrencediseasecompound_type_chemical_disease_association: sio:SIO_000993
   - sio:SIO_000300:
     - cooccurrencediseasecompound_has_value: 1197413
   - sio:SIO_001157:
@@ -283,7 +283,7 @@
 
 - CooccurrenceGeneCompound cooccurrence:ptgs2_CID5280360:
   - a:
-    - cooccurrencegenecompound_type_gene_chemical_association: sio:SIO_001257
+    - cooccurrencegenecompound_type_chemical_gene_association: sio:SIO_001257
   - sio:SIO_000300:
     - cooccurrencegenecompound_has_value: 100435
   - sio:SIO_001157:
@@ -296,7 +296,7 @@
 
 - CooccurrenceGeneDisease cooccurrence:ptgs2_DZID8173:
   - a:
-    - cooccurrencegenedisease_type_gene_disease_association: sio:SIO_000983
+    - cooccurrencegenedisease_type_disease_gene_association: sio:SIO_000983
   - sio:SIO_000300:
     - cooccurrencegenedisease_has_value: 244058
   - sio:SIO_001157:
@@ -478,7 +478,7 @@
 
 - DescriptorSubstanceVersion descriptor:SID196106365_Substance_Version:
   - a:
-    - descriptorsubstanceversion_type_substance_version: obo:IAO_0000129
+    - descriptorsubstanceversion_type_version_number: obo:IAO_0000129
   - sio:SIO_000300*:
     - descriptorsubstanceversion_has_value: 2
 
@@ -487,35 +487,35 @@
   - a:
     - disease_type_disease: sio:SIO_010299
   - skos:prefLabel:
-    - disease_pref_label: "Parkinson Disease"
+    - disease_preferred_label: "Parkinson Disease"
   - skos:altLabel*:
-    - disease_alt_label: "Parkinson Disease, Idiopathic"
+    - disease_alternative_label: "Parkinson Disease, Idiopathic"
   - skos:closeMatch*:
     - disease_close_match_do: obo:DOID_14330 idorg:DOID:14330
     - disease_close_match_gard: <https://rarediseases.info.nih.gov/diseases/6381/index>
-    - disease_close_match_gtopdb_page: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=732>
-    - disease_close_match_hp: obo:HP_0100600 idorg:HP:0100600
+    - disease_close_match_gtopdb: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=732>
+    - disease_close_match_hpo: obo:HP_0100600 idorg:HP:0100600
     - disease_close_match_kegg: idorg:kegg.disease:H00057
     - disease_close_match_medgen: idorg:medgen:C0030567
     - disease_close_match_mesh: mesh:D010300 idorg:mesh:D010300
-    - disease_close_match_mim: idorg:mim:106250
     - disease_close_match_mondo: obo:MONDO_0005180
     - disease_close_match_nando: idorg:nando:1200010
     - disease_close_match_ncit: ncit:C26845 idorg:ncit:C26845
+    - disease_close_match_omim: idorg:mim:106250
     - disease_close_match_ordo: idorg:orphanet:319705
     - disease_close_match_pharmgkb: idorg:pharmgkb.disease:PA445254
     - disease_close_match_umls: idorg:umls:C0030567
   - skos:relatedMatch*:
     - disease_related_match_do: obo:DOID_0060157 idorg:DOID:0060157
     - disease_related_match_gard: <https://rarediseases.info.nih.gov/diseases/4536/index>
-    - disease_related_match_gtopdb_page: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=1152>
-    - disease_related_match_hp: obo:HP_0000473 idorg:HP:0000473
+    - disease_related_match_gtopdb: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=1152>
+    - disease_related_match_hpo: obo:HP_0000473 idorg:HP:0000473
     - disease_related_match_kegg: idorg:kegg.disease:H02309
     - disease_related_match_medgen: idorg:medgen:C0086873
-    - disease_related_match_mim: idorg:mim:102700
     - disease_related_match_mondo: obo:MONDO_0015261
     - disease_related_match_nando: idorg:nando:1200323
     - disease_related_match_ncit: ncit:C34675 idorg:ncit:C34675
+    - disease_related_match_omim: idorg:mim:102700
     - disease_related_match_ordo: idorg:orphanet:85335
     - disease_related_match_pharmgkb: idorg:pharmgkb.disease:PA162372881
     - disease_related_match_umls: idorg:umls:C0086873
@@ -523,33 +523,33 @@
 
 - Endpoint endpoint:SID103060860_AID651635_VALUE4221 endpoint:SID103074543_AID504413_VALUE9 endpoint:SID103163840_AID698889_PMID22734697_VALUE1 endpoint:SID103164083_AID5676_PMID7996545_VALUE1 endpoint:SID103164353_AID72467_PMID15027873_VALUE1 endpoint:SID103164874_AID443491_PMID19880317_VALUE1 endpoint:SID103176960_AID1256110_PMID26447940_VALUE2 endpoint:SID103194229_AID1163511_PMID25205194_VALUE2 endpoint:SID103220856_AID1425072_VALUE12 endpoint:SID103242185_AID38352_PMID1905760_VALUE8 endpoint:SID103252563_AID96291_PMID10821714_VALUE3 endpoint:SID103340281_AID66992_PMID9341916_VALUE1 endpoint:SID103534214_AID295498_PMID17398091_VALUE16 endpoint:SID103616296_AID380418_PMID16562832_VALUE3 endpoint:SID103700293_AID439729_PMID19526990_VALUE21 endpoint:SID103904168_AID493019_VALUE2 endpoint:SID144191081_AID977606_VALUE420 endpoint:SID14728807_AID1956_VALUE1038 endpoint:SID17432979_AID540271_VALUE661 endpoint:SID17510599_AID720570_VALUE558 endpoint:SID22415462_AID1305_VALUE79:
   - a?:
-    - endpoint_type_Kd: bao:BAO_0000034
-    - endpoint_type_Ki: bao:BAO_0000192
-    - endpoint_type_IC50: bao:BAO_0000190
-    - endpoint_type_EC50: bao:BAO_0000188
-    - endpoint_type_AC10_absolute: bao:BAO_0002878
-    - endpoint_type_AC26_absolute: bao:BAO_0002879
-    - endpoint_type_AC35_absolute: bao:BAO_0002880
-    - endpoint_type_AC40_absolute: bao:BAO_0002881
-    - endpoint_type_AC50: bao:BAO_0000186
-    - endpoint_type_AC500_absolute: bao:BAO_0002882
-    - endpoint_type_AC1000_absolute: bao:BAO_0002877
-    - endpoint_type_CC50: bao:BAO_0000187
+    - endpoint_type_kd: bao:BAO_0000034
+    - endpoint_type_ki: bao:BAO_0000192
+    - endpoint_type_ic50: bao:BAO_0000190
+    - endpoint_type_ec50: bao:BAO_0000188
+    - endpoint_type_ac10_absolute: bao:BAO_0002878
+    - endpoint_type_ac26_absolute: bao:BAO_0002879
+    - endpoint_type_ac35_absolute: bao:BAO_0002880
+    - endpoint_type_ac40_absolute: bao:BAO_0002881
+    - endpoint_type_ac50: bao:BAO_0000186
+    - endpoint_type_ac500_absolute: bao:BAO_0002882
+    - endpoint_type_ac1000_absolute: bao:BAO_0002877
+    - endpoint_type_cc50: bao:BAO_0000187
     - endpoint_type_concentration_response_endpoint: bao:BAO_0002162
-    - endpoint_type_EC_5_hour: bao:BAO_0002862
-    - endpoint_type_ECMax: bao:BAO_0002883
-    - endpoint_type_ECMax_fold_increase: bao:BAO_0002886
-    - endpoint_type_ECMax_percent_inhibition: bao:BAO_0002887
-    - endpoint_type_ECMax_Tm: bao:BAO_0002884
-    - endpoint_type_ED50: bao:BAO_0003036
-    - endpoint_type_GI50: bao:BAO_0000189
+    - endpoint_type_ec_5_hour: bao:BAO_0002862
+    - endpoint_type_ecmax: bao:BAO_0002883
+    - endpoint_type_ecmax_fold_increase: bao:BAO_0002886
+    - endpoint_type_ecmax_percent_inhibition: bao:BAO_0002887
+    - endpoint_type_ecmax_tm: bao:BAO_0002884
+    - endpoint_type_ed50: bao:BAO_0003036
+    - endpoint_type_gi50: bao:BAO_0000189
     - endpoint_type_50_percent_cell_viability: bao:BAO_0000349
-    - endpoint_type_IC90: bao:BAO_0002144
-    - endpoint_type_Km: bao:BAO_0000477
-    - endpoint_type_LC50: bao:BAO_0002145
-    - endpoint_type_LD50: bao:BAO_0002117
-    - endpoint_type_MIC: bao:BAO_0002146
-    - endpoint_type_TGI: bao:BAO_0000194
+    - endpoint_type_ic90: bao:BAO_0002144
+    - endpoint_type_km: bao:BAO_0000477
+    - endpoint_type_lc50: bao:BAO_0002145
+    - endpoint_type_ld50: bao:BAO_0002117
+    - endpoint_type_mic: bao:BAO_0002146
+    - endpoint_type_tgi: bao:BAO_0000194
   - rdfs:label?:
     - endpoint_label: "IC50"
   - sio:SIO_000300?:
@@ -577,15 +577,15 @@
   - dcterms:identifier?:
     - gene_identifier: "1956"
   - skos:prefLabel?:
-    - gene_pref_label: "epidermal growth factor receptor"
+    - gene_preferred_label: "epidermal growth factor receptor"
   - skos:altLabel*:
-    - gene_alternative_name: "ERBB1"
+    - gene_alternative_label: "ERBB1"
   - obo:RO_0000056*:
-    - gene_participates_in_biological_process: obo:GO_1905653
+    - gene_participates_in: obo:GO_1905653
   - obo:RO_0000085*:
-    - gene_has_function_molecular_function: obo:GO_0005524
+    - gene_has_function: obo:GO_0005524
   - obo:RO_0001025*:
-    - gene_located_in_cellular_component: obo:GO_0016020
+    - gene_located_in: obo:GO_0016020
   - sio:SIO_000558*:
     - gene_is_ortholog_to: Gene
   - bao:BAO_0002870?:
@@ -596,30 +596,30 @@
     - gene_is_discussed_by_patent: Patent
     - gene_is_discussed_by_reference: Reference
   - rdfs:seeAlso*:
-    - gene_see_also_agr_page: <https://www.alliancegenome.org/gene/HGNC:3236>
+    - gene_see_also_agr: <https://www.alliancegenome.org/gene/HGNC:3236>
     - gene_see_also_bgee: idorg:bgee.gene:ENSG00000146648
     - gene_see_also_ctd: idorg:ctd.gene:1956
     - gene_see_also_ensembl: ensembl:ENSG00000001631 idorg:ensembl:ENSG00000001631
     - gene_see_also_enzyme: <http://purl.uniprot.org/enzyme/2.7.10.1>
     - gene_see_also_flybase: idorg:fb:FBgn0261702
-    - gene_see_also_gencc_page: <https://search.thegencc.org/genes/HGNC:3236>
+    - gene_see_also_gencc: <https://search.thegencc.org/genes/HGNC:3236>
     - gene_see_also_ghr: <https://medlineplus.gov/genetics/gene/egfr>
     - gene_see_also_hgnc: idorg:hgnc:3236
     - gene_see_also_kegg: idorg:kegg.genes:hsa:1956
     - gene_see_also_mesh: mesh:D066246 idorg:mesh:D066246
     - gene_see_also_mgi: idorg:MGI:87854
-    - gene_see_also_mim: idorg:mim:131550
-    - gene_see_also_ncbi: idorg:ncbigene:1956
+    - gene_see_also_ncbi_gene: idorg:ncbigene:1956
     - gene_see_also_ncit: ncit:C17757 idorg:ncit:C17757
-    - gene_see_also_opentargets_page: <https://platform.opentargets.org/target/ENSG00000146648>
+    - gene_see_also_omim: idorg:mim:131550
+    - gene_see_also_opentargets: <https://platform.opentargets.org/target/ENSG00000146648>
     - gene_see_also_pharmgkb: idorg:pharmgkb.gene:PA7360
-    - gene_see_also_pharos_page: <https://pharos.nih.gov/targets/EGFR>
+    - gene_see_also_pharos: <https://pharos.nih.gov/targets/EGFR>
     - gene_see_also_pombase: idorg:pombase:SPCC777.09c
     - gene_see_also_rgd: idorg:rgd.gene:2003
     - gene_see_also_sgd: idorg:sgd:S000000569
-    - gene_see_also_veupathdb_page: <https://www.veupathdb.org/gene/HostDB:ENSG00000146648>
+    - gene_see_also_veupathdb: <https://www.veupathdb.org/gene/HostDB:ENSG00000146648>
     - gene_see_also_wikidata: wd:Q14865565
-    - gene_see_also_wormbase_page: <http://www.wormbase.org/db/gene/gene?name=WBGene00022279;class=Gene>
+    - gene_see_also_wormbase: <http://www.wormbase.org/db/gene/gene?name=WBGene00022279;class=Gene>
     - gene_see_also_xenbase: idorg:xenbase:XB-GENE-865691
     - gene_see_also_zfin: idorg:zfin:ZDB-GENE-980526-104
 
@@ -628,14 +628,14 @@
   - a:
     - genesymbol_type_gene_symbol: sio:SIO_001383
   - sio:SIO_000300:
-    - genesymbol_has_value_gene_symbol: "egfr"
+    - genesymbol_has_value: "egfr"
 
 
 - Grant grant:MD5_20ac7448bc58fb27a4b7ee91ed141799:
   - a:
     - grant_type_grant: frapo:Grant
   - frapo:hasGrantNumber:
-    - grant_grant_number: "5MO1RR42"
+    - grant_has_grant_number: "5MO1RR42"
   - frapo:hasFundingAgency:
     - grant_has_funding_agency: Organization
 
@@ -652,7 +652,8 @@
 
 
 - Journal journal:3 journal:3328:
-  - a: fabio:Journal
+  - a:
+    - journal_type_journal: fabio:Journal
   - prism:eissn?:
     - journal_eissn: "1470-8752"
   - prism:issn?:
@@ -660,16 +661,16 @@
   - dcterms:title:
     - journal_title: "AARN news letter"
   - fabio:hasNLMJournalTitleAbbreviation?:
-    - journal_title_abbrev: "AARN News Lett"
+    - journal_has_nlm_journal_title_abbreviation: "AARN News Lett"
   - fabio:hasNationalLibraryOfMedicineJournalId:
-    - journal_nlm_id: "1251052"
+    - journal_has_national_library_of_medicine_journal_id: "1251052"
   - skos:exactMatch*:
     - journal_exact_match: <https://www.ncbi.nlm.nih.gov/nlmcatalog/1251052>
 
 
-- MeasureGroup measuregroup:AID1053208 measuregroup:AID11 measuregroup:AID111827_PMID6716406 measuregroup:AID2900_PMID2066989 measuregroup:AID803:
+- MeasureGroup measuregroup:AID1053208 measuregroup:AID11 measuregroup:AID111827_PMID6716406 measuregroup:AID2900_PMID2066989 measuregroup:AID450:
   - a:
-    - measuregroup_type_measuregroup: bao:BAO_0000040
+    - measuregroup_type_measure_group: bao:BAO_0000040
   - dcterms:title?:
     - measuregroup_title: "The compound was tested for ..."
   - obo:OBI_0000299*:
@@ -685,13 +686,12 @@
 
 - Organization organization:MD5_02dbd117ccafdaa94809693a5d1d279d:
   - a{2}:
-    - organization_type_organization:
-      - frapo:FundingAgency
-      - vcard2006:Organization
+    - organization_type_organization: vcard2006:Organization
+    - organization_type_fundingagency: frapo:FundingAgency
   - vcard2006:country-name?:
-    - organization_country: "United States"
+    - organization_country_name: "United States"
   - vcard2006:fn*:
-    - organization_formated_name: "National Institutes of Health"
+    - organization_formatted_name: "National Institutes of Health"
   - skos:closeMatch*:
     - organization_close_match: <https://data.crossref.org/fundingdata/funder/10.13039/100000002>
 
@@ -772,7 +772,7 @@
     - patentipc_broader: PatentIPC
 
 
-- Pathway pathway:PWID1 pathway:PWID1184398 pathway:PWID1184401 pathway:PWID12077 pathway:PWID1360674 pathway:PWID1360953 pathway:PWID1361849 pathway:PWID1363884 pathway:PWID3 pathway:PWID4 pathway:PWID40755 pathway:PWID40952:
+- Pathway pathway:PWID1 pathway:PWID1184398 pathway:PWID1184401 pathway:PWID1184501 pathway:PWID12077 pathway:PWID1360674 pathway:PWID1360953 pathway:PWID1361849 pathway:PWID1363884 pathway:PWID3 pathway:PWID4 pathway:PWID40755 pathway:PWID40952:
   - a:
     - pathway_type_pathway: bp3:Pathway
   - dcterms:title:
@@ -793,14 +793,15 @@
     - pathway_has_participant_gene: Gene
   - rdfs:seeAlso*:
     - pathway_see_also_biocyc: idorg:biocyc:HUMANCYC:PWY-4983
-    - pathway_see_also_covid19_disease_map_page: <https://fairdomhub.org/models/699>
-    - pathway_see_also_glycosmos_page: <https://glycosmos.org/pathways/show/R-HSA-5683371>
-    - pathway_see_also_lipidmaps_page: <https://www.lipidmaps.org/data/IntegratedPathwaysData/SetupIntegratedPathways.pl?imgsize=730&Mode=BMDMATPS11&DataType=SignalingPathways&PathwayName=Apoptosis>
+    - pathway_see_also_covid_19_disease_map: <https://fairdomhub.org/models/699>
+    - pathway_see_also_glycosmos: <https://glycosmos.org/pathways/show/R-HSA-5683371>
+    - pathway_see_also_lipidmaps: <https://www.lipidmaps.org/data/IntegratedPathwaysData/SetupIntegratedPathways.pl?imgsize=730&Mode=BMDMATPS11&DataType=SignalingPathways&PathwayName=Apoptosis>
     - pathway_see_also_panther: idorg:panther.pathway:P04395
-    - pathway_see_also_pathbank_page: <https://pathbank.org/view/SMP0000055>
+    - pathway_see_also_pathbank: <https://pathbank.org/view/SMP0000055>
     - pathway_see_also_pharmgkb: idorg:pharmgkb.pathways:PA2023
     - pathway_see_also_pid: idorg:pid.pathway:ATP%20biosynthetic%20process
-    - pathway_see_also_plantreactome_page: <https://plantreactome.gramene.org/content/detail/R-OSA-9828944>
+    - pathway_see_also_plantcyc: <https://pmn.plantcyc.org/pathway?orgid=PLANT&id=PWY-5905>
+    - pathway_see_also_plant_reactome: <https://plantreactome.gramene.org/content/detail/R-OSA-9828944>
     - pathway_see_also_reactome: idorg:reactome:R-HSA-70171
     - pathway_see_also_wikipathways: idorg:wikipathways:WP534
 
@@ -813,9 +814,9 @@
   - dcterms:identifier?:
     - protein_identifier: "P00533"
   - skos:prefLabel:
-    - protein_pref_label: "Epidermal growth factor receptor"
+    - protein_preferred_label: "Epidermal growth factor receptor"
   - skos:altLabel*:
-    - protein_alt_label: "Proto-oncogene c-ErbB-1"
+    - protein_alternative_label: "Proto-oncogene c-ErbB-1"
   - bao:BAO_0002817?:
     - protein_has_sequence: "MRPSGTAGAALLALLAALCPASRALEEKK..."
   - vocab:hasSimilarProtein*:
@@ -830,28 +831,28 @@
     - protein_is_discussed_by_patent: Patent
     - protein_is_discussed_by_reference: Reference
   - obo:RO_0002180*:
-    - protein_has_component_conserveddomain: ConservedDomain
+    - protein_has_component_ncbi_cdd: ConservedDomain
     - protein_has_component_interpro: idorg:interpro:IPR008266
   - pdbo:link_to_pdb*:
     - protein_link_to_pdb: <http://rdf.wwpdb.org/pdb/5CZH>
   - rdfs:seeAlso*:
-    - protein_see_also_alphafold_page: <https://alphafold.ebi.ac.uk/entry/P00533>
+    - protein_see_also_alphafold: <https://alphafold.ebi.ac.uk/entry/P00533>
     - protein_see_also_brenda: <https://www.brenda-enzymes.org/enzyme.php?ecno=2.7.10.1&UniProtAcc=P00533>
     - protein_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/target/CHEMBL203> idorg:chembl.target:CHEMBL203
-    - protein_see_also_drugbank_page: <https://www.drugbank.ca/bio_entities/BE0000767>
+    - protein_see_also_drugbank: <https://www.drugbank.ca/bio_entities/BE0000767>
     - protein_see_also_ensembl: ensembl:ENSP00000275493
     - protein_see_also_enzyme: <http://purl.uniprot.org/enzyme/2.7.10.1>
-    - protein_see_also_glygen_page: <https://glygen.org/protein/P00533>
-    - protein_see_also_glycosmos_page: <https://glycosmos.org/glycoproteins/P00533>
+    - protein_see_also_glygen: <https://glygen.org/protein/P00533>
+    - protein_see_also_glycosmos: <https://glycosmos.org/glycoproteins/P00533>
     - protein_see_also_gtopdb: idorg:iuphar.receptor:1797
-    - protein_see_also_hpa: idorg:hpa:ENSG00000146648
-    - protein_see_also_intact_page: <https://www.ebi.ac.uk/intact/search?query=P00533>
+    - protein_see_also_human_protein_atlas: idorg:hpa:ENSG00000146648
+    - protein_see_also_intact: <https://www.ebi.ac.uk/intact/search?query=P00533>
     - protein_see_also_mesh: mesh:D066246 idorg:mesh:D066246
+    - protein_see_also_ncbi_protein: idorg:ncbiprotein:P00533
     - protein_see_also_ncit: ncit:C17068 idorg:ncit:C17068
-    - protein_see_also_ncbi: idorg:ncbiprotein:P00533
-    - protein_see_also_nexprot: idorg:nexprot:NX_P00533
-    - protein_see_also_opentargets_page: <https://platform.opentargets.org/target/ENSG00000146648>
-    - protein_see_also_pharos_page: <https://pharos.nih.gov/targets/P00533>
+    - protein_see_also_nextprot: idorg:nexprot:NX_P00533
+    - protein_see_also_opentargets: <https://platform.opentargets.org/target/ENSG00000146648>
+    - protein_see_also_pharos: <https://pharos.nih.gov/targets/P00533>
     - protein_see_also_pro: obo:PR_P00533 idorg:PR:P00533
     - protein_see_also_refseq: idorg:refseq:NP_005219.2
     - protein_see_also_uniprot: <http://purl.uniprot.org/uniprot/P00533> idorg:uniprot:P00533
@@ -863,11 +864,11 @@
   - a:
     - enzyme_type_enzyme: sio:SIO_010343
   - skos:prefLabel:
-    - enzyme_pref_label: "Receptor protein-tyrosine kinase"
+    - enzyme_preferred_label: "Receptor protein-tyrosine kinase"
   - skos:altLabel*:
-    - enzyme_alt_label: "Receptor protein tyrosine kinase"
+    - enzyme_alternative_label: "Receptor protein tyrosine kinase"
   - rdfs:subClassOf?:
-    - enzyme_sub_class_of: Enzyme
+    - enzyme_subclass_of: Enzyme
   - rdfs:seeAlso?:
     - enzyme_see_also_uniprot: <http://purl.uniprot.org/enzyme/2.7.10.1>
 
@@ -897,13 +898,13 @@
   - dcterms:language:
     - reference_language: "English"
   - prism:publicationName:
-    - reference_publication: "Immunology"
+    - reference_publication_name: "Immunology"
   - dcterms:source*:
     - reference_source: <https://pubmed.ncbi.nlm.nih.gov/>
   - fabio:hasSubjectTerm*:
-    - reference_subject_term: mesh:D006801
+    - reference_has_subject_term: mesh:D006801
   - fabio:hasPrimarySubjectTerm*:
-    - reference_primary_subject_term: mesh:D016178Q000502
+    - reference_has_primary_subject_term: mesh:D016178Q000502
   - cito:discusses*:
     - reference_discusses: mesh:M0011758
   - dcterms:identifier*:
@@ -920,19 +921,20 @@
   - frapo:isSupportedBy*:
     - reference_is_supported_by: Grant
   - vocab:discussesAsDerivedByTextMining*:
-    - reference_disscusses_as_derived_by_text_mining_protein: Compound
-    - reference_disscusses_as_derived_by_text_mining_gene: Gene
-    - reference_disscusses_as_derived_by_text_mining_disease: Disease
+    - reference_discusses_as_derived_by_text_mining_compound: Compound
+    - reference_discusses_as_derived_by_text_mining_genesymbol: GeneSymbol
+    - reference_discusses_as_derived_by_text_mining_disease: Disease
 
 
 - Source source:ID22070 source:IUPHAR_DB:
-  - a: dcterms:Dataset
+  - a:
+    - source_type_dataset: dcterms:Dataset
   - dcterms:title:
     - source_title: "IUPHAR-DB"
   - dcterms:alternative?:
-    - source_display_name: "IUPHAR/BPS Guide to PHARMACOLOGY"
+    - source_alternative_name: "IUPHAR/BPS Guide to PHARMACOLOGY"
   - dcterms:rights?:
-    - source_license: "The Guide to PHARMACOLOGY database is licensed ..."
+    - source_license_note: "The Guide to PHARMACOLOGY database is licensed ..."
   - dcterms:license?:
     - source_license_url: <https://www.guidetopharmacology.org/about.jsp#license>
   - foaf:homepage?:
@@ -947,14 +949,14 @@
   - dcterms:identifier:
     - substance_identifier: "196106365"
   - dcterms:available:
-    - substance_available: 2014-08-05
+    - substance_available_date: 2014-08-05
   - dcterms:modified:
-    - substance_modified: 2016-07-05
+    - substance_modified_date: 2016-07-05
   - dcterms:source:
     - substance_source: Source
   - sio:SIO_000008*:
     - substance_has_attribute_synonym: Synonym
-    - substance_has_attribute_descriptor: Descriptor
+    - substance_has_attribute_descriptor: DescriptorSubstanceVersion
   - obo:RO_0000056*:
     - substance_participates_in: MeasureGroup
   - cheminf:CHEMINF_000477?:
@@ -971,19 +973,19 @@
 
 - Synonym synonym:MD5_0000235e6bfa934c6182fbf40f071747 synonym:MD5_000272365f5e92d21081e8a4403b712c synonym:MD5_00048b0c69b97e6ba6e81668c0d95b88 synonym:MD5_0005639ad33bf7f927e632c29847b28a synonym:MD5_00360c1760f9a153e24bea7b698516cf synonym:MD5_003fdb1001358dcc64d1e25e24bea795 synonym:MD5_01ab0278c5fcc77a5bb905c789b37f20 synonym:MD5_02ebee683fb36446167606809e8ebed1 synonym:MD5_035ae92c47f0774b625c99d9a40b319d synonym:MD5_05d8051bae0f9d0d24d7e184785afbc0 synonym:MD5_0edb0d5a8d7232e10b4f2ba5434116a9 synonym:MD5_1375c60b0b432c8ccb1554c856c5eab6 synonym:MD5_1d202459af5a110a9422103af41569ad synonym:MD5_2e899413e5efff4e1e3166e273cff7b7 synonym:MD5_47a63fc97978537204b7a7371de13662 synonym:MD5_4aa179283f871f4abe930c25833cea9b synonym:MD5_66d24a6dc023afb058efbbb5fc5ed1bb:
   - a+:
-    - synonym_type_cas_no: cheminf:CHEMINF_000446
+    - synonym_type_cas_number: cheminf:CHEMINF_000446
     - synonym_type_chebi_id: cheminf:CHEMINF_000407
     - synonym_type_chembl_id: cheminf:CHEMINF_000412
     - synonym_type_depositor_supplied_name: cheminf:CHEMINF_000339
     - synonym_type_drug_trade_name: cheminf:CHEMINF_000561
     - synonym_type_drugbank_id: cheminf:CHEMINF_000406
-    - synonym_type_ec_no: cheminf:CHEMINF_000447
+    - synonym_type_ec_number: cheminf:CHEMINF_000447
     - synonym_type_inn: cheminf:CHEMINF_000562
     - synonym_type_iupac_name: cheminf:CHEMINF_000382
     - synonym_type_kegg_id: cheminf:CHEMINF_000409
-    - synonym_type_lipidmaps: cheminf:CHEMINF_000564
-    - synonym_type_nsc: cheminf:CHEMINF_000565
-    - synonym_type_rtecs: cheminf:CHEMINF_000566
+    - synonym_type_lipidmaps_id: cheminf:CHEMINF_000564
+    - synonym_type_nsc_number: cheminf:CHEMINF_000565
+    - synonym_type_rtecs_id: cheminf:CHEMINF_000566
     - synonym_type_trivial_name: cheminf:CHEMINF_000109
     - synonym_type_uii: cheminf:CHEMINF_000563
     - synonym_type_validated_database_id: cheminf:CHEMINF_000467
@@ -998,21 +1000,21 @@
 
 - Taxonomy taxonomy:TAXID467174 taxonomy:TAXID9606:
   - a:
-    - taxonomy_type_organism: sio:SIO_010000
+    - taxonomy_type_taxonomy: sio:SIO_010000
   - dcterms:identifier:
     - taxonomy_identifier: "9606"
   - skos:prefLabel:
-    - taxonomy_pref_label: "Homo sapiens (human)"
+    - taxonomy_preferred_label: "Homo sapiens (human)"
   - skos:altLabel*:
-    - taxonomy_alt_label: "Homo sapiens Linnaeus, 1758"
+    - taxonomy_alternative_label: "Homo sapiens Linnaeus, 1758"
   - cito:isDiscussedBy*:
     - taxonomy_is_discussed_by_patent: Patent
     - taxonomy_is_discussed_by_reference: Reference
   - rdfs:seeAlso*:
     - taxonomy_see_also_col: idorg:col:6MB3T
     - taxonomy_see_also_glycosmos: <http://rdf.glycoinfo.org/source/9606>
-    - taxonomy_see_also_itis_page: <https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=180092>
+    - taxonomy_see_also_itis: <https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=180092>
     - taxonomy_see_also_mesh: mesh:D006801 idorg:mesh:D006801
-    - taxonomy_see_also_ncbi: idorg:taxonomy:9606
+    - taxonomy_see_also_ncbi_taxonomy: idorg:taxonomy:9606
     - taxonomy_see_also_ncit: ncit:C14225 idorg:ncit:C14225
     - taxonomy_see_also_uniprot: <http://purl.uniprot.org/taxonomy/9606>
