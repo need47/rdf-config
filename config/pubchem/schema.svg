@@ -16515,7 +16515,7 @@
       vocab: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#&gt;
     </text>
     <text x='60' y='33090' font-size='12px' class='st3'>
-      ruleset: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/&quot;&gt;
+      ruleset: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/&gt;
     </text>
     <text x='60' y='33106' font-size='12px' class='st3'>
       anatomy: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/anatomy/&gt;
