@@ -420,12 +420,12 @@
     - descriptorisomericsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
 
 
-- DescriptortIsotopeAtomCount descriptor:CID2244_Isotope_Atom_Count:
+- DescriptorIsotopeAtomCount descriptor:CID2244_Isotope_Atom_Count:
   - a+:
-    - descriptortisotopeatomcount_type: vocab:Descriptor
-    - descriptortisotopeatomcount_type_isotope_atom_count: cheminf:CHEMINF_000372
+    - descriptorisotopeatomcount_type: vocab:Descriptor
+    - descriptorisotopeatomcount_type_isotope_atom_count: cheminf:CHEMINF_000372
   - sio:SIO_000300:
-    - descriptortisotopeatomcount_has_value: 0
+    - descriptorisotopeatomcount_has_value: 0
 
 
 - DescriptorIUPACName descriptor:CID2244_Preferred_IUPAC_Name:

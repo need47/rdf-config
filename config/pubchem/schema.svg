@@ -2763,21 +2763,26 @@
     sio:SIO_000008 *
   </text>
   <g>
-    <rect x='665' y='5706' width='345' height='44' class='st9'/>
-    <polyline points='665,5726 665,5706 1010,5706 1010,5726' class='st2'/>
     <g>
-      <text x='673' y='5738' class='st3 st4' dominant-baseline='middle'>
+      <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorIsotopeAtomCount'/>
+      <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M665,5726 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='5742' class='st3 st4'>
         DescriptorIsotopeAtomCount
       </text>
     </g>
-    <g>
+    <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='5716' class='st5 st6 st7' dominant-baseline='middle'>
         has_attribute_descriptorisotopeatomcount
       </text>
     </g>
-    <g>
+    <g transform='translate(-0.5 -0.5)'>
       <text x='1002' y='5716' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        String
+        URI
       </text>
     </g>
   </g>
@@ -6512,7 +6517,7 @@
   </g>
   <g>
     <g>
-      <path d='M395,13102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorIUPACName'/>
+      <path d='M395,13102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorIsotopeAtomCount'/>
       <path d='M395,13102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -6520,12 +6525,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='13102' class='st3 st4'>
-        descriptor:CID2244_Preferred_IUPAC_Name
+        descriptor:CID2244_Isotope_Atom_Count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='13076' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorIUPACName
+        DescriptorIsotopeAtomCount
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6554,7 +6559,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13076' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        descriptorisotopeatomcount_type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6578,12 +6583,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13166' class='st3 st4'>
-        cheminf:CHEMINF_000382
+        cheminf:CHEMINF_000372
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13140' class='st5 st6 st7' dominant-baseline='middle'>
-        type_iupac_name
+        descriptorisotopeatomcount_type_isotope_atom_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6602,23 +6607,23 @@
     <polyline points='665,13214 665,13194 1010,13194 1010,13214' class='st2'/>
     <g>
       <text x='673' y='13226' class='st3 st4' dominant-baseline='middle'>
-        2-acetyloxybenzoic acid
+        0
       </text>
     </g>
     <g>
       <text x='673' y='13204' class='st5 st6 st7' dominant-baseline='middle'>
-        has_value
+        descriptorisotopeatomcount_has_value
       </text>
     </g>
     <g>
       <text x='1002' y='13204' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        String
+        Int
       </text>
     </g>
   </g>
   <g>
     <g>
-      <path d='M395,13294 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorMolecularFormula'/>
+      <path d='M395,13294 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorIUPACName'/>
       <path d='M395,13294 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -6626,12 +6631,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='13294' class='st3 st4'>
-        descriptor:CID2244_Molecular_Formula
+        descriptor:CID2244_Preferred_IUPAC_Name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='13268' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorMolecularFormula
+        DescriptorIUPACName
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6684,12 +6689,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13358' class='st3 st4'>
-        cheminf:CHEMINF_000335
+        cheminf:CHEMINF_000382
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13332' class='st5 st6 st7' dominant-baseline='middle'>
-        type_molecular_formula
+        type_iupac_name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6708,7 +6713,7 @@
     <polyline points='665,13406 665,13386 1010,13386 1010,13406' class='st2'/>
     <g>
       <text x='673' y='13418' class='st3 st4' dominant-baseline='middle'>
-        C9H8O4
+        2-acetyloxybenzoic acid
       </text>
     </g>
     <g>
@@ -6724,7 +6729,7 @@
   </g>
   <g>
     <g>
-      <path d='M395,13486 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorMolecularWeight'/>
+      <path d='M395,13486 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorMolecularFormula'/>
       <path d='M395,13486 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -6732,12 +6737,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='13486' class='st3 st4'>
-        descriptor:CID2244_Molecular_Weight
+        descriptor:CID2244_Molecular_Formula
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='13460' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorMolecularWeight
+        DescriptorMolecularFormula
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6790,12 +6795,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13550' class='st3 st4'>
-        cheminf:CHEMINF_000334
+        cheminf:CHEMINF_000335
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13524' class='st5 st6 st7' dominant-baseline='middle'>
-        type_molecular_weight
+        type_molecular_formula
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6814,7 +6819,7 @@
     <polyline points='665,13598 665,13578 1010,13578 1010,13598' class='st2'/>
     <g>
       <text x='673' y='13610' class='st3 st4' dominant-baseline='middle'>
-        180.16
+        C9H8O4
       </text>
     </g>
     <g>
@@ -6824,14 +6829,38 @@
     </g>
     <g>
       <text x='1002' y='13588' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        Float
+        String
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,13472 415,13472 415,13664 660,13664'/>
+  <g>
+    <g>
+      <path d='M395,13678 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorMolecularWeight'/>
+      <path d='M395,13678 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M50,13662 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='13678' class='st3 st4'>
+        descriptor:CID2244_Molecular_Weight
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='13652' class='st5 st6 st7' dominant-baseline='middle'>
+        DescriptorMolecularWeight
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='387' y='13652' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        URI
+      </text>
+    </g>
+  </g>
+  <polyline class='st11' points='395,13664 415,13664 415,13664 660,13664'/>
   <polygon points='655.3,13669.7 654.4,13668.7 659.4,13664.0 654.4,13659.3 655.3,13658.3 661.5,13664.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 13659)'>
-    sio:SIO_000221
+    a +
   </text>
   <g>
     <g>
@@ -6843,12 +6872,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13678' class='st3 st4'>
-        obo:UO_0000055
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13652' class='st5 st6 st7' dominant-baseline='middle'>
-        has_unit_molecular_mass_unit
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6857,31 +6886,7 @@
       </text>
     </g>
   </g>
-  <g>
-    <g>
-      <path d='M395,13742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorMonoIsotopicWeight'/>
-      <path d='M395,13742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M50,13726 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='13742' class='st3 st4'>
-        descriptor:CID2244_Mono_Isotopic_Weight
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='13716' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorMonoIsotopicWeight
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='387' y='13716' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
-      </text>
-    </g>
-  </g>
-  <polyline class='st11' points='395,13728 415,13728 415,13728 660,13728'/>
+  <polyline class='st11' points='395,13664 415,13664 415,13728 660,13728'/>
   <polygon points='655.3,13733.7 654.4,13732.7 659.4,13728.0 654.4,13723.3 655.3,13722.3 661.5,13728.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 13723)'>
     a +
@@ -6896,12 +6901,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13742' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000334
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13716' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_molecular_weight
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6910,63 +6915,87 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,13728 415,13728 415,13792 660,13792'/>
+  <polyline class='st12' points='395,13664 415,13664 415,13792 660,13792'/>
   <polygon points='655.3,13797.7 654.4,13796.7 659.4,13792.0 654.4,13787.3 655.3,13786.3 661.5,13792.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 13787)'>
-    a +
-  </text>
-  <g>
-    <g>
-      <path d='M1010,13806 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
-      <path d='M1010,13806 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M665,13790 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='13806' class='st3 st4'>
-        cheminf:CHEMINF_000337
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='13780' class='st5 st6 st7' dominant-baseline='middle'>
-        type_mono_isotopic_weight
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='1002' y='13780' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
-      </text>
-    </g>
-  </g>
-  <polyline class='st12' points='395,13728 415,13728 415,13856 660,13856'/>
-  <polygon points='655.3,13861.7 654.4,13860.7 659.4,13856.0 654.4,13851.3 655.3,13850.3 661.5,13856.0'/>
-  <text class='st6 st4' transform='matrix(1 0 0 1 425 13851)'>
     sio:SIO_000300
   </text>
   <g>
-    <rect x='665' y='13834' width='345' height='44' class='st9'/>
-    <polyline points='665,13854 665,13834 1010,13834 1010,13854' class='st2'/>
+    <rect x='665' y='13770' width='345' height='44' class='st9'/>
+    <polyline points='665,13790 665,13770 1010,13770 1010,13790' class='st2'/>
     <g>
-      <text x='673' y='13866' class='st3 st4' dominant-baseline='middle'>
-        180.04225873
+      <text x='673' y='13802' class='st3 st4' dominant-baseline='middle'>
+        180.16
       </text>
     </g>
     <g>
-      <text x='673' y='13844' class='st5 st6 st7' dominant-baseline='middle'>
+      <text x='673' y='13780' class='st5 st6 st7' dominant-baseline='middle'>
         has_value
       </text>
     </g>
     <g>
-      <text x='1002' y='13844' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+      <text x='1002' y='13780' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
         Float
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,13728 415,13728 415,13920 660,13920'/>
+  <polyline class='st12' points='395,13664 415,13664 415,13856 660,13856'/>
+  <polygon points='655.3,13861.7 654.4,13860.7 659.4,13856.0 654.4,13851.3 655.3,13850.3 661.5,13856.0'/>
+  <text class='st6 st4' transform='matrix(1 0 0 1 425 13851)'>
+    sio:SIO_000221
+  </text>
+  <g>
+    <g>
+      <path d='M1010,13870 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,13870 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M665,13854 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='13870' class='st3 st4'>
+        obo:UO_0000055
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='13844' class='st5 st6 st7' dominant-baseline='middle'>
+        has_unit_molecular_mass_unit
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='1002' y='13844' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        URI
+      </text>
+    </g>
+  </g>
+  <g>
+    <g>
+      <path d='M395,13934 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorMonoIsotopicWeight'/>
+      <path d='M395,13934 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M50,13918 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='13934' class='st3 st4'>
+        descriptor:CID2244_Mono_Isotopic_Weight
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='13908' class='st5 st6 st7' dominant-baseline='middle'>
+        DescriptorMonoIsotopicWeight
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='387' y='13908' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        URI
+      </text>
+    </g>
+  </g>
+  <polyline class='st11' points='395,13920 415,13920 415,13920 660,13920'/>
   <polygon points='655.3,13925.7 654.4,13924.7 659.4,13920.0 654.4,13915.3 655.3,13914.3 661.5,13920.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 13915)'>
-    sio:SIO_000221
+    a +
   </text>
   <g>
     <g>
@@ -6978,12 +7007,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13934' class='st3 st4'>
-        obo:UO_0000055
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13908' class='st5 st6 st7' dominant-baseline='middle'>
-        has_unit_molecular_mass_unit
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6992,31 +7021,7 @@
       </text>
     </g>
   </g>
-  <g>
-    <g>
-      <path d='M395,13998 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorRotatableBondCount'/>
-      <path d='M395,13998 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M50,13982 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='13998' class='st3 st4'>
-        descriptor:CID2244_Rotatable_Bond_Count
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='13972' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorRotatableBondCount
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='387' y='13972' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
-      </text>
-    </g>
-  </g>
-  <polyline class='st11' points='395,13984 415,13984 415,13984 660,13984'/>
+  <polyline class='st11' points='395,13920 415,13920 415,13984 660,13984'/>
   <polygon points='655.3,13989.7 654.4,13988.7 659.4,13984.0 654.4,13979.3 655.3,13978.3 661.5,13984.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 13979)'>
     a +
@@ -7031,12 +7036,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13998' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000337
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13972' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_mono_isotopic_weight
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7045,62 +7050,62 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,13984 415,13984 415,14048 660,14048'/>
+  <polyline class='st12' points='395,13920 415,13920 415,14048 660,14048'/>
   <polygon points='655.3,14053.7 654.4,14052.7 659.4,14048.0 654.4,14043.3 655.3,14042.3 661.5,14048.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 14043)'>
-    a +
-  </text>
-  <g>
-    <g>
-      <path d='M1010,14062 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
-      <path d='M1010,14062 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M665,14046 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='14062' class='st3 st4'>
-        cheminf:CHEMINF_000389
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='14036' class='st5 st6 st7' dominant-baseline='middle'>
-        type_rotatable_bond_count
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='1002' y='14036' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
-      </text>
-    </g>
-  </g>
-  <polyline class='st12' points='395,13984 415,13984 415,14112 660,14112'/>
-  <polygon points='655.3,14117.7 654.4,14116.7 659.4,14112.0 654.4,14107.3 655.3,14106.3 661.5,14112.0'/>
-  <text class='st6 st4' transform='matrix(1 0 0 1 425 14107)'>
     sio:SIO_000300
   </text>
   <g>
-    <rect x='665' y='14090' width='345' height='44' class='st9'/>
-    <polyline points='665,14110 665,14090 1010,14090 1010,14110' class='st2'/>
+    <rect x='665' y='14026' width='345' height='44' class='st9'/>
+    <polyline points='665,14046 665,14026 1010,14026 1010,14046' class='st2'/>
     <g>
-      <text x='673' y='14122' class='st3 st4' dominant-baseline='middle'>
-        3
+      <text x='673' y='14058' class='st3 st4' dominant-baseline='middle'>
+        180.04225873
       </text>
     </g>
     <g>
-      <text x='673' y='14100' class='st5 st6 st7' dominant-baseline='middle'>
+      <text x='673' y='14036' class='st5 st6 st7' dominant-baseline='middle'>
         has_value
       </text>
     </g>
     <g>
+      <text x='1002' y='14036' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        Float
+      </text>
+    </g>
+  </g>
+  <polyline class='st12' points='395,13920 415,13920 415,14112 660,14112'/>
+  <polygon points='655.3,14117.7 654.4,14116.7 659.4,14112.0 654.4,14107.3 655.3,14106.3 661.5,14112.0'/>
+  <text class='st6 st4' transform='matrix(1 0 0 1 425 14107)'>
+    sio:SIO_000221
+  </text>
+  <g>
+    <g>
+      <path d='M1010,14126 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,14126 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M665,14110 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='14126' class='st3 st4'>
+        obo:UO_0000055
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='14100' class='st5 st6 st7' dominant-baseline='middle'>
+        has_unit_molecular_mass_unit
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
       <text x='1002' y='14100' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        Int
+        URI
       </text>
     </g>
   </g>
   <g>
     <g>
-      <path d='M395,14190 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorStructureComplexity'/>
+      <path d='M395,14190 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorRotatableBondCount'/>
       <path d='M395,14190 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -7108,12 +7113,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='14190' class='st3 st4'>
-        descriptor:CID2244_Structure_Complexity
+        descriptor:CID2244_Rotatable_Bond_Count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='14164' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorStructureComplexity
+        DescriptorRotatableBondCount
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7166,12 +7171,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14254' class='st3 st4'>
-        cheminf:CHEMINF_000390
+        cheminf:CHEMINF_000389
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14228' class='st5 st6 st7' dominant-baseline='middle'>
-        type_structure_complexity
+        type_rotatable_bond_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7190,7 +7195,7 @@
     <polyline points='665,14302 665,14282 1010,14282 1010,14302' class='st2'/>
     <g>
       <text x='673' y='14314' class='st3 st4' dominant-baseline='middle'>
-        212.0
+        3
       </text>
     </g>
     <g>
@@ -7200,13 +7205,13 @@
     </g>
     <g>
       <text x='1002' y='14292' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        Float
+        Int
       </text>
     </g>
   </g>
   <g>
     <g>
-      <path d='M395,14382 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorSubstanceVersion'/>
+      <path d='M395,14382 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorStructureComplexity'/>
       <path d='M395,14382 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -7214,12 +7219,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='14382' class='st3 st4'>
-        descriptor:SID196106365_Substance_Version
+        descriptor:CID2244_Structure_Complexity
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='14356' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorSubstanceVersion
+        DescriptorStructureComplexity
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7272,12 +7277,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14446' class='st3 st4'>
-        obo:IAO_0000129
+        cheminf:CHEMINF_000390
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14420' class='st5 st6 st7' dominant-baseline='middle'>
-        type_version_number
+        type_structure_complexity
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7296,7 +7301,7 @@
     <polyline points='665,14494 665,14474 1010,14474 1010,14494' class='st2'/>
     <g>
       <text x='673' y='14506' class='st3 st4' dominant-baseline='middle'>
-        2
+        212.0
       </text>
     </g>
     <g>
@@ -7306,13 +7311,13 @@
     </g>
     <g>
       <text x='1002' y='14484' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        Int
+        Float
       </text>
     </g>
   </g>
   <g>
     <g>
-      <path d='M395,14574 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptortIsotopeAtomCount'/>
+      <path d='M395,14574 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorSubstanceVersion'/>
       <path d='M395,14574 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -7320,12 +7325,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='14574' class='st3 st4'>
-        descriptor:CID2244_Isotope_Atom_Count
+        descriptor:SID196106365_Substance_Version
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='14548' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptortIsotopeAtomCount
+        DescriptorSubstanceVersion
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7378,12 +7383,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14638' class='st3 st4'>
-        cheminf:CHEMINF_000372
+        obo:IAO_0000129
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14612' class='st5 st6 st7' dominant-baseline='middle'>
-        type_isotope_atom_count
+        type_version_number
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7402,7 +7407,7 @@
     <polyline points='665,14686 665,14666 1010,14666 1010,14686' class='st2'/>
     <g>
       <text x='673' y='14698' class='st3 st4' dominant-baseline='middle'>
-        0
+        2
       </text>
     </g>
     <g>
