@@ -2764,7 +2764,7 @@
   </text>
   <g>
     <g>
-      <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorIsotopeAtomCount'/>
+      <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorIsotopeAtomCount'/>
       <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -3622,12 +3622,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7470' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_001435
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7444' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_chemical_chemical_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -3651,12 +3651,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7534' class='st3 st4'>
-        sio:SIO_001435
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7508' class='st5 st6 st7' dominant-baseline='middle'>
-        type_chemical_chemical_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -3815,12 +3815,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7854' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_000993
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7828' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_chemical_disease_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -3844,12 +3844,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7918' class='st3 st4'>
-        sio:SIO_000993
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='7892' class='st5 st6 st7' dominant-baseline='middle'>
-        type_chemical_disease_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4008,12 +4008,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8238' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_001257
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8212' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_chemical_gene_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4037,12 +4037,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8302' class='st3 st4'>
-        sio:SIO_001257
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8276' class='st5 st6 st7' dominant-baseline='middle'>
-        type_chemical_gene_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4201,12 +4201,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8622' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_000993
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8596' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_disease_chemical_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4230,12 +4230,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8686' class='st3 st4'>
-        sio:SIO_000993
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8660' class='st5 st6 st7' dominant-baseline='middle'>
-        type_disease_chemical_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4394,12 +4394,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9006' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_001436
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='8980' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_disease_disease_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4423,12 +4423,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9070' class='st3 st4'>
-        sio:SIO_001436
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9044' class='st5 st6 st7' dominant-baseline='middle'>
-        type_disease_disease_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4587,12 +4587,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9390' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_000983
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9364' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_disease_gene_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4616,12 +4616,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9454' class='st3 st4'>
-        sio:SIO_000983
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9428' class='st5 st6 st7' dominant-baseline='middle'>
-        type_disease_gene_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4780,12 +4780,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9774' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_001257
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9748' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_gene_chemical_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4809,12 +4809,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9838' class='st3 st4'>
-        sio:SIO_001257
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='9812' class='st5 st6 st7' dominant-baseline='middle'>
-        type_gene_chemical_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -4973,12 +4973,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10158' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_000983
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10132' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_gene_disease_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5002,12 +5002,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10222' class='st3 st4'>
-        sio:SIO_000983
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10196' class='st5 st6 st7' dominant-baseline='middle'>
-        type_gene_disease_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5166,12 +5166,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10542' class='st3 st4'>
-        vocab:Cooccurrence
+        sio:SIO_001437
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10516' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_gene_gene_association
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5195,12 +5195,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10606' class='st3 st4'>
-        sio:SIO_001437
+        vocab:Cooccurrence
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10580' class='st5 st6 st7' dominant-baseline='middle'>
-        type_gene_gene_association
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5359,12 +5359,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10926' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000376
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10900' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_canonical_smiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5388,12 +5388,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10990' class='st3 st4'>
-        cheminf:CHEMINF_000376
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10964' class='st5 st6 st7' dominant-baseline='middle'>
-        type_canonical_smiles
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5465,12 +5465,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11118' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000140
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11092' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_cid
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5494,12 +5494,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11182' class='st3 st4'>
-        cheminf:CHEMINF_000140
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11156' class='st5 st6 st7' dominant-baseline='middle'>
-        type_cid
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5571,12 +5571,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11310' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000369
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11284' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_covalent_unit_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5600,12 +5600,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11374' class='st3 st4'>
-        cheminf:CHEMINF_000369
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11348' class='st5 st6 st7' dominant-baseline='middle'>
-        type_covalent_unit_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5677,12 +5677,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11502' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000370
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11476' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_defined_atom_stereo_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5706,12 +5706,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11566' class='st3 st4'>
-        cheminf:CHEMINF_000370
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11540' class='st5 st6 st7' dominant-baseline='middle'>
-        type_defined_atom_stereo_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5783,12 +5783,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11694' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000371
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11668' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_defined_bond_stereo_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5812,12 +5812,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11758' class='st3 st4'>
-        cheminf:CHEMINF_000371
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11732' class='st5 st6 st7' dominant-baseline='middle'>
-        type_defined_bond_stereo_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5889,12 +5889,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11886' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000338
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11860' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_exact_mass
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5918,12 +5918,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11950' class='st3 st4'>
-        cheminf:CHEMINF_000338
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11924' class='st5 st6 st7' dominant-baseline='middle'>
-        type_exact_mass
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6024,12 +6024,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12142' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000373
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12116' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_heavy_atom_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6053,12 +6053,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12206' class='st3 st4'>
-        cheminf:CHEMINF_000373
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12180' class='st5 st6 st7' dominant-baseline='middle'>
-        type_heavy_atom_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6130,12 +6130,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12334' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000388
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12308' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_hydrogen_bond_acceptor_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6159,12 +6159,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12398' class='st3 st4'>
-        cheminf:CHEMINF_000388
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12372' class='st5 st6 st7' dominant-baseline='middle'>
-        type_hydrogen_bond_acceptor_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6236,12 +6236,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12526' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000387
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12500' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_hydrogen_bond_donor_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6265,12 +6265,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12590' class='st3 st4'>
-        cheminf:CHEMINF_000387
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12564' class='st5 st6 st7' dominant-baseline='middle'>
-        type_hydrogen_bond_donor_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6342,12 +6342,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12718' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000396
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12692' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_inchi
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6371,12 +6371,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12782' class='st3 st4'>
-        cheminf:CHEMINF_000396
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12756' class='st5 st6 st7' dominant-baseline='middle'>
-        type_inchi
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6448,12 +6448,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12910' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000379
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12884' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_isomeric_smiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6477,12 +6477,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12974' class='st3 st4'>
-        cheminf:CHEMINF_000379
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12948' class='st5 st6 st7' dominant-baseline='middle'>
-        type_isomeric_smiles
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6517,7 +6517,7 @@
   </g>
   <g>
     <g>
-      <path d='M395,13102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorIsotopeAtomCount'/>
+      <path d='M395,13102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorIsotopeAtomCount'/>
       <path d='M395,13102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -6554,12 +6554,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13102' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000372
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13076' class='st5 st6 st7' dominant-baseline='middle'>
-        descriptorisotopeatomcount_type
+        type_isotope_atom_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6583,12 +6583,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13166' class='st3 st4'>
-        cheminf:CHEMINF_000372
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13140' class='st5 st6 st7' dominant-baseline='middle'>
-        descriptorisotopeatomcount_type_isotope_atom_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6612,7 +6612,7 @@
     </g>
     <g>
       <text x='673' y='13204' class='st5 st6 st7' dominant-baseline='middle'>
-        descriptorisotopeatomcount_has_value
+        has_value
       </text>
     </g>
     <g>
@@ -6660,12 +6660,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13294' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000382
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13268' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_iupac_name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6689,12 +6689,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13358' class='st3 st4'>
-        cheminf:CHEMINF_000382
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13332' class='st5 st6 st7' dominant-baseline='middle'>
-        type_iupac_name
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6766,12 +6766,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13486' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000335
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13460' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_molecular_formula
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6795,12 +6795,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13550' class='st3 st4'>
-        cheminf:CHEMINF_000335
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13524' class='st5 st6 st7' dominant-baseline='middle'>
-        type_molecular_formula
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6872,12 +6872,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13678' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000334
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13652' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_molecular_weight
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6901,12 +6901,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13742' class='st3 st4'>
-        cheminf:CHEMINF_000334
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13716' class='st5 st6 st7' dominant-baseline='middle'>
-        type_molecular_weight
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7007,12 +7007,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13934' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000337
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13908' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_mono_isotopic_weight
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7036,12 +7036,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13998' class='st3 st4'>
-        cheminf:CHEMINF_000337
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13972' class='st5 st6 st7' dominant-baseline='middle'>
-        type_mono_isotopic_weight
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7142,12 +7142,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14190' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000389
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14164' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_rotatable_bond_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7171,12 +7171,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14254' class='st3 st4'>
-        cheminf:CHEMINF_000389
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14228' class='st5 st6 st7' dominant-baseline='middle'>
-        type_rotatable_bond_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7248,12 +7248,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14382' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000390
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14356' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_structure_complexity
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7277,12 +7277,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14446' class='st3 st4'>
-        cheminf:CHEMINF_000390
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14420' class='st5 st6 st7' dominant-baseline='middle'>
-        type_structure_complexity
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7354,12 +7354,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14574' class='st3 st4'>
-        vocab:Descriptor
+        obo:IAO_0000129
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14548' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_version_number
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7383,12 +7383,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14638' class='st3 st4'>
-        obo:IAO_0000129
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14612' class='st5 st6 st7' dominant-baseline='middle'>
-        type_version_number
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7460,12 +7460,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14766' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000336
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14740' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_total_formal_charge
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7489,12 +7489,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14830' class='st3 st4'>
-        cheminf:CHEMINF_000336
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14804' class='st5 st6 st7' dominant-baseline='middle'>
-        type_total_formal_charge
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7566,12 +7566,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14958' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000392
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14932' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_tpsa
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7595,12 +7595,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15022' class='st3 st4'>
-        cheminf:CHEMINF_000392
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='14996' class='st5 st6 st7' dominant-baseline='middle'>
-        type_tpsa
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7701,12 +7701,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15214' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000374
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15188' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_undefined_atom_stereo_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7730,12 +7730,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15278' class='st3 st4'>
-        cheminf:CHEMINF_000374
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15252' class='st5 st6 st7' dominant-baseline='middle'>
-        type_undefined_atom_stereo_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7807,12 +7807,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15406' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000375
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15380' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_undefined_bond_stereo_count
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7836,12 +7836,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15470' class='st3 st4'>
-        cheminf:CHEMINF_000375
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15444' class='st5 st6 st7' dominant-baseline='middle'>
-        type_undefined_bond_stereo_count
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7913,12 +7913,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15598' class='st3 st4'>
-        vocab:Descriptor
+        cheminf:CHEMINF_000395
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15572' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        type_xlogp3
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -7942,12 +7942,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15662' class='st3 st4'>
-        cheminf:CHEMINF_000395
+        vocab:Descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='15636' class='st5 st6 st7' dominant-baseline='middle'>
-        type_xlogp3
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17888,7 +17888,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='35988' class='st5 st6 st7' dominant-baseline='middle'>
-        rdf
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>

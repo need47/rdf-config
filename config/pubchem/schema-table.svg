@@ -771,7 +771,7 @@
         </text>
       </g>
       <g>
-        <rect x='1028' y='1098' width='464' height='26' class='subject-object'/>
+        <rect x='1028' y='1098' width='464' height='26' class='subject-object stPubChem stDescriptorIsotopeAtomCount'/>
         <text x='1038' y='1115' class='object-text'>
           has_attribute_descriptorisotopeatomcount
         </text>
@@ -1046,7 +1046,7 @@
           CooccurrenceCompoundCompound
         </text>
         <text x='1490' y='1555' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_001435
+          sio:SIO_001435, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1094,7 +1094,7 @@
           CooccurrenceCompoundDisease
         </text>
         <text x='490' y='829' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_000993
+          sio:SIO_000993, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1142,7 +1142,7 @@
           CooccurrenceCompoundGene
         </text>
         <text x='990' y='1099' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_001257
+          sio:SIO_001257, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1190,7 +1190,7 @@
           CooccurrenceDiseaseCompound
         </text>
         <text x='1490' y='1729' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_000993
+          sio:SIO_000993, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1238,7 +1238,7 @@
           CooccurrenceDiseaseDisease
         </text>
         <text x='490' y='1003' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_001436
+          sio:SIO_001436, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1286,7 +1286,7 @@
           CooccurrenceDiseaseGene
         </text>
         <text x='990' y='1273' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_000983
+          sio:SIO_000983, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1334,7 +1334,7 @@
           CooccurrenceGeneCompound
         </text>
         <text x='1490' y='1903' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_001257
+          sio:SIO_001257, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1382,7 +1382,7 @@
           CooccurrenceGeneDisease
         </text>
         <text x='490' y='1177' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_000983
+          sio:SIO_000983, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1430,7 +1430,7 @@
           CooccurrenceGeneGene
         </text>
         <text x='990' y='1447' text-anchor='end' class='subject-type'>
-          vocab:Cooccurrence, sio:SIO_001437
+          sio:SIO_001437, vocab:Cooccurrence
         </text>
       </g>
     </g>
@@ -1451,7 +1451,7 @@
           DescriptorCanonicalSmiles
         </text>
         <text x='1490' y='2077' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000376
+          cheminf:CHEMINF_000376, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1472,7 +1472,7 @@
           DescriptorCompoundIdentifier
         </text>
         <text x='490' y='1351' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000140
+          cheminf:CHEMINF_000140, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1493,7 +1493,7 @@
           DescriptorCovalentUnitCount
         </text>
         <text x='990' y='1621' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000369
+          cheminf:CHEMINF_000369, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1514,7 +1514,7 @@
           DescriptorDefinedAtomStereoCount
         </text>
         <text x='1490' y='2161' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000370
+          cheminf:CHEMINF_000370, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1535,7 +1535,7 @@
           DescriptorDefinedBondStereoCount
         </text>
         <text x='490' y='1435' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000371
+          cheminf:CHEMINF_000371, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1565,7 +1565,7 @@
           DescriptorExactMass
         </text>
         <text x='990' y='1705' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000338
+          cheminf:CHEMINF_000338, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1586,7 +1586,7 @@
           DescriptorHeavyAtomCount
         </text>
         <text x='1490' y='2245' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000373
+          cheminf:CHEMINF_000373, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1607,7 +1607,7 @@
           DescriptorHydrogenBondAcceptorCount
         </text>
         <text x='490' y='1519' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000388
+          cheminf:CHEMINF_000388, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1628,7 +1628,7 @@
           DescriptorHydrogenBondDonorCount
         </text>
         <text x='990' y='1819' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000387
+          cheminf:CHEMINF_000387, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1649,7 +1649,7 @@
           DescriptorInChI
         </text>
         <text x='1490' y='2329' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000396
+          cheminf:CHEMINF_000396, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1670,7 +1670,7 @@
           DescriptorIsomericSmiles
         </text>
         <text x='490' y='1603' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000379
+          cheminf:CHEMINF_000379, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1679,19 +1679,19 @@
       <g>
         <rect x='528' y='1920' width='464' height='26' class='literal-object'/>
         <text x='538' y='1937' class='object-text'>
-          descriptorisotopeatomcount_has_value
+          has_value
         </text>
         <text x='982' y='1937' text-anchor='end' class='object-type'>
           Int
         </text>
       </g>
       <g>
-        <path d='M 520,1912 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stDescriptorIsotopeAtomCount'/>
+        <path d='M 520,1912 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stDescriptorIsotopeAtomCount'/>
         <text x='530' y='1903' class='subject-text'>
           DescriptorIsotopeAtomCount
         </text>
         <text x='990' y='1903' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000372
+          cheminf:CHEMINF_000372, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1712,7 +1712,7 @@
           DescriptorIUPACName
         </text>
         <text x='1490' y='2413' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000382
+          cheminf:CHEMINF_000382, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1733,7 +1733,7 @@
           DescriptorMolecularFormula
         </text>
         <text x='490' y='1687' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000335
+          cheminf:CHEMINF_000335, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1763,7 +1763,7 @@
           DescriptorMolecularWeight
         </text>
         <text x='990' y='1987' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000334
+          cheminf:CHEMINF_000334, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1793,7 +1793,7 @@
           DescriptorMonoIsotopicWeight
         </text>
         <text x='1490' y='2497' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000337
+          cheminf:CHEMINF_000337, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1814,7 +1814,7 @@
           DescriptorRotatableBondCount
         </text>
         <text x='490' y='1771' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000389
+          cheminf:CHEMINF_000389, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1835,7 +1835,7 @@
           DescriptorStructureComplexity
         </text>
         <text x='990' y='2101' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000390
+          cheminf:CHEMINF_000390, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1856,7 +1856,7 @@
           DescriptorTotalFormalCharge
         </text>
         <text x='1490' y='2611' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000336
+          cheminf:CHEMINF_000336, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1886,7 +1886,7 @@
           DescriptorTPSA
         </text>
         <text x='490' y='1855' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000392
+          cheminf:CHEMINF_000392, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1907,7 +1907,7 @@
           DescriptorUndefinedAtomStereoCount
         </text>
         <text x='990' y='2185' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000374
+          cheminf:CHEMINF_000374, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1928,7 +1928,7 @@
           DescriptorUndefinedBondStereoCount
         </text>
         <text x='1490' y='2695' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000375
+          cheminf:CHEMINF_000375, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1949,7 +1949,7 @@
           DescriptorXLOGP3
         </text>
         <text x='490' y='1969' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, cheminf:CHEMINF_000395
+          cheminf:CHEMINF_000395, vocab:Descriptor
         </text>
       </g>
     </g>
@@ -1970,7 +1970,7 @@
           DescriptorSubstanceVersion
         </text>
         <text x='990' y='2269' text-anchor='end' class='subject-type'>
-          vocab:Descriptor, obo:IAO_0000129
+          obo:IAO_0000129, vocab:Descriptor
         </text>
       </g>
     </g>

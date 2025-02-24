@@ -206,8 +206,8 @@
 
 - CooccurrenceCompoundCompound cooccurrence:CID3672_CID1983:
   - a+:
-    - cooccurrencecompoundcompound_type: vocab:Cooccurrence
     - cooccurrencecompoundcompound_type_chemical_chemical_association: sio:SIO_001435
+    - cooccurrencecompoundcompound_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencecompoundcompound_has_value: 100435
   - sio:SIO_001157:
@@ -220,8 +220,8 @@
 
 - CooccurrenceCompoundDisease cooccurrence:CID3672_DZID8756:
   - a+:
-    - cooccurrencecompounddisease_type: vocab:Cooccurrence
     - cooccurrencecompounddisease_type_chemical_disease_association: sio:SIO_000993
+    - cooccurrencecompounddisease_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencecompounddisease_has_value: 61779
   - sio:SIO_001157:
@@ -234,8 +234,8 @@
 
 - CooccurrenceCompoundGene cooccurrence:CID3672_ptgs2:
   - a+:
-    - cooccurrencecompoundgene_type: vocab:Cooccurrence
     - cooccurrencecompoundgene_type_chemical_gene_association: sio:SIO_001257
+    - cooccurrencecompoundgene_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencecompoundgene_has_value: 26328
   - sio:SIO_001157:
@@ -248,8 +248,8 @@
 
 - CooccurrenceDiseaseCompound cooccurrence:DZID8756_CID64747:
   - a+:
-    - cooccurrencediseasecompound_type: vocab:Cooccurrence
     - cooccurrencediseasecompound_type_disease_chemical_association: sio:SIO_000993
+    - cooccurrencediseasecompound_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencediseasecompound_has_value: 1197413
   - sio:SIO_001157:
@@ -262,8 +262,8 @@
 
 - CooccurrenceDiseaseDisease cooccurrence:DZID8756_DZID11338:
   - a+:
-    - cooccurrencediseasedisease_type: vocab:Cooccurrence
     - cooccurrencediseasedisease_type_disease_disease_association: sio:SIO_001436
+    - cooccurrencediseasedisease_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencediseasedisease_has_value: 1233427
   - sio:SIO_001157:
@@ -276,8 +276,8 @@
 
 - CooccurrenceDiseaseGene cooccurrence:DZID8756_bcl2:
   - a+:
-    - cooccurrencediseasegene_type: vocab:Cooccurrence
     - cooccurrencediseasegene_type_disease_gene_association: sio:SIO_000983
+    - cooccurrencediseasegene_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencediseasegene_has_value: 7406
   - sio:SIO_001157:
@@ -290,8 +290,8 @@
 
 - CooccurrenceGeneCompound cooccurrence:ptgs2_CID5280360:
   - a+:
-    - cooccurrencegenecompound_type: vocab:Cooccurrence
     - cooccurrencegenecompound_type_gene_chemical_association: sio:SIO_001257
+    - cooccurrencegenecompound_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencegenecompound_has_value: 100435
   - sio:SIO_001157:
@@ -304,8 +304,8 @@
 
 - CooccurrenceGeneDisease cooccurrence:ptgs2_DZID8173:
   - a+:
-    - cooccurrencegenedisease_type: vocab:Cooccurrence
     - cooccurrencegenedisease_type_gene_disease_association: sio:SIO_000983
+    - cooccurrencegenedisease_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencegenedisease_has_value: 244058
   - sio:SIO_001157:
@@ -318,8 +318,8 @@
 
 - CooccurrenceGeneGene cooccurrence:ptgs2_ptgs1:
   - a+:
-    - cooccurrencegenegene_type: vocab:Cooccurrence
     - cooccurrencegenegene_type_gene_gene_association: sio:SIO_001437
+    - cooccurrencegenegene_type: vocab:Cooccurrence
   - sio:SIO_000300:
     - cooccurrencegenegene_has_value: 305887
   - sio:SIO_001157:
@@ -332,48 +332,48 @@
 
 - DescriptorCanonicalSmiles descriptor:CID2244_Canonical_SMILES:
   - a+:
-    - descriptorcanonicalsmiles_type: vocab:Descriptor
     - descriptorcanonicalsmiles_type_canonical_smiles: cheminf:CHEMINF_000376
+    - descriptorcanonicalsmiles_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorcanonicalsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
 
 
 - DescriptorCompoundIdentifier descriptor:CID2244_Compound_Identifier:
   - a+:
-    - descriptorcompoundidentifier_type: vocab:Descriptor
     - descriptorcompoundidentifier_type_cid: cheminf:CHEMINF_000140
+    - descriptorcompoundidentifier_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorcompoundidentifier_has_value: "2244"
 
 
 - DescriptorCovalentUnitCount descriptor:CID2244_Covalent_Unit_Count:
   - a+:
-    - descriptorcovalentunitcount_type: vocab:Descriptor
     - descriptorcovalentunitcount_type_covalent_unit_count: cheminf:CHEMINF_000369
+    - descriptorcovalentunitcount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorcovalentunitcount_has_value: 1
 
 
 - DescriptorDefinedAtomStereoCount descriptor:CID2244_Defined_Atom_Stereo_Count:
   - a+:
-    - descriptordefinedatomstereocount_type: vocab:Descriptor
     - descriptordefinedatomstereocount_type_defined_atom_stereo_count: cheminf:CHEMINF_000370
+    - descriptordefinedatomstereocount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptordefinedatomstereocount_has_value: 0
 
 
 - DescriptorDefinedBondStereoCount descriptor:CID2244_Defined_Bond_Stereo_Count:
   - a+:
-    - descriptordefinedbondstereocount_type: vocab:Descriptor
     - descriptordefinedbondstereocount_type_defined_bond_stereo_count: cheminf:CHEMINF_000371
+    - descriptordefinedbondstereocount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptordefinedbondstereocount_has_value: 0
 
 
 - DescriptorExactMass descriptor:CID2244_Exact_Mass:
   - a+:
-    - descriptorexactmass_type: vocab:Descriptor
     - descriptorexactmass_type_exact_mass: cheminf:CHEMINF_000338
+    - descriptorexactmass_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorexactmass_has_value: 180.04225873
   - sio:SIO_000221:
@@ -382,72 +382,72 @@
 
 - DescriptorHeavyAtomCount descriptor:CID2244_Non-hydrogen_Atom_Count:
   - a+:
-    - descriptorheavyatomcount_type: vocab:Descriptor
     - descriptorheavyatomcount_type_heavy_atom_count: cheminf:CHEMINF_000373
+    - descriptorheavyatomcount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorheavyatomcount_has_value: 13
 
 
 - DescriptorHydrogenBondAcceptorCount descriptor:CID2244_Hydrogen_Bond_Acceptor_Count:
   - a+:
-    - descriptorhydrogenbondacceptorcount_type: vocab:Descriptor
     - descriptorhydrogenbondacceptorcount_type_hydrogen_bond_acceptor_count: cheminf:CHEMINF_000388
+    - descriptorhydrogenbondacceptorcount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorhydrogenbondacceptorcount_has_value: 4
 
 
 - DescriptorHydrogenBondDonorCount descriptor:CID2244_Hydrogen_Bond_Donor_Count:
   - a+:
-    - descriptorhydrogenbonddonorcount_type: vocab:Descriptor
     - descriptorhydrogenbonddonorcount_type_hydrogen_bond_donor_count: cheminf:CHEMINF_000387
+    - descriptorhydrogenbonddonorcount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorhydrogenbonddonorcount_has_value: 1
 
 
 - DescriptorInChI descriptor:CID2244_IUPAC_InChI:
   - a+:
-    - descriptorinchi_type: vocab:Descriptor
     - descriptorinchi_type_inchi: cheminf:CHEMINF_000396
+    - descriptorinchi_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorinchi_has_value: "InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)"
 
 
 - DescriptorIsomericSmiles descriptor:CID2244_Isomeric_SMILES:
   - a+:
-    - descriptorisomericsmiles_type: vocab:Descriptor
     - descriptorisomericsmiles_type_isomeric_smiles: cheminf:CHEMINF_000379
+    - descriptorisomericsmiles_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorisomericsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
 
 
 - DescriptorIsotopeAtomCount descriptor:CID2244_Isotope_Atom_Count:
   - a+:
-    - descriptorisotopeatomcount_type: vocab:Descriptor
     - descriptorisotopeatomcount_type_isotope_atom_count: cheminf:CHEMINF_000372
+    - descriptorisotopeatomcount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorisotopeatomcount_has_value: 0
 
 
 - DescriptorIUPACName descriptor:CID2244_Preferred_IUPAC_Name:
   - a+:
-    - descriptoriupacname_type: vocab:Descriptor
     - descriptoriupacname_type_iupac_name: cheminf:CHEMINF_000382
+    - descriptoriupacname_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptoriupacname_has_value: "2-acetyloxybenzoic acid"
 
 
 - DescriptorMolecularFormula descriptor:CID2244_Molecular_Formula:
   - a+:
-    - descriptormolecularformula_type: vocab:Descriptor
     - descriptormolecularformula_type_molecular_formula: cheminf:CHEMINF_000335
+    - descriptormolecularformula_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptormolecularformula_has_value: "C9H8O4"
 
 
 - DescriptorMolecularWeight descriptor:CID2244_Molecular_Weight:
   - a+:
-    - descriptormolecularweight_type: vocab:Descriptor
     - descriptormolecularweight_type_molecular_weight: cheminf:CHEMINF_000334
+    - descriptormolecularweight_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptormolecularweight_has_value: 180.16
   - sio:SIO_000221:
@@ -456,8 +456,8 @@
 
 - DescriptorMonoIsotopicWeight descriptor:CID2244_Mono_Isotopic_Weight:
   - a+:
-    - descriptormonoisotopicweight_type: vocab:Descriptor
     - descriptormonoisotopicweight_type_mono_isotopic_weight: cheminf:CHEMINF_000337
+    - descriptormonoisotopicweight_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptormonoisotopicweight_has_value: 180.04225873
   - sio:SIO_000221:
@@ -466,32 +466,32 @@
 
 - DescriptorRotatableBondCount descriptor:CID2244_Rotatable_Bond_Count:
   - a+:
-    - descriptorrotatablebondcount_type: vocab:Descriptor
     - descriptorrotatablebondcount_type_rotatable_bond_count: cheminf:CHEMINF_000389
+    - descriptorrotatablebondcount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorrotatablebondcount_has_value: 3
 
 
 - DescriptorStructureComplexity descriptor:CID2244_Structure_Complexity:
   - a+:
-    - descriptorstructurecomplexity_type: vocab:Descriptor
     - descriptorstructurecomplexity_type_structure_complexity: cheminf:CHEMINF_000390
+    - descriptorstructurecomplexity_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorstructurecomplexity_has_value: 212.0
 
 
 - DescriptorTotalFormalCharge descriptor:CID2244_Total_Formal_Charge:
   - a+:
-    - descriptortotalformalcharge_type: vocab:Descriptor
     - descriptortotalformalcharge_type_total_formal_charge: cheminf:CHEMINF_000336
+    - descriptortotalformalcharge_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptortotalformalcharge_has_value: 0
 
 
 - DescriptorTPSA descriptor:CID2244_TPSA:
   - a+:
-    - descriptortpsa_type: vocab:Descriptor
     - descriptortpsa_type_tpsa: cheminf:CHEMINF_000392
+    - descriptortpsa_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptortpsa_has_value: 63.6
   - sio:SIO_000221:
@@ -500,32 +500,32 @@
 
 - DescriptorUndefinedAtomStereoCount descriptor:CID2244_Undefined_Atom_Stereo_Count:
   - a+:
-    - descriptorundefinedatomstereocount_type: vocab:Descriptor
     - descriptorundefinedatomstereocount_type_undefined_atom_stereo_count: cheminf:CHEMINF_000374
+    - descriptorundefinedatomstereocount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorundefinedatomstereocount_has_value: 0
 
 
 - DescriptorUndefinedBondStereoCount descriptor:CID2244_Undefined_Bond_Stereo_Count:
   - a+:
-    - descriptorundefinedbondstereocount_type: vocab:Descriptor
     - descriptorundefinedbondstereocount_type_undefined_bond_stereo_count: cheminf:CHEMINF_000375
+    - descriptorundefinedbondstereocount_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorundefinedbondstereocount_has_value: 0
 
 
 - DescriptorXLOGP3 descriptor:CID2244_XLogP3:
   - a+:
-    - descriptorxlogp3_type: vocab:Descriptor
     - descriptorxlogp3_type_xlogp3: cheminf:CHEMINF_000395
+    - descriptorxlogp3_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorxlogp3_has_value: 1.2
 
 
 - DescriptorSubstanceVersion descriptor:SID196106365_Substance_Version:
   - a+:
-    - descriptorsubstanceversion_type: vocab:Descriptor
     - descriptorsubstanceversion_type_version_number: obo:IAO_0000129
+    - descriptorsubstanceversion_type: vocab:Descriptor
   - sio:SIO_000300:
     - descriptorsubstanceversion_has_value: 2
 
@@ -1070,7 +1070,7 @@
 
 - Taxonomy taxonomy:TAXID9606 taxonomy:TAXID467174:
   - a+:
-    - taxonomy_rdf: vocab:Taxonomy
+    - taxonomy_type: vocab:Taxonomy
     - taxonomy_type_taxonomy: sio:SIO_010000
   - dcterms:identifier:
     - taxonomy_identifier: "9606"

@@ -33,7 +33,7 @@ class RDFConfig
           descriptorhydrogenbondacceptorcount
           descriptorhydrogenbonddonorcount
           descriptorisomericsmiles
-          descriptortisotopeatomcount
+          descriptorisotopeatomcount
           descriptorinchi
           descriptormolecularformula
           descriptormolecularweight
