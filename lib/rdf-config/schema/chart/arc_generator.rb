@@ -200,20 +200,20 @@ class RDFConfig
             .subject-name { font-family:'#{SUBJECT_FONT_FAMILY}'; font-size:#{SUBJECT_FONT_SIZE}px; font-weight:bold; }
             .relation { fill:none; stroke:#000000; }
             .grid { stroke:#CCCCCC; stroke-width:1px;}
-            .stPubChem { fill: #02bfe7; }
-            .stAnatomy { fill: #c2b280; }
-            .stBioAssay { fill: #8c5ad9; }
-            .stCell { fill: #008080; }
-            .stCompound { fill: #02bfe7; }
-            .stConcept { fill: #02bfe7; }
-            .stDisease { fill: #a52a2a; }
-            .stGene, .stGeneSymbol { fill: #e31ca1; }
-            .stProtein, .stEnzyme { fill: #e35f1c; }
-            .stPatent, .stPatentCPC, .stPatentIPC, .stPatentAssignee, .stPatentInventor { fill: #225e65; }
-            .stPathway { fill: #73e531; }
-            .stSource { fill: #4aa564; }
-            .stSubstance { fill: #f9c642; }
-            .stTaxonomy { fill: #00abba; }
+            .stPubChem { fill: #02bfe7bf; }
+            .stAnatomy { fill: #c2b280bf; }
+            .stBioAssay { fill: #8c5ad9bf; }
+            .stCell { fill: #008080bf; }
+            .stCompound { fill: #02bfe7bf; }
+            .stConcept { fill: #02bfe7bf; }
+            .stDisease { fill: #a52a2abf; }
+            .stGene, .stGeneSymbol { fill: #e31ca1bf; }
+            .stProtein, .stEnzyme { fill: #e35f1cbf; }
+            .stPatent, .stPatentCPC, .stPatentIPC, .stPatentAssignee, .stPatentInventor { fill: #225e65bf; }
+            .stPathway { fill: #73e531bf; }
+            .stSource { fill: #4aa564bf; }
+            .stSubstance { fill: #f9c642bf; }
+            .stTaxonomy { fill: #00abbabf; }
           STYLE
 
           style

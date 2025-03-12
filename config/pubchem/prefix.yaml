@@ -1,69 +1,70 @@
-owl            : <http://www.w3.org/2002/07/owl#>
-rdf            : <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-rdfs           : <http://www.w3.org/2000/01/rdf-schema#>
-xsd            : <http://www.w3.org/2001/XMLSchema#>
-vocab          : <http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#>
-ruleset        : <http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/>
-anatomy        : <http://rdf.ncbi.nlm.nih.gov/pubchem/anatomy/>
-author         : <http://rdf.ncbi.nlm.nih.gov/pubchem/author/>
-bioassay       : <http://rdf.ncbi.nlm.nih.gov/pubchem/bioassay/>
-book           : <http://rdf.ncbi.nlm.nih.gov/pubchem/book/>
-cell           : <http://rdf.ncbi.nlm.nih.gov/pubchem/cell/>
-compound       : <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>
-concept        : <http://rdf.ncbi.nlm.nih.gov/pubchem/concept/>
+owl: <http://www.w3.org/2002/07/owl#>
+rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+xsd: <http://www.w3.org/2001/XMLSchema#>
+vocab: <http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#>
+ruleset: <http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/>
+anatomy: <http://rdf.ncbi.nlm.nih.gov/pubchem/anatomy/>
+author: <http://rdf.ncbi.nlm.nih.gov/pubchem/author/>
+bioassay: <http://rdf.ncbi.nlm.nih.gov/pubchem/bioassay/>
+book: <http://rdf.ncbi.nlm.nih.gov/pubchem/book/>
+cell: <http://rdf.ncbi.nlm.nih.gov/pubchem/cell/>
+compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>
+concept: <http://rdf.ncbi.nlm.nih.gov/pubchem/concept/>
 conserveddomain: <http://rdf.ncbi.nlm.nih.gov/pubchem/conserveddomain/>
-cooccurrence   : <http://rdf.ncbi.nlm.nih.gov/pubchem/cooccurrence/>
-descriptor     : <http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/>
-disease        : <http://rdf.ncbi.nlm.nih.gov/pubchem/disease/>
-endpoint       : <http://rdf.ncbi.nlm.nih.gov/pubchem/endpoint/>
-gene           : <http://rdf.ncbi.nlm.nih.gov/pubchem/gene/>
-grant          : <http://rdf.ncbi.nlm.nih.gov/pubchem/grant/>
-inchikey       : <http://rdf.ncbi.nlm.nih.gov/pubchem/inchikey>
-journal        : <http://rdf.ncbi.nlm.nih.gov/pubchem/journal/>
-measuregroup   : <http://rdf.ncbi.nlm.nih.gov/pubchem/measuregroup/>
-organization   : <http://rdf.ncbi.nlm.nih.gov/pubchem/organization/>
-patent         : <http://rdf.ncbi.nlm.nih.gov/pubchem/patent/>
-patentassignee : <http://rdf.ncbi.nlm.nih.gov/pubchem/patentassignee/>
-patentinventor : <http://rdf.ncbi.nlm.nih.gov/pubchem/patentinventor/>
-patentcpc      : <http://rdf.ncbi.nlm.nih.gov/pubchem/patentcpc/>
-patentipc      : <http://rdf.ncbi.nlm.nih.gov/pubchem/patentipc/>
-pathway        : <http://rdf.ncbi.nlm.nih.gov/pubchem/pathway/>
-protein        : <http://rdf.ncbi.nlm.nih.gov/pubchem/protein/>
-reaction       : <http://rdf.ncbi.nlm.nih.gov/pubchem/reaction/>
-reference      : <http://rdf.ncbi.nlm.nih.gov/pubchem/reference/>
-source         : <http://rdf.ncbi.nlm.nih.gov/pubchem/source/>
-substance      : <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/>
-synonym        : <http://rdf.ncbi.nlm.nih.gov/pubchem/synonym/>
-taxonomy       : <http://rdf.ncbi.nlm.nih.gov/pubchem/taxonomy/>
-bao            : <http://www.bioassayontology.org/bao#>
-bp3            : <http://www.biopax.org/release/biopax-level3.owl#>
-chembl         : <http://rdf.ebi.ac.uk/resource/chembl/molecule/>
-cheminf        : <http://semanticscience.org/resource/>
-cito           : <http://purl.org/spar/cito/>
-dcterms        : <http://purl.org/dc/terms/>
-edam           : <http://edamontology.org/>
-efo            : <http://www.ebi.ac.uk/efo/>
-ensembl        : <http://rdf.ebi.ac.uk/resource/ensembl/>
-epo_cpc        : <http://data.epo.org/linked-data/def/cpc/>
-epo_ipc        : <http://data.epo.org/linked-data/def/ipc/>
-epo_patent     : <http://data.epo.org/linked-data/def/patent/>
-fabio          : <http://purl.org/spar/fabio/>
-foaf           : <http://xmlns.com/foaf/0.1/>
-frapo          : <http://purl.org/cerif/frapo/>
-idorg          : <http://identifiers.org/>
-mesh           : <http://id.nlm.nih.gov/mesh/>
-meshv          : <http://id.nlm.nih.gov/mesh/vocab#>
-ncit           : <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
-ndfrt          : <http://purl.bioontology.org/ontology/NDFRT>
-obo            : <http://purl.obolibrary.org/obo/>
-pav            : <http://purl.org/pav/>
-pdbo           : <http://rdf.wwpdb.org/schema/pdbx-v50.owl#>
-prism          : <http://prismstandard.org/namespaces/basic/3.0/>
-sio            : <http://semanticscience.org/resource/>
-skos           : <http://www.w3.org/2004/02/skos/core#>
-snomedct       : <http://purl.bioontology.org/ontology/SNOMEDCT>
-uniprot        : <http://purl.uniprot.org/uniprot/>
-up             : <http://purl.uniprot.org/core/>
-vcard2006      : <http://www.w3.org/2006/vcard/ns#>
-void           : <http://rdfs.org/ns/void#>
-wd             : <http://www.wikidata.org/entity/>
+cooccurrence: <http://rdf.ncbi.nlm.nih.gov/pubchem/cooccurrence/>
+descriptor: <http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/>
+disease: <http://rdf.ncbi.nlm.nih.gov/pubchem/disease/>
+endpoint: <http://rdf.ncbi.nlm.nih.gov/pubchem/endpoint/>
+gene: <http://rdf.ncbi.nlm.nih.gov/pubchem/gene/>
+grant: <http://rdf.ncbi.nlm.nih.gov/pubchem/grant/>
+inchikey: <http://rdf.ncbi.nlm.nih.gov/pubchem/inchikey>
+journal: <http://rdf.ncbi.nlm.nih.gov/pubchem/journal/>
+measuregroup: <http://rdf.ncbi.nlm.nih.gov/pubchem/measuregroup/>
+organization: <http://rdf.ncbi.nlm.nih.gov/pubchem/organization/>
+patent: <http://rdf.ncbi.nlm.nih.gov/pubchem/patent/>
+patentassignee: <http://rdf.ncbi.nlm.nih.gov/pubchem/patentassignee/>
+patentinventor: <http://rdf.ncbi.nlm.nih.gov/pubchem/patentinventor/>
+patentcpc: <http://rdf.ncbi.nlm.nih.gov/pubchem/patentcpc/>
+patentipc: <http://rdf.ncbi.nlm.nih.gov/pubchem/patentipc/>
+pathway: <http://rdf.ncbi.nlm.nih.gov/pubchem/pathway/>
+protein: <http://rdf.ncbi.nlm.nih.gov/pubchem/protein/>
+reaction: <http://rdf.ncbi.nlm.nih.gov/pubchem/reaction/>
+reference: <http://rdf.ncbi.nlm.nih.gov/pubchem/reference/>
+source: <http://rdf.ncbi.nlm.nih.gov/pubchem/source/>
+substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/>
+synonym: <http://rdf.ncbi.nlm.nih.gov/pubchem/synonym/>
+taxonomy: <http://rdf.ncbi.nlm.nih.gov/pubchem/taxonomy/>
+bao: <http://www.bioassayontology.org/bao#>
+bp3: <http://www.biopax.org/release/biopax-level3.owl#>
+chembl: <http://rdf.ebi.ac.uk/resource/chembl/molecule/>
+chembl.assay: <http://rdf.ebi.ac.uk/resource/chembl/assay/>
+cheminf: <http://semanticscience.org/resource/>
+cito: <http://purl.org/spar/cito/>
+dcterms: <http://purl.org/dc/terms/>
+edam: <http://edamontology.org/>
+efo: <http://www.ebi.ac.uk/efo/>
+ensembl: <http://rdf.ebi.ac.uk/resource/ensembl/>
+epo_cpc: <http://data.epo.org/linked-data/def/cpc/>
+epo_ipc: <http://data.epo.org/linked-data/def/ipc/>
+epo_patent: <http://data.epo.org/linked-data/def/patent/>
+fabio: <http://purl.org/spar/fabio/>
+foaf: <http://xmlns.com/foaf/0.1/>
+frapo: <http://purl.org/cerif/frapo/>
+idorg: <http://identifiers.org/>
+mesh: <http://id.nlm.nih.gov/mesh/>
+meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+ndfrt: <http://purl.bioontology.org/ontology/NDFRT>
+obo: <http://purl.obolibrary.org/obo/>
+pav: <http://purl.org/pav/>
+pdbo: <http://rdf.wwpdb.org/schema/pdbx-v50.owl#>
+prism: <http://prismstandard.org/namespaces/basic/3.0/>
+sio: <http://semanticscience.org/resource/>
+skos: <http://www.w3.org/2004/02/skos/core#>
+snomedct: <http://purl.bioontology.org/ontology/SNOMEDCT>
+uniprot: <http://purl.uniprot.org/uniprot/>
+up: <http://purl.uniprot.org/core/>
+vcard2006: <http://www.w3.org/2006/vcard/ns#>
+void: <http://rdfs.org/ns/void#>
+wd: <http://www.wikidata.org/entity/>

@@ -65,7 +65,7 @@
   - cito:isDiscussedBy*:
     - bioassay_is_discussed_by: Patent
   - rdfs:seeAlso*:
-    - bioassay_see_also_chembl: <http://rdf.ebi.ac.uk/resource/chembl/assay/CHEMBL615117>
+    - bioassay_see_also_chembl: chembl.assay:CHEMBL615117
 
 
 - Book book:NBK20684:
@@ -125,6 +125,7 @@
   - a+:
     - compound_type: vocab:Compound
     - compound_type_chebi: obo:CHEBI_15365
+    - compound_type_ndfrt: ndfrt:N0000006582
     - compound_type_ncit: ncit:C287
     - compound_type_snomedct: snomedct:387458008
   - dcterms:identifier:
@@ -993,7 +994,7 @@
     - reference_discusses_as_derived_by_text_mining_genesymbol: GeneSymbol
 
 
-- Source source:IUPHAR_DB source:ID22070:
+- Source source:ID22070 source:IUPHAR_DB:
   - a+:
     - source_type: vocab:Source
     - source_type_dataset: dcterms:Dataset
