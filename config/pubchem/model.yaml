@@ -531,7 +531,7 @@
     - descriptorsubstanceversion_has_value: 2
 
 
-- Disease disease:DZID8805 disease:DZID1324 disease:DZID1090 disease:DZID77 disease:DZID863 disease:DZID279 disease:DZID133 disease:DZID104 disease:DZID579 disease:DZID255:
+- Disease disease:DZID8805 disease:DZID1090 disease:DZID1324 disease:DZID77 disease:DZID863 disease:DZID279 disease:DZID133 disease:DZID104 disease:DZID579 disease:DZID255:
   - a+:
     - disease_type: vocab:Disease
     - disease_type_disease: sio:SIO_010299
@@ -541,7 +541,7 @@
     - disease_alternative_label: "Parkinson Disease, Idiopathic"
   - skos:closeMatch*:
     - disease_close_match_do: obo:DOID_14330 idorg:DOID:14330
-    - disease_close_match_gard: <https://rarediseases.info.nih.gov/diseases/6381/index>
+    - disease_close_match_gard: <https://rarediseases.info.nih.gov/diseases/696/index>
     - disease_close_match_gtopdb: <https://www.guidetopharmacology.org/GRAC/DiseaseDisplayForward?diseaseId=732>
     - disease_close_match_hpo: obo:HP_0100600 idorg:HP:0100600
     - disease_close_match_kegg: idorg:kegg.disease:H00057
