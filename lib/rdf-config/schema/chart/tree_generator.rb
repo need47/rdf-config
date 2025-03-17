@@ -344,20 +344,24 @@ class RDFConfig
             .st13 { enable-background: new; }
             .st14 { fill: #F2F2E9; }
             .st15 { fill: none; stroke: #000000; stroke-width: 2; stroke-dasharray: 3.926, 3.926; }
-            .stPubChem { fill: #02bfe7bf; }
-            .stAnatomy { fill: #c2b280bf; }
-            .stBioAssay { fill: #8c5ad9bf; }
-            .stCell { fill: #008080bf; }
-            .stCompound { fill: #02bfe7bf; }
-            .stConcept { fill: #02bfe7bf; }
-            .stDisease { fill: #a52a2abf; }
-            .stGene, .stGeneSymbol { fill: #e31ca1bf; }
-            .stProtein, .stEnzyme { fill: #e35f1cbf; }
-            .stPatent, .stPatentCPC, .stPatentIPC, .stPatentAssignee, .stPatentInventor { fill: #225e65bf; }
-            .stPathway { fill: #73e531bf; }
-            .stSource { fill: #4aa564bf; }
-            .stSubstance { fill: #f9c642bf; }
-            .stTaxonomy { fill: #00abbabf; }
+
+            .stPubChem { fill: #c0c0c080; }
+            .stAnatomy { fill: #c2b28080; }
+            .stBioAssay, .stMeasureGroup, .stEndpoint { fill: #8c5ad980; }
+            .stCell { fill: #00808080; }
+            .stCompound, .stConcept, .stInChIKey { fill: #02bfe780; }
+            [class*="stCooccurrence"] { fill: #83529480; }
+            [class*="stDescriptor"] { fill: #7cbb9980; }
+            .stDisease { fill: #a52a2a80; }
+            .stGene, .stGeneSymbol { fill: #e31ca180; }
+            .stProtein, .stConservedDomain, .stEnzyme { fill: #e35f1c80; }
+            [class*="stPatent"] { fill: #225e6580; }
+            .stPathway { fill: #73e53180; }
+            .stReference, .stAuthor, .stBook, .stJournal, .stGrant { fill: #15705880; }
+            .stSource, .stOrganization { fill: #4aa56480; }
+            .stSubstance { fill: #f9c64280; }
+            .stSynonym { fill: #7cbb9980; }
+            .stTaxonomy { fill: #00abba80; }
           STYLE
 
           style
