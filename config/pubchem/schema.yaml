@@ -76,7 +76,7 @@ organization:
 
 patent:
   description: "The Patent subdomain of PubChemRDF"
-  variables: [ Patent, PatentAssignee, PatentInventor ]
+  variables: [ Patent, PatentCPC, PatentIPC, PatentAssignee, PatentInventor ]
 
 patentassignee:
   description: "The PatentAssignee subdomain of PubChemRDF"
