@@ -2478,7 +2478,7 @@
   </text>
   <g>
     <g>
-      <path d='M1010,5102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorCanonicalSmiles'/>
+      <path d='M1010,5102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorConnectivitySmiles'/>
       <path d='M1010,5102 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -2486,12 +2486,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='5102' class='st3 st4'>
-        DescriptorCanonicalSmiles
+        DescriptorConnectivitySmiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='5076' class='st5 st6 st7' dominant-baseline='middle'>
-        has_attribute_descriptorcanonicalsmiles
+        has_attribute_descriptorconnectivitysmiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -2768,7 +2768,7 @@
   </text>
   <g>
     <g>
-      <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorIsomericSmiles'/>
+      <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorSmiles'/>
       <path d='M1010,5742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -2776,12 +2776,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='5742' class='st3 st4'>
-        DescriptorIsomericSmiles
+        DescriptorSmiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='5716' class='st5 st6 st7' dominant-baseline='middle'>
-        has_attribute_descriptorisomericsmiles
+        has_attribute_descriptorsmiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5355,7 +5355,7 @@
   </g>
   <g>
     <g>
-      <path d='M395,10990 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorCanonicalSmiles'/>
+      <path d='M395,10990 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorConnectivitySmiles'/>
       <path d='M395,10990 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -5363,12 +5363,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='10990' class='st3 st4'>
-        descriptor:CID2244_Canonical_SMILES
+        descriptor:CID2244_Connectivity_SMILES
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='10964' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorCanonicalSmiles
+        DescriptorConnectivitySmiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5397,7 +5397,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='10964' class='st5 st6 st7' dominant-baseline='middle'>
-        type_canonical_smiles
+        descriptorconnectivitysmiles_type_connectivity_smiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5426,7 +5426,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='11028' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        descriptorconnectivitysmiles_type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -5450,7 +5450,7 @@
     </g>
     <g>
       <text x='673' y='11092' class='st5 st6 st7' dominant-baseline='middle'>
-        has_value
+        descriptorconnectivitysmiles_has_value
       </text>
     </g>
     <g>
@@ -6444,7 +6444,7 @@
   </g>
   <g>
     <g>
-      <path d='M395,12974 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorIsomericSmiles'/>
+      <path d='M395,12974 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stDescriptorSmiles'/>
       <path d='M395,12974 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -6452,12 +6452,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='12974' class='st3 st4'>
-        descriptor:CID2244_Isomeric_SMILES
+        descriptor:CID2244_SMILES
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='12948' class='st5 st6 st7' dominant-baseline='middle'>
-        DescriptorIsomericSmiles
+        DescriptorSmiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6486,7 +6486,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='12948' class='st5 st6 st7' dominant-baseline='middle'>
-        type_isomeric_smiles
+        descriptorsmiles_type_smiles
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6515,7 +6515,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='13012' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        descriptorsmiles_type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -6539,7 +6539,7 @@
     </g>
     <g>
       <text x='673' y='13076' class='st5 st6 st7' dominant-baseline='middle'>
-        has_value
+        descriptorsmiles_has_value
       </text>
     </g>
     <g>
@@ -17882,7 +17882,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='36078' class='st3 st4'>
-        taxonomy:TAXID9606
+        taxonomy:TAXID10090
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17969,7 +17969,7 @@
     <polyline points='665,36190 665,36170 1010,36170 1010,36190' class='st2'/>
     <g>
       <text x='673' y='36202' class='st3 st4' dominant-baseline='middle'>
-        9606
+        10090
       </text>
     </g>
     <g>
@@ -17993,7 +17993,7 @@
     <polyline points='665,36254 665,36234 1010,36234 1010,36254' class='st2'/>
     <g>
       <text x='673' y='36266' class='st3 st4' dominant-baseline='middle'>
-        Homo sapiens (human)
+        Mus musculus (house mouse)
       </text>
     </g>
     <g>
@@ -18017,7 +18017,7 @@
     <polyline points='665,36318 665,36298 1010,36298 1010,36318' class='st2'/>
     <g>
       <text x='673' y='36330' class='st3 st4' dominant-baseline='middle'>
-        Homo sapiens Linnaeus, 1758
+        mouse
       </text>
     </g>
     <g>
@@ -18104,7 +18104,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36526' class='st3 st4'>
-        idorg:col:6MB3T
+        idorg:col:7VW9H
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18133,7 +18133,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36590' class='st3 st4'>
-        &lt;http://rdf.glycoinfo.org/source/9606&gt;
+        &lt;http://rdf.glycoinfo.org/source/10090&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18162,7 +18162,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36654' class='st3 st4'>
-        &lt;https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=180092&gt;
+        &lt;https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=180366&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18191,12 +18191,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36718' class='st3 st4'>
-        mesh:D006801
+        mesh:D051379
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36734' class='st3 st4'>
-        idorg:mesh:D006801
+        idorg:mesh:D051379
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18225,7 +18225,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36782' class='st3 st4'>
-        idorg:taxonomy:9606
+        idorg:taxonomy:10090
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18254,12 +18254,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36846' class='st3 st4'>
-        ncit:C14225
+        ncit:C45247
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36862' class='st3 st4'>
-        idorg:ncit:C14225
+        idorg:ncit:C45247
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18288,7 +18288,7 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36910' class='st3 st4'>
-        &lt;http://purl.uniprot.org/taxonomy/9606&gt;
+        &lt;http://purl.uniprot.org/taxonomy/10090&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>

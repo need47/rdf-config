@@ -148,7 +148,7 @@
   - vocab:has_parent*:
     - compound_has_parent: Compound
   - sio:SIO_000008*:
-    - compound_has_attribute_descriptorcanonicalsmiles: DescriptorCanonicalSmiles
+    - compound_has_attribute_descriptorconnectivitysmiles: DescriptorConnectivitySmiles
     - compound_has_attribute_descriptorcompoundidentifier: DescriptorCompoundIdentifier
     - compound_has_attribute_descriptorcovalentunitcount: DescriptorCovalentUnitCount
     - compound_has_attribute_descriptordefinedatomstereocount: DescriptorDefinedAtomStereoCount
@@ -158,7 +158,7 @@
     - compound_has_attribute_descriptorhydrogenbondacceptorcount: DescriptorHydrogenBondAcceptorCount
     - compound_has_attribute_descriptorhydrogenbonddonorcount: DescriptorHydrogenBondDonorCount
     - compound_has_attribute_descriptorinchi: DescriptorInChI
-    - compound_has_attribute_descriptorisomericsmiles: DescriptorIsomericSmiles
+    - compound_has_attribute_descriptorsmiles: DescriptorSmiles
     - compound_has_attribute_descriptorisotopeatomcount: DescriptorIsotopeAtomCount
     - compound_has_attribute_descriptoriupacname: DescriptorIUPACName
     - compound_has_attribute_descriptormolecularformula: DescriptorMolecularFormula
@@ -331,12 +331,12 @@
     - cooccurrencegenegene_object: GeneSymbol
 
 
-- DescriptorCanonicalSmiles descriptor:CID2244_Canonical_SMILES:
+- DescriptorConnectivitySmiles descriptor:CID2244_Connectivity_SMILES:
   - a+:
-    - descriptorcanonicalsmiles_type_canonical_smiles: cheminf:CHEMINF_000376
-    - descriptorcanonicalsmiles_type: vocab:Descriptor
+    - descriptorconnectivitysmiles_type_connectivity_smiles: cheminf:CHEMINF_000376
+    - descriptorconnectivitysmiles_type: vocab:Descriptor
   - sio:SIO_000300:
-    - descriptorcanonicalsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
+    - descriptorconnectivitysmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
 
 
 - DescriptorCompoundIdentifier descriptor:CID2244_Compound_Identifier:
@@ -413,12 +413,12 @@
     - descriptorinchi_has_value: "InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)"
 
 
-- DescriptorIsomericSmiles descriptor:CID2244_Isomeric_SMILES:
+- DescriptorSmiles descriptor:CID2244_SMILES:
   - a+:
-    - descriptorisomericsmiles_type_isomeric_smiles: cheminf:CHEMINF_000379
-    - descriptorisomericsmiles_type: vocab:Descriptor
+    - descriptorsmiles_type_smiles: cheminf:CHEMINF_000379
+    - descriptorsmiles_type: vocab:Descriptor
   - sio:SIO_000300:
-    - descriptorisomericsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
+    - descriptorsmiles_has_value: "CC(=O)OC1=CC=CC=C1C(=O)O"
 
 
 - DescriptorIsotopeAtomCount descriptor:CID2244_Isotope_Atom_Count:
@@ -1069,24 +1069,24 @@
     - synonym_is_attribute_of: Compound
 
 
-- Taxonomy taxonomy:TAXID9606 taxonomy:TAXID467174:
+- Taxonomy taxonomy:TAXID10090 taxonomy:TAXID467174:
   - a+:
     - taxonomy_type: vocab:Taxonomy
     - taxonomy_type_taxonomy: sio:SIO_010000
   - dcterms:identifier:
-    - taxonomy_identifier: "9606"
+    - taxonomy_identifier: "10090"
   - skos:prefLabel:
-    - taxonomy_preferred_label: "Homo sapiens (human)"
+    - taxonomy_preferred_label: "Mus musculus (house mouse)"
   - skos:altLabel*:
-    - taxonomy_alternative_label: "Homo sapiens Linnaeus, 1758"
+    - taxonomy_alternative_label: "mouse"
   - cito:isDiscussedBy*:
     - taxonomy_is_discussed_by_patent: Patent
     - taxonomy_is_discussed_by_reference: Reference
   - rdfs:seeAlso*:
-    - taxonomy_see_also_col: idorg:col:6MB3T
-    - taxonomy_see_also_glycosmos: <http://rdf.glycoinfo.org/source/9606>
-    - taxonomy_see_also_itis: <https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=180092>
-    - taxonomy_see_also_mesh: mesh:D006801 idorg:mesh:D006801
-    - taxonomy_see_also_ncbi_taxonomy: idorg:taxonomy:9606
-    - taxonomy_see_also_ncit: ncit:C14225 idorg:ncit:C14225
-    - taxonomy_see_also_uniprot: <http://purl.uniprot.org/taxonomy/9606>
+    - taxonomy_see_also_col: idorg:col:7VW9H
+    - taxonomy_see_also_glycosmos: <http://rdf.glycoinfo.org/source/10090>
+    - taxonomy_see_also_itis: <https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=180366>
+    - taxonomy_see_also_mesh: mesh:D051379 idorg:mesh:D051379
+    - taxonomy_see_also_ncbi_taxonomy: idorg:taxonomy:10090
+    - taxonomy_see_also_ncit: ncit:C45247 idorg:ncit:C45247
+    - taxonomy_see_also_uniprot: <http://purl.uniprot.org/taxonomy/10090>
