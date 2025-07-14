@@ -677,12 +677,12 @@
         </text>
       </g>
       <g>
-        <rect x='1028' y='768' width='464' height='26' class='subject-object stPubChem stDescriptorCanonicalSmiles'/>
+        <rect x='1028' y='768' width='464' height='26' class='subject-object'/>
         <text x='1038' y='785' class='object-text'>
-          has_attribute_descriptorcanonicalsmiles
+          has_attribute_descriptorconnectivitysmiles
         </text>
         <text x='1482' y='785' text-anchor='end' class='object-type'>
-          DescriptorCanonicalSmiles
+          DescriptorConnectivitySmiles
         </text>
       </g>
       <g>
@@ -767,12 +767,12 @@
         </text>
       </g>
       <g>
-        <rect x='1028' y='1068' width='464' height='26' class='subject-object stPubChem stDescriptorIsomericSmiles'/>
+        <rect x='1028' y='1068' width='464' height='26' class='subject-object'/>
         <text x='1038' y='1085' class='object-text'>
-          has_attribute_descriptorisomericsmiles
+          has_attribute_descriptorsmiles
         </text>
         <text x='1482' y='1085' text-anchor='end' class='object-type'>
-          DescriptorIsomericSmiles
+          DescriptorSmiles
         </text>
       </g>
       <g>
@@ -1444,16 +1444,16 @@
       <g>
         <rect x='1028' y='2094' width='464' height='26' class='literal-object'/>
         <text x='1038' y='2111' class='object-text'>
-          has_value
+          descriptorconnectivitysmiles_has_value
         </text>
         <text x='1482' y='2111' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <path d='M 1020,2086 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stDescriptorCanonicalSmiles'/>
+        <path d='M 1020,2086 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stDescriptorConnectivitySmiles'/>
         <text x='1030' y='2077' class='subject-text'>
-          DescriptorCanonicalSmiles
+          DescriptorConnectivitySmiles
         </text>
         <text x='1490' y='2077' text-anchor='end' class='subject-type'>
           cheminf:CHEMINF_000376, vocab:Descriptor
@@ -1663,16 +1663,16 @@
       <g>
         <rect x='28' y='1620' width='464' height='26' class='literal-object'/>
         <text x='38' y='1637' class='object-text'>
-          has_value
+          descriptorsmiles_has_value
         </text>
         <text x='482' y='1637' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <path d='M 20,1612 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stDescriptorIsomericSmiles'/>
+        <path d='M 20,1612 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stDescriptorSmiles'/>
         <text x='30' y='1603' class='subject-text'>
-          DescriptorIsomericSmiles
+          DescriptorSmiles
         </text>
         <text x='490' y='1603' text-anchor='end' class='subject-type'>
           cheminf:CHEMINF_000379, vocab:Descriptor
