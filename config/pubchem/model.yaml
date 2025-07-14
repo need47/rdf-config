@@ -617,8 +617,9 @@
       - vocab:probe
   - obo:IAO_0000136:
     - endpoint_is_about: Substance
-  - cito:citesAsDataSource?:
-    - endpoint_cites_as_data_source: Reference
+  - cito:citesAsDataSource*:
+    - endpoint_cites_as_data_source_patent: Patent
+    - endpoint_cites_as_data_source_reference: Reference
 
 
 - Gene gene:GID1956 gene:GID10178776 gene:GID11287 gene:GID2538726 gene:GID24152 gene:GID850295 gene:GID171593 gene:GID373548 gene:GID30037:

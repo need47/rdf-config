@@ -2253,7 +2253,7 @@
       </g>
     </g>
     <g>
-      <path d='M 20,2062 V 2044 Q 20,2036 28,2036 H 492 Q 500,2036 500,2044 V 2276 Q 500,2284 492,2284 H 28 Q 20,2284 20,2276 V 2062' class='table-container'/>
+      <path d='M 20,2062 V 2044 Q 20,2036 28,2036 H 492 Q 500,2036 500,2044 V 2306 Q 500,2314 492,2314 H 28 Q 20,2314 20,2306 V 2062' class='table-container'/>
       <g>
         <rect x='28' y='2070' width='464' height='26' class='literal-object'/>
         <text x='38' y='2087' class='object-text'>
@@ -2309,11 +2309,20 @@
         </text>
       </g>
       <g>
-        <rect x='28' y='2250' width='464' height='26' class='subject-object stPubChem stReference'/>
+        <rect x='28' y='2250' width='464' height='26' class='subject-object stPubChem stPatent'/>
         <text x='38' y='2267' class='object-text'>
-          cites_as_data_source
+          cites_as_data_source_patent
         </text>
         <text x='482' y='2267' text-anchor='end' class='object-type'>
+          Patent
+        </text>
+      </g>
+      <g>
+        <rect x='28' y='2280' width='464' height='26' class='subject-object stPubChem stReference'/>
+        <text x='38' y='2297' class='object-text'>
+          cites_as_data_source_reference
+        </text>
+        <text x='482' y='2297' text-anchor='end' class='object-type'>
           Reference
         </text>
       </g>
@@ -2694,31 +2703,31 @@
       </g>
     </g>
     <g>
-      <path d='M 20,2326 V 2308 Q 20,2300 28,2300 H 492 Q 500,2300 500,2308 V 2390 Q 500,2398 492,2398 H 28 Q 20,2398 20,2390 V 2326' class='table-container'/>
+      <path d='M 20,2356 V 2338 Q 20,2330 28,2330 H 492 Q 500,2330 500,2338 V 2420 Q 500,2428 492,2428 H 28 Q 20,2428 20,2420 V 2356' class='table-container'/>
       <g>
-        <rect x='28' y='2334' width='464' height='26' class='literal-object'/>
-        <text x='38' y='2351' class='object-text'>
+        <rect x='28' y='2364' width='464' height='26' class='literal-object'/>
+        <text x='38' y='2381' class='object-text'>
           has_grant_number
         </text>
-        <text x='482' y='2351' text-anchor='end' class='object-type'>
+        <text x='482' y='2381' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='28' y='2364' width='464' height='26' class='subject-object stPubChem stOrganization'/>
-        <text x='38' y='2381' class='object-text'>
+        <rect x='28' y='2394' width='464' height='26' class='subject-object stPubChem stOrganization'/>
+        <text x='38' y='2411' class='object-text'>
           has_funding_agency
         </text>
-        <text x='482' y='2381' text-anchor='end' class='object-type'>
+        <text x='482' y='2411' text-anchor='end' class='object-type'>
           Organization
         </text>
       </g>
       <g>
-        <path d='M 20,2326 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stGrant'/>
-        <text x='30' y='2317' class='subject-text'>
+        <path d='M 20,2356 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stGrant'/>
+        <text x='30' y='2347' class='subject-text'>
           Grant
         </text>
-        <text x='490' y='2317' text-anchor='end' class='subject-type'>
+        <text x='490' y='2347' text-anchor='end' class='subject-type'>
           vocab:Grant, frapo:Grant
         </text>
       </g>
@@ -2829,76 +2838,76 @@
       </g>
     </g>
     <g>
-      <path d='M 20,2440 V 2422 Q 20,2414 28,2414 H 492 Q 500,2414 500,2422 V 2654 Q 500,2662 492,2662 H 28 Q 20,2662 20,2654 V 2440' class='table-container'/>
+      <path d='M 20,2470 V 2452 Q 20,2444 28,2444 H 492 Q 500,2444 500,2452 V 2684 Q 500,2692 492,2692 H 28 Q 20,2692 20,2684 V 2470' class='table-container'/>
       <g>
-        <rect x='28' y='2448' width='464' height='26' class='literal-object'/>
-        <text x='38' y='2465' class='object-text'>
+        <rect x='28' y='2478' width='464' height='26' class='literal-object'/>
+        <text x='38' y='2495' class='object-text'>
           title
         </text>
-        <text x='482' y='2465' text-anchor='end' class='object-type'>
+        <text x='482' y='2495' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='28' y='2478' width='464' height='26' class='subject-object stPubChem stEndpoint'/>
-        <text x='38' y='2495' class='object-text'>
+        <rect x='28' y='2508' width='464' height='26' class='subject-object stPubChem stEndpoint'/>
+        <text x='38' y='2525' class='object-text'>
           has_specified_output
         </text>
-        <text x='482' y='2495' text-anchor='end' class='object-type'>
+        <text x='482' y='2525' text-anchor='end' class='object-type'>
           Endpoint
         </text>
       </g>
       <g>
-        <rect x='28' y='2508' width='464' height='26' class='subject-object stPubChem stCell'/>
-        <text x='38' y='2525' class='object-text'>
+        <rect x='28' y='2538' width='464' height='26' class='subject-object stPubChem stCell'/>
+        <text x='38' y='2555' class='object-text'>
           has_participant_cell
         </text>
-        <text x='482' y='2525' text-anchor='end' class='object-type'>
+        <text x='482' y='2555' text-anchor='end' class='object-type'>
           Cell
         </text>
       </g>
       <g>
-        <rect x='28' y='2538' width='464' height='26' class='subject-object stPubChem stGene'/>
-        <text x='38' y='2555' class='object-text'>
+        <rect x='28' y='2568' width='464' height='26' class='subject-object stPubChem stGene'/>
+        <text x='38' y='2585' class='object-text'>
           has_participant_gene
         </text>
-        <text x='482' y='2555' text-anchor='end' class='object-type'>
+        <text x='482' y='2585' text-anchor='end' class='object-type'>
           Gene
         </text>
       </g>
       <g>
-        <rect x='28' y='2568' width='464' height='26' class='subject-object stPubChem stProtein'/>
-        <text x='38' y='2585' class='object-text'>
+        <rect x='28' y='2598' width='464' height='26' class='subject-object stPubChem stProtein'/>
+        <text x='38' y='2615' class='object-text'>
           has_participant_protein
         </text>
-        <text x='482' y='2585' text-anchor='end' class='object-type'>
+        <text x='482' y='2615' text-anchor='end' class='object-type'>
           Protein
         </text>
       </g>
       <g>
-        <rect x='28' y='2598' width='464' height='26' class='subject-object stPubChem stTaxonomy'/>
-        <text x='38' y='2615' class='object-text'>
+        <rect x='28' y='2628' width='464' height='26' class='subject-object stPubChem stTaxonomy'/>
+        <text x='38' y='2645' class='object-text'>
           has_participant_taxonomy
         </text>
-        <text x='482' y='2615' text-anchor='end' class='object-type'>
+        <text x='482' y='2645' text-anchor='end' class='object-type'>
           Taxonomy
         </text>
       </g>
       <g>
-        <rect x='28' y='2628' width='464' height='26' class='subject-object stPubChem stSource'/>
-        <text x='38' y='2645' class='object-text'>
+        <rect x='28' y='2658' width='464' height='26' class='subject-object stPubChem stSource'/>
+        <text x='38' y='2675' class='object-text'>
           source
         </text>
-        <text x='482' y='2645' text-anchor='end' class='object-type'>
+        <text x='482' y='2675' text-anchor='end' class='object-type'>
           Source
         </text>
       </g>
       <g>
-        <path d='M 20,2440 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stMeasureGroup'/>
-        <text x='30' y='2431' class='subject-text'>
+        <path d='M 20,2470 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stMeasureGroup'/>
+        <text x='30' y='2461' class='subject-text'>
           MeasureGroup
         </text>
-        <text x='490' y='2431' text-anchor='end' class='subject-type'>
+        <text x='490' y='2461' text-anchor='end' class='subject-type'>
           vocab:MeasureGroup, bao:BAO_0000040
         </text>
       </g>
@@ -3081,22 +3090,22 @@
       </g>
     </g>
     <g>
-      <path d='M 20,2704 V 2686 Q 20,2678 28,2678 H 492 Q 500,2678 500,2686 V 2738 Q 500,2746 492,2746 H 28 Q 20,2746 20,2738 V 2704' class='table-container'/>
+      <path d='M 20,2734 V 2716 Q 20,2708 28,2708 H 492 Q 500,2708 500,2716 V 2768 Q 500,2776 492,2776 H 28 Q 20,2776 20,2768 V 2734' class='table-container'/>
       <g>
-        <rect x='28' y='2712' width='464' height='26' class='literal-object'/>
-        <text x='38' y='2729' class='object-text'>
+        <rect x='28' y='2742' width='464' height='26' class='literal-object'/>
+        <text x='38' y='2759' class='object-text'>
           formatted_name
         </text>
-        <text x='482' y='2729' text-anchor='end' class='object-type'>
+        <text x='482' y='2759' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <path d='M 20,2704 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stPatentAssignee'/>
-        <text x='30' y='2695' class='subject-text'>
+        <path d='M 20,2734 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stPatentAssignee'/>
+        <text x='30' y='2725' class='subject-text'>
           PatentAssignee
         </text>
-        <text x='490' y='2695' text-anchor='end' class='subject-type'>
+        <text x='490' y='2725' text-anchor='end' class='subject-type'>
           vocab:PatentAssignee
         </text>
       </g>
@@ -3189,49 +3198,49 @@
       </g>
     </g>
     <g>
-      <path d='M 20,2788 V 2770 Q 20,2762 28,2762 H 492 Q 500,2762 500,2770 V 2912 Q 500,2920 492,2920 H 28 Q 20,2920 20,2912 V 2788' class='table-container'/>
+      <path d='M 20,2818 V 2800 Q 20,2792 28,2792 H 492 Q 500,2792 500,2800 V 2942 Q 500,2950 492,2950 H 28 Q 20,2950 20,2942 V 2818' class='table-container'/>
       <g>
-        <rect x='28' y='2796' width='464' height='26' class='uri-object'/>
-        <text x='38' y='2813' class='object-text'>
+        <rect x='28' y='2826' width='464' height='26' class='uri-object'/>
+        <text x='38' y='2843' class='object-text'>
           same_as
         </text>
-        <text x='482' y='2813' text-anchor='end' class='object-type'>
-          URI
-        </text>
-      </g>
-      <g>
-        <rect x='28' y='2826' width='464' height='26' class='literal-object'/>
-        <text x='38' y='2843' class='object-text'>
-          title
-        </text>
         <text x='482' y='2843' text-anchor='end' class='object-type'>
-          String
+          URI
         </text>
       </g>
       <g>
         <rect x='28' y='2856' width='464' height='26' class='literal-object'/>
         <text x='38' y='2873' class='object-text'>
-          label
+          title
         </text>
         <text x='482' y='2873' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='28' y='2886' width='464' height='26' class='subject-object stPubChem stPatentIPC'/>
+        <rect x='28' y='2886' width='464' height='26' class='literal-object'/>
         <text x='38' y='2903' class='object-text'>
-          broader
+          label
         </text>
         <text x='482' y='2903' text-anchor='end' class='object-type'>
+          String
+        </text>
+      </g>
+      <g>
+        <rect x='28' y='2916' width='464' height='26' class='subject-object stPubChem stPatentIPC'/>
+        <text x='38' y='2933' class='object-text'>
+          broader
+        </text>
+        <text x='482' y='2933' text-anchor='end' class='object-type'>
           PatentIPC
         </text>
       </g>
       <g>
-        <path d='M 20,2788 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stPatentIPC'/>
-        <text x='30' y='2779' class='subject-text'>
+        <path d='M 20,2818 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stPatentIPC'/>
+        <text x='30' y='2809' class='subject-text'>
           PatentIPC
         </text>
-        <text x='490' y='2779' text-anchor='end' class='subject-type'>
+        <text x='490' y='2809' text-anchor='end' class='subject-type'>
           vocab:PatentIPC
         </text>
       </g>
@@ -3765,20 +3774,11 @@
       </g>
     </g>
     <g>
-      <path d='M 20,2962 V 2944 Q 20,2936 28,2936 H 492 Q 500,2936 500,2944 V 3806 Q 500,3814 492,3814 H 28 Q 20,3814 20,3806 V 2962' class='table-container'/>
-      <g>
-        <rect x='28' y='2970' width='464' height='26' class='literal-object'/>
-        <text x='38' y='2987' class='object-text'>
-          content_type
-        </text>
-        <text x='482' y='2987' text-anchor='end' class='object-type'>
-          String
-        </text>
-      </g>
+      <path d='M 20,2992 V 2974 Q 20,2966 28,2966 H 492 Q 500,2966 500,2974 V 3836 Q 500,3844 492,3844 H 28 Q 20,3844 20,3836 V 2992' class='table-container'/>
       <g>
         <rect x='28' y='3000' width='464' height='26' class='literal-object'/>
         <text x='38' y='3017' class='object-text'>
-          title
+          content_type
         </text>
         <text x='482' y='3017' text-anchor='end' class='object-type'>
           String
@@ -3787,7 +3787,7 @@
       <g>
         <rect x='28' y='3030' width='464' height='26' class='literal-object'/>
         <text x='38' y='3047' class='object-text'>
-          bibliographic_citation
+          title
         </text>
         <text x='482' y='3047' text-anchor='end' class='object-type'>
           String
@@ -3796,25 +3796,25 @@
       <g>
         <rect x='28' y='3060' width='464' height='26' class='literal-object'/>
         <text x='38' y='3077' class='object-text'>
-          date
+          bibliographic_citation
         </text>
         <text x='482' y='3077' text-anchor='end' class='object-type'>
-          Date
+          String
         </text>
       </g>
       <g>
         <rect x='28' y='3090' width='464' height='26' class='literal-object'/>
         <text x='38' y='3107' class='object-text'>
-          date_string
+          date
         </text>
         <text x='482' y='3107' text-anchor='end' class='object-type'>
-          String
+          Date
         </text>
       </g>
       <g>
         <rect x='28' y='3120' width='464' height='26' class='literal-object'/>
         <text x='38' y='3137' class='object-text'>
-          starting_page
+          date_string
         </text>
         <text x='482' y='3137' text-anchor='end' class='object-type'>
           String
@@ -3823,7 +3823,7 @@
       <g>
         <rect x='28' y='3150' width='464' height='26' class='literal-object'/>
         <text x='38' y='3167' class='object-text'>
-          ending_page
+          starting_page
         </text>
         <text x='482' y='3167' text-anchor='end' class='object-type'>
           String
@@ -3832,7 +3832,7 @@
       <g>
         <rect x='28' y='3180' width='464' height='26' class='literal-object'/>
         <text x='38' y='3197' class='object-text'>
-          page_range
+          ending_page
         </text>
         <text x='482' y='3197' text-anchor='end' class='object-type'>
           String
@@ -3841,7 +3841,7 @@
       <g>
         <rect x='28' y='3210' width='464' height='26' class='literal-object'/>
         <text x='38' y='3227' class='object-text'>
-          isbn
+          page_range
         </text>
         <text x='482' y='3227' text-anchor='end' class='object-type'>
           String
@@ -3850,7 +3850,7 @@
       <g>
         <rect x='28' y='3240' width='464' height='26' class='literal-object'/>
         <text x='38' y='3257' class='object-text'>
-          issn
+          isbn
         </text>
         <text x='482' y='3257' text-anchor='end' class='object-type'>
           String
@@ -3859,7 +3859,7 @@
       <g>
         <rect x='28' y='3270' width='464' height='26' class='literal-object'/>
         <text x='38' y='3287' class='object-text'>
-          issue_identifier
+          issn
         </text>
         <text x='482' y='3287' text-anchor='end' class='object-type'>
           String
@@ -3868,7 +3868,7 @@
       <g>
         <rect x='28' y='3300' width='464' height='26' class='literal-object'/>
         <text x='38' y='3317' class='object-text'>
-          language
+          issue_identifier
         </text>
         <text x='482' y='3317' text-anchor='end' class='object-type'>
           String
@@ -3877,25 +3877,25 @@
       <g>
         <rect x='28' y='3330' width='464' height='26' class='literal-object'/>
         <text x='38' y='3347' class='object-text'>
-          publication_name
+          language
         </text>
         <text x='482' y='3347' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='28' y='3360' width='464' height='26' class='uri-object'/>
+        <rect x='28' y='3360' width='464' height='26' class='literal-object'/>
         <text x='38' y='3377' class='object-text'>
-          source
+          publication_name
         </text>
         <text x='482' y='3377' text-anchor='end' class='object-type'>
-          URI
+          String
         </text>
       </g>
       <g>
         <rect x='28' y='3390' width='464' height='26' class='uri-object'/>
         <text x='38' y='3407' class='object-text'>
-          has_subject_term
+          source
         </text>
         <text x='482' y='3407' text-anchor='end' class='object-type'>
           URI
@@ -3904,7 +3904,7 @@
       <g>
         <rect x='28' y='3420' width='464' height='26' class='uri-object'/>
         <text x='38' y='3437' class='object-text'>
-          has_primary_subject_term
+          has_subject_term
         </text>
         <text x='482' y='3437' text-anchor='end' class='object-type'>
           URI
@@ -3913,117 +3913,126 @@
       <g>
         <rect x='28' y='3450' width='464' height='26' class='uri-object'/>
         <text x='38' y='3467' class='object-text'>
-          discusses
+          has_primary_subject_term
         </text>
         <text x='482' y='3467' text-anchor='end' class='object-type'>
           URI
         </text>
       </g>
       <g>
-        <rect x='28' y='3480' width='464' height='26' class='literal-object'/>
+        <rect x='28' y='3480' width='464' height='26' class='uri-object'/>
         <text x='38' y='3497' class='object-text'>
-          identifier_pmcid
+          discusses
         </text>
         <text x='482' y='3497' text-anchor='end' class='object-type'>
-          String
+          URI
         </text>
       </g>
       <g>
         <rect x='28' y='3510' width='464' height='26' class='literal-object'/>
         <text x='38' y='3527' class='object-text'>
-          identifier_pmid
+          identifier_pmcid
         </text>
         <text x='482' y='3527' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='28' y='3540' width='464' height='26' class='uri-object'/>
+        <rect x='28' y='3540' width='464' height='26' class='literal-object'/>
         <text x='38' y='3557' class='object-text'>
-          is_part_of_issn
+          identifier_pmid
         </text>
         <text x='482' y='3557' text-anchor='end' class='object-type'>
+          String
+        </text>
+      </g>
+      <g>
+        <rect x='28' y='3570' width='464' height='26' class='uri-object'/>
+        <text x='38' y='3587' class='object-text'>
+          is_part_of_issn
+        </text>
+        <text x='482' y='3587' text-anchor='end' class='object-type'>
           URI
         </text>
       </g>
       <g>
-        <rect x='28' y='3570' width='464' height='26' class='subject-object stPubChem stJournal'/>
-        <text x='38' y='3587' class='object-text'>
+        <rect x='28' y='3600' width='464' height='26' class='subject-object stPubChem stJournal'/>
+        <text x='38' y='3617' class='object-text'>
           is_part_of_journal
         </text>
-        <text x='482' y='3587' text-anchor='end' class='object-type'>
+        <text x='482' y='3617' text-anchor='end' class='object-type'>
           Journal
         </text>
       </g>
       <g>
-        <rect x='28' y='3600' width='464' height='26' class='subject-object stPubChem stBook'/>
-        <text x='38' y='3617' class='object-text'>
+        <rect x='28' y='3630' width='464' height='26' class='subject-object stPubChem stBook'/>
+        <text x='38' y='3647' class='object-text'>
           is_part_of_book
         </text>
-        <text x='482' y='3617' text-anchor='end' class='object-type'>
+        <text x='482' y='3647' text-anchor='end' class='object-type'>
           Book
         </text>
       </g>
       <g>
-        <rect x='28' y='3630' width='464' height='26' class='subject-object stPubChem stAuthor'/>
-        <text x='38' y='3647' class='object-text'>
+        <rect x='28' y='3660' width='464' height='26' class='subject-object stPubChem stAuthor'/>
+        <text x='38' y='3677' class='object-text'>
           creator
         </text>
-        <text x='482' y='3647' text-anchor='end' class='object-type'>
+        <text x='482' y='3677' text-anchor='end' class='object-type'>
           Author
         </text>
       </g>
       <g>
-        <rect x='28' y='3660' width='464' height='26' class='subject-object stPubChem stOrganization'/>
-        <text x='38' y='3677' class='object-text'>
+        <rect x='28' y='3690' width='464' height='26' class='subject-object stPubChem stOrganization'/>
+        <text x='38' y='3707' class='object-text'>
           has_funding_agency
         </text>
-        <text x='482' y='3677' text-anchor='end' class='object-type'>
+        <text x='482' y='3707' text-anchor='end' class='object-type'>
           Organization
         </text>
       </g>
       <g>
-        <rect x='28' y='3690' width='464' height='26' class='subject-object stPubChem stGrant'/>
-        <text x='38' y='3707' class='object-text'>
+        <rect x='28' y='3720' width='464' height='26' class='subject-object stPubChem stGrant'/>
+        <text x='38' y='3737' class='object-text'>
           is_supported_by
         </text>
-        <text x='482' y='3707' text-anchor='end' class='object-type'>
+        <text x='482' y='3737' text-anchor='end' class='object-type'>
           Grant
         </text>
       </g>
       <g>
-        <rect x='28' y='3720' width='464' height='26' class='subject-object stPubChem stCompound'/>
-        <text x='38' y='3737' class='object-text'>
+        <rect x='28' y='3750' width='464' height='26' class='subject-object stPubChem stCompound'/>
+        <text x='38' y='3767' class='object-text'>
           discusses_as_derived_by_text_mining_compound
         </text>
-        <text x='482' y='3737' text-anchor='end' class='object-type'>
+        <text x='482' y='3767' text-anchor='end' class='object-type'>
           Compound
         </text>
       </g>
       <g>
-        <rect x='28' y='3750' width='464' height='26' class='subject-object stPubChem stDisease'/>
-        <text x='38' y='3767' class='object-text'>
+        <rect x='28' y='3780' width='464' height='26' class='subject-object stPubChem stDisease'/>
+        <text x='38' y='3797' class='object-text'>
           discusses_as_derived_by_text_mining_disease
         </text>
-        <text x='482' y='3767' text-anchor='end' class='object-type'>
+        <text x='482' y='3797' text-anchor='end' class='object-type'>
           Disease
         </text>
       </g>
       <g>
-        <rect x='28' y='3780' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
-        <text x='38' y='3797' class='object-text'>
+        <rect x='28' y='3810' width='464' height='26' class='subject-object stPubChem stGeneSymbol'/>
+        <text x='38' y='3827' class='object-text'>
           discusses_as_derived_by_text_mining_genesymbol
         </text>
-        <text x='482' y='3797' text-anchor='end' class='object-type'>
+        <text x='482' y='3827' text-anchor='end' class='object-type'>
           GeneSymbol
         </text>
       </g>
       <g>
-        <path d='M 20,2962 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stReference'/>
-        <text x='30' y='2953' class='subject-text'>
+        <path d='M 20,2992 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stReference'/>
+        <text x='30' y='2983' class='subject-text'>
           Reference
         </text>
-        <text x='490' y='2953' text-anchor='end' class='subject-type'>
+        <text x='490' y='2983' text-anchor='end' class='subject-type'>
           vocab:Reference
         </text>
       </g>
@@ -4224,49 +4233,49 @@
       </g>
     </g>
     <g>
-      <path d='M 20,3856 V 3838 Q 20,3830 28,3830 H 492 Q 500,3830 500,3838 V 3980 Q 500,3988 492,3988 H 28 Q 20,3988 20,3980 V 3856' class='table-container'/>
+      <path d='M 20,3886 V 3868 Q 20,3860 28,3860 H 492 Q 500,3860 500,3868 V 4010 Q 500,4018 492,4018 H 28 Q 20,4018 20,4010 V 3886' class='table-container'/>
       <g>
-        <rect x='28' y='3864' width='464' height='26' class='literal-object'/>
-        <text x='38' y='3881' class='object-text'>
+        <rect x='28' y='3894' width='464' height='26' class='literal-object'/>
+        <text x='38' y='3911' class='object-text'>
           has_value
         </text>
-        <text x='482' y='3881' text-anchor='end' class='object-type'>
+        <text x='482' y='3911' text-anchor='end' class='object-type'>
           String
         </text>
       </g>
       <g>
-        <rect x='28' y='3894' width='464' height='26' class='uri-object'/>
-        <text x='38' y='3911' class='object-text'>
+        <rect x='28' y='3924' width='464' height='26' class='uri-object'/>
+        <text x='38' y='3941' class='object-text'>
           subject_mesh
         </text>
-        <text x='482' y='3911' text-anchor='end' class='object-type'>
+        <text x='482' y='3941' text-anchor='end' class='object-type'>
           URI
         </text>
       </g>
       <g>
-        <rect x='28' y='3924' width='464' height='26' class='subject-object stPubChem stConcept'/>
-        <text x='38' y='3941' class='object-text'>
+        <rect x='28' y='3954' width='464' height='26' class='subject-object stPubChem stConcept'/>
+        <text x='38' y='3971' class='object-text'>
           subject_concept
         </text>
-        <text x='482' y='3941' text-anchor='end' class='object-type'>
+        <text x='482' y='3971' text-anchor='end' class='object-type'>
           Concept
         </text>
       </g>
       <g>
-        <rect x='28' y='3954' width='464' height='26' class='subject-object stPubChem stCompound'/>
-        <text x='38' y='3971' class='object-text'>
+        <rect x='28' y='3984' width='464' height='26' class='subject-object stPubChem stCompound'/>
+        <text x='38' y='4001' class='object-text'>
           is_attribute_of
         </text>
-        <text x='482' y='3971' text-anchor='end' class='object-type'>
+        <text x='482' y='4001' text-anchor='end' class='object-type'>
           Compound
         </text>
       </g>
       <g>
-        <path d='M 20,3856 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stSynonym'/>
-        <text x='30' y='3847' class='subject-text'>
+        <path d='M 20,3886 v -18 q 0,-8 8,-8 h 464 q 8,0 8,8 v 18' class='subject-container stPubChem stSynonym'/>
+        <text x='30' y='3877' class='subject-text'>
           Synonym
         </text>
-        <text x='490' y='3847' text-anchor='end' class='subject-type'>
+        <text x='490' y='3877' text-anchor='end' class='subject-type'>
           vocab:Synonym, cheminf:CHEMINF_000446, ...
         </text>
       </g>
