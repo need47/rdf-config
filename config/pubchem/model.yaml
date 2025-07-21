@@ -190,10 +190,10 @@
     - compound_has_undefined_atom_stereo_count: 1
   - vocab:has_undefined_bond_stereo_count?:
     - compound_has_undefined_bond_stereo_count: 0
-  - vocab:has_xlogp3_aa?:
-    - compound_has_xlogp3_aa: -0.3
   - vocab:has_xlogp3?:
     - compound_has_xlopg3: 1.2
+  - vocab:has_xlogp3_aa?:
+    - compound_has_xlogp3_aa: -0.3
   - obo:RO_0002162*:
     - compound_in_taxon: Taxonomy
   - sio:SIO_000008*:
@@ -220,6 +220,7 @@
     - compound_has_attribute_descriptorundefinedatomstereocount: DescriptorUndefinedAtomStereoCount
     - compound_has_attribute_descriptorundefinedbondstereocount: DescriptorUndefinedBondStereoCount
     - compound_has_attribute_descriptorxlogp3: DescriptorXLOGP3
+    - compound_has_attribute_descriptorxlogp3aa: DescriptorXLOGP3AA
   - rdfs:seeAlso*:
     - compound_see_also_ncit: ncit:C287 idorg:ncit:C287
     - compound_see_also_wikidata: wd:Q18216

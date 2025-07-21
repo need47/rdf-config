@@ -46,6 +46,7 @@ class RDFConfig
           descriptorundefinedatomstereocount
           descriptorundefinedbondstereocount
           descriptorxlogp3
+          descriptorxlogp3aa
           descriptorsubstanceversion
           disease
           endpoint
