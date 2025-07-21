@@ -572,6 +572,14 @@
     - descriptorxlogp3_has_value: 1.2
 
 
+- DescriptorXLOGP3AA descriptor:CID2_XLogP3-AA:
+  - a+:
+    - descriptorxlogp3aa_type_xlogp3_aa: cheminf:CHEMINF_000395
+    - descriptorxlogp3aa_type: vocab:Descriptor
+  - sio:SIO_000300:
+    - descriptorxlogp3aa_has_value: -0.3
+
+
 - DescriptorSubstanceVersion descriptor:SID196106365_Substance_Version:
   - a+:
     - descriptorsubstanceversion_type_version_number: obo:IAO_0000129
