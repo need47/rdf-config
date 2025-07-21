@@ -24,7 +24,7 @@ class RDFConfig
           cooccurrencegenedisease
           descriptor
           descriptorcompoundidentifier
-          descriptorcanonicalsmiles
+          descriptorconnectivitysmiles
           descriptorcovalentunitcount
           descriptordefinedatomstereocount
           descriptordefinedbondstereocount
@@ -32,7 +32,6 @@ class RDFConfig
           descriptorheavyatomcount
           descriptorhydrogenbondacceptorcount
           descriptorhydrogenbonddonorcount
-          descriptorisomericsmiles
           descriptorisotopeatomcount
           descriptorinchi
           descriptormolecularformula
@@ -40,6 +39,7 @@ class RDFConfig
           descriptormonoisotopicweight
           descriptoriupacname
           descriptorrotatablebondcount
+          descriptorsmiles
           descriptorstructurecomplexity
           descriptortotalformalcharge
           descriptortpsa
