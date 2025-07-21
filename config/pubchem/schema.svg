@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns='http://www.w3.org/2000/svg' style='background-color: rgb(255, 255, 255);' width='1110px' height='39962px' viewBox='-0.5 -0.5 1110 39962'>
+<svg xmlns='http://www.w3.org/2000/svg' style='background-color: rgb(255, 255, 255);' width='1110px' height='40026px' viewBox='-0.5 -0.5 1110 40026'>
   <style type='text/css'>
      .st0 { fill: #FFCE9F; } .st1 { fill: none; stroke: #000000; stroke-width:
     2; } .st2 { opacity: 0.6; } .st3 { font-family: Helvetica, Arial,
@@ -2455,7 +2455,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5024 660,5024'/>
   <polygon points='655.3,5029.7 654.4,5028.7 659.4,5024.0 654.4,5019.3 655.3,5018.3 661.5,5024.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5019)'>
-    vocab:has_connectivity_smiles ?
+    vocab:connectivity_smiles ?
   </text>
   <g>
     <rect x='665' y='5002' width='345' height='44' class='st9'/>
@@ -2467,7 +2467,7 @@
     </g>
     <g>
       <text x='673' y='5012' class='st5 st6 st7' dominant-baseline='middle'>
-        has_connectivity_smiles
+        connectivity_smiles
       </text>
     </g>
     <g>
@@ -2479,7 +2479,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5088 660,5088'/>
   <polygon points='655.3,5093.7 654.4,5092.7 659.4,5088.0 654.4,5083.3 655.3,5082.3 661.5,5088.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5083)'>
-    vocab:has_covalent_unit_count ?
+    vocab:covalent_unit_count ?
   </text>
   <g>
     <rect x='665' y='5066' width='345' height='44' class='st9'/>
@@ -2491,7 +2491,7 @@
     </g>
     <g>
       <text x='673' y='5076' class='st5 st6 st7' dominant-baseline='middle'>
-        has_covalent_unit_count
+        covalent_unit_count
       </text>
     </g>
     <g>
@@ -2503,7 +2503,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5152 660,5152'/>
   <polygon points='655.3,5157.7 654.4,5156.7 659.4,5152.0 654.4,5147.3 655.3,5146.3 661.5,5152.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5147)'>
-    vocab:has_defined_atom_stereo_count ?
+    vocab:defined_atom_stereo_count ?
   </text>
   <g>
     <rect x='665' y='5130' width='345' height='44' class='st9'/>
@@ -2515,7 +2515,7 @@
     </g>
     <g>
       <text x='673' y='5140' class='st5 st6 st7' dominant-baseline='middle'>
-        has_defined_atom_stereo_count
+        defined_atom_stereo_count
       </text>
     </g>
     <g>
@@ -2527,7 +2527,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5216 660,5216'/>
   <polygon points='655.3,5221.7 654.4,5220.7 659.4,5216.0 654.4,5211.3 655.3,5210.3 661.5,5216.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5211)'>
-    vocab:has_defined_bond_stereo_count ?
+    vocab:defined_bond_stereo_count ?
   </text>
   <g>
     <rect x='665' y='5194' width='345' height='44' class='st9'/>
@@ -2539,7 +2539,7 @@
     </g>
     <g>
       <text x='673' y='5204' class='st5 st6 st7' dominant-baseline='middle'>
-        has_defined_bond_stereo_count
+        defined_bond_stereo_count
       </text>
     </g>
     <g>
@@ -2551,7 +2551,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5280 660,5280'/>
   <polygon points='655.3,5285.7 654.4,5284.7 659.4,5280.0 654.4,5275.3 655.3,5274.3 661.5,5280.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5275)'>
-    vocab:has_exact_mass ?
+    vocab:exact_mass ?
   </text>
   <g>
     <rect x='665' y='5258' width='345' height='44' class='st9'/>
@@ -2563,7 +2563,7 @@
     </g>
     <g>
       <text x='673' y='5268' class='st5 st6 st7' dominant-baseline='middle'>
-        has_exact_mass
+        exact_mass
       </text>
     </g>
     <g>
@@ -2575,7 +2575,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5344 660,5344'/>
   <polygon points='655.3,5349.7 654.4,5348.7 659.4,5344.0 654.4,5339.3 655.3,5338.3 661.5,5344.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5339)'>
-    vocab:has_hydrogen_bond_acceptor_count ?
+    vocab:hydrogen_bond_acceptor_count ?
   </text>
   <g>
     <rect x='665' y='5322' width='345' height='44' class='st9'/>
@@ -2587,7 +2587,7 @@
     </g>
     <g>
       <text x='673' y='5332' class='st5 st6 st7' dominant-baseline='middle'>
-        has_hydrogen_bond_acceptor_count
+        hydrogen_bond_acceptor_count
       </text>
     </g>
     <g>
@@ -2599,7 +2599,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5408 660,5408'/>
   <polygon points='655.3,5413.7 654.4,5412.7 659.4,5408.0 654.4,5403.3 655.3,5402.3 661.5,5408.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5403)'>
-    vocab:has_hydrogen_bond_donor_count ?
+    vocab:hydrogen_bond_donor_count ?
   </text>
   <g>
     <rect x='665' y='5386' width='345' height='44' class='st9'/>
@@ -2611,7 +2611,7 @@
     </g>
     <g>
       <text x='673' y='5396' class='st5 st6 st7' dominant-baseline='middle'>
-        has_hydrogen_bond_donor_count
+        hydrogen_bond_donor_count
       </text>
     </g>
     <g>
@@ -2623,7 +2623,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5472 660,5472'/>
   <polygon points='655.3,5477.7 654.4,5476.7 659.4,5472.0 654.4,5467.3 655.3,5466.3 661.5,5472.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5467)'>
-    vocab:has_inchikey ?
+    vocab:inchikey ?
   </text>
   <g>
     <rect x='665' y='5450' width='345' height='44' class='st9'/>
@@ -2635,7 +2635,7 @@
     </g>
     <g>
       <text x='673' y='5460' class='st5 st6 st7' dominant-baseline='middle'>
-        has_inchikey
+        inchikey
       </text>
     </g>
     <g>
@@ -2647,7 +2647,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5536 660,5536'/>
   <polygon points='655.3,5541.7 654.4,5540.7 659.4,5536.0 654.4,5531.3 655.3,5530.3 661.5,5536.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5531)'>
-    vocab:has_isotope_atom_count ?
+    vocab:isotope_atom_count ?
   </text>
   <g>
     <rect x='665' y='5514' width='345' height='44' class='st9'/>
@@ -2659,7 +2659,7 @@
     </g>
     <g>
       <text x='673' y='5524' class='st5 st6 st7' dominant-baseline='middle'>
-        has_isotope_atom_count
+        isotope_atom_count
       </text>
     </g>
     <g>
@@ -2671,7 +2671,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5600 660,5600'/>
   <polygon points='655.3,5605.7 654.4,5604.7 659.4,5600.0 654.4,5595.3 655.3,5594.3 661.5,5600.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5595)'>
-    vocab:has_iupac_inchi ?
+    vocab:iupac_inchi ?
   </text>
   <g>
     <rect x='665' y='5578' width='345' height='44' class='st9'/>
@@ -2683,7 +2683,7 @@
     </g>
     <g>
       <text x='673' y='5588' class='st5 st6 st7' dominant-baseline='middle'>
-        has_iupac_inchi
+        iupac_inchi
       </text>
     </g>
     <g>
@@ -2695,7 +2695,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5664 660,5664'/>
   <polygon points='655.3,5669.7 654.4,5668.7 659.4,5664.0 654.4,5659.3 655.3,5658.3 661.5,5664.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5659)'>
-    vocab:has_molecular_formula ?
+    vocab:molecular_formula ?
   </text>
   <g>
     <rect x='665' y='5642' width='345' height='44' class='st9'/>
@@ -2707,7 +2707,7 @@
     </g>
     <g>
       <text x='673' y='5652' class='st5 st6 st7' dominant-baseline='middle'>
-        has_molecular_formula
+        molecular_formula
       </text>
     </g>
     <g>
@@ -2719,7 +2719,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5728 660,5728'/>
   <polygon points='655.3,5733.7 654.4,5732.7 659.4,5728.0 654.4,5723.3 655.3,5722.3 661.5,5728.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5723)'>
-    vocab:has_molecular_weight ?
+    vocab:molecular_weight ?
   </text>
   <g>
     <rect x='665' y='5706' width='345' height='44' class='st9'/>
@@ -2731,7 +2731,7 @@
     </g>
     <g>
       <text x='673' y='5716' class='st5 st6 st7' dominant-baseline='middle'>
-        has_molecular_weight
+        molecular_weight
       </text>
     </g>
     <g>
@@ -2743,7 +2743,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5792 660,5792'/>
   <polygon points='655.3,5797.7 654.4,5796.7 659.4,5792.0 654.4,5787.3 655.3,5786.3 661.5,5792.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5787)'>
-    vocab:has_mono_isotopic_weight ?
+    vocab:mono_isotopic_weight ?
   </text>
   <g>
     <rect x='665' y='5770' width='345' height='44' class='st9'/>
@@ -2755,7 +2755,7 @@
     </g>
     <g>
       <text x='673' y='5780' class='st5 st6 st7' dominant-baseline='middle'>
-        has_mono_isotopic_weight
+        mono_isotopic_weight
       </text>
     </g>
     <g>
@@ -2767,7 +2767,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5856 660,5856'/>
   <polygon points='655.3,5861.7 654.4,5860.7 659.4,5856.0 654.4,5851.3 655.3,5850.3 661.5,5856.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5851)'>
-    vocab:has_non_hydrogen_atom_count ?
+    vocab:non_hydrogen_atom_count ?
   </text>
   <g>
     <rect x='665' y='5834' width='345' height='44' class='st9'/>
@@ -2779,7 +2779,7 @@
     </g>
     <g>
       <text x='673' y='5844' class='st5 st6 st7' dominant-baseline='middle'>
-        has_non_hydrogen_atom_count
+        non_hydrogen_atom_count
       </text>
     </g>
     <g>
@@ -2791,7 +2791,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5920 660,5920'/>
   <polygon points='655.3,5925.7 654.4,5924.7 659.4,5920.0 654.4,5915.3 655.3,5914.3 661.5,5920.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5915)'>
-    vocab:has_preferred_iupac_name ?
+    vocab:preferred_iupac_name ?
   </text>
   <g>
     <rect x='665' y='5898' width='345' height='44' class='st9'/>
@@ -2803,7 +2803,7 @@
     </g>
     <g>
       <text x='673' y='5908' class='st5 st6 st7' dominant-baseline='middle'>
-        has_preferred_iupac_name
+        preferred_iupac_name
       </text>
     </g>
     <g>
@@ -2815,7 +2815,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,5984 660,5984'/>
   <polygon points='655.3,5989.7 654.4,5988.7 659.4,5984.0 654.4,5979.3 655.3,5978.3 661.5,5984.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 5979)'>
-    vocab:has_rotatable_bond_count ?
+    vocab:rotatable_bond_count ?
   </text>
   <g>
     <rect x='665' y='5962' width='345' height='44' class='st9'/>
@@ -2827,7 +2827,7 @@
     </g>
     <g>
       <text x='673' y='5972' class='st5 st6 st7' dominant-baseline='middle'>
-        has_rotatable_bond_count
+        rotatable_bond_count
       </text>
     </g>
     <g>
@@ -2839,7 +2839,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6048 660,6048'/>
   <polygon points='655.3,6053.7 654.4,6052.7 659.4,6048.0 654.4,6043.3 655.3,6042.3 661.5,6048.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6043)'>
-    vocab:has_smiles ?
+    vocab:smiles ?
   </text>
   <g>
     <rect x='665' y='6026' width='345' height='44' class='st9'/>
@@ -2851,7 +2851,7 @@
     </g>
     <g>
       <text x='673' y='6036' class='st5 st6 st7' dominant-baseline='middle'>
-        has_smiles
+        smiles
       </text>
     </g>
     <g>
@@ -2863,7 +2863,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6112 660,6112'/>
   <polygon points='655.3,6117.7 654.4,6116.7 659.4,6112.0 654.4,6107.3 655.3,6106.3 661.5,6112.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6107)'>
-    vocab:has_structure_complexity ?
+    vocab:structure_complexity ?
   </text>
   <g>
     <rect x='665' y='6090' width='345' height='44' class='st9'/>
@@ -2875,7 +2875,7 @@
     </g>
     <g>
       <text x='673' y='6100' class='st5 st6 st7' dominant-baseline='middle'>
-        has_structure_complexity
+        structure_complexity
       </text>
     </g>
     <g>
@@ -2887,7 +2887,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6176 660,6176'/>
   <polygon points='655.3,6181.7 654.4,6180.7 659.4,6176.0 654.4,6171.3 655.3,6170.3 661.5,6176.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6171)'>
-    vocab:has_total_formal_charge ?
+    vocab:total_formal_charge ?
   </text>
   <g>
     <rect x='665' y='6154' width='345' height='44' class='st9'/>
@@ -2899,7 +2899,7 @@
     </g>
     <g>
       <text x='673' y='6164' class='st5 st6 st7' dominant-baseline='middle'>
-        has_total_formal_charge
+        total_formal_charge
       </text>
     </g>
     <g>
@@ -2911,7 +2911,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6240 660,6240'/>
   <polygon points='655.3,6245.7 654.4,6244.7 659.4,6240.0 654.4,6235.3 655.3,6234.3 661.5,6240.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6235)'>
-    vocab:has_tpsa ?
+    vocab:tpsa ?
   </text>
   <g>
     <rect x='665' y='6218' width='345' height='44' class='st9'/>
@@ -2923,7 +2923,7 @@
     </g>
     <g>
       <text x='673' y='6228' class='st5 st6 st7' dominant-baseline='middle'>
-        has_topological_polar_surface_area_tpsa
+        topological_polar_surface_area_tpsa
       </text>
     </g>
     <g>
@@ -2935,7 +2935,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6304 660,6304'/>
   <polygon points='655.3,6309.7 654.4,6308.7 659.4,6304.0 654.4,6299.3 655.3,6298.3 661.5,6304.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6299)'>
-    vocab:has_undefined_atom_stereo_count ?
+    vocab:undefined_atom_stereo_count ?
   </text>
   <g>
     <rect x='665' y='6282' width='345' height='44' class='st9'/>
@@ -2947,7 +2947,7 @@
     </g>
     <g>
       <text x='673' y='6292' class='st5 st6 st7' dominant-baseline='middle'>
-        has_undefined_atom_stereo_count
+        undefined_atom_stereo_count
       </text>
     </g>
     <g>
@@ -2959,7 +2959,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6368 660,6368'/>
   <polygon points='655.3,6373.7 654.4,6372.7 659.4,6368.0 654.4,6363.3 655.3,6362.3 661.5,6368.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6363)'>
-    vocab:has_undefined_bond_stereo_count ?
+    vocab:undefined_bond_stereo_count ?
   </text>
   <g>
     <rect x='665' y='6346' width='345' height='44' class='st9'/>
@@ -2971,7 +2971,7 @@
     </g>
     <g>
       <text x='673' y='6356' class='st5 st6 st7' dominant-baseline='middle'>
-        has_undefined_bond_stereo_count
+        undefined_bond_stereo_count
       </text>
     </g>
     <g>
@@ -2983,7 +2983,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6432 660,6432'/>
   <polygon points='655.3,6437.7 654.4,6436.7 659.4,6432.0 654.4,6427.3 655.3,6426.3 661.5,6432.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6427)'>
-    vocab:has_xlogp3 ?
+    vocab:xlogp3 ?
   </text>
   <g>
     <rect x='665' y='6410' width='345' height='44' class='st9'/>
@@ -2995,7 +2995,7 @@
     </g>
     <g>
       <text x='673' y='6420' class='st5 st6 st7' dominant-baseline='middle'>
-        has_xlopg3
+        xlopg3
       </text>
     </g>
     <g>
@@ -3007,7 +3007,7 @@
   <polyline class='st12' points='395,4064 415,4064 415,6496 660,6496'/>
   <polygon points='655.3,6501.7 654.4,6500.7 659.4,6496.0 654.4,6491.3 655.3,6490.3 661.5,6496.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 6491)'>
-    vocab:has_xlogp3_aa ?
+    vocab:xlogp3_aa ?
   </text>
   <g>
     <rect x='665' y='6474' width='345' height='44' class='st9'/>
@@ -3019,7 +3019,7 @@
     </g>
     <g>
       <text x='673' y='6484' class='st5 st6 st7' dominant-baseline='middle'>
-        has_xlogp3_aa
+        xlogp3_aa
       </text>
     </g>
     <g>
@@ -17442,8 +17442,8 @@
   </g>
   <g>
     <g>
-      <path d='M395,35694 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-92 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v92 z' class='st0 stPubChem stSubstance'/>
-      <path d='M395,35694 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-92 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v92 z' class='st1'/>
+      <path d='M395,35710 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-108 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v108 z' class='st0 stPubChem stSubstance'/>
+      <path d='M395,35710 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-108 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v108 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M50,35614 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
@@ -17455,21 +17455,26 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='35646' class='st3 st4'>
-        substance:SID103263999
+        substance:SID1
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='35662' class='st3 st4'>
-        substance:SID129547292
+        substance:SID103263999
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='35678' class='st3 st4'>
-        substance:SID10322049
+        substance:SID129547292
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='58' y='35694' class='st3 st4'>
+        substance:SID10322049
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='35710' class='st3 st4'>
         substance:SID252275793
       </text>
     </g>
@@ -17617,40 +17622,35 @@
   <polyline class='st12' points='395,35616 415,35616 415,35936 660,35936'/>
   <polygon points='655.3,35941.7 654.4,35940.7 659.4,35936.0 654.4,35931.3 655.3,35930.3 661.5,35936.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 35931)'>
-    dcterms:source
+    vocab:substance_version
   </text>
   <g>
+    <rect x='665' y='35914' width='345' height='44' class='st9'/>
+    <polyline points='665,35934 665,35914 1010,35914 1010,35934' class='st2'/>
     <g>
-      <path d='M1010,35950 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stSource'/>
-      <path d='M1010,35950 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M665,35934 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='35950' class='st3 st4'>
-        Source
+      <text x='673' y='35946' class='st3 st4' dominant-baseline='middle'>
+        1
       </text>
     </g>
-    <g transform='translate(-0.5 -0.5)'>
+    <g>
       <text x='673' y='35924' class='st5 st6 st7' dominant-baseline='middle'>
-        source
+        substance_version
       </text>
     </g>
-    <g transform='translate(-0.5 -0.5)'>
+    <g>
       <text x='1002' y='35924' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
+        Int
       </text>
     </g>
   </g>
   <polyline class='st12' points='395,35616 415,35616 415,36000 660,36000'/>
   <polygon points='655.3,36005.7 654.4,36004.7 659.4,36000.0 654.4,35995.3 655.3,35994.3 661.5,36000.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 35995)'>
-    sio:SIO_000008 *
+    dcterms:source
   </text>
   <g>
     <g>
-      <path d='M1010,36014 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stSynonym'/>
+      <path d='M1010,36014 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stSource'/>
       <path d='M1010,36014 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17658,12 +17658,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36014' class='st3 st4'>
-        Synonym
+        Source
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='35988' class='st5 st6 st7' dominant-baseline='middle'>
-        has_attribute_synonym
+        source
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17679,7 +17679,7 @@
   </text>
   <g>
     <g>
-      <path d='M1010,36078 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorSubstanceVersion'/>
+      <path d='M1010,36078 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stSynonym'/>
       <path d='M1010,36078 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17687,12 +17687,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36078' class='st3 st4'>
-        DescriptorSubstanceVersion
+        Synonym
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36052' class='st5 st6 st7' dominant-baseline='middle'>
-        has_attribute_descriptor
+        has_attribute_synonym
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17704,11 +17704,11 @@
   <polyline class='st12' points='395,35616 415,35616 415,36128 660,36128'/>
   <polygon points='655.3,36133.7 654.4,36132.7 659.4,36128.0 654.4,36123.3 655.3,36122.3 661.5,36128.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36123)'>
-    obo:RO_0000056 *
+    sio:SIO_000008 *
   </text>
   <g>
     <g>
-      <path d='M1010,36142 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stMeasureGroup'/>
+      <path d='M1010,36142 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stDescriptorSubstanceVersion'/>
       <path d='M1010,36142 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17716,12 +17716,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36142' class='st3 st4'>
-        MeasureGroup
+        DescriptorSubstanceVersion
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36116' class='st5 st6 st7' dominant-baseline='middle'>
-        participates_in
+        has_attribute_descriptor
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17733,11 +17733,11 @@
   <polyline class='st12' points='395,35616 415,35616 415,36192 660,36192'/>
   <polygon points='655.3,36197.7 654.4,36196.7 659.4,36192.0 654.4,36187.3 655.3,36186.3 661.5,36192.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36187)'>
-    cheminf:CHEMINF_000477 ?
+    obo:RO_0000056 *
   </text>
   <g>
     <g>
-      <path d='M1010,36206 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stCompound'/>
+      <path d='M1010,36206 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stMeasureGroup'/>
       <path d='M1010,36206 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17745,12 +17745,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36206' class='st3 st4'>
-        Compound
+        MeasureGroup
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36180' class='st5 st6 st7' dominant-baseline='middle'>
-        has_pubchem_normalized_counterpart
+        participates_in
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17762,11 +17762,11 @@
   <polyline class='st12' points='395,35616 415,35616 415,36256 660,36256'/>
   <polygon points='655.3,36261.7 654.4,36260.7 659.4,36256.0 654.4,36251.3 655.3,36250.3 661.5,36256.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36251)'>
-    cito:isDiscussedBy *
+    cheminf:CHEMINF_000477 ?
   </text>
   <g>
     <g>
-      <path d='M1010,36270 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stPatent'/>
+      <path d='M1010,36270 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stCompound'/>
       <path d='M1010,36270 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17774,12 +17774,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36270' class='st3 st4'>
-        Patent
+        Compound
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36244' class='st5 st6 st7' dominant-baseline='middle'>
-        is_discussed_by_patent
+        has_pubchem_normalized_counterpart
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17795,7 +17795,7 @@
   </text>
   <g>
     <g>
-      <path d='M1010,36334 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stReference'/>
+      <path d='M1010,36334 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stPatent'/>
       <path d='M1010,36334 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17803,12 +17803,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36334' class='st3 st4'>
-        Reference
+        Patent
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36308' class='st5 st6 st7' dominant-baseline='middle'>
-        is_discussed_by_reference
+        is_discussed_by_patent
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17820,11 +17820,11 @@
   <polyline class='st12' points='395,35616 415,35616 415,36384 660,36384'/>
   <polygon points='655.3,36389.7 654.4,36388.7 659.4,36384.0 654.4,36379.3 655.3,36378.3 661.5,36384.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36379)'>
-    pdbo:link_to_pdb *
+    cito:isDiscussedBy *
   </text>
   <g>
     <g>
-      <path d='M1010,36398 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,36398 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stReference'/>
       <path d='M1010,36398 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -17832,12 +17832,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36398' class='st3 st4'>
-        &lt;http://rdf.wwpdb.org/pdb/2MX6&gt;
+        Reference
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36372' class='st5 st6 st7' dominant-baseline='middle'>
-        link_to_pdb
+        is_discussed_by_reference
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17849,29 +17849,24 @@
   <polyline class='st12' points='395,35616 415,35616 415,36448 660,36448'/>
   <polygon points='655.3,36453.7 654.4,36452.7 659.4,36448.0 654.4,36443.3 655.3,36442.3 661.5,36448.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36443)'>
-    rdfs:seeAlso *
+    pdbo:link_to_pdb *
   </text>
   <g>
     <g>
-      <path d='M1010,36478 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st9uri'/>
-      <path d='M1010,36478 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
+      <path d='M1010,36462 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,36462 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M665,36446 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36462' class='st3 st4'>
-        &lt;http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL308001&gt;
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='36478' class='st3 st4'>
-        idorg:chembl.compound:CHEMBL308001
+        &lt;http://rdf.wwpdb.org/pdb/2MX6&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36436' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_chembl
+        link_to_pdb
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17895,17 +17890,17 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36526' class='st3 st4'>
-        &lt;http://rdf.glycoinfo.org/glycan/G35898DT&gt;
+        &lt;http://rdf.ebi.ac.uk/resource/chembl/molecule/CHEMBL308001&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36542' class='st3 st4'>
-        idorg:glytoucan:G35898DT
+        idorg:chembl.compound:CHEMBL308001
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36500' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_glytoucan
+        see_also_chembl
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -17914,131 +17909,32 @@
       </text>
     </g>
   </g>
-  <g>
-    <g>
-      <path d='M395,36846 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-284 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v284 z' class='st0 stPubChem stSynonym'/>
-      <path d='M395,36846 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-284 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v284 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M50,36574 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36590' class='st3 st4'>
-        synonym:MD5_66d24a6dc023afb058efbbb5fc5ed1bb
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36606' class='st3 st4'>
-        synonym:MD5_00360c1760f9a153e24bea7b698516cf
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36622' class='st3 st4'>
-        synonym:MD5_0005639ad33bf7f927e632c29847b28a
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36638' class='st3 st4'>
-        synonym:MD5_4aa179283f871f4abe930c25833cea9b
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36654' class='st3 st4'>
-        synonym:MD5_02ebee683fb36446167606809e8ebed1
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36670' class='st3 st4'>
-        synonym:MD5_00048b0c69b97e6ba6e81668c0d95b88
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36686' class='st3 st4'>
-        synonym:MD5_05d8051bae0f9d0d24d7e184785afbc0
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36702' class='st3 st4'>
-        synonym:MD5_01ab0278c5fcc77a5bb905c789b37f20
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36718' class='st3 st4'>
-        synonym:MD5_003fdb1001358dcc64d1e25e24bea795
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36734' class='st3 st4'>
-        synonym:MD5_035ae92c47f0774b625c99d9a40b319d
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36750' class='st3 st4'>
-        synonym:MD5_000272365f5e92d21081e8a4403b712c
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36766' class='st3 st4'>
-        synonym:MD5_1375c60b0b432c8ccb1554c856c5eab6
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36782' class='st3 st4'>
-        synonym:MD5_0edb0d5a8d7232e10b4f2ba5434116a9
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36798' class='st3 st4'>
-        synonym:MD5_1d202459af5a110a9422103af41569ad
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36814' class='st3 st4'>
-        synonym:MD5_2e899413e5efff4e1e3166e273cff7b7
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36830' class='st3 st4'>
-        synonym:MD5_0000235e6bfa934c6182fbf40f071747
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36846' class='st3 st4'>
-        synonym:MD5_47a63fc97978537204b7a7371de13662
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='36564' class='st5 st6 st7' dominant-baseline='middle'>
-        Synonym
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='387' y='36564' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
-      </text>
-    </g>
-  </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36576 660,36576'/>
+  <polyline class='st12' points='395,35616 415,35616 415,36576 660,36576'/>
   <polygon points='655.3,36581.7 654.4,36580.7 659.4,36576.0 654.4,36571.3 655.3,36570.3 661.5,36576.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36571)'>
-    a +
+    rdfs:seeAlso *
   </text>
   <g>
     <g>
-      <path d='M1010,36590 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
-      <path d='M1010,36590 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+      <path d='M1010,36606 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st9uri'/>
+      <path d='M1010,36606 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M665,36574 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36590' class='st3 st4'>
-        vocab:Synonym
+        &lt;http://rdf.glycoinfo.org/glycan/G35898DT&gt;
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='36606' class='st3 st4'>
+        idorg:glytoucan:G35898DT
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36564' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        see_also_glytoucan
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18047,7 +17943,111 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36640 660,36640'/>
+  <g>
+    <g>
+      <path d='M395,36910 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-284 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v284 z' class='st0 stPubChem stSynonym'/>
+      <path d='M395,36910 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-284 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v284 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M50,36638 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36654' class='st3 st4'>
+        synonym:MD5_66d24a6dc023afb058efbbb5fc5ed1bb
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36670' class='st3 st4'>
+        synonym:MD5_00360c1760f9a153e24bea7b698516cf
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36686' class='st3 st4'>
+        synonym:MD5_0005639ad33bf7f927e632c29847b28a
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36702' class='st3 st4'>
+        synonym:MD5_4aa179283f871f4abe930c25833cea9b
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36718' class='st3 st4'>
+        synonym:MD5_02ebee683fb36446167606809e8ebed1
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36734' class='st3 st4'>
+        synonym:MD5_00048b0c69b97e6ba6e81668c0d95b88
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36750' class='st3 st4'>
+        synonym:MD5_05d8051bae0f9d0d24d7e184785afbc0
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36766' class='st3 st4'>
+        synonym:MD5_01ab0278c5fcc77a5bb905c789b37f20
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36782' class='st3 st4'>
+        synonym:MD5_003fdb1001358dcc64d1e25e24bea795
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36798' class='st3 st4'>
+        synonym:MD5_035ae92c47f0774b625c99d9a40b319d
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36814' class='st3 st4'>
+        synonym:MD5_000272365f5e92d21081e8a4403b712c
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36830' class='st3 st4'>
+        synonym:MD5_1375c60b0b432c8ccb1554c856c5eab6
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36846' class='st3 st4'>
+        synonym:MD5_0edb0d5a8d7232e10b4f2ba5434116a9
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36862' class='st3 st4'>
+        synonym:MD5_1d202459af5a110a9422103af41569ad
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36878' class='st3 st4'>
+        synonym:MD5_2e899413e5efff4e1e3166e273cff7b7
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36894' class='st3 st4'>
+        synonym:MD5_0000235e6bfa934c6182fbf40f071747
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36910' class='st3 st4'>
+        synonym:MD5_47a63fc97978537204b7a7371de13662
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='36628' class='st5 st6 st7' dominant-baseline='middle'>
+        Synonym
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='387' y='36628' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        URI
+      </text>
+    </g>
+  </g>
+  <polyline class='st11' points='395,36640 415,36640 415,36640 660,36640'/>
   <polygon points='655.3,36645.7 654.4,36644.7 659.4,36640.0 654.4,36635.3 655.3,36634.3 661.5,36640.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36635)'>
     a +
@@ -18062,12 +18062,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36654' class='st3 st4'>
-        cheminf:CHEMINF_000446
+        vocab:Synonym
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36628' class='st5 st6 st7' dominant-baseline='middle'>
-        type_cas_number
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18076,7 +18076,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36704 660,36704'/>
+  <polyline class='st11' points='395,36640 415,36640 415,36704 660,36704'/>
   <polygon points='655.3,36709.7 654.4,36708.7 659.4,36704.0 654.4,36699.3 655.3,36698.3 661.5,36704.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36699)'>
     a +
@@ -18091,12 +18091,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36718' class='st3 st4'>
-        cheminf:CHEMINF_000407
+        cheminf:CHEMINF_000446
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36692' class='st5 st6 st7' dominant-baseline='middle'>
-        type_chebi_id
+        type_cas_number
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18105,7 +18105,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36768 660,36768'/>
+  <polyline class='st11' points='395,36640 415,36640 415,36768 660,36768'/>
   <polygon points='655.3,36773.7 654.4,36772.7 659.4,36768.0 654.4,36763.3 655.3,36762.3 661.5,36768.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36763)'>
     a +
@@ -18120,12 +18120,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36782' class='st3 st4'>
-        cheminf:CHEMINF_000412
+        cheminf:CHEMINF_000407
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36756' class='st5 st6 st7' dominant-baseline='middle'>
-        type_chembl_id
+        type_chebi_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18134,7 +18134,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36832 660,36832'/>
+  <polyline class='st11' points='395,36640 415,36640 415,36832 660,36832'/>
   <polygon points='655.3,36837.7 654.4,36836.7 659.4,36832.0 654.4,36827.3 655.3,36826.3 661.5,36832.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36827)'>
     a +
@@ -18149,12 +18149,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36846' class='st3 st4'>
-        cheminf:CHEMINF_000339
+        cheminf:CHEMINF_000412
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36820' class='st5 st6 st7' dominant-baseline='middle'>
-        type_depositor_supplied_name
+        type_chembl_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18163,7 +18163,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36896 660,36896'/>
+  <polyline class='st11' points='395,36640 415,36640 415,36896 660,36896'/>
   <polygon points='655.3,36901.7 654.4,36900.7 659.4,36896.0 654.4,36891.3 655.3,36890.3 661.5,36896.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36891)'>
     a +
@@ -18178,12 +18178,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36910' class='st3 st4'>
-        cheminf:CHEMINF_000561
+        cheminf:CHEMINF_000339
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36884' class='st5 st6 st7' dominant-baseline='middle'>
-        type_drug_trade_name
+        type_depositor_supplied_name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18192,7 +18192,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,36960 660,36960'/>
+  <polyline class='st11' points='395,36640 415,36640 415,36960 660,36960'/>
   <polygon points='655.3,36965.7 654.4,36964.7 659.4,36960.0 654.4,36955.3 655.3,36954.3 661.5,36960.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 36955)'>
     a +
@@ -18207,12 +18207,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36974' class='st3 st4'>
-        cheminf:CHEMINF_000406
+        cheminf:CHEMINF_000561
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='36948' class='st5 st6 st7' dominant-baseline='middle'>
-        type_drugbank_id
+        type_drug_trade_name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18221,7 +18221,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37024 660,37024'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37024 660,37024'/>
   <polygon points='655.3,37029.7 654.4,37028.7 659.4,37024.0 654.4,37019.3 655.3,37018.3 661.5,37024.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37019)'>
     a +
@@ -18236,12 +18236,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37038' class='st3 st4'>
-        cheminf:CHEMINF_000447
+        cheminf:CHEMINF_000406
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37012' class='st5 st6 st7' dominant-baseline='middle'>
-        type_ec_number
+        type_drugbank_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18250,7 +18250,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37088 660,37088'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37088 660,37088'/>
   <polygon points='655.3,37093.7 654.4,37092.7 659.4,37088.0 654.4,37083.3 655.3,37082.3 661.5,37088.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37083)'>
     a +
@@ -18265,12 +18265,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37102' class='st3 st4'>
-        cheminf:CHEMINF_000562
+        cheminf:CHEMINF_000447
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37076' class='st5 st6 st7' dominant-baseline='middle'>
-        type_inn
+        type_ec_number
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18279,7 +18279,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37152 660,37152'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37152 660,37152'/>
   <polygon points='655.3,37157.7 654.4,37156.7 659.4,37152.0 654.4,37147.3 655.3,37146.3 661.5,37152.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37147)'>
     a +
@@ -18294,12 +18294,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37166' class='st3 st4'>
-        cheminf:CHEMINF_000382
+        cheminf:CHEMINF_000562
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37140' class='st5 st6 st7' dominant-baseline='middle'>
-        type_iupac_name
+        type_inn
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18308,7 +18308,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37216 660,37216'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37216 660,37216'/>
   <polygon points='655.3,37221.7 654.4,37220.7 659.4,37216.0 654.4,37211.3 655.3,37210.3 661.5,37216.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37211)'>
     a +
@@ -18323,12 +18323,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37230' class='st3 st4'>
-        cheminf:CHEMINF_000409
+        cheminf:CHEMINF_000382
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37204' class='st5 st6 st7' dominant-baseline='middle'>
-        type_kegg_id
+        type_iupac_name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18337,7 +18337,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37280 660,37280'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37280 660,37280'/>
   <polygon points='655.3,37285.7 654.4,37284.7 659.4,37280.0 654.4,37275.3 655.3,37274.3 661.5,37280.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37275)'>
     a +
@@ -18352,12 +18352,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37294' class='st3 st4'>
-        cheminf:CHEMINF_000564
+        cheminf:CHEMINF_000409
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37268' class='st5 st6 st7' dominant-baseline='middle'>
-        type_lipidmaps_id
+        type_kegg_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18366,7 +18366,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37344 660,37344'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37344 660,37344'/>
   <polygon points='655.3,37349.7 654.4,37348.7 659.4,37344.0 654.4,37339.3 655.3,37338.3 661.5,37344.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37339)'>
     a +
@@ -18381,12 +18381,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37358' class='st3 st4'>
-        cheminf:CHEMINF_000565
+        cheminf:CHEMINF_000564
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37332' class='st5 st6 st7' dominant-baseline='middle'>
-        type_nsc_number
+        type_lipidmaps_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18395,7 +18395,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37408 660,37408'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37408 660,37408'/>
   <polygon points='655.3,37413.7 654.4,37412.7 659.4,37408.0 654.4,37403.3 655.3,37402.3 661.5,37408.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37403)'>
     a +
@@ -18410,12 +18410,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37422' class='st3 st4'>
-        cheminf:CHEMINF_000566
+        cheminf:CHEMINF_000565
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37396' class='st5 st6 st7' dominant-baseline='middle'>
-        type_rtecs_id
+        type_nsc_number
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18424,7 +18424,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37472 660,37472'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37472 660,37472'/>
   <polygon points='655.3,37477.7 654.4,37476.7 659.4,37472.0 654.4,37467.3 655.3,37466.3 661.5,37472.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37467)'>
     a +
@@ -18439,12 +18439,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37486' class='st3 st4'>
-        cheminf:CHEMINF_000109
+        cheminf:CHEMINF_000566
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37460' class='st5 st6 st7' dominant-baseline='middle'>
-        type_trivial_name
+        type_rtecs_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18453,7 +18453,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37536 660,37536'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37536 660,37536'/>
   <polygon points='655.3,37541.7 654.4,37540.7 659.4,37536.0 654.4,37531.3 655.3,37530.3 661.5,37536.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37531)'>
     a +
@@ -18468,12 +18468,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37550' class='st3 st4'>
-        cheminf:CHEMINF_000563
+        cheminf:CHEMINF_000109
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37524' class='st5 st6 st7' dominant-baseline='middle'>
-        type_uii
+        type_trivial_name
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18482,7 +18482,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,36576 415,36576 415,37600 660,37600'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37600 660,37600'/>
   <polygon points='655.3,37605.7 654.4,37604.7 659.4,37600.0 654.4,37595.3 655.3,37594.3 661.5,37600.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37595)'>
     a +
@@ -18497,12 +18497,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37614' class='st3 st4'>
-        cheminf:CHEMINF_000467
+        cheminf:CHEMINF_000563
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37588' class='st5 st6 st7' dominant-baseline='middle'>
-        type_validated_database_id
+        type_uii
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18511,67 +18511,67 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,36576 415,36576 415,37664 660,37664'/>
+  <polyline class='st11' points='395,36640 415,36640 415,37664 660,37664'/>
   <polygon points='655.3,37669.7 654.4,37668.7 659.4,37664.0 654.4,37659.3 655.3,37658.3 661.5,37664.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37659)'>
-    sio:SIO_000300 +
-  </text>
-  <g>
-    <rect x='665' y='37642' width='345' height='44' class='st9'/>
-    <polyline points='665,37662 665,37642 1010,37642 1010,37662' class='st2'/>
-    <g>
-      <text x='673' y='37674' class='st3 st4' dominant-baseline='middle'>
-        benzoic acid, 2-(acetyloxy)-
-      </text>
-    </g>
-    <g>
-      <text x='673' y='37652' class='st5 st6 st7' dominant-baseline='middle'>
-        has_value
-      </text>
-    </g>
-    <g>
-      <text x='1002' y='37652' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        String
-      </text>
-    </g>
-  </g>
-  <polyline class='st12' points='395,36576 415,36576 415,37728 660,37728'/>
-  <polygon points='655.3,37733.7 654.4,37732.7 659.4,37728.0 654.4,37723.3 655.3,37722.3 661.5,37728.0'/>
-  <text class='st6 st4' transform='matrix(1 0 0 1 425 37723)'>
-    dcterms:subject *
+    a +
   </text>
   <g>
     <g>
-      <path d='M1010,37742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
-      <path d='M1010,37742 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+      <path d='M1010,37678 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,37678 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
-      <path d='M665,37726 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+      <path d='M665,37662 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='37742' class='st3 st4'>
-        mesh:M0001864
+      <text x='673' y='37678' class='st3 st4'>
+        cheminf:CHEMINF_000467
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='37716' class='st5 st6 st7' dominant-baseline='middle'>
-        subject_mesh
+      <text x='673' y='37652' class='st5 st6 st7' dominant-baseline='middle'>
+        type_validated_database_id
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
-      <text x='1002' y='37716' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+      <text x='1002' y='37652' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
         URI
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,36576 415,36576 415,37792 660,37792'/>
+  <polyline class='st12' points='395,36640 415,36640 415,37728 660,37728'/>
+  <polygon points='655.3,37733.7 654.4,37732.7 659.4,37728.0 654.4,37723.3 655.3,37722.3 661.5,37728.0'/>
+  <text class='st6 st4' transform='matrix(1 0 0 1 425 37723)'>
+    sio:SIO_000300 +
+  </text>
+  <g>
+    <rect x='665' y='37706' width='345' height='44' class='st9'/>
+    <polyline points='665,37726 665,37706 1010,37706 1010,37726' class='st2'/>
+    <g>
+      <text x='673' y='37738' class='st3 st4' dominant-baseline='middle'>
+        benzoic acid, 2-(acetyloxy)-
+      </text>
+    </g>
+    <g>
+      <text x='673' y='37716' class='st5 st6 st7' dominant-baseline='middle'>
+        has_value
+      </text>
+    </g>
+    <g>
+      <text x='1002' y='37716' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        String
+      </text>
+    </g>
+  </g>
+  <polyline class='st12' points='395,36640 415,36640 415,37792 660,37792'/>
   <polygon points='655.3,37797.7 654.4,37796.7 659.4,37792.0 654.4,37787.3 655.3,37786.3 661.5,37792.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37787)'>
     dcterms:subject *
   </text>
   <g>
     <g>
-      <path d='M1010,37806 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stConcept'/>
+      <path d='M1010,37806 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
       <path d='M1010,37806 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -18579,12 +18579,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37806' class='st3 st4'>
-        Concept
+        mesh:M0001864
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37780' class='st5 st6 st7' dominant-baseline='middle'>
-        subject_concept
+        subject_mesh
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18593,14 +18593,14 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,36576 415,36576 415,37856 660,37856'/>
+  <polyline class='st12' points='395,36640 415,36640 415,37856 660,37856'/>
   <polygon points='655.3,37861.7 654.4,37860.7 659.4,37856.0 654.4,37851.3 655.3,37850.3 661.5,37856.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37851)'>
-    sio:SIO_000011 ?
+    dcterms:subject *
   </text>
   <g>
     <g>
-      <path d='M1010,37870 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stCompound'/>
+      <path d='M1010,37870 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stConcept'/>
       <path d='M1010,37870 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -18608,12 +18608,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37870' class='st3 st4'>
-        Compound
+        Concept
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37844' class='st5 st6 st7' dominant-baseline='middle'>
-        is_attribute_of
+        subject_concept
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18622,43 +18622,14 @@
       </text>
     </g>
   </g>
-  <g>
-    <g>
-      <path d='M395,37950 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st0 stPubChem stTaxonomy'/>
-      <path d='M395,37950 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M50,37918 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='37934' class='st3 st4'>
-        taxonomy:TAXID10090
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='37950' class='st3 st4'>
-        taxonomy:TAXID467174
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='58' y='37908' class='st5 st6 st7' dominant-baseline='middle'>
-        Taxonomy
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='387' y='37908' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
-      </text>
-    </g>
-  </g>
-  <polyline class='st11' points='395,37920 415,37920 415,37920 660,37920'/>
+  <polyline class='st12' points='395,36640 415,36640 415,37920 660,37920'/>
   <polygon points='655.3,37925.7 654.4,37924.7 659.4,37920.0 654.4,37915.3 655.3,37914.3 661.5,37920.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37915)'>
-    a +
+    sio:SIO_000011 ?
   </text>
   <g>
     <g>
-      <path d='M1010,37934 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,37934 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stCompound'/>
       <path d='M1010,37934 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -18666,12 +18637,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37934' class='st3 st4'>
-        vocab:Taxonomy
+        Compound
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37908' class='st5 st6 st7' dominant-baseline='middle'>
-        type
+        is_attribute_of
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18680,7 +18651,36 @@
       </text>
     </g>
   </g>
-  <polyline class='st11' points='395,37920 415,37920 415,37984 660,37984'/>
+  <g>
+    <g>
+      <path d='M395,38014 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st0 stPubChem stTaxonomy'/>
+      <path d='M395,38014 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M50,37982 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='37998' class='st3 st4'>
+        taxonomy:TAXID10090
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='38014' class='st3 st4'>
+        taxonomy:TAXID467174
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='58' y='37972' class='st5 st6 st7' dominant-baseline='middle'>
+        Taxonomy
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='387' y='37972' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        URI
+      </text>
+    </g>
+  </g>
+  <polyline class='st11' points='395,37984 415,37984 415,37984 660,37984'/>
   <polygon points='655.3,37989.7 654.4,37988.7 659.4,37984.0 654.4,37979.3 655.3,37978.3 661.5,37984.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 37979)'>
     a +
@@ -18695,12 +18695,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37998' class='st3 st4'>
-        sio:SIO_010000
+        vocab:Taxonomy
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='37972' class='st5 st6 st7' dominant-baseline='middle'>
-        type_taxonomy
+        type
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18709,46 +18709,51 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38048 660,38048'/>
+  <polyline class='st11' points='395,37984 415,37984 415,38048 660,38048'/>
   <polygon points='655.3,38053.7 654.4,38052.7 659.4,38048.0 654.4,38043.3 655.3,38042.3 661.5,38048.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38043)'>
-    dcterms:identifier
+    a +
   </text>
   <g>
-    <rect x='665' y='38026' width='345' height='44' class='st9'/>
-    <polyline points='665,38046 665,38026 1010,38026 1010,38046' class='st2'/>
     <g>
-      <text x='673' y='38058' class='st3 st4' dominant-baseline='middle'>
-        10090
+      <path d='M1010,38062 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,38062 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M665,38046 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='38062' class='st3 st4'>
+        sio:SIO_010000
       </text>
     </g>
-    <g>
+    <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38036' class='st5 st6 st7' dominant-baseline='middle'>
-        identifier
+        type_taxonomy
       </text>
     </g>
-    <g>
+    <g transform='translate(-0.5 -0.5)'>
       <text x='1002' y='38036' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        String
+        URI
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38112 660,38112'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38112 660,38112'/>
   <polygon points='655.3,38117.7 654.4,38116.7 659.4,38112.0 654.4,38107.3 655.3,38106.3 661.5,38112.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38107)'>
-    skos:prefLabel
+    dcterms:identifier
   </text>
   <g>
     <rect x='665' y='38090' width='345' height='44' class='st9'/>
     <polyline points='665,38110 665,38090 1010,38090 1010,38110' class='st2'/>
     <g>
       <text x='673' y='38122' class='st3 st4' dominant-baseline='middle'>
-        Mus musculus (house mouse)
+        10090
       </text>
     </g>
     <g>
       <text x='673' y='38100' class='st5 st6 st7' dominant-baseline='middle'>
-        preferred_label
+        identifier
       </text>
     </g>
     <g>
@@ -18757,22 +18762,22 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38176 660,38176'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38176 660,38176'/>
   <polygon points='655.3,38181.7 654.4,38180.7 659.4,38176.0 654.4,38171.3 655.3,38170.3 661.5,38176.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38171)'>
-    skos:altLabel *
+    skos:prefLabel
   </text>
   <g>
     <rect x='665' y='38154' width='345' height='44' class='st9'/>
     <polyline points='665,38174 665,38154 1010,38154 1010,38174' class='st2'/>
     <g>
       <text x='673' y='38186' class='st3 st4' dominant-baseline='middle'>
-        mouse
+        Mus musculus (house mouse)
       </text>
     </g>
     <g>
       <text x='673' y='38164' class='st5 st6 st7' dominant-baseline='middle'>
-        alternative_label
+        preferred_label
       </text>
     </g>
     <g>
@@ -18781,43 +18786,38 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38240 660,38240'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38240 660,38240'/>
   <polygon points='655.3,38245.7 654.4,38244.7 659.4,38240.0 654.4,38235.3 655.3,38234.3 661.5,38240.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38235)'>
-    cito:isDiscussedBy *
+    skos:altLabel *
   </text>
   <g>
+    <rect x='665' y='38218' width='345' height='44' class='st9'/>
+    <polyline points='665,38238 665,38218 1010,38218 1010,38238' class='st2'/>
     <g>
-      <path d='M1010,38254 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stPatent'/>
-      <path d='M1010,38254 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
-    </g>
-    <g class='st2'>
-      <path d='M665,38238 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='38254' class='st3 st4'>
-        Patent
+      <text x='673' y='38250' class='st3 st4' dominant-baseline='middle'>
+        mouse
       </text>
     </g>
-    <g transform='translate(-0.5 -0.5)'>
+    <g>
       <text x='673' y='38228' class='st5 st6 st7' dominant-baseline='middle'>
-        is_discussed_by_patent
+        alternative_label
       </text>
     </g>
-    <g transform='translate(-0.5 -0.5)'>
+    <g>
       <text x='1002' y='38228' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
-        URI
+        String
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38304 660,38304'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38304 660,38304'/>
   <polygon points='655.3,38309.7 654.4,38308.7 659.4,38304.0 654.4,38299.3 655.3,38298.3 661.5,38304.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38299)'>
     cito:isDiscussedBy *
   </text>
   <g>
     <g>
-      <path d='M1010,38318 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stReference'/>
+      <path d='M1010,38318 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stPatent'/>
       <path d='M1010,38318 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -18825,12 +18825,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38318' class='st3 st4'>
-        Reference
+        Patent
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38292' class='st5 st6 st7' dominant-baseline='middle'>
-        is_discussed_by_reference
+        is_discussed_by_patent
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18839,14 +18839,14 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38368 660,38368'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38368 660,38368'/>
   <polygon points='655.3,38373.7 654.4,38372.7 659.4,38368.0 654.4,38363.3 655.3,38362.3 661.5,38368.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38363)'>
-    rdfs:seeAlso *
+    cito:isDiscussedBy *
   </text>
   <g>
     <g>
-      <path d='M1010,38382 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,38382 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st0 stPubChem stReference'/>
       <path d='M1010,38382 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
@@ -18854,12 +18854,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38382' class='st3 st4'>
-        idorg:col:7VW9H
+        Reference
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38356' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_col
+        is_discussed_by_reference
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18868,7 +18868,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38432 660,38432'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38432 660,38432'/>
   <polygon points='655.3,38437.7 654.4,38436.7 659.4,38432.0 654.4,38427.3 655.3,38426.3 661.5,38432.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38427)'>
     rdfs:seeAlso *
@@ -18883,12 +18883,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38446' class='st3 st4'>
-        &lt;http://rdf.glycoinfo.org/source/10090&gt;
+        idorg:col:7VW9H
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38420' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_glycosmos
+        see_also_col
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18897,7 +18897,7 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38496 660,38496'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38496 660,38496'/>
   <polygon points='655.3,38501.7 654.4,38500.7 659.4,38496.0 654.4,38491.3 655.3,38490.3 661.5,38496.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38491)'>
     rdfs:seeAlso *
@@ -18912,12 +18912,12 @@
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38510' class='st3 st4'>
-        &lt;https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=180366&gt;
+        &lt;http://rdf.glycoinfo.org/source/10090&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38484' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_itis
+        see_also_glycosmos
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18926,32 +18926,27 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38560 660,38560'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38560 660,38560'/>
   <polygon points='655.3,38565.7 654.4,38564.7 659.4,38560.0 654.4,38555.3 655.3,38554.3 661.5,38560.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38555)'>
     rdfs:seeAlso *
   </text>
   <g>
     <g>
-      <path d='M1010,38590 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st9uri'/>
-      <path d='M1010,38590 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
+      <path d='M1010,38574 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,38574 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M665,38558 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38574' class='st3 st4'>
-        mesh:D051379
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='38590' class='st3 st4'>
-        idorg:mesh:D051379
+        &lt;https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=180366&gt;
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38548' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_mesh
+        see_also_itis
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18960,27 +18955,32 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38624 660,38624'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38624 660,38624'/>
   <polygon points='655.3,38629.7 654.4,38628.7 659.4,38624.0 654.4,38619.3 655.3,38618.3 661.5,38624.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38619)'>
     rdfs:seeAlso *
   </text>
   <g>
     <g>
-      <path d='M1010,38638 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
-      <path d='M1010,38638 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+      <path d='M1010,38654 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st9uri'/>
+      <path d='M1010,38654 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M665,38622 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38638' class='st3 st4'>
-        idorg:taxonomy:10090
+        mesh:D051379
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='38654' class='st3 st4'>
+        idorg:mesh:D051379
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38612' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_ncbi_taxonomy
+        see_also_mesh
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -18989,32 +18989,27 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38688 660,38688'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38688 660,38688'/>
   <polygon points='655.3,38693.7 654.4,38692.7 659.4,38688.0 654.4,38683.3 655.3,38682.3 661.5,38688.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38683)'>
     rdfs:seeAlso *
   </text>
   <g>
     <g>
-      <path d='M1010,38718 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st9uri'/>
-      <path d='M1010,38718 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
+      <path d='M1010,38702 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,38702 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M665,38686 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38702' class='st3 st4'>
-        ncit:C45247
-      </text>
-    </g>
-    <g transform='translate(-0.5 -0.5)'>
-      <text x='673' y='38718' class='st3 st4'>
-        idorg:ncit:C45247
+        idorg:taxonomy:10090
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38676' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_ncit
+        see_also_ncbi_taxonomy
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -19023,27 +19018,32 @@
       </text>
     </g>
   </g>
-  <polyline class='st12' points='395,37920 415,37920 415,38752 660,38752'/>
+  <polyline class='st12' points='395,37984 415,37984 415,38752 660,38752'/>
   <polygon points='655.3,38757.7 654.4,38756.7 659.4,38752.0 654.4,38747.3 655.3,38746.3 661.5,38752.0'/>
   <text class='st6 st4' transform='matrix(1 0 0 1 425 38747)'>
     rdfs:seeAlso *
   </text>
   <g>
     <g>
-      <path d='M1010,38766 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
-      <path d='M1010,38766 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+      <path d='M1010,38782 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st9uri'/>
+      <path d='M1010,38782 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-44 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v44 z' class='st1'/>
     </g>
     <g class='st2'>
       <path d='M665,38750 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38766' class='st3 st4'>
-        &lt;http://purl.uniprot.org/taxonomy/10090&gt;
+        ncit:C45247
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='38782' class='st3 st4'>
+        idorg:ncit:C45247
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
       <text x='673' y='38740' class='st5 st6 st7' dominant-baseline='middle'>
-        see_also_uniprot
+        see_also_ncit
       </text>
     </g>
     <g transform='translate(-0.5 -0.5)'>
@@ -19052,223 +19052,252 @@
       </text>
     </g>
   </g>
+  <polyline class='st12' points='395,37984 415,37984 415,38816 660,38816'/>
+  <polygon points='655.3,38821.7 654.4,38820.7 659.4,38816.0 654.4,38811.3 655.3,38810.3 661.5,38816.0'/>
+  <text class='st6 st4' transform='matrix(1 0 0 1 425 38811)'>
+    rdfs:seeAlso *
+  </text>
   <g>
-    <text x='60' y='38818' font-size='14px' class='st6'>
+    <g>
+      <path d='M1010,38830 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st9uri'/>
+      <path d='M1010,38830 c0,4.4 -3.6,8 -8,8 h-329 c-4.4,0 -8,-3.6 -8,-8 v-28 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v28 z' class='st1'/>
+    </g>
+    <g class='st2'>
+      <path d='M665,38814 v-12 c0,-4.4 3.6,-8 8,-8 h329 c4.4,0 8,3.6 8,8 v12'/>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='38830' class='st3 st4'>
+        &lt;http://purl.uniprot.org/taxonomy/10090&gt;
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='673' y='38804' class='st5 st6 st7' dominant-baseline='middle'>
+        see_also_uniprot
+      </text>
+    </g>
+    <g transform='translate(-0.5 -0.5)'>
+      <text x='1002' y='38804' class='st8 st6 st7' text-anchor='end' dominant-baseline='middle'>
+        URI
+      </text>
+    </g>
+  </g>
+  <g>
+    <text x='60' y='38882' font-size='14px' class='st6'>
       Namespaces
     </text>
-    <text x='60' y='38834' font-size='12px' class='st3'>
+    <text x='60' y='38898' font-size='12px' class='st3'>
       owl: &lt;http://www.w3.org/2002/07/owl#&gt;
     </text>
-    <text x='60' y='38850' font-size='12px' class='st3'>
+    <text x='60' y='38914' font-size='12px' class='st3'>
       rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
     </text>
-    <text x='60' y='38866' font-size='12px' class='st3'>
+    <text x='60' y='38930' font-size='12px' class='st3'>
       rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
     </text>
-    <text x='60' y='38882' font-size='12px' class='st3'>
+    <text x='60' y='38946' font-size='12px' class='st3'>
       xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
     </text>
-    <text x='60' y='38898' font-size='12px' class='st3'>
+    <text x='60' y='38962' font-size='12px' class='st3'>
       vocab: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/vocabulary#&gt;
     </text>
-    <text x='60' y='38914' font-size='12px' class='st3'>
+    <text x='60' y='38978' font-size='12px' class='st3'>
       ruleset: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/ruleset/&gt;
     </text>
-    <text x='60' y='38930' font-size='12px' class='st3'>
+    <text x='60' y='38994' font-size='12px' class='st3'>
       anatomy: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/anatomy/&gt;
     </text>
-    <text x='60' y='38946' font-size='12px' class='st3'>
+    <text x='60' y='39010' font-size='12px' class='st3'>
       author: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/author/&gt;
     </text>
-    <text x='60' y='38962' font-size='12px' class='st3'>
+    <text x='60' y='39026' font-size='12px' class='st3'>
       bioassay: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/bioassay/&gt;
     </text>
-    <text x='60' y='38978' font-size='12px' class='st3'>
+    <text x='60' y='39042' font-size='12px' class='st3'>
       book: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/book/&gt;
     </text>
-    <text x='60' y='38994' font-size='12px' class='st3'>
+    <text x='60' y='39058' font-size='12px' class='st3'>
       cell: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/cell/&gt;
     </text>
-    <text x='60' y='39010' font-size='12px' class='st3'>
+    <text x='60' y='39074' font-size='12px' class='st3'>
       compound: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/compound/&gt;
     </text>
-    <text x='60' y='39026' font-size='12px' class='st3'>
+    <text x='60' y='39090' font-size='12px' class='st3'>
       concept: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/concept/&gt;
     </text>
-    <text x='60' y='39042' font-size='12px' class='st3'>
+    <text x='60' y='39106' font-size='12px' class='st3'>
       conserveddomain:
       &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/conserveddomain/&gt;
     </text>
-    <text x='60' y='39058' font-size='12px' class='st3'>
+    <text x='60' y='39122' font-size='12px' class='st3'>
       cooccurrence: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/cooccurrence/&gt;
     </text>
-    <text x='60' y='39074' font-size='12px' class='st3'>
+    <text x='60' y='39138' font-size='12px' class='st3'>
       descriptor: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/descriptor/&gt;
     </text>
-    <text x='60' y='39090' font-size='12px' class='st3'>
+    <text x='60' y='39154' font-size='12px' class='st3'>
       disease: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/disease/&gt;
     </text>
-    <text x='60' y='39106' font-size='12px' class='st3'>
+    <text x='60' y='39170' font-size='12px' class='st3'>
       endpoint: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/endpoint/&gt;
     </text>
-    <text x='60' y='39122' font-size='12px' class='st3'>
+    <text x='60' y='39186' font-size='12px' class='st3'>
       gene: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/gene/&gt;
     </text>
-    <text x='60' y='39138' font-size='12px' class='st3'>
+    <text x='60' y='39202' font-size='12px' class='st3'>
       grant: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/grant/&gt;
     </text>
-    <text x='60' y='39154' font-size='12px' class='st3'>
+    <text x='60' y='39218' font-size='12px' class='st3'>
       inchikey: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/inchikey&gt;
     </text>
-    <text x='60' y='39170' font-size='12px' class='st3'>
+    <text x='60' y='39234' font-size='12px' class='st3'>
       journal: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/journal/&gt;
     </text>
-    <text x='60' y='39186' font-size='12px' class='st3'>
+    <text x='60' y='39250' font-size='12px' class='st3'>
       measuregroup: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/measuregroup/&gt;
     </text>
-    <text x='60' y='39202' font-size='12px' class='st3'>
+    <text x='60' y='39266' font-size='12px' class='st3'>
       organization: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/organization/&gt;
     </text>
-    <text x='60' y='39218' font-size='12px' class='st3'>
+    <text x='60' y='39282' font-size='12px' class='st3'>
       patent: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/patent/&gt;
     </text>
-    <text x='60' y='39234' font-size='12px' class='st3'>
+    <text x='60' y='39298' font-size='12px' class='st3'>
       patentassignee:
       &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/patentassignee/&gt;
     </text>
-    <text x='60' y='39250' font-size='12px' class='st3'>
+    <text x='60' y='39314' font-size='12px' class='st3'>
       patentinventor:
       &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/patentinventor/&gt;
     </text>
-    <text x='60' y='39266' font-size='12px' class='st3'>
+    <text x='60' y='39330' font-size='12px' class='st3'>
       patentcpc: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/patentcpc/&gt;
     </text>
-    <text x='60' y='39282' font-size='12px' class='st3'>
+    <text x='60' y='39346' font-size='12px' class='st3'>
       patentipc: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/patentipc/&gt;
     </text>
-    <text x='60' y='39298' font-size='12px' class='st3'>
+    <text x='60' y='39362' font-size='12px' class='st3'>
       pathway: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/pathway/&gt;
     </text>
-    <text x='60' y='39314' font-size='12px' class='st3'>
+    <text x='60' y='39378' font-size='12px' class='st3'>
       protein: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/protein/&gt;
     </text>
-    <text x='60' y='39330' font-size='12px' class='st3'>
+    <text x='60' y='39394' font-size='12px' class='st3'>
       reaction: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/reaction/&gt;
     </text>
-    <text x='60' y='39346' font-size='12px' class='st3'>
+    <text x='60' y='39410' font-size='12px' class='st3'>
       reference: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/reference/&gt;
     </text>
-    <text x='60' y='39362' font-size='12px' class='st3'>
+    <text x='60' y='39426' font-size='12px' class='st3'>
       source: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/source/&gt;
     </text>
-    <text x='60' y='39378' font-size='12px' class='st3'>
+    <text x='60' y='39442' font-size='12px' class='st3'>
       substance: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/substance/&gt;
     </text>
-    <text x='60' y='39394' font-size='12px' class='st3'>
+    <text x='60' y='39458' font-size='12px' class='st3'>
       synonym: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/synonym/&gt;
     </text>
-    <text x='60' y='39410' font-size='12px' class='st3'>
+    <text x='60' y='39474' font-size='12px' class='st3'>
       taxonomy: &lt;http://rdf.ncbi.nlm.nih.gov/pubchem/taxonomy/&gt;
     </text>
-    <text x='60' y='39426' font-size='12px' class='st3'>
+    <text x='60' y='39490' font-size='12px' class='st3'>
       bao: &lt;http://www.bioassayontology.org/bao#&gt;
     </text>
-    <text x='60' y='39442' font-size='12px' class='st3'>
+    <text x='60' y='39506' font-size='12px' class='st3'>
       bp3: &lt;http://www.biopax.org/release/biopax-level3.owl#&gt;
     </text>
-    <text x='60' y='39458' font-size='12px' class='st3'>
+    <text x='60' y='39522' font-size='12px' class='st3'>
       chembl: &lt;http://rdf.ebi.ac.uk/resource/chembl/molecule/&gt;
     </text>
-    <text x='60' y='39474' font-size='12px' class='st3'>
+    <text x='60' y='39538' font-size='12px' class='st3'>
       chembl.assay: &lt;http://rdf.ebi.ac.uk/resource/chembl/assay/&gt;
     </text>
-    <text x='60' y='39490' font-size='12px' class='st3'>
+    <text x='60' y='39554' font-size='12px' class='st3'>
       cheminf: &lt;http://semanticscience.org/resource/&gt;
     </text>
-    <text x='60' y='39506' font-size='12px' class='st3'>
+    <text x='60' y='39570' font-size='12px' class='st3'>
       cito: &lt;http://purl.org/spar/cito/&gt;
     </text>
-    <text x='60' y='39522' font-size='12px' class='st3'>
+    <text x='60' y='39586' font-size='12px' class='st3'>
       dcterms: &lt;http://purl.org/dc/terms/&gt;
     </text>
-    <text x='60' y='39538' font-size='12px' class='st3'>
+    <text x='60' y='39602' font-size='12px' class='st3'>
       edam: &lt;http://edamontology.org/&gt;
     </text>
-    <text x='60' y='39554' font-size='12px' class='st3'>
+    <text x='60' y='39618' font-size='12px' class='st3'>
       efo: &lt;http://www.ebi.ac.uk/efo/&gt;
     </text>
-    <text x='60' y='39570' font-size='12px' class='st3'>
+    <text x='60' y='39634' font-size='12px' class='st3'>
       ensembl: &lt;http://rdf.ebi.ac.uk/resource/ensembl/&gt;
     </text>
-    <text x='60' y='39586' font-size='12px' class='st3'>
+    <text x='60' y='39650' font-size='12px' class='st3'>
       epo_cpc: &lt;http://data.epo.org/linked-data/def/cpc/&gt;
     </text>
-    <text x='60' y='39602' font-size='12px' class='st3'>
+    <text x='60' y='39666' font-size='12px' class='st3'>
       epo_ipc: &lt;http://data.epo.org/linked-data/def/ipc/&gt;
     </text>
-    <text x='60' y='39618' font-size='12px' class='st3'>
+    <text x='60' y='39682' font-size='12px' class='st3'>
       epo_patent: &lt;http://data.epo.org/linked-data/def/patent/&gt;
     </text>
-    <text x='60' y='39634' font-size='12px' class='st3'>
+    <text x='60' y='39698' font-size='12px' class='st3'>
       fabio: &lt;http://purl.org/spar/fabio/&gt;
     </text>
-    <text x='60' y='39650' font-size='12px' class='st3'>
+    <text x='60' y='39714' font-size='12px' class='st3'>
       foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
     </text>
-    <text x='60' y='39666' font-size='12px' class='st3'>
+    <text x='60' y='39730' font-size='12px' class='st3'>
       frapo: &lt;http://purl.org/cerif/frapo/&gt;
     </text>
-    <text x='60' y='39682' font-size='12px' class='st3'>
+    <text x='60' y='39746' font-size='12px' class='st3'>
       idorg: &lt;http://identifiers.org/&gt;
     </text>
-    <text x='60' y='39698' font-size='12px' class='st3'>
+    <text x='60' y='39762' font-size='12px' class='st3'>
       mesh: &lt;http://id.nlm.nih.gov/mesh/&gt;
     </text>
-    <text x='60' y='39714' font-size='12px' class='st3'>
+    <text x='60' y='39778' font-size='12px' class='st3'>
       meshv: &lt;http://id.nlm.nih.gov/mesh/vocab#&gt;
     </text>
-    <text x='60' y='39730' font-size='12px' class='st3'>
+    <text x='60' y='39794' font-size='12px' class='st3'>
       ncit: &lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#&gt;
     </text>
-    <text x='60' y='39746' font-size='12px' class='st3'>
+    <text x='60' y='39810' font-size='12px' class='st3'>
       ndfrt: &lt;http://purl.bioontology.org/ontology/NDFRT&gt;
     </text>
-    <text x='60' y='39762' font-size='12px' class='st3'>
+    <text x='60' y='39826' font-size='12px' class='st3'>
       obo: &lt;http://purl.obolibrary.org/obo/&gt;
     </text>
-    <text x='60' y='39778' font-size='12px' class='st3'>
+    <text x='60' y='39842' font-size='12px' class='st3'>
       pav: &lt;http://purl.org/pav/&gt;
     </text>
-    <text x='60' y='39794' font-size='12px' class='st3'>
+    <text x='60' y='39858' font-size='12px' class='st3'>
       pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v50.owl#&gt;
     </text>
-    <text x='60' y='39810' font-size='12px' class='st3'>
+    <text x='60' y='39874' font-size='12px' class='st3'>
       prism: &lt;http://prismstandard.org/namespaces/basic/3.0/&gt;
     </text>
-    <text x='60' y='39826' font-size='12px' class='st3'>
+    <text x='60' y='39890' font-size='12px' class='st3'>
       sio: &lt;http://semanticscience.org/resource/&gt;
     </text>
-    <text x='60' y='39842' font-size='12px' class='st3'>
+    <text x='60' y='39906' font-size='12px' class='st3'>
       skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
     </text>
-    <text x='60' y='39858' font-size='12px' class='st3'>
+    <text x='60' y='39922' font-size='12px' class='st3'>
       snomedct: &lt;http://purl.bioontology.org/ontology/SNOMEDCT&gt;
     </text>
-    <text x='60' y='39874' font-size='12px' class='st3'>
+    <text x='60' y='39938' font-size='12px' class='st3'>
       uniprot: &lt;http://purl.uniprot.org/uniprot/&gt;
     </text>
-    <text x='60' y='39890' font-size='12px' class='st3'>
+    <text x='60' y='39954' font-size='12px' class='st3'>
       up: &lt;http://purl.uniprot.org/core/&gt;
     </text>
-    <text x='60' y='39906' font-size='12px' class='st3'>
+    <text x='60' y='39970' font-size='12px' class='st3'>
       vcard2006: &lt;http://www.w3.org/2006/vcard/ns#&gt;
     </text>
-    <text x='60' y='39922' font-size='12px' class='st3'>
+    <text x='60' y='39986' font-size='12px' class='st3'>
       void: &lt;http://rdfs.org/ns/void#&gt;
     </text>
-    <text x='60' y='39938' font-size='12px' class='st3'>
+    <text x='60' y='40002' font-size='12px' class='st3'>
       wd: &lt;http://www.wikidata.org/entity/&gt;
     </text>
-    <rect x='50' y='38794' width='446' height='1158' fill='none' stroke='#000000' stroke-width='1'/>
+    <rect x='50' y='38858' width='446' height='1158' fill='none' stroke='#000000' stroke-width='1'/>
   </g>
 </svg>

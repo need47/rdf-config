@@ -146,54 +146,54 @@
     - compound_has_same_connectivity_as: Compound
   - vocab:has_parent*:
     - compound_has_parent: Compound
-  - vocab:has_connectivity_smiles?:
-    - compound_has_connectivity_smiles: "CC(=O)OC1=CC=CC=C1C(=O)O"
-  - vocab:has_covalent_unit_count?:
-    - compound_has_covalent_unit_count: 1
-  - vocab:has_defined_atom_stereo_count?:
-    - compound_has_defined_atom_stereo_count: 0
-  - vocab:has_defined_bond_stereo_count?:
-    - compound_has_defined_bond_stereo_count: 0
-  - vocab:has_exact_mass?:
-    - compound_has_exact_mass: 204.12358306
-  - vocab:has_hydrogen_bond_acceptor_count?:
-    - compound_has_hydrogen_bond_acceptor_count: 4
-  - vocab:has_hydrogen_bond_donor_count?:
-    - compound_has_hydrogen_bond_donor_count: 1
-  - vocab:has_inchikey?:
-    - compound_has_inchikey: "RDHQFKQIGNGIED-UHFFFAOYSA-O"
-  - vocab:has_isotope_atom_count?:
-    - compound_has_isotope_atom_count: 0
-  - vocab:has_iupac_inchi?:
-    - compound_has_iupac_inchi: "InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3/p+1"
-  - vocab:has_molecular_formula?:
-    - compound_has_molecular_formula: "C9H18NO4+"
-  - vocab:has_molecular_weight?:
-    - compound_has_molecular_weight: 204.24
-  - vocab:has_mono_isotopic_weight?:
-    - compound_has_mono_isotopic_weight: 204.12358306
-  - vocab:has_non_hydrogen_atom_count?:
-    - compound_has_non_hydrogen_atom_count: 14
-  - vocab:has_preferred_iupac_name?:
-    - compound_has_preferred_iupac_name: "(2-acetyloxy-3-carboxypropyl)-trimethylazanium"
-  - vocab:has_rotatable_bond_count?:
-    - compound_has_rotatable_bond_count: 6
-  - vocab:has_smiles?:
-    - compound_has_smiles: "CC(=O)OC1=CC=CC=C1C(=O)O"
-  - vocab:has_structure_complexity?:
-    - compound_has_structure_complexity: 219.0
-  - vocab:has_total_formal_charge?:
-    - compound_has_total_formal_charge: 1
-  - vocab:has_tpsa?:
-    - compound_has_topological_polar_surface_area_tpsa: 63.6
-  - vocab:has_undefined_atom_stereo_count?:
-    - compound_has_undefined_atom_stereo_count: 1
-  - vocab:has_undefined_bond_stereo_count?:
-    - compound_has_undefined_bond_stereo_count: 0
-  - vocab:has_xlogp3?:
-    - compound_has_xlopg3: 1.2
-  - vocab:has_xlogp3_aa?:
-    - compound_has_xlogp3_aa: -0.3
+  - vocab:connectivity_smiles?:
+    - compound_connectivity_smiles: "CC(=O)OC1=CC=CC=C1C(=O)O"
+  - vocab:covalent_unit_count?:
+    - compound_covalent_unit_count: 1
+  - vocab:defined_atom_stereo_count?:
+    - compound_defined_atom_stereo_count: 0
+  - vocab:defined_bond_stereo_count?:
+    - compound_defined_bond_stereo_count: 0
+  - vocab:exact_mass?:
+    - compound_exact_mass: 204.12358306
+  - vocab:hydrogen_bond_acceptor_count?:
+    - compound_hydrogen_bond_acceptor_count: 4
+  - vocab:hydrogen_bond_donor_count?:
+    - compound_hydrogen_bond_donor_count: 1
+  - vocab:inchikey?:
+    - compound_inchikey: "RDHQFKQIGNGIED-UHFFFAOYSA-O"
+  - vocab:isotope_atom_count?:
+    - compound_isotope_atom_count: 0
+  - vocab:iupac_inchi?:
+    - compound_iupac_inchi: "InChI=1S/C9H17NO4/c1-7(11)14-8(5-9(12)13)6-10(2,3)4/h8H,5-6H2,1-4H3/p+1"
+  - vocab:molecular_formula?:
+    - compound_molecular_formula: "C9H18NO4+"
+  - vocab:molecular_weight?:
+    - compound_molecular_weight: 204.24
+  - vocab:mono_isotopic_weight?:
+    - compound_mono_isotopic_weight: 204.12358306
+  - vocab:non_hydrogen_atom_count?:
+    - compound_non_hydrogen_atom_count: 14
+  - vocab:preferred_iupac_name?:
+    - compound_preferred_iupac_name: "(2-acetyloxy-3-carboxypropyl)-trimethylazanium"
+  - vocab:rotatable_bond_count?:
+    - compound_rotatable_bond_count: 6
+  - vocab:smiles?:
+    - compound_smiles: "CC(=O)OC1=CC=CC=C1C(=O)O"
+  - vocab:structure_complexity?:
+    - compound_structure_complexity: 219.0
+  - vocab:total_formal_charge?:
+    - compound_total_formal_charge: 1
+  - vocab:tpsa?:
+    - compound_topological_polar_surface_area_tpsa: 63.6
+  - vocab:undefined_atom_stereo_count?:
+    - compound_undefined_atom_stereo_count: 1
+  - vocab:undefined_bond_stereo_count?:
+    - compound_undefined_bond_stereo_count: 0
+  - vocab:xlogp3?:
+    - compound_xlopg3: 1.2
+  - vocab:xlogp3_aa?:
+    - compound_xlogp3_aa: -0.3
   - obo:RO_0002162*:
     - compound_in_taxon: Taxonomy
   - sio:SIO_000008*:
@@ -1071,7 +1071,7 @@
     - source_subject: Concept
 
 
-- Substance substance:SID196106365 substance:SID103263999 substance:SID129547292 substance:SID10322049 substance:SID252275793:
+- Substance substance:SID196106365 substance:SID1 substance:SID103263999 substance:SID129547292 substance:SID10322049 substance:SID252275793:
   - a+:
     - substance_type: vocab:Substance
     - substance_type_chebi: obo:CHEBI_39548
@@ -1081,6 +1081,8 @@
     - substance_available_date: 2014-08-05
   - dcterms:modified:
     - substance_modified_date: 2016-07-05
+  - vocab:substance_version:
+    - substance_substance_version: 1
   - dcterms:source:
     - substance_source: Source
   - sio:SIO_000008*:
